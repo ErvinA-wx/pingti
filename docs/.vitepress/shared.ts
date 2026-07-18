@@ -19,13 +19,13 @@ import type { DefaultTheme } from 'vitepress'
 // @unocss-include
 
 export const meta = {
-  name: 'freemediaheckyeah',
-  description: 'The largest collection of free stuff on the internet!',
-  hostname: 'https://fmhy.net',
-  keywords: ['stream', 'movies', 'gaming', 'reading', 'anime'],
+  name: '平替指南',
+  description: '互联网上最大的免费与开源替代资源中文合集！',
+  hostname: 'https://pingti.org',
+  keywords: ['平替', '免费资源', '开源软件', '工具导航', '中文指南'],
   build: {
-    api: true,
-    nsfw: true
+    api: false,
+    nsfw: false
   }
 }
 
@@ -90,7 +90,7 @@ if (isFalsy(safeEnv('FMHY_BUILD_API'))) {
 }
 
 const formatCommitRef = (commitRef: string) =>
-  `<a href="https://github.com/fmhy/edit/commit/${commitRef}">${commitRef.slice(0, 8)}</a>`
+  `<a href="https://github.com/ErvinA-wx/pingti/commit/${commitRef}">${commitRef.slice(0, 8)}</a>`
 
 const cfStart = safeEnv('CF_PAGES_COMMIT_SHA')
 const commitStart = safeEnv('COMMIT_REF')
@@ -102,35 +102,31 @@ export const commitRef =
       ? formatCommitRef(commitStart)
       : 'dev'
 
-export const feedback = `<a href="/feedback" class="feedback-footer">Made with ❤</a>`
+export const feedback = `<a href="/other/contributing" class="feedback-footer">用心整理 ❤</a>`
 
 export const socialLinks: DefaultTheme.SocialLink[] = [
-  { icon: 'github', link: 'https://github.com/fmhy/edit' },
-  { icon: 'discord', link: 'https://github.com/fmhy/FMHY/wiki/FMHY-Discord' },
-  {
-    icon: 'reddit',
-    link: 'https://reddit.com/r/FREEMEDIAHECKYEAH'
-  }
+  { icon: 'github', link: 'https://github.com/ErvinA-wx/pingti' }
 ]
 
 export const nav: DefaultTheme.NavItem[] = [
-  { text: '📑 Changelog', link: '/posts/changelog-sites' },
-  { text: '📖 Glossary', link: 'https://rentry.org/The-Piracy-Glossary' },
+  { text: '📰 博客', link: '/blog' },
+  { text: '📑 更新日志', link: '/posts/changelog-sites' },
+  { text: '📖 术语表', link: 'https://rentry.org/The-Piracy-Glossary' },
   {
-    text: '💾 Backups',
+    text: '💾 备份',
     link: '/other/backups'
   },
   {
-    text: '🌱 Ecosystem',
+    text: '🌱 生态系统',
     items: [
-      { text: '🌐 Search', link: '/posts/search' },
-      { text: '❓ FAQs', link: '/other/FAQ' },
-      { text: '🔖 Bookmarks', link: 'https://github.com/fmhy/bookmarks' },
-      { text: '✅ SafeGuard', link: 'https://github.com/fmhy/FMHY-SafeGuard' },
-      { text: '🚀 Startpage', link: '/startpage' },
+      { text: '🌐 搜索', link: '/posts/search' },
+      { text: '❓ 常见问题', link: '/other/FAQ' },
+      { text: '🔖 书签', link: 'https://github.com/fmhy/bookmarks' },
+      { text: '✅ 安全卫士', link: 'https://github.com/fmhy/FMHY-SafeGuard' },
+      { text: '🚀 起始页', link: '/startpage' },
       { text: '🔎 SearXNG', link: 'https://searx.fmhy.net/' },
       {
-        text: '💡 Site Hunting',
+        text: '💡 站点探索',
         link: 'https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/find-new-sites/'
       },
       {
@@ -138,66 +134,66 @@ export const nav: DefaultTheme.NavItem[] = [
         link: 'https://fmhy.xyz/'
       },
       {
-        text: '🏠 Selfhosting',
+        text: '🏠 自托管',
         link: '/other/selfhosting'
       },
-      { text: '🏞 Wallpapers', link: '/other/wallpapers' },
-      { text: '💙 Feedback', link: '/feedback' }
+      { text: '🏞 壁纸', link: '/other/wallpapers' },
+      { text: '💙 反馈', link: '/feedback' }
     ]
   }
 ]
 
 export const sidebar: DefaultTheme.Sidebar | DefaultTheme.NavItemWithLink[] = [
   {
-    text: '<span class="i-twemoji:books"></span> Beginners Guide',
+    text: '<span class="i-twemoji:books"></span> 新手指南',
     link: '/beginners-guide'
   },
   {
-    text: '<span class="i-twemoji:newspaper"></span> Posts',
-    link: '/posts'
+    text: '<span class="i-twemoji:newspaper"></span> 博客',
+    link: '/blog'
   },
   {
-    text: '<span class="i-twemoji:light-bulb"></span> Contribute',
+    text: '<span class="i-twemoji:light-bulb"></span> 参与贡献',
     link: '/other/contributing'
   },
   {
-    text: 'Wiki',
+    text: '资源分类',
     collapsed: false,
     items: [
       {
-        text: '<span class="i-twemoji:name-badge"></span> Adblocking / Privacy',
+        text: '<span class="i-twemoji:name-badge"></span> 广告拦截 / 隐私',
         link: '/privacy'
       },
       {
-        text: '<span class="i-twemoji:robot"></span> Artificial Intelligence',
+        text: '<span class="i-twemoji:robot"></span> 人工智能',
         link: '/ai'
       },
       {
-        text: '<span class="i-twemoji:television"></span> Movies / TV / Anime',
+        text: '<span class="i-twemoji:television"></span> 电影 / 电视 / 动漫',
         link: '/video'
       },
       {
-        text: '<span class="i-twemoji:musical-note"></span> Music / Podcasts / Radio',
+        text: '<span class="i-twemoji:musical-note"></span> 音乐 / 播客 / 电台',
         link: '/audio'
       },
       {
-        text: '<span class="i-twemoji:video-game"></span> Gaming / Emulation',
+        text: '<span class="i-twemoji:video-game"></span> 游戏 / 模拟器',
         link: '/gaming'
       },
       {
-        text: '<span class="i-twemoji:green-book"></span> Books / Comics / Manga',
+        text: '<span class="i-twemoji:green-book"></span> 书籍 / 漫画',
         link: '/reading'
       },
       {
-        text: '<span class="i-twemoji:floppy-disk"></span> Downloading',
+        text: '<span class="i-twemoji:floppy-disk"></span> 下载资源',
         link: '/downloading'
       },
       {
-        text: '<span class="i-twemoji:cyclone"></span> Torrenting',
+        text: '<span class="i-twemoji:cyclone"></span> BT 下载',
         link: '/torrenting'
       },
       {
-        text: '<span class="i-twemoji:brain"></span> Educational',
+        text: '<span class="i-twemoji:brain"></span> 教育资源',
         link: '/educational'
       },
       {
@@ -209,67 +205,67 @@ export const sidebar: DefaultTheme.Sidebar | DefaultTheme.NavItemWithLink[] = [
         link: '/linux-macos'
       },
       {
-        text: '<span class="i-twemoji:globe-showing-asia-australia"></span> Non-English',
+        text: '<span class="i-twemoji:globe-showing-asia-australia"></span> 多语言资源',
         link: '/non-english'
       },
       {
-        text: '<span class="i-twemoji:file-folder"></span> Miscellaneous',
+        text: '<span class="i-twemoji:file-folder"></span> 其他资源',
         link: '/misc'
       }
     ]
   },
   {
-    text: 'Tools',
+    text: '工具',
     collapsed: false,
     items: [
       {
-        text: '<span class="i-twemoji:laptop"></span> System Tools',
+        text: '<span class="i-twemoji:laptop"></span> 系统工具',
         link: '/system-tools'
       },
       {
-        text: '<span class="i-twemoji:card-file-box"></span> File Tools',
+        text: '<span class="i-twemoji:card-file-box"></span> 文件工具',
         link: '/file-tools'
       },
       {
-        text: '<span class="i-twemoji:paperclip"></span> Internet Tools',
+        text: '<span class="i-twemoji:paperclip"></span> 网络工具',
         link: '/internet-tools'
       },
       {
-        text: '<span class="i-twemoji:left-speech-bubble"></span> Social Media Tools',
+        text: '<span class="i-twemoji:left-speech-bubble"></span> 社交媒体工具',
         link: '/social-media-tools'
       },
       {
-        text: '<span class="i-twemoji:memo"></span> Text Tools',
+        text: '<span class="i-twemoji:memo"></span> 文本工具',
         link: '/text-tools'
       },
       {
-        text: '<span class="i-twemoji:alien-monster"></span> Gaming Tools',
+        text: '<span class="i-twemoji:alien-monster"></span> 游戏工具',
         link: '/gaming-tools'
       },
       {
-        text: '<span class="i-twemoji:camera"></span> Image Tools',
+        text: '<span class="i-twemoji:camera"></span> 图像工具',
         link: '/image-tools'
       },
       {
-        text: '<span class="i-twemoji:videocassette"></span> Video Tools',
+        text: '<span class="i-twemoji:videocassette"></span> 视频工具',
         link: '/video-tools'
       },
       {
-        text: '<span class="i-twemoji:speaker-high-volume"></span> Audio Tools',
+        text: '<span class="i-twemoji:speaker-high-volume"></span> 音频工具',
         link: '/audio#audio-tools'
       },
       {
-        text: '<span class="i-twemoji:red-apple"></span> Educational Tools',
+        text: '<span class="i-twemoji:red-apple"></span> 教育工具',
         link: '/educational#educational-tools'
       },
       {
-        text: '<span class="i-twemoji:man-technologist"></span> Developer Tools',
+        text: '<span class="i-twemoji:man-technologist"></span> 开发者工具',
         link: '/developer-tools'
       }
     ]
   },
   {
-    text: 'More',
+    text: '更多',
     collapsed: true,
     items: [
       meta.build.nsfw
@@ -279,15 +275,15 @@ export const sidebar: DefaultTheme.Sidebar | DefaultTheme.NavItemWithLink[] = [
           }
         : {},
       {
-        text: '<span class="i-twemoji:warning"></span> Unsafe Sites',
+        text: '<span class="i-twemoji:warning"></span> 不安全站点',
         link: '/unsafe'
       },
       {
-        text: '<span class="i-twemoji:wastebasket"></span> Recently Removed',
+        text: '<span class="i-twemoji:wastebasket"></span> 最近移除',
         link: '/recently-removed'
       },
       {
-        text: '<span class="i-twemoji:package"></span> Storage',
+        text: '<span class="i-twemoji:package"></span> 存档',
         link: '/storage'
       }
     ]

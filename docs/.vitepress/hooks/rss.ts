@@ -26,12 +26,12 @@ export async function generateFeed(config: SiteConfig): Promise<void> {
   const feed: Feed = new Feed({
     id: meta.hostname,
     link: meta.hostname,
-    title: 'FMHY blog',
+    title: '平替指南博客',
     description: meta.description,
-    language: 'en-US',
-    image: 'https://github.com/fmhy.png',
+    language: 'zh-CN',
+    image: `${meta.hostname}/pwa_icon.png`,
     favicon: `${meta.hostname}/favicon.ico`,
-    copyright: 'Copyright (c) 2023-present FMHY'
+    copyright: `Copyright (c) ${new Date().getFullYear()} 平替指南`
   })
 
   const posts: ContentData[] = await createContentLoader('posts/*.md', {

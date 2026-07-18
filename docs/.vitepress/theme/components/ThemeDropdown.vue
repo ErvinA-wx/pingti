@@ -29,8 +29,8 @@ interface ModeChoice {
 }
 
 const modeChoices: ModeChoice[] = [
-  { mode: 'light', label: 'Light', icon: 'i-ph-sun-duotone' },
-  { mode: 'dark', label: 'Dark', icon: 'i-ph-moon-duotone' },
+  { mode: 'light', label: '浅色', icon: 'i-ph-sun-duotone' },
+  { mode: 'dark', label: '深色', icon: 'i-ph-moon-duotone' },
   {
     mode: 'dark',
     label: 'AMOLED',
@@ -166,7 +166,7 @@ onUnmounted(() => {
         type="button"
         class="theme-dropdown-toggle"
         :title="currentChoice.label"
-        :aria-label="`Theme: ${currentChoice.label}`"
+        :aria-label="`主题：${currentChoice.label}`"
       >
         <ClientOnly>
           <!-- Swap the icon instantly (no out-in fade): during a theme change

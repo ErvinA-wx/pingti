@@ -229,6 +229,12 @@ function stripNoteBlocks(html: string): string {
 
 export const search: DefaultTheme.Config['search'] = {
   options: {
+    translations: {
+      button: {
+        buttonText: '搜索',
+        buttonAriaLabel: '搜索本站内容'
+      }
+    },
     _render(src, env, md) {
       // Check if current file should be excluded from search
       const relativePath = env.relativePath || env.path || ''

@@ -1,7 +1,7 @@
 {
-  "name": "FMHY - freemediaheckyeah",
-  "short_name": "FMHY",
-  "description": "The largest collection of free stuff on the internet!",
+  "name": "平替指南",
+  "short_name": "平替",
+  "description": "互联网上最大的免费与开源替代资源中文合集！",
   "theme_color": "#7bc5e4",
   "background_color": "#ffffff",
   "display": "standalone",

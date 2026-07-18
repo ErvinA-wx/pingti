@@ -38,7 +38,7 @@ const groupedPosts = computed(() => {
 
 const formatDate = (timestamp: string | number): string => {
   if (!timestamp) return ''
-  return new Date(timestamp).toLocaleDateString('en-US', {
+  return new Date(timestamp).toLocaleDateString('zh-CN', {
     month: 'short',
     day: '2-digit',
     timeZone: 'UTC'
@@ -49,15 +49,15 @@ const formatDate = (timestamp: string | number): string => {
 <template>
   <div>
     <section>
-      <h1 class="flex items-center gap-2">Posts</h1>
-      <p>Monthly updates, announcements, and more.</p>
-      We also have an
-      <a href="/feed.rss" target="_blank" title="RSS feed">
+      <h1 class="flex items-center gap-2">博客</h1>
+      <p>每月更新、公告、使用指南与精选资源。</p>
+      也可以通过
+      <a href="/feed.rss" target="_blank" title="RSS 订阅">
         <div
           class="i-carbon-rss vertical-top"
           style="width: 16px; height: 24px"
         />
-        RSS feed.
+        RSS 订阅。
       </a>
     </section>
 

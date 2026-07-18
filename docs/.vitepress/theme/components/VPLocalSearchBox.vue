@@ -563,7 +563,7 @@ const buttonText = computed(() => {
   return (
     options?.locales?.[localeIndex.value]?.translations?.button?.buttonText ||
     options?.translations?.button?.buttonText ||
-    'Search'
+    '搜索'
   )
 })
 
@@ -1796,17 +1796,17 @@ onKeyStroke('ArrowRight', (event) => {
 // Translations
 const defaultTranslations: { modal: ModalTranslations } = {
   modal: {
-    displayDetails: 'Display detailed list',
-    resetButtonTitle: 'Reset search',
-    backButtonTitle: 'Close search',
-    noResultsText: 'No results for',
+    displayDetails: '显示详细列表',
+    resetButtonTitle: '重置搜索',
+    backButtonTitle: '关闭搜索',
+    noResultsText: '没有结果：',
     footer: {
-      selectText: 'to select',
+      selectText: '选择',
       selectKeyAriaLabel: 'enter',
-      navigateText: 'to navigate',
+      navigateText: '导航',
       navigateUpKeyAriaLabel: 'up arrow',
       navigateDownKeyAriaLabel: 'down arrow',
-      closeText: 'to close',
+      closeText: '关闭',
       closeKeyAriaLabel: 'escape'
     }
   }
@@ -1815,17 +1815,17 @@ const defaultTranslations: { modal: ModalTranslations } = {
 const translate = createSearchTranslate(defaultTranslations)
 
 const customTitles = {
-  prevMatch: 'Previous match',
-  nextMatch: 'Next match',
-  fuzzyOn: 'Switch to Exact Search',
-  fuzzyOff: 'Switch to Fuzzy Search',
-  urlOn: 'Only search names and text',
-  urlOff: 'Search link URLs too',
-  urlAuto: 'URL detected — searching link URLs. Click to keep this on.',
-  searching: 'Searching...',
-  cycleMatches: 'to cycle matches',
-  detailedViewOn: 'Detailed view',
-  detailedViewOff: 'Compact view'
+  prevMatch: '上一个匹配',
+  nextMatch: '下一个匹配',
+  fuzzyOn: '切换到精确搜索',
+  fuzzyOff: '切换到模糊搜索',
+  urlOn: '仅搜索名称和文本',
+  urlOff: '同时搜索链接 URL',
+  urlAuto: '检测到 URL，正在搜索链接地址。点击保持此设置。',
+  searching: '搜索中...',
+  cycleMatches: '循环匹配',
+  detailedViewOn: '详细视图',
+  detailedViewOff: '紧凑视图'
 }
 
 // Back
@@ -2177,11 +2177,7 @@ function isSamePageComparison(destPath: string) {
                 <span v-if="isFuzzySearch" class="fuzzy-icon">~</span>
                 <span v-else class="exact-icon">=</span>
                 <span class="visually-hidden">
-                  {{
-                    isFuzzySearch
-                      ? 'Fuzzy Search Active'
-                      : 'Exact Search Active'
-                  }}
+                  {{ isFuzzySearch ? '模糊搜索已启用' : '精确搜索已启用' }}
                 </span>
               </button>
 
@@ -2206,10 +2202,10 @@ function isSamePageComparison(destPath: string) {
                 <span class="visually-hidden">
                   {{
                     isUrlSearch
-                      ? 'URL Search Active'
+                      ? 'URL 搜索已启用'
                       : urlSearchAuto
-                        ? 'URL Search Auto-Active'
-                        : 'URL Search Off'
+                        ? 'URL 搜索已自动启用'
+                        : 'URL 搜索已关闭'
                   }}
                 </span>
               </button>
@@ -2228,8 +2224,8 @@ function isSamePageComparison(destPath: string) {
 
           <div v-if="filterText" class="results-header">
             <span v-if="results.length" class="results-info-text">
-              Showing {{ results.length }} of {{ totalResultsCount
-              }}{{ mayHaveMore ? '+' : '' }} matches
+              显示 {{ results.length }} / {{ totalResultsCount
+              }}{{ mayHaveMore ? '+' : '' }} 条匹配结果
             </span>
             <button
               v-if="!disableDetailedView"
@@ -2360,10 +2356,10 @@ function isSamePageComparison(destPath: string) {
                 </div>
                 <div v-if="!isFuzzySearch" class="no-results-actions">
                   <button class="try-fuzzy-btn" @click="isFuzzySearch = true">
-                    Try fuzzy search?
+                    尝试模糊搜索？
                   </button>
                   <template v-if="autoSuggestions.length">
-                    <span class="did-you-mean">Did you mean:</span>
+                    <span class="did-you-mean">是否要搜索：</span>
                     <button
                       v-for="s in autoSuggestions"
                       :key="s"
@@ -2381,9 +2377,9 @@ function isSamePageComparison(destPath: string) {
                 class="recent-searches"
               >
                 <div class="recent-header">
-                  <span class="recent-label">Recent</span>
+                  <span class="recent-label">最近搜索</span>
                   <button class="clear-all-btn" @click="clearAllRecentSearches">
-                    Clear all
+                    全部清除
                   </button>
                 </div>
                 <div class="recent-items">
@@ -2397,7 +2393,7 @@ function isSamePageComparison(destPath: string) {
                     </button>
                     <button
                       class="recent-delete-btn"
-                      title="Remove search"
+                      title="移除搜索记录"
                       @click.stop.prevent="removeRecentSearch(s)"
                     >
                       <span class="vpi-delete delete-icon-mini" />
@@ -2417,11 +2413,11 @@ function isSamePageComparison(destPath: string) {
                   class="show-more-btn"
                   @click="resultLimit += RESULTS_PAGE_SIZE"
                 >
-                  Show more results
+                  显示更多结果
                   <template
                     v-if="!mayHaveMore && totalResultsCount > results.length"
                   >
-                    ({{ totalResultsCount - results.length }} remaining)
+                    （剩余 {{ totalResultsCount - results.length }} 条）
                   </template>
                 </button>
               </li>

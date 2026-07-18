@@ -7,7 +7,7 @@ const props = defineProps<{
 
 const formatDate = (raw: string): string => {
   const date = new Date(raw)
-  return date.toLocaleDateString('en-US', {
+  return date.toLocaleDateString('zh-CN', {
     month: 'short',
     day: 'numeric',
     timeZone: 'UTC'

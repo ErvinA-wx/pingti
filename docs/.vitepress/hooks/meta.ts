@@ -69,21 +69,16 @@ export function generateMeta(context: TransformContext, hostname: string) {
       }
     ])
   } else {
-    const url = pageData.filePath.replace('index.md', '').replace('.md', '')
-    const imageUrl = `${url}/__og_image__/og.webp`
-      .replaceAll('//', '/')
-      .replace(/^\//, '')
-
     head.push(
-      ['meta', { property: 'og:image', content: `${hostname}/${imageUrl}` }],
+      ['meta', { property: 'og:image', content: `${hostname}/banner2.png` }],
       ['meta', { property: 'og:image:width', content: '1200' }],
       ['meta', { property: 'og:image:height', content: '630' }],
-      ['meta', { property: 'og:image:type', content: 'image/webp' }],
+      ['meta', { property: 'og:image:type', content: 'image/png' }],
       [
         'meta',
         { property: 'og:image:alt', content: pageData.frontmatter.title }
       ],
-      ['meta', { name: 'twitter:image', content: `${hostname}/${imageUrl}` }],
+      ['meta', { name: 'twitter:image', content: `${hostname}/banner2.png` }],
       ['meta', { name: 'twitter:image:width', content: '1200' }],
       ['meta', { name: 'twitter:image:height', content: '630' }],
       [
@@ -117,6 +112,51 @@ export function generateMeta(context: TransformContext, hostname: string) {
         property: 'article:modified_time',
         content: new Date(pageData.lastUpdated).toISOString()
       }
+    ])
+  }
+
+  const isPost = pageData.relativePath.startsWith('posts/')
+  const structuredData = isPost
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'BlogPosting',
+        headline: pageData.frontmatter.title,
+        description: pageData.frontmatter.description,
+        url,
+        inLanguage: 'zh-CN',
+        datePublished: pageData.frontmatter.date,
+        dateModified:
+          pageData.frontmatter.updated ||
+          (pageData.lastUpdated
+            ? new Date(pageData.lastUpdated).toISOString()
+            : pageData.frontmatter.date),
+        author: {
+          '@type': 'Organization',
+          name: pageData.frontmatter.author || '平替指南'
+        },
+        publisher: {
+          '@type': 'Organization',
+          name: '平替指南',
+          url: hostname
+        }
+      }
+    : pageData.relativePath === 'index.md'
+      ? {
+          '@context': 'https://schema.org',
+          '@type': 'WebSite',
+          name: '平替指南',
+          alternateName: 'Pingti',
+          url: hostname,
+          description: pageData.frontmatter.description,
+          inLanguage: 'zh-CN'
+        }
+      : null
+
+  if (structuredData) {
+    head.push([
+      'script',
+      { type: 'application/ld+json' },
+      JSON.stringify(structuredData)
     ])
   }
 

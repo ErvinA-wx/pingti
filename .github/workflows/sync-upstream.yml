@@ -1,0 +1,53 @@
+name: 同步 FMHY 上游
+
+on:
+  schedule:
+    - cron: '17 3 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: sync-fmhy-upstream
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出生产分支
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: 更新上游镜像分支
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git remote add upstream https://github.com/fmhy/edit.git
+          git fetch upstream main
+          git push origin upstream/main:refs/heads/upstream-mirror --force
+
+      - name: 创建或更新同步 PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git merge-base --is-ancestor upstream/main origin/main; then
+            echo "生产分支已经包含最新上游提交。"
+            exit 0
+          fi
+
+          existing_pr="$(gh pr list --base main --head upstream-mirror --state open --json number --jq '.[0].number // empty')"
+          if [ -n "$existing_pr" ]; then
+            echo "同步 PR #$existing_pr 已随镜像分支更新。"
+            exit 0
+          fi
+
+          upstream_sha="$(git rev-parse upstream/main)"
+          gh pr create \
+            --base main \
+            --head upstream-mirror \
+            --title "同步 FMHY 上游更新" \
+            --body "FMHY 上游已更新到 \`$upstream_sha\`。合并前请按照 docs/other/upstream-sync.md 检查冲突、重新翻译新增界面文案，并通过 Cloudflare Preview 验证。"

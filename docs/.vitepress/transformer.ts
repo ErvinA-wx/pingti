@@ -31,7 +31,9 @@ export function transformsPlugin(): Plugin {
         !excluded.includes(_id) &&
         // check if it's a post
         !id.includes('posts') &&
-        !id.includes('other')
+        !id.includes('other') &&
+        // Localized blog index is authored directly and already has frontmatter.
+        !id.endsWith('/blog.md')
       ) {
         const header = getHeader(_id)
         const contents = transform(code)
@@ -294,13 +296,13 @@ const transformLinks = (text: string): string =>
         replace:
           '<a target="_blank" href="$1"><span v-tooltip="\'X\'" alt="X" class="i-carbon:logo-x" /></a>'
       },
-      { 
+      {
         name: 'Mastodon',
         find: /\[Mastodon\]\(([^\)]*?)\)/gm,
         replace:
           '<a target="_blank" href="$1"><span v-tooltip="\'Mastodon\'" alt="Mastodon" class="i-mdi:mastodon" /></a>'
       },
-      { 
+      {
         name: 'BlueSky',
         find: /\[BlueSky\]\(([^\)]*?)\)/gm,
         replace:

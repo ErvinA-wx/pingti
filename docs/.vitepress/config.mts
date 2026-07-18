@@ -15,7 +15,7 @@ import {
   sidebar,
   socialLinks
 } from './constants'
-import { generateFeed, generateImages, generateMeta } from './hooks'
+import { generateFeed, generateMeta } from './hooks'
 import { defs, emojiRender, movePlugin } from './markdown/emoji'
 import { headersPlugin } from './markdown/headers'
 import { toggleStarredPlugin } from './markdown/toggleStarred'
@@ -24,12 +24,12 @@ import { replaceNoteLink } from './utils/markdown'
 
 // @unocss-include
 
-const baseUrl = process.env.GITHUB_ACTIONS ? '/edit' : '/'
+const baseUrl = '/'
 export default defineConfig({
-  title: 'FMHY',
+  title: '平替指南',
   description: meta.description,
-  titleTemplate: ':title • freemediaheckyeah',
-  lang: 'en-US',
+  titleTemplate: ':title • 平替指南',
+  lang: 'zh-CN',
   lastUpdated: false,
   cleanUrls: true,
   appearance: true,
@@ -42,20 +42,23 @@ export default defineConfig({
   head: [
     ['meta', { name: 'theme-color', content: '#7bc5e4' }],
     ['meta', { name: 'og:type', content: 'website' }],
-    ['meta', { name: 'og:locale', content: 'en' }],
+    ['meta', { name: 'og:locale', content: 'zh_CN' }],
     ['link', { rel: 'icon', href: '/fmhy.ico' }],
     [
       'link',
       {
         rel: 'alternate',
         type: 'application/rss+xml',
-        title: 'FMHY RSS Feed',
+        title: '平替指南 RSS 订阅',
         href: '/feed.rss'
       }
     ],
     // PWA
     ['link', { rel: 'manifest', href: '/manifest.json' }],
-    ['link', { rel: 'alternate icon', href: '/pwa_icon.png', type: 'image/png' }],
+    [
+      'link',
+      { rel: 'alternate icon', href: '/pwa_icon.png', type: 'image/png' }
+    ],
     ['meta', { name: 'keywords', content: meta.keywords.join(' ') }],
     [
       'link',
@@ -65,22 +68,6 @@ export default defineConfig({
     [
       'meta',
       { name: 'apple-mobile-web-app-status-bar-style', content: 'default' }
-    ],
-    // Bing site verification
-    [
-      'meta',
-      {
-        name: 'msvalidate.01',
-        content: 'F3028112EF6F929B562F4B18E58E3691'
-      }
-    ],
-    // Google site verification
-    [
-      'meta',
-      {
-        name: 'google-site-verification',
-        content: 'XCq-ZTw6VJPQ7gVNEOl8u0JRqfadK7WcsJ0H598Wv9E'
-      }
     ],
     // Redirect to main site if embedded in iframe
     [
@@ -185,7 +172,6 @@ export default defineConfig({
   transformHead: async (context) => generateMeta(context, meta.hostname),
   buildEnd: async (context) => {
     try {
-      await generateImages(context)
       await generateFeed(context)
       consola.success('Build hooks completed successfully.')
     } catch (error) {
@@ -332,20 +318,40 @@ export default defineConfig({
   },
   themeConfig: {
     search,
+    darkModeSwitchLabel: '主题',
+    lightModeSwitchTitle: '切换到浅色主题',
+    darkModeSwitchTitle: '切换到深色主题',
+    sidebarMenuLabel: '菜单',
+    returnToTopLabel: '返回顶部',
+    langMenuLabel: '切换语言',
+    skipToContentLabel: '跳到正文',
+    outline: {
+      level: 'deep',
+      label: '本页目录'
+    },
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
+    notFound: {
+      title: '页面未找到',
+      quote: '这个页面可能已移动、删除，或者链接有误。',
+      linkLabel: '返回首页',
+      linkText: '返回首页'
+    },
     footer: {
       message: `${feedback} (rev: ${commitRef})`,
       copyright:
-        `© ${new Date().getFullYear()}, <a href="https://i.ibb.co/VJQmQ9t/image.png">Estd 2018.</a>` +
-        `<br/> This site does not host any files.`
+        `© ${new Date().getFullYear()} 平替指南。` +
+        `<br/>本站仅整理公开信息，不托管任何第三方文件。`
     },
     editLink: {
-      pattern: 'https://github.com/fmhy/edit/edit/main/docs/:path',
-      text: '📝 Edit this page'
+      pattern: 'https://github.com/ErvinA-wx/pingti/edit/main/docs/:path',
+      text: '📝 编辑此页'
     },
-    outline: 'deep',
     logo: {
       src: '/fmhy.ico',
-      alt: 'FMHY Logo'
+      alt: '平替指南 Logo'
     },
     nav,
     sidebar,

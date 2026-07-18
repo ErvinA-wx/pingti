@@ -116,7 +116,7 @@ onUnmounted(() => {
     </template>
     <template #home-features-before>
       <p class="text-center text-lg text-text-2 mb-2">
-        Or browse these pages
+        浏览以下资源分类
         <span class="inline-block i-twemoji:sparkles" />
       </p>
     </template>
