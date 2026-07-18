@@ -87,7 +87,7 @@
 * [IMGUpscaler](https://imgupscaler.ai/) - 图像放大 / 修复 / 视频放大 / 在线
 * [Bigjpg](https://bigjpg.com/) - 图像放大 / 在线
 * [Final2x](https://github.com/Tohrusky/Final2x) - 图像放大 / 自托管
-* [Lossless Scaling](https://fmhy.net/gaming#download-games)（搜索）- 图像放大
+* [Lossless Scaling](https://pingti.org/gaming#download-games)（搜索）- 图像放大
 * [Warlock-Studio](https://github.com/Ivan-Ayub97/Warlock-Studio) - 图像放大
 * [imgupscaler](https://imgupscaler.com/) - 图像放大 / 在线
 * [QualityScaler](https://github.com/Djdefrag/QualityScaler) - 图像放大 / 视频放大 / 降噪 / 自托管

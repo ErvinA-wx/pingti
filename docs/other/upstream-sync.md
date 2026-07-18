@@ -19,8 +19,9 @@ description: 说明平替指南如何持续跟踪并合并 FMHY 上游更新。
 2. 强制更新 `upstream-mirror`，确保它与上游完全一致。
 3. 在 `upstream-localized` 合并新提交，并保留中文站点配置。
 4. 使用翻译记忆和 DeepSeek V4 Flash 翻译新增或变化的 Markdown 内容。
-5. 翻译完成后创建或更新 Draft PR，并通过 Cloudflare Preview 验证。
-6. 如果余额不足，保存断点并创建 GitHub Issue；充值后重新运行即可继续。
+5. 自动把新增内容中的 FMHY 主站链接改写为 `https://pingti.org`。
+6. 翻译完成后创建或更新 Draft PR，并通过 Cloudflare Preview 验证。
+7. 如果余额不足，保存断点并创建 GitHub Issue；充值后重新运行即可继续。
 
 ## 合并规则
 

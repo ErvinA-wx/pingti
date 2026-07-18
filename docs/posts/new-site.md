@@ -11,7 +11,7 @@ footer: true
 
 <Post authors="taskylizard" />
 
-### 新 URL：https://fmhy.net/
+### 新 URL：https://pingti.org/
 
 大家好，想告诉大家新网站终于完成了，今天正式上线！我知道多年来 FMHY 有过许多不同版本，但这次投入了大量精力，真心觉得这是迄今为止最好的版本。
 

@@ -17,7 +17,7 @@ footer: true
 
 # Wiki 更新
 
-- 添加了 **[指南](https://fmhy.net/other/selfhosting)**，用于在本地设置并运行自己的 FMHY 实例。
+- 添加了 **[指南](https://pingti.org/other/selfhosting)**，用于在本地设置并运行自己的 FMHY 实例。
 
 - 添加了 FMHY Safeguard 的 **[Userscript](https://greasyfork.org/en/scripts/528660-fmhy-safelink-guard)** 版本。
 
@@ -27,9 +27,9 @@ footer: true
 
 - 清理了日语学习板块，注意没有移除任何站点，只是移动了位置，[前后对比](https://i.imgur.com/wPboWjk.png)。
 
-- 为 [AI Video Generators](https://fmhy.net/ai#video-generation) 添加了使用限制标签。
+- 为 [AI Video Generators](https://pingti.org/ai#video-generation) 添加了使用限制标签。
 
-- 更好地组织了字体板块，并拆分为 [Generators](https://fmhy.net/text-tools#font-text-generators) 和 [Customization](https://fmhy.net/text-tools#font-customization)。
+- 更好地组织了字体板块，并拆分为 [Generators](https://pingti.org/text-tools#font-text-generators) 和 [Customization](https://pingti.org/text-tools#font-customization)。
 
 - 为流媒体站点评分系统添加了几个 [New Criteria](https://i.imgur.com/s7UGdIz.png)。
 
@@ -37,23 +37,23 @@ footer: true
 
 # 已添加星标 ⭐
 
-- 在音频 DDL 中收藏了 [DAB Music Player](https://fmhy.net/audio#download-sites)。一键下载 FLAC 专辑，提供网页应用及适用于 Windows、Mac 和 Linux 的桌面应用，Android 支持即将推出。
+- 在音频 DDL 中收藏了 [DAB Music Player](https://pingti.org/audio#download-sites)。一键下载 FLAC 专辑，提供网页应用及适用于 Windows、Mac 和 Linux 的桌面应用，Android 支持即将推出。
 
-- 在 Android 隐私浏览器中收藏了 [IronFox](https://fmhy.net/storage#privacy-based)。基于 Firefox 的浏览器，专注于隐私/安全。功能丰富，得到 LibreWolf 开发团队的推荐，社区似乎也非常喜欢。
+- 在 Android 隐私浏览器中收藏了 [IronFox](https://pingti.org/storage#privacy-based)。基于 Firefox 的浏览器，专注于隐私/安全。功能丰富，得到 LibreWolf 开发团队的推荐，社区似乎也非常喜欢。
 
-- 在 Twitch 广告拦截器中收藏了 [AdGuardExtra](https://fmhy.net/social-media-tools#twitch-adblockers)。这似乎是目前拦截广告的最佳方式。
+- 在 Twitch 广告拦截器中收藏了 [AdGuardExtra](https://pingti.org/social-media-tools#twitch-adblockers)。这似乎是目前拦截广告的最佳方式。
 
-- 在 YouTube 视频下载器中收藏了 [AMP4](https://fmhy.net/social-media-tools#youtube-downloaders)，无广告，支持播放列表和长达 3 小时的视频。
+- 在 YouTube 视频下载器中收藏了 [AMP4](https://pingti.org/social-media-tools#youtube-downloaders)，无广告，支持播放列表和长达 3 小时的视频。
 
-- 在 Web Privacy 中收藏了 [JustDeleteMe](https://fmhy.net/privacy#web-privacy)。这是一个链接目录，可以更轻松地从网络服务中删除账户。
+- 在 Web Privacy 中收藏了 [JustDeleteMe](https://pingti.org/privacy#web-privacy)。这是一个链接目录，可以更轻松地从网络服务中删除账户。
 
-- 在 Podcast Streaming 中收藏了 [PocketCasts](https://fmhy.net/audio)。这是一款流行的 iOS 播客播放器，最近新增了桌面端和网页端应用。
+- 在 Podcast Streaming 中收藏了 [PocketCasts](https://pingti.org/audio)。这是一款流行的 iOS 播客播放器，最近新增了桌面端和网页端应用。
 
-- 在 Flights 部分收藏了 [ADS-B Exchange](https://fmhy.net/misc#flights)，这是少数不将功能锁定在付费墙后的网站之一。
+- 在 Flights 部分收藏了 [ADS-B Exchange](https://pingti.org/misc#flights)，这是少数不将功能锁定在付费墙后的网站之一。
 
-- 在 Ad-Free Spotify 中，将 xManager 的星标替换为 [ReVanced Manager](https://fmhy.net/mobile#android-audio)，因为它功能更多、问题更少，而且 xManager 本身也推荐它。
+- 在 Ad-Free Spotify 中，将 xManager 的星标替换为 [ReVanced Manager](https://pingti.org/mobile#android-audio)，因为它功能更多、问题更少，而且 xManager 本身也推荐它。
 
-- 移除了 Bark 的星标（因其功能有限）和 Tortoise TTS 的星标（因其音质不佳），改为收藏 [TTS Online](https://fmhy.net/ai#text-to-speech)，其音质更好且每日有 10k 字符限制。
+- 移除了 Bark 的星标（因其功能有限）和 Tortoise TTS 的星标（因其音质不佳），改为收藏 [TTS Online](https://pingti.org/ai#text-to-speech)，其音质更好且每日有 10k 字符限制。
 
 ***
 

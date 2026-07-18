@@ -13,7 +13,7 @@ export default {
 			// isSuspicious ||
 			secFetchSite === 'cross-site'
 		) {
-			return Response.redirect('https://fmhy.net', 302);
+			return Response.redirect('https://pingti.org', 302);
 		}
 
 		const res = await fetch(request);

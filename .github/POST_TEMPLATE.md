@@ -11,7 +11,7 @@ Notes:
 - The description should be a short, descriptive description of the post.
 - Authors should be in the format `['username', ....]`
 - The ending shouldn't have a line break (`---`/`***`).
-- Links to the website should be turned into relative links, i.e. `[Text Tools](https://fmhy.net/text-tools)` -> `[Text Tools](/text-tools)`.
+- Links to the website should be turned into relative links, i.e. `[Text Tools](https://pingti.org/text-tools)` -> `[Text Tools](/text-tools)`.
 
 Template:
 ```

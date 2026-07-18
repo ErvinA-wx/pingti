@@ -119,7 +119,7 @@ export default defineEventHandler(async (event) => {
   )
   const env = useRuntimeConfig(event)
 
-  const pageURL = `https://fmhy.net${page}`
+  const pageURL = `https://pingti.org${page}`
   const fields = [
     {
       name: 'Page',
@@ -211,7 +211,7 @@ export default defineEventHandler(async (event) => {
     body: JSON.stringify({
       username: 'Feedback',
       // Self-hosted so the avatar can't break if a third-party host changes it.
-      avatar_url: 'https://fmhy.net/feedback-avatar.jpg',
+      avatar_url: 'https://pingti.org/feedback-avatar.jpg',
       embeds: [
         {
           color: colors[type] || 3447003,

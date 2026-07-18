@@ -53,6 +53,15 @@ jobs:
           set +e
           pnpm translate:content
           result=$?
+          pnpm localize:links
+          rewrite_result=$?
+          if [ "$rewrite_result" = "0" ]; then
+            pnpm localize:links:check
+            rewrite_result=$?
+          fi
+          if [ "$rewrite_result" != "0" ]; then
+            result=$rewrite_result
+          fi
           echo "exit_code=$result" >> "$GITHUB_OUTPUT"
           exit 0
 
@@ -63,7 +72,7 @@ jobs:
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add docs translation
+          git add docs translation README.md .github
           git commit -m "使用 DeepSeek V4 Flash 更新中文内容" || true
           git push --set-upstream origin localization/deepseek-content --force-with-lease
 

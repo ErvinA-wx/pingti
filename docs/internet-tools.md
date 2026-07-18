@@ -580,7 +580,7 @@
 * [Pearltrees](https://www.pearltrees.com/)
 * [Nextcloud](https://apps.nextcloud.com/apps/bookmarks)
 * [Cling](https://cling.com/)
-* [FMHY Startpage](https://fmhy.net/startpage)
+* [FMHY Startpage](https://pingti.org/startpage)
 * [⁠Re-Start](https://github.com/refact0r/re-start)
 * [Symbaloo](https://www.symbaloo.com/)
 * [Tixio](https://tixio.io/)
@@ -617,7 +617,7 @@
 
 * 🌐 **[Browser Comparisons](https://privacytests.org/)** 或 [Eylenburg Comparisons](https://eylenburg.github.io/browser_comparison.htm) - 比较主流浏览器
 * 🌐 **[Desktop Browser List](https://github.com/nerdyslacker/desktop-web-browsers)** - 桌面浏览器索引
-* ↪️ **[Recommended Browsers](https://fmhy.net/beginners-guide#browsers)**, [2](https://rentry.org/Piracy-BG#browsers) / **[Privacy Browsers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy/#wiki_.25B7_browser_privacy)**
+* ↪️ **[Recommended Browsers](https://pingti.org/beginners-guide#browsers)**, [2](https://rentry.org/Piracy-BG#browsers) / **[Privacy Browsers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy/#wiki_.25B7_browser_privacy)**
 * ↪️ **[Android Browsers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_android_browsers)**
 * ⭐ **[BrowserBench](https://browserbench.org/)** 或 [WPT](https://wpt.fyi) - 浏览器基准测试
 * [⁠Browser Tamer](https://www.aloneguid.uk/projects/bt/) - 多浏览器链接重定向与配置文件切换器 / [GitHub](https://github.com/aloneguid/bt)

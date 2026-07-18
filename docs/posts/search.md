@@ -17,9 +17,9 @@ footer: true
 
 ---
 
-### [FMHY.net Search](https://fmhy.net/)
+### [pingti.org Search](https://pingti.org/)
 
-托管在 FMHY.net 上的搜索引擎
+托管在 pingti.org 上的搜索引擎
 
 ---
 
@@ -47,7 +47,7 @@ GitHub 页面搜索引擎
 
 ---
 
-### [Raw Markdown](https://fmhy.net/single-page.md) / [2](https://api.fmhy.net/single-page)
+### [Raw Markdown](https://pingti.org/single-page.md) / [2](https://api.fmhy.net/single-page)
 
 手动搜索 Markdown（Ctrl+F）
 
@@ -61,4 +61,4 @@ FMHY 重复检测工具
 
 ### 搜索页面备份
 
-[FMHY.net](https://fmhy.net/posts/search) / [Reddit](https://redd.it/105xraz)
+[pingti.org](https://pingti.org/posts/search) / [Reddit](https://redd.it/105xraz)
