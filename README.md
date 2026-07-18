@@ -50,6 +50,7 @@ FMHY_BUILD_API=false FMHY_BUILD_NSFW=false pnpm docs:build
 - 使用 `translation/glossary.json` 统一术语。
 - 使用 `translation/memory.jsonl` 保存译文并支持增量翻译。
 - DeepSeek 余额不足时保存断点、创建 GitHub Issue；充值后可继续执行。
+- 每次翻译或同步上游后，自动把 FMHY 主站链接改写为 `https://pingti.org`。
 - 上游更新先合并到 `upstream-localized`，完成汉化和验证后再通过 Draft PR 进入生产分支。
 
 使用方法和续跑机制见 [全站中文翻译](docs/other/translation.md)。

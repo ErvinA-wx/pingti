@@ -77,7 +77,7 @@
 * ⭐ **[MSI Afterburner](https://www.msi.com/Landing/afterburner)** - 超频工具 / 硬件监视器 / 安装时避免 Norton 360 / Windows
 * ⭐ **[MSI Kombustor](https://www.geeks3d.com/furmark/kombustor/)** - GPU 基准测试 / Windows
 * ⭐ **[DisplayMagician](https://displaymagician.littlebitbig.com/)** 或 [AutoActions](https://github.com/Codectory/AutoActions) - 按游戏设置显示配置 / Windows
-* ⭐ **[Lossless Scaling](https://fmhy.net/gaming#download-games)**（搜索）, **[Magpie](https://github.com/Blinue/Magpie)** 或 [OptiScaler](https://github.com/optiscaler/OptiScaler) / [Manager](https://github.com/Agustinm28/Optiscaler-Client) - 游戏超分辨率 / Windows
+* ⭐ **[Lossless Scaling](https://pingti.org/gaming#download-games)**（搜索）, **[Magpie](https://github.com/Blinue/Magpie)** 或 [OptiScaler](https://github.com/optiscaler/OptiScaler) / [Manager](https://github.com/Agustinm28/Optiscaler-Client) - 游戏超分辨率 / Windows
 * [SystemRequirementsLab](https://www.systemrequirementslab.com/cyri/) 或 [PCGameBenchmark](https://www.pcgamebenchmark.com/) - 游戏配置要求测试
 * [SweetFX](https://sfx.thelazy.net/) 或 [ENBSeries](http://enbdev.com) - 游戏设置指南
 * [TroubleChute](https://www.youtube.com/c/TroubleChute/featured) - 游戏优化指南

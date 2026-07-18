@@ -10,7 +10,7 @@
 * 🌐 **[Lists](https://github.com/jnv/lists)** - 列表的列表索引
 * ↪️ **[AI Indexes](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/ai#wiki_.25BA_ai_indexes)**
 * ↪️ **[Privacy Indexes](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25B7_privacy_indexes)**
-* ⭐ **[FMHY Search](https://fmhy.net/posts/search)** - 搜索 Wiki
+* ⭐ **[FMHY Search](https://pingti.org/posts/search)** - 搜索 Wiki
 * ⭐ **[Awesome Search](https://awesomelists.top/)** - Awesome 列表搜索
 * ⭐ **[Couleur Tweak Tips](https://ctt.cx/)** - 综合资源与工具中心 / [Discord](https://discord.gg/CTT)
 * ⭐ **[r/InternetIsBeautiful](https://reddit.com/r/InternetIsBeautiful)** - 实用/有趣的网站

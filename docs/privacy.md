@@ -6,7 +6,7 @@
 
 # ► 广告拦截
 
-* **注意** - 许多网站包含广告、弹窗或重定向，因此我们[强烈建议](https://fmhy.net/beginners-guide#adblocking)使用广告拦截器。不要同时运行多个通用广告拦截器（例如 uBlock Origin 和 AdGuard），以免[导致问题](https://x.com/gorhill/status/1033706103782170625)。将通用广告拦截器与 SponsorBlock 等工具结合使用是可行的。另外请注意，uBO 完整版的效果远优于精简版。
+* **注意** - 许多网站包含广告、弹窗或重定向，因此我们[强烈建议](https://pingti.org/beginners-guide#adblocking)使用广告拦截器。不要同时运行多个通用广告拦截器（例如 uBlock Origin 和 AdGuard），以免[导致问题](https://x.com/gorhill/status/1033706103782170625)。将通用广告拦截器与 SponsorBlock 等工具结合使用是可行的。另外请注意，uBO 完整版的效果远优于精简版。
 
 ***
 

@@ -10,11 +10,11 @@ body:
     attributes:
       value: |
         ### Things to note
-        * Anyone can suggest [changes or corrections](https://fmhy.net/other/contributing) to the wiki. Please read our [Contribution Guide](https://fmhy.net/other/contributing) before trying to add or remove anything.
-        * If you're adding a new site, please [search](https://fmhy.net/single-page.md) / [2](https://api.fmhy.net/single-page) (control + f) first to make sure we don't already have it.
-        * Approved changes will be applied to the [site](https://fmhy.net) and all [🔒 backups](https://github.com/fmhy/FMHY/wiki/Backups).
+        * Anyone can suggest [changes or corrections](https://pingti.org/other/contributing) to the wiki. Please read our [Contribution Guide](https://pingti.org/other/contributing) before trying to add or remove anything.
+        * If you're adding a new site, please [search](https://pingti.org/single-page.md) / [2](https://api.fmhy.net/single-page) (control + f) first to make sure we don't already have it.
+        * Approved changes will be applied to the [site](https://pingti.org) and all [🔒 backups](https://github.com/fmhy/FMHY/wiki/Backups).
         * You can send us stuff directly via [💬 Discord](https://github.com/fmhy/FMHY/wiki/FMHY-Discord).
-        * You can also check out our [website](https://fmhy.net) and the [posts](https://fmhy.net/posts) section to know about any major updates to the wiki.
+        * You can also check out our [website](https://pingti.org) and the [posts](https://pingti.org/posts) section to know about any major updates to the wiki.
   - type: dropdown
     id: type
     attributes:
@@ -35,6 +35,6 @@ body:
       description:
         A clear and concise description of what the issue is, as per your
         selected issue type.
-      placeholder: https://fmhy.net is cool and should be added
+      placeholder: https://pingti.org is cool and should be added
     validations:
       required: true

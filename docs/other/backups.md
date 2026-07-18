@@ -2,13 +2,13 @@
 
 官方网站、镜像站、GitHub、Markdown 以及自托管指南。
 
-* **[FMHY.net](https://fmhy.net/)** - 主站
+* **[pingti.org](https://pingti.org/)** - 主站
 * [fmhyclone](https://fmhyclone.pages.dev/) - 官方镜像站
 * [fmhy.pages.dev](https://fmhy.pages.dev/) - 官方镜像站
 * [GitHub Source](https://github.com/fmhy/edit) - 官方 GitHub 源代码仓库
-* [Selfhosting Guide](https://fmhy.net/other/selfhosting) - 本地运行 FMHY
+* [Selfhosting Guide](https://pingti.org/other/selfhosting) - 本地运行 FMHY
 * [Markdown Files](https://github.com/fmhy/FMHYedit/archive/refs/heads/main.zip) - 原始 .zip 归档
-* [Markdown Page](https://fmhy.net/single-page.md)（镜像站：[2](https://api.fmhy.net/single-page) / [3](https://fmhyapi.wispy.qzz.io/single-page)）- 单页完整 Markdown
+* [Markdown Page](https://pingti.org/single-page.md)（镜像站：[2](https://api.fmhy.net/single-page) / [3](https://fmhyapi.wispy.qzz.io/single-page)）- 单页完整 Markdown
 
 ***
 
@@ -43,4 +43,4 @@
 
 **备份页面备份**
 
-[FMHY.net](https://fmhy.net/other/backups) / [Reddit](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/backups) / [GitHub](https://github.com/nbats/FMHY/wiki/Backups/) / [Rentry](https://rentry.co/FMHYbackups/)
+[pingti.org](https://pingti.org/other/backups) / [Reddit](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/backups) / [GitHub](https://github.com/nbats/FMHY/wiki/Backups/) / [Rentry](https://rentry.co/FMHYbackups/)

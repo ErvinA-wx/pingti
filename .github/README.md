@@ -6,8 +6,8 @@
 
 ## 📖 Wiki
 
-- Website: [fmhy.net](https://fmhy.net)
-- News & Monthly Updates: [fmhy.net/posts](https://fmhy.net/posts)
+- Website: [pingti.org](https://pingti.org)
+- News & Monthly Updates: [pingti.org/posts](https://pingti.org/posts)
 - Backups, Markdown, JSON API: [github.com/fmhy/FMHY/wiki/Backups](https://github.com/fmhy/FMHY/wiki/Backups)
 - Neither the site nor GitHub host any files
 
@@ -23,9 +23,9 @@ We invite you to contribute and help improve the wiki! 💙
 
 Here are a few ways you can get involved:
 
-* Anyone can suggest changes or corrections to the wiki. Please read our [contribution guide](https://fmhy.net/other/contributing) before trying to add or remove anything.
-* If you're adding a new site, please [search](https://fmhy.net/single-page.md) / [2](https://api.fmhy.net/single-page) (`Ctrl + F`) first to make sure we don't already have it.
-* Approved changes will be applied to the [site](https://fmhy.net) and all [🔒 backups](https://github.com/fmhy/FMHY/wiki/Backups).
+* Anyone can suggest changes or corrections to the wiki. Please read our [contribution guide](https://pingti.org/other/contributing) before trying to add or remove anything.
+* If you're adding a new site, please [search](https://pingti.org/single-page.md) / [2](https://api.fmhy.net/single-page) (`Ctrl + F`) first to make sure we don't already have it.
+* Approved changes will be applied to the [site](https://pingti.org) and all [🔒 backups](https://github.com/fmhy/FMHY/wiki/Backups).
 * You can send us stuff directly via [💬 Discord](https://github.com/fmhy/FMHY/wiki/FMHY-Discord).
 * To help us find new sites, check out the lists of links in [site hunting](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/find-new-sites/).
 

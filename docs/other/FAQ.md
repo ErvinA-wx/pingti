@@ -7,7 +7,7 @@ description: 与 FMHY 相关的常见问题解答列表。
 
 **问**：为什么子版块帖子这么少？*这个版块死了吗？* :(
 
-**答**：发帖功能一直处于关闭状态，因为 Reddit 是我们发布公告的地方。我们的主要重点是 **[Website](https://fmhy.net/)**，它已经发展到包含近 3 万个链接。**它 100% 活跃**，并且每天更新 [daily](https://redd.it/1pl8vl0)。如需讨论子版块，请查看 /r/Piracy，或每周五加入我们的 [Discord](https://github.com/fmhy/FMHY/wiki/FMHY-Discord)。
+**答**：发帖功能一直处于关闭状态，因为 Reddit 是我们发布公告的地方。我们的主要重点是 **[Website](https://pingti.org/)**，它已经发展到包含近 3 万个链接。**它 100% 活跃**，并且每天更新 [daily](https://redd.it/1pl8vl0)。如需讨论子版块，请查看 /r/Piracy，或每周五加入我们的 [Discord](https://github.com/fmhy/FMHY/wiki/FMHY-Discord)。
 ***
 **问**：这里的网站使用安全吗？
 

@@ -163,5 +163,5 @@
 * **下载管理器：[AB Download Manager](https://abdownloadmanager.com/)**
 * **[Translate Web Pages](https://github.com/FilipePS/Traduzir-paginas-web)** - 将网页翻译成你的语言
 * **[Glossary / Terminology](https://rentry.org/the-piracy-glossary)** - 常见盗版术语定义
-* **[不安全站点/软件](https://fmhy.net/unsafe)** / [2](https://redd.it/10bh0h9) - 建议避免的内容
-* **[FMHY.net](https://fmhy.net/)** - 我们的网站，包含更多站点/工具
+* **[不安全站点/软件](https://pingti.org/unsafe)** / [2](https://redd.it/10bh0h9) - 建议避免的内容
+* **[pingti.org](https://pingti.org/)** - 我们的网站，包含更多站点/工具
