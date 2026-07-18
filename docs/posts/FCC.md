@@ -1,6 +1,6 @@
 ---
-title: Fight Chat Control 🔒
-description: Protect EU Digital Privacy
+title: 对抗聊天控制 🔒
+description: 保护欧盟数字隐私
 date: 2025-09-04
 next: false
 
@@ -11,16 +11,16 @@ footer: true
 
 <Post authors="" />
 
-### The EU (still) wants to scan your private messages and photos.
+### 欧盟（仍然）想要扫描私人消息和照片。
 
-The "Chat Control" proposal would mandate scanning of all private digital communications, including encrypted messages and photos. This threatens fundamental privacy rights and digital security for all EU citizens.
+“聊天控制”提案将强制扫描所有私人数字通信，包括加密消息和照片。这威胁到所有欧盟公民的基本隐私权和数字安全。
 
-Every photo, every message, and every file you send will be automatically scanned—without your consent or suspicion. This is not about catching criminals; it is ***mass surveillance*** imposed on all 450 million citizens of the European Union.
+发送的每张照片、每条消息和每个文件都将被自动扫描——无需同意或怀疑。这不是为了抓捕罪犯，而是对欧盟所有 4.5 亿公民实施的 ***大规模监控***。
 
-EU politicians *exempt themselves* from this surveillance under "professional secrecy" rules. They get privacy. You and your family do not. If you're in the EU, please consider contacting Members of the European Parliament (MEPs) using the info provided on the site below:
+欧盟政客根据“职业保密”规则 *豁免自己* 免受此监控。他们享有隐私，而您和您的家人却没有。如果您在欧盟，请考虑使用下方网站提供的信息联系欧洲议会议员（MEP）：
 
 # https://fightchatcontrol.eu/
 
-There is also a Change.org petition [here](https://stopchatcontrol.eu/) if you'd like to sign it.
+此外还有 Change.org 请愿书[在此](https://stopchatcontrol.eu/)，如需可签名。
 
-Discussion: https://redd.it/1n840p9
+讨论：https://redd.it/1n840p9

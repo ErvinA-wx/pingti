@@ -1,8 +1,8 @@
 #### Sanet Warning
 
-Note that Sanet has been known to host unsafe things like KMS Matrix, so it's best to avoid it for software and games.
+请注意，Sanet 已知会托管 KMS Matrix 等不安全内容，因此最好避免用于软件和游戏。
 
-SoftArchive Mirrors
+SoftArchive 镜像站
 
 - https://sanet.download/
 - https://softarchive.is/

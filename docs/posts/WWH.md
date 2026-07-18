@@ -1,6 +1,6 @@
 ---
-title: Why We're Here 🤍
-description: Help Heal
+title: 我们为何在此 🤍
+description: 帮助治愈
 date: 2025-09-11
 next: false
 
@@ -11,18 +11,18 @@ footer: true
 
 <Post authors="nbats" />
 
-People always want to know what the point of life is. Why are they on earth? What are we doing here? Whats our purpose? *Whats the point?* 
+人们总想知道生命的意义是什么。为什么在地球上？在这里做什么？目的是什么？*意义何在？*
 
-For most of my life, I didn't really have any answer, but as I got older, I realized, things weren't about me. I took a step back, and recognized a much bigger picture we're all apart of, and I now know exactly why we're here on earth. 
+在生命的大部分时间里，并没有真正的答案，但随着年龄增长，意识到事情并非关乎自己。退一步，认识到一个更宏大的图景，现在确切知道为何在地球上。
 
-As a human, you have a powerful ability, to calm, heal, and help those around you. You have the ability to protect both the people in our world, and the planet itself from harm and distress.  
+作为人类，拥有强大的能力，可以安抚、治愈和帮助周围的人。有能力保护世界上的人和地球本身免受伤害和痛苦。
 
-I know there is a huge amount of pain in our world, a lot of anger, a lot of sadness, and believe me when I say, I share the same feelings. However I believe its important that we each learn to ***harness that energy into things that are positive and kind***, not negative or evil. 
+知道世界上有大量的痛苦、愤怒和悲伤，请相信，也有同样的感受。然而，认为重要的是每个人都学会***将那股能量转化为积极和善良的事物***，而不是消极或邪恶。
 
-Remember that a lot of who you are, is your ability to experience things outside of yourself, *including other humans.* They are a direct and immediate part of your own reality. Treat their struggles and woes as if they were your own, don't leave people behind, don't leave people unloved. As frustrating as the world can be, it is worth protecting, it is worth loving, it is worth healing together.
+记住，很大程度上，能力在于体验自身之外的事物，*包括其他人。* 他们直接且即时地构成现实的一部分。将他们的挣扎和痛苦视作自己的，不要抛弃他人，不要让人不被爱。尽管世界可能令人沮丧，但它值得保护，值得爱，值得一起治愈。
 
 ***
 
-* *"Life is a beautiful, magnificent thing, even to a jellyfish... The trouble is you won't fight. You've given in, continually dwelling on sickness and death. But there's something just as inevitable as death, and that's life. Life, life, life. Think of all the power that's in the universe, moving the earth, growing the trees. That's the same power within you if you only have the courage and the will to use it."* - Charlie Chaplin, Limelight 1952
+* *"生命是美丽而宏伟的，即使对水母来说也是如此……问题在于你不愿抗争。你屈服了，不断沉溺于疾病和死亡。但有些东西和死亡一样不可避免，那就是生命。生命，生命，生命。想想宇宙中所有的力量，推动地球，生长树木。如果你有勇气和意愿去运用它，同样的力量也在你体内。"* ——查理·卓别林，《舞台春秋》，1952年
 
-* *"The wise man beholds all beings in the Self, and the Self in all beings; for that reason, he does not hate anyone."* - Isa Upanishad
+* *"智者视一切众生如己，视己如一切众生；因此，他不憎恨任何人。"* ——《伊莎奥义书》

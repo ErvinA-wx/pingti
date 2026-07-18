@@ -1,3 +1,3 @@
-#### Tautulli Note
+#### Tautulli 说明
 
-This will sometimes get falsely flagged by Windows Defender and removed automatically, so it may need to be allowed manually.
+有时会被 Windows Defender 误报并自动移除，因此可能需要手动允许。

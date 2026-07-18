@@ -1,12 +1,12 @@
-#### ISH Note
+#### ISH 说明
 
-500K tokens/day
+每天 500K 个令牌
 
-Ad refill:
-Each ad will now give 100K tokens.
-You can watch up to 5 ads per day, giving you up to 500K extra tokens/day.
+广告补充：
+每个广告现在提供 100K 个令牌。
+每天最多观看 5 个广告，每天最多额外获得 500K 个令牌。
 
-Model token multipliers:
+模型令牌倍数：
 Sonnet 4.5 - 6x
 Sonnet 4.6 - 6x
 Haiku 4.5 - 3x

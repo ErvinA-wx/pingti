@@ -1,3 +1,3 @@
 #### RedditFilter Note
 
-Go to `Settings` -> `Feed Filter` and untoggle `Promoted` to not see ads. You can also untoggle `Recommended` to hide AI suggestions.
+前往 `Settings` -> `Feed Filter`，关闭 `Promoted` 以不看到广告。也可以关闭 `Recommended` 以隐藏 AI 建议。

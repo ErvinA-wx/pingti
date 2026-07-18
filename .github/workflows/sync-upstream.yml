@@ -1,4 +1,4 @@
-name: 同步 FMHY 上游
+name: 同步并汉化 FMHY 上游
 
 on:
   schedule:
@@ -8,10 +8,11 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  issues: write
 
 concurrency:
   group: sync-fmhy-upstream
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   sync:
@@ -22,7 +23,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: 更新上游镜像分支
+      - name: 获取上游并准备本地化分支
+        id: prepare
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -30,24 +32,104 @@ jobs:
           git fetch upstream main
           git push origin upstream/main:refs/heads/upstream-mirror --force
 
-      - name: 创建或更新同步 PR
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
           if git merge-base --is-ancestor upstream/main origin/main; then
             echo "生产分支已经包含最新上游提交。"
+            echo "needs_translation=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
-          existing_pr="$(gh pr list --base main --head upstream-mirror --state open --json number --jq '.[0].number // empty')"
-          if [ -n "$existing_pr" ]; then
-            echo "同步 PR #$existing_pr 已随镜像分支更新。"
+          git fetch origin upstream-localized || true
+          if git show-ref --verify --quiet refs/remotes/origin/upstream-localized && \
+             git merge-base --is-ancestor origin/main origin/upstream-localized; then
+            git switch -C upstream-localized origin/upstream-localized
+          else
+            git switch -C upstream-localized origin/main
+          fi
+
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          if ! git merge upstream/main --no-edit -X ours; then
+            git merge --abort || true
+            issue_number="$(gh issue list --state open --search 'FMHY 上游同步冲突 in:title' --json number --jq '.[0].number // empty')"
+            if [ -z "$issue_number" ]; then
+              gh issue create \
+                --title "FMHY 上游同步冲突：需要人工处理" \
+                --body "自动合并上游时出现无法安全解决的冲突。生产分支未被修改，请人工检查最新的 FMHY 上游提交。"
+            fi
+            exit 1
+          fi
+          echo "needs_translation=true" >> "$GITHUB_OUTPUT"
+
+      - name: 设置 pnpm
+        if: steps.prepare.outputs.needs_translation == 'true'
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.12.2
+
+      - name: 设置 Node
+        if: steps.prepare.outputs.needs_translation == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24.15.0
+          cache: pnpm
+
+      - name: 安装依赖
+        if: steps.prepare.outputs.needs_translation == 'true'
+        run: pnpm install --frozen-lockfile
+
+      - name: 翻译新增与变化内容
+        if: steps.prepare.outputs.needs_translation == 'true'
+        id: translate
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: |
+          set +e
+          pnpm translate:content
+          result=$?
+          echo "exit_code=$result" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: 保存结果并创建本地化 PR
+        if: steps.prepare.outputs.needs_translation == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RESULT: ${{ steps.translate.outputs.exit_code }}
+        run: |
+          git add docs translation
+          git commit -m "同步 FMHY 上游并更新中文内容" || true
+          git push --set-upstream origin upstream-localized --force-with-lease
+
+          balance_issue="$(gh issue list --state open --search 'DeepSeek 余额不足 in:title' --json number --jq '.[0].number // empty')"
+          if [ "$RESULT" = "42" ]; then
+            if [ -z "$balance_issue" ]; then
+              gh issue create \
+                --title "DeepSeek 余额不足：上游汉化等待充值" \
+                --body "上游代码、翻译记忆和断点已保存在 \`upstream-localized\`。充值并更新仓库 Secret \`DEEPSEEK_API_KEY\` 后，重新运行“同步并汉化 FMHY 上游”即可继续。"
+            else
+              gh issue comment "$balance_issue" --body "上游汉化再次检测到余额不足；最新断点已保留。"
+            fi
+            echo "余额不足，已保留上游合并和翻译断点。" >> "$GITHUB_STEP_SUMMARY"
             exit 0
           fi
 
+          if [ "$RESULT" != "0" ]; then
+            echo "翻译失败，退出码：$RESULT。断点分支已保留。" >&2
+            exit "$RESULT"
+          fi
+
+          if [ -n "$balance_issue" ]; then
+            gh issue close "$balance_issue" --comment "余额恢复，上游汉化已接续完成。"
+          fi
+
+          existing_pr="$(gh pr list --base main --head upstream-localized --state open --json number --jq '.[0].number // empty')"
           upstream_sha="$(git rev-parse upstream/main)"
-          gh pr create \
-            --base main \
-            --head upstream-mirror \
-            --title "同步 FMHY 上游更新" \
-            --body "FMHY 上游已更新到 \`$upstream_sha\`。合并前请按照 docs/other/upstream-sync.md 检查冲突、重新翻译新增界面文案，并通过 Cloudflare Preview 验证。"
+          if [ -z "$existing_pr" ]; then
+            gh pr create \
+              --draft \
+              --base main \
+              --head upstream-localized \
+              --title "同步并汉化 FMHY 上游更新" \
+              --body "FMHY 上游已更新到 \`$upstream_sha\`。新增和变化的 Markdown 内容已通过 DeepSeek V4 Flash、术语库和翻译记忆转换为简体中文；合并前请检查构建和 Cloudflare Preview。"
+          else
+            gh pr comment "$existing_pr" --body "已同步并汉化 FMHY 上游 \`$upstream_sha\`。"
+          fi

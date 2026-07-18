@@ -1,5 +1,5 @@
-#### Too Good To Go Note
+#### Too Good To Go 说明
 
-Remember always check what the food is actually like at whereever you're buying from (using google maps or something similar).
+请记住，始终检查购买地点的食物实际情况（使用 Google 地图或类似工具）。
 
-Its also generally best to stick to places with 4 stars or higher.
+通常最好选择评分 4 星或更高的地方。

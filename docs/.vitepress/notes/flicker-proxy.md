@@ -1,3 +1,3 @@
-#### Flicker Proxy
+#### Flicker 代理
 
-Note that the proxy may be slower, but it can be used in cases where the site or TMDb is blocked.
+请注意，代理可能较慢，但在网站或 TMDb 被屏蔽的情况下可以使用。

@@ -1,3 +1,3 @@
-#### Changing the Cute Save Button Icon
+#### 更改可爱保存按钮图标
 
-You can change the icon of the save button in the extension's settings. The setting is labeled "Your custom cute icon:" You can find standard image download icons to use instead here: https://rentry.co/image-download-icons.
+可以在扩展设置中更改保存按钮的图标。该设置项标签为“Your custom cute icon:”。可在此处找到替代的标准图片下载图标：https://rentry.co/image-download-icons.

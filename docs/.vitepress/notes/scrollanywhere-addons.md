@@ -1,4 +1,4 @@
-#### ScrollAnywhere Addons
+#### ScrollAnywhere 附加组件
 
 * https://addons.mozilla.org/en-US/firefox/addon/scroll_anywhere/
 * https://chrome.google.com/webstore/detail/scrollanywhere/jehmdpemhgfgjblpkilmeoafmkhbckhi

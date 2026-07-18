@@ -1,3 +1,3 @@
-#### Megabasterd Note
+#### Megabasterd 说明
 
-Free proxies work but they are very hit and miss.
+免费代理可用，但效果很不稳定。

@@ -1,7 +1,7 @@
-#### Advanced Logic Calculators
+#### 高级逻辑计算器
 
-* Analytic tableaux generator: https://www.umsu.de/trees/
-* Natural deduction proof checker: https://proofs.openlogicproject.org/
-* Propositional logic calculator (finds models): https://www.inf.unibz.it/~franconi/teaching/propcalc/
-* A tutorial on sequent calculus: http://logitext.mit.edu/tutorial
-* Modal logic playground (for constructing models): https://rkirsling.github.io/modallogic/
+* 分析表生成器：https://www.umsu.de/trees/
+* 自然演绎证明检查器：https://proofs.openlogicproject.org/
+* 命题逻辑计算器（查找模型）：https://www.inf.unibz.it/~franconi/teaching/propcalc/
+* 关于 sequent 演算的教程：http://logitext.mit.edu/tutorial
+* 模态逻辑游乐场（用于构建模型）：https://rkirsling.github.io/modallogic/

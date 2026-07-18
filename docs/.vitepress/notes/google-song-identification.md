@@ -1,3 +1,3 @@
-#### Google Song Identification
+#### Google 歌曲识别
 
-Google and YouTube Music mobile apps have song identification button next to the search box.
+Google 和 YouTube Music 移动应用的搜索框旁有歌曲识别按钮。

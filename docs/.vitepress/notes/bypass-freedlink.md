@@ -1,3 +1,3 @@
-#### Bypass FREEdlink
+#### 绕过 FREEdlink
 
-You still need to bypass Cloudflare captcha by yourself. This only bypasses timer on single downloads. You may still need to wait normal time to download another file which is enforced from server-side.
+仍需自行绕过 Cloudflare 验证码。这仅绕过单次下载的计时器。下载另一个文件时可能仍需等待正常时间，这是由服务器端强制执行的。

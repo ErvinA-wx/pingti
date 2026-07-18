@@ -1,6 +1,6 @@
 ---
-title: How-to Search FMHY
-description: Various tools to help you query FMHY.
+title: 如何搜索 FMHY
+description: 各种工具帮助查询 FMHY。
 date: 2023-01-07
 next: false
 
@@ -13,52 +13,52 @@ footer: true
 
 ### [Streamlit Search](https://fmhy-search.streamlit.app/)
 
-Search engine hosted on Streamlit
+托管在 Streamlit 上的搜索引擎
 
 ---
 
 ### [FMHY.net Search](https://fmhy.net/)
 
-Search engine hosted on FMHY.net
+托管在 FMHY.net 上的搜索引擎
 
 ---
 
 ### [GitHub Search](https://github.com/search?q=repo%3Afmhy%2FFMHY+&type=wikis)
 
-GitHub page search engine
+GitHub 页面搜索引擎
 
 ---
 
 ### [Bookmark HTML](https://github.com/fmhy/bookmarks)
 
-Turn FMHY into browser bookmarks
+将 FMHY 转换为浏览器书签
 
 ---
 
 ### [FMHY Goggles](https://github.com/fmhy/bookmarks#goggle)
 
-Search FMHY using Brave Goggles
+使用 Brave Goggles 搜索 FMHY
 
 ---
 
 ### [Python Script](https://github.com/Rust1667/a-FMHY-search-engine)
 
-Search the Markdown via a Python script
+通过 Python 脚本搜索 Markdown
 
 ---
 
 ### [Raw Markdown](https://fmhy.net/single-page.md) / [2](https://api.fmhy.net/single-page)
 
-Search the Markdown manually (Ctrl+F)
+手动搜索 Markdown（Ctrl+F）
 
 ---
 
 ### [Dupe Checker](https://link-checker-215e95.gitlab.io/) / [Alt](https://fmhycheck.vercel.app/) / [App](https://github.com/fmhy/dupe-checker)
 
-FMHY Dupe Check Tool
+FMHY 重复检测工具
 
 ---
 
-### Search Page Backups
+### 搜索页面备份
 
 [FMHY.net](https://fmhy.net/posts/search) / [Reddit](https://redd.it/105xraz)

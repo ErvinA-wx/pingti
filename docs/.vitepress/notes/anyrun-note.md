@@ -1,3 +1,3 @@
-#### ANY.RUN Note
+#### ANY.RUN 说明
 
-You can use the throwaway .edu sites to sign up + select "other" as profession.
+可以使用一次性 .edu 网站注册，职业选择“其他”。

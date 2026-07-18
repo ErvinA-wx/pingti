@@ -1,3 +1,3 @@
-#### CinebyTV Note
+#### CinebyTV 说明
 
-Note that CinebyTV is not affiliated with the main Cineby site.
+注意：CinebyTV 与主站 Cineby 无关。

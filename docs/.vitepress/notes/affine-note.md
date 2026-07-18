@@ -1,3 +1,3 @@
-#### AFFiNE Note
+#### AFFiNE 说明
 
-Downloads for Windows, Mac, Linux are available on their [GitHub](https://github.com/toeverything/AFFiNE)
+Windows、Mac、Linux 的下载可在其 [GitHub](https://github.com/toeverything/AFFiNE) 上获取。

@@ -1,25 +1,25 @@
 ---
-title: Sandbox
+title: 沙箱
 ---
 
-### Sandbox
+### 沙箱
 
 :::info
-Testing info
+测试信息
 :::
 
 :::tip
-Testing tip 
+测试提示
 :::
 
 :::warning
-Testing warning
+测试警告
 :::
 
 :::danger
-Testing danger
+测试危险
 :::
 
 :::details
-Testing details
+测试详情
 :::

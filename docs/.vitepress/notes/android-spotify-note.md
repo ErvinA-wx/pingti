@@ -1,3 +1,3 @@
-#### Android Spotify Note
+#### Android Spotify 说明
 
-None of Spotify apks (for rooted and non-rooted users) works for now due to server side restriction.
+由于服务器端限制，目前所有 Spotify apk（包括已 root 和未 root 用户）均无法使用。

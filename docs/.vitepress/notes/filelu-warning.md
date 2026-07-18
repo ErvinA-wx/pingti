@@ -1,3 +1,3 @@
-#### Filelu Warning
+#### Filelu 警告
 
-According to their FAQ, you must login to your account at least once every 180 days to prevent your account and it's files being deleted.
+根据其常见问题解答，必须每 180 天至少登录一次账户，否则账户及其文件将被删除。

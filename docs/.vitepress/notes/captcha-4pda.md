@@ -1,3 +1,3 @@
-#### Captcha 4PDA 
+#### Captcha 4PDA
 
-Use Google Gemini to translate the captcha.
+使用 Google Gemini 翻译验证码。

@@ -1,3 +1,3 @@
 #### Parsec
 
-Note that Linux cannot be the host for Parsec.
+注意 Linux 不能作为 Parsec 的主机。

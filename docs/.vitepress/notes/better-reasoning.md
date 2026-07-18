@@ -1,3 +1,3 @@
-#### Better Reasoning
+#### 更好的推理
 
-To get better reasoning, switch to "Think Deeper" mode.
+要获得更好的推理，请切换到“更深入思考”模式。

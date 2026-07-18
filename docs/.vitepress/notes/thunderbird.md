@@ -1,5 +1,5 @@
-#### Thunderbird Notifications
+#### Thunderbird 通知
 
-To get real-time notifications:
+要获取实时通知：
 
-Press the three lines in the top left corner -> select the account you want to configure -> select `Manage Folders` -> select the folder you want from below. You can then select inbox and enable push. (Notifications must be enabled).
+点击左上角的三条线 -> 选择要配置的账户 -> 选择 `Manage Folders` -> 从下方选择所需文件夹。然后可以选择收件箱并启用推送。（必须启用通知）。

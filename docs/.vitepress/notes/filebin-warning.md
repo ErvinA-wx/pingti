@@ -1,3 +1,3 @@
-#### Filebin Warning
+#### Filebin 警告
 
- Anyone with a link to a "bin" has full access to it. They can add new files, delete existing files, etc.
+ 任何拥有“bin”链接的人都可以完全访问该 bin，包括添加新文件、删除现有文件等操作。
