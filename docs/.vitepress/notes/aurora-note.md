@@ -1,3 +1,3 @@
-#### Aurora Note
+#### Aurora 说明
 
-Keep in mind that some apps will not work unless you installed them from the Google Play Store. This is usually true for things like banking, and other institutional apps.
+请注意，某些应用除非从 Google Play 商店安装，否则无法正常工作。这通常适用于银行和其他机构应用。

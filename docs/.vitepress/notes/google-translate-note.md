@@ -1,3 +1,3 @@
-#### Google Translate Note
+#### Google 翻译说明
 
-Google Translate can be used as a web proxy. Simply paste your URL into the translate field and then click on the result and view the page in the original language. This way you can navigate any web-page via google.com. Google is almost never blocked so this trick works on most occasions.
+Google 翻译可以用作网页代理。只需将 URL 粘贴到翻译字段中，然后点击结果并以原始语言查看页面。这样便可以通过 google.com 浏览任何网页。Google 几乎从未被屏蔽，因此这个技巧在大多数情况下都有效。

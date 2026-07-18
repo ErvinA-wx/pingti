@@ -1,3 +1,3 @@
-#### Site Favicon Downloading
+#### 网站图标下载
 
-You can also go to `https://www.google.com/s2/favicons?domain=URL&sz=64` where `URL` is the URL of the site you want the favicon of and `sz` is the size in pixels.
+也可以访问 `https://www.google.com/s2/favicons?domain=URL&sz=64`，其中 `URL` 是目标网站的 URL，`sz` 是以像素为单位的大小。

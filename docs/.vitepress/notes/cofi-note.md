@@ -1,3 +1,3 @@
-#### Cofi Note
+#### Cofi 说明
 
-Useful if you're a coffee enthusiast. The methods are created by James Hoffmann, he's a world champion barista and popular YouTuber.
+适合咖啡爱好者。方法由 James Hoffmann 创建，他是世界冠军咖啡师和知名 YouTuber。

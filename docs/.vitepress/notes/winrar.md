@@ -1,3 +1,3 @@
-#### WinRAR Note
+#### WinRAR 说明
 
-WinRAR does not auto-update, and because it had a remote code execution vulnerability in the past, you should make sure you've manually updated **to 7.13 or later** to be safe.
+WinRAR 不会自动更新，且过去曾存在远程代码执行漏洞，因此应确保手动更新**至 7.13 或更高版本**以确保安全。

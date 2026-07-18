@@ -1,5 +1,5 @@
-#### Piko Note
+#### Piko 说明
 
-See this [guide](https://wispydocs.pages.dev/morphe-piko-obtainium/) for a pre-patched Obtainium configuration.
+请参阅此[指南](https://wispydocs.pages.dev/morphe-piko-obtainium/)以获取预补丁的 Obtainium 配置。
 
-Alternatively add the repo URL to Morphe patch sources to patch the app locally. 
+或者将仓库 URL 添加到 Morphe 补丁源，以在本地修补应用。

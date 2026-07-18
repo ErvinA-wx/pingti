@@ -1,3 +1,3 @@
-#### DODI Warning
+#### DODI 警告
 
-It is highly recommended to stick to DODI's 1337x page or main website, as sites they linked to have malicious fake download buttons, and shouldn't be used without an [adblocker](https://fmhy.net/privacy#adblocking).
+强烈建议仅使用 DODI 的 1337x 页面或主站，因为其链接的站点存在恶意虚假下载按钮，未使用 [adblocker](https://fmhy.net/privacy#adblocking) 时不应访问。

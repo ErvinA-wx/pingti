@@ -1,3 +1,3 @@
-#### 1Shows Note
+#### 1Shows 说明
 
-Site has AI Upscaled 4K on main 2 server, note this does not work on Firefox or Firefox Based Browser.
+站点在主 2 服务器上提供 AI 升级的 4K 内容，请注意这在 Firefox 或基于 Firefox 的浏览器上无法使用。

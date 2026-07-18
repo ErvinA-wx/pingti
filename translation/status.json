@@ -1,0 +1,9 @@
+{
+  "state": "complete",
+  "model": "deepseek-v4-flash",
+  "updatedAt": "2026-07-18T16:14:44.880Z",
+  "files": 191,
+  "segments": 274,
+  "cached": 274,
+  "pending": 0
+}

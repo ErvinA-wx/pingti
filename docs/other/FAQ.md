@@ -1,34 +1,34 @@
 ---
 title: FAQ
-description: A List Of Questions And Answers Related To FMHY.
+description: 与 FMHY 相关的常见问题解答列表。
 ---
 
-# FAQs
+# 常见问题
 
-**Q**: Why are there so few subreddit posts? *Is the sub dead?* :(
+**问**：为什么子版块帖子这么少？*这个版块死了吗？* :(
 
-**A**: Posting has always been off as Reddit is where we make announcements. Our main focus is the **[Website](https://fmhy.net/)**, which has grown to include nearly 30k links. **It's 100% alive**, and gets updated [daily](https://redd.it/1pl8vl0). For a discussion sub, check out /r/Piracy, or join our [Discord](https://github.com/fmhy/FMHY/wiki/FMHY-Discord) on Fridays.
+**答**：发帖功能一直处于关闭状态，因为 Reddit 是我们发布公告的地方。我们的主要重点是 **[Website](https://fmhy.net/)**，它已经发展到包含近 3 万个链接。**它 100% 活跃**，并且每天更新 [daily](https://redd.it/1pl8vl0)。如需讨论子版块，请查看 /r/Piracy，或每周五加入我们的 [Discord](https://github.com/fmhy/FMHY/wiki/FMHY-Discord)。
 ***
-**Q**: Are the sites here safe to use?
+**问**：这里的网站使用安全吗？
 
-**A**: Yes, we always scan files and research sites before adding them. We also listen to the community, so if there's something you feel needs to be addressed you're more than welcome to contact us.
+**答**：是的，我们总是在添加文件之前扫描文件并研究网站。我们也听取社区的意见，所以如果您觉得有什么需要解决的问题，欢迎联系我们。
 ***
-**Q**: The site won't load, what should I do?
+**问**：网站无法加载，该怎么办？
 
-**A:** If you can't get the site to load, we'd recommend trying some of the methods listed [here](https://rentry.co/7vycxgn2), or try any of the [backups](https://github.com/fmhy/FMHY/wiki/Backups).
+**答**：如果无法加载网站，建议尝试[此处](https://rentry.co/7vycxgn2)列出的方法，或尝试任何 [backups](https://github.com/fmhy/FMHY/wiki/Backups)。
 ***
-**Q**: How can I contact you?
+**问**：如何联系？
 
-**A**: The best way is to join us in [Discord](https://github.com/fmhy/FMHY/wiki/FMHY-Discord). Here you can submit links, get help or suggest changes to the wiki. [Mod messages](https://www.reddit.com/message/compose/?to=/r/FREEMEDIAHECKYEAH) are also always open.
+**答**：最好的方式是加入 [Discord](https://github.com/fmhy/FMHY/wiki/FMHY-Discord)。在这里可以提交链接、寻求帮助或建议对 wiki 进行修改。[Mod messages](https://www.reddit.com/message/compose/?to=/r/FREEMEDIAHECKYEAH) 也始终开放。
 ***
-**Q**: Can I edit FMHY?
+**问**：可以编辑 FMHY 吗？
 
-**A**: Absolutely. This project was made by and belongs to the community, so we allow anyone to suggest changes via [pull requests](https://github.com/fmhy/FMHYedit) or suggestions in our [Discord](https://github.com/fmhy/FMHY/wiki/FMHY-Discord). We want this project to be as organized and useful as possible, so if you feel like you can help improve it, please do. 
+**答**：当然可以。这个项目由社区创建并属于社区，因此允许任何人通过[拉取请求](https://github.com/fmhy/FMHYedit)或在 [Discord](https://github.com/fmhy/FMHY/wiki/FMHY-Discord) 中提出建议来建议更改。希望这个项目尽可能有条理和有用，所以如果觉得可以帮助改进，请尽管去做。
 ***
-**Q**: Can I donate?
+**问**：可以捐款吗？
 
-**A**: We appreciate that people want to support us, but we never have and never will accept donations. We maintain this project because it's fun and we want to help others, not make money.
+**答**：感谢大家想要支持我们，但我们从未也永远不会接受捐款。维护这个项目是因为它很有趣，并且我们想帮助他人，而不是为了赚钱。
 ***
-**Q**: When was FMHY created?
+**问**：FMHY 是什么时候创建的？
 
-**A**: The original sub was created on [April 29th, 2018](https://i.ibb.co/VJQmQ9t/image.png).
+**答**：最初的子版块创建于 [April 29th, 2018](https://i.ibb.co/VJQmQ9t/image.png)。

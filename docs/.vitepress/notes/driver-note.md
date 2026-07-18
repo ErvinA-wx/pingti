@@ -1,3 +1,3 @@
-#### Driver Note
+#### 驱动程序说明
 
-Only install the drivers you actually need. Don't install new drivers all at once, as this could lead to things breaking, especially system audio.
+只安装实际需要的驱动程序。不要一次性安装所有新驱动，否则可能导致系统出现问题，尤其是系统音频。

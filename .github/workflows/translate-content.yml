@@ -1,0 +1,100 @@
+name: DeepSeek 全站中文翻译
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: deepseek-full-site-translation
+  cancel-in-progress: false
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出生产分支
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: 准备可续跑翻译分支
+        run: |
+          git fetch origin localization/deepseek-content || true
+          if git show-ref --verify --quiet refs/remotes/origin/localization/deepseek-content && \
+             git merge-base --is-ancestor origin/main origin/localization/deepseek-content; then
+            git switch -C localization/deepseek-content origin/localization/deepseek-content
+          else
+            git switch -C localization/deepseek-content origin/main
+          fi
+
+      - name: 设置 pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.12.2
+
+      - name: 设置 Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24.15.0
+          cache: pnpm
+
+      - name: 安装依赖
+        run: pnpm install --frozen-lockfile
+
+      - name: 使用 DeepSeek V4 Flash 翻译
+        id: translate
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: |
+          set +e
+          pnpm translate:content
+          result=$?
+          echo "exit_code=$result" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: 保存翻译与断点
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RESULT: ${{ steps.translate.outputs.exit_code }}
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add docs translation
+          git commit -m "使用 DeepSeek V4 Flash 更新中文内容" || true
+          git push --set-upstream origin localization/deepseek-content --force-with-lease
+
+          issue_number="$(gh issue list --state open --search 'DeepSeek 余额不足 in:title' --json number --jq '.[0].number // empty')"
+          if [ "$RESULT" = "42" ]; then
+            if [ -z "$issue_number" ]; then
+              gh issue create \
+                --title "DeepSeek 余额不足：翻译任务等待充值" \
+                --body "翻译记忆和断点已保存在 \`localization/deepseek-content\`。充值并更新仓库 Secret \`DEEPSEEK_API_KEY\` 后，重新运行本工作流即可接续执行。"
+            else
+              gh issue comment "$issue_number" --body "本次运行仍检测到余额不足。断点已更新，充值后可继续运行。"
+            fi
+            echo "DeepSeek 余额不足；任务和断点已保留，等待充值后续跑。" >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+
+          if [ "$RESULT" != "0" ]; then
+            echo "翻译失败，退出码：$RESULT。分支上的翻译记忆已保留。" >&2
+            exit "$RESULT"
+          fi
+
+          if [ -n "$issue_number" ]; then
+            gh issue close "$issue_number" --comment "余额恢复，翻译任务已成功接续完成。"
+          fi
+
+          existing_pr="$(gh pr list --base main --head localization/deepseek-content --state open --json number --jq '.[0].number // empty')"
+          if [ -z "$existing_pr" ]; then
+            gh pr create \
+              --draft \
+              --base main \
+              --head localization/deepseek-content \
+              --title "使用 DeepSeek V4 Flash 完成全站汉化" \
+              --body "使用结构化 Markdown 翻译、术语库和翻译记忆完成全站汉化。链接、代码、图片和外部站点名称保持不变；请在合并前检查构建和 Cloudflare Preview。"
+          fi

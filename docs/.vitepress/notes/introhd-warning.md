@@ -1,3 +1,3 @@
-#### Intro HD Warning
+#### Intro HD 警告
 
-Intro HD files are safe, but they do have some fake download buttons on each page. The [real buttons](https://i.ibb.co/NdQHvv12/image.png) / [2](https://i.imgur.com/5PTfUor.png) are towards the bottom, and list each file hosts name.
+Intro HD 文件是安全的，但每个页面上都有一些虚假的下载按钮。真正的按钮 [real buttons](https://i.ibb.co/NdQHvv12/image.png) / [2](https://i.imgur.com/5PTfUor.png) 位于页面底部，并列出每个文件托管站的名称。

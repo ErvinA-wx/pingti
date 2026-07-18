@@ -1,6 +1,6 @@
 ---
-title: Monthly Updates [April]
-description: April 2024 updates
+title: 月度更新 [四月]
+description: 2024年4月更新
 date: 2024-04-01
 next: false
 
@@ -12,109 +12,83 @@ footer: true
 <Post authors="nbats"/>
 
 :::info
-These update threads only contain major updates. If you're interested
-in seeing all minor changes you can follow our
-[Commits Page](https://github.com/fmhy/FMHYedit/commits/main) on GitHub or
-[Updates Channel](https://redd.it/17f8msf) in Discord.
+这些更新帖子仅包含主要更新。如果想查看所有小改动，可以在 GitHub 上关注我们的 [Commits Page](https://github.com/fmhy/FMHYedit/commits/main)，或在 Discord 中关注 [Updates Channel](https://redd.it/17f8msf)。
 :::
 
-### Wiki Updates
+### Wiki 更新
 
-- Split Android Tools into subsections:
-  [Optimization](https://fmhy.net/mobile#optimization),
-  [Battery](https://fmhy.net/mobile#battery-tools),
-  [Keyboard](https://fmhy.net/mobile#keyboard-text),
-  [Screen](https://fmhy.net/mobile#screen-tools),
-  [Files](https://fmhy.net/mobile#android-file-tools),
-  [Root / Flash](https://fmhy.net/mobile#root-flash),
-  [Productivity](https://fmhy.net/mobile#productivity-calendars),
-  [Maps](https://fmhy.net/mobile#maps-location),
-  [Notifications](https://fmhy.net/mobile#notifications-widgets) and
-  [Social Media](https://fmhy.net/mobile#social-media-apps).
+- 将 Android 工具拆分为子部分：
+  [Optimization](https://fmhy.net/mobile#optimization)、
+  [Battery](https://fmhy.net/mobile#battery-tools)、
+  [Keyboard](https://fmhy.net/mobile#keyboard-text)、
+  [Screen](https://fmhy.net/mobile#screen-tools)、
+  [Files](https://fmhy.net/mobile#android-file-tools)、
+  [Root / Flash](https://fmhy.net/mobile#root-flash)、
+  [Productivity](https://fmhy.net/mobile#productivity-calendars)、
+  [Maps](https://fmhy.net/mobile#maps-location)、
+  [Notifications](https://fmhy.net/mobile#notifications-widgets) 和
+  [Social Media](https://fmhy.net/mobile#social-media-apps)。
 
-- Added [Abandonware](https://fmhy.net/gaming#abandonware),
-  [MOBA](https://fmhy.net/gaming#moba-tools),
-  [Gacha](https://fmhy.net/gaming#gacha-tools),
-  [Counter-Strike](https://fmhy.net/gaming#counter-strike-tools),
-  [Doom](https://fmhy.net/gaming#doom-tools) and
+- 在游戏部分新增了 [Abandonware](https://fmhy.net/gaming#abandonware)、
+  [MOBA](https://fmhy.net/gaming#moba-tools)、
+  [Gacha](https://fmhy.net/gaming#gacha-tools)、
+  [Counter-Strike](https://fmhy.net/gaming#counter-strike-tools)、
+  [Doom](https://fmhy.net/gaming#doom-tools) 和
   [Controller Tool](https://fmhy.net/gaming#controller-tools)
-  sections to Gaming.
+  子部分。
 
-- Added [Toys / Figures](https://fmhy.net/misc#toys-figures) section to
-  Shopping.
+- 在购物部分新增了 [Toys / Figures](https://fmhy.net/misc#toys-figures) 子部分。
 
-- Added [Manga](https://fmhy.net/mobile#android-manga) section to
-  Android Reading.
+- 在 Android 阅读部分新增了 [Manga](https://fmhy.net/mobile#android-manga) 子部分。
 
-- Added [MPV Shaders](https://fmhy.net/storage#mpv-shaders) section to Video
-  Tools.
+- 在视频工具部分新增了 [MPV Shaders](https://fmhy.net/storage#mpv-shaders) 子部分。
 
-- Added [Email](https://fmhy.net/privacy#email-privacy) section to
-  Privacy.
+- 在隐私部分新增了 [Email](https://fmhy.net/privacy#email-privacy) 子部分。
 
-- Added [Regex](https://fmhy.pages.dev/developer-tools#regex-tools) section to Dev
-  Tools.
+- 在开发工具部分新增了 [Regex](https://fmhy.pages.dev/developer-tools#regex-tools) 子部分。
 
-- Our [FMHY Social](https://social.fmhy.net/@fmhy) (fediverse instance /
-  account) is now live.
+- 我们的 [FMHY Social](https://social.fmhy.net/@fmhy)（联邦宇宙实例/账号）现已上线。
 
-- Removed wiki from Saidit. It's our least used version so we're not sure it's
-  worth the effort. If enough people want it back we'll reconsider.
+- 从 Saidit 移除了 wiki。这是使用最少的版本，不确定是否值得维护。如果有足够多人希望恢复，会重新考虑。
 
 ---
 
-### Stars Added ⭐
+### 已添加星标 ⭐
 
-- Starred [Streamed](https://fmhy.net/video#live-sports) in Live
-  Sports. Fast streams, no ads.
+- 在直播体育中为 [Streamed](https://fmhy.net/video#live-sports) 添加星标。流媒体快速，无广告。
 
-- Starred [Poke](https://fmhy.net/social-media-tools#youtube-frontends) in
-  YouTube Frontends. Nice UI, download support, no ads.
+- 在 YouTube 前端中为 [Poke](https://fmhy.net/social-media-tools#youtube-frontends) 添加星标。界面美观，支持下载，无广告。
 
-- Starred [Motrix](https://fmhy.net/file-tools#download-managers) in Download
-  Managers. Some people prefer this over Jdownloader / IDM.
+- 在下载管理器中为 [Motrix](https://fmhy.net/file-tools#download-managers) 添加星标。有些人更喜欢它而不是 Jdownloader / IDM。
 
-- Starred [Openlib](https://fmhy.net/mobile#android-reading) in
-  Android Reading. Anna’s Archive app.
+- 在 Android 阅读中为 [Openlib](https://fmhy.net/mobile#android-reading) 添加星标。Anna’s Archive 应用。
 
-- Starred [Stacher](https://fmhy.net/social-media-tools#youtube-downloaders) in
-  YouTube Downloaders. Modern YT-DL GUI.
+- 在 YouTube 下载器中为 [Stacher](https://fmhy.net/social-media-tools#youtube-downloaders) 添加星标。现代 YT-DL 图形界面。
 
-- Starred [DeepLX](https://fmhy.net/text-tools#translators) in Translators.
-  Unlimited DeepL.
+- 在翻译工具中为 [DeepLX](https://fmhy.net/text-tools#translators) 添加星标。无限 DeepL。
 
-- Starred [Claude](https://fmhy.net/ai#online-chatbots) in Online Chatbots.
-  Works better than things like Gemini.
+- 在在线聊天机器人中为 [Claude](https://fmhy.net/ai#online-chatbots) 添加星标。比 Gemini 等工具效果更好。
 
-- Starred [Soft98](https://fmhy.net/downloading#software-sites) in
-  Software Sites. Big library, single click DDL.
+- 在软件站点中为 [Soft98](https://fmhy.net/downloading#software-sites) 添加星标。大型库，一键 DDL。
 
-- Starred [JellyPlayer](https://fmhy.net/video-tools#jellyfin-tools) in Jellyfin
-  Tools. Modern Jellyfin client.
+- 在 Jellyfin 工具中为 [JellyPlayer](https://fmhy.net/video-tools#jellyfin-tools) 添加星标。现代 Jellyfin 客户端。
 
-- Starred [UniGetUI](https://fmhy.net/system-tools#package-managers) in Package
-  Managers. Nice user interface for Winget.
+- 在包管理器中为 [UniGetUI](https://fmhy.net/system-tools#package-managers) 添加星标。Winget 的友好用户界面。
 
-- Starred [Zipline](https://fmhy.net/image-tools#screenshot-tools) in Screenshot
-  Tools. Self-hosted, feature-rich ShareX server.
+- 在截图工具中为 [Zipline](https://fmhy.net/image-tools#screenshot-tools) 添加星标。自托管、功能丰富的 ShareX 服务器。
 
-- Starred [WSABuilds](https://fmhy.net/mobile#android-emulators) in
-  Android Emulators. Pre-built WSA binaries that will continue to be
-  [updated](https://ibb.co/R4hssDc).
+- 在 Android 模拟器中收藏了 [WSABuilds](https://fmhy.net/mobile#android-emulators)。预构建的 WSA 二进制文件将继续得到 [updated](https://ibb.co/R4hssDc)。
 
-- Starred [SmartImage](https://fmhy.net/image-tools#reverse-image-search) in
-  Reverse Image Search. Multi-site reverse image search tool.
+- 在反向图片搜索中收藏了 [SmartImage](https://fmhy.net/image-tools#reverse-image-search)。多站点反向图片搜索工具。
 
 ---
 
-### Things Removed
+### 已移除的内容
 
-- Removed free-mp3-download as they've shut down.
+- 移除了 free-mp3-download，因其已关闭。
 
-- Removed HolyUnblocker as they've
-  [shut down](https://github.com/QuiteAFancyEmerald/Holy-Unblocker?tab=readme-ov-file#important-message-original).
+- 移除了 HolyUnblocker，因其已[关闭](https://github.com/QuiteAFancyEmerald/Holy-Unblocker?tab=readme-ov-file#important-message-original)。
 
-- Removed WSA as support for it has been [dropped](https://ibb.co/zxB565S).
+- 移除了 WSA，因其支持已被 [dropped](https://ibb.co/zxB565S)。
 
-- Unstarred FlixHQ in Streaming. This used to be good but seems to be a lot
-  slower recently.
+- 在在线观看中取消收藏 FlixHQ。该站点曾经不错，但最近似乎慢了很多。

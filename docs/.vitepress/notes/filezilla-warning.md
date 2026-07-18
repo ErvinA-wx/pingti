@@ -1,3 +1,3 @@
-#### FileZilla Warning
+#### FileZilla 警告
 
-The version of FileZilla on FileZilla's front page has adware, but the non-adware version is the only link on FMHY. You can also find the non-adware version by pressing download on the FileZilla front page, then clicking "Show additional download options" under "More download options" at the download page.
+FileZilla 首页上的版本包含广告软件，但 FMHY 上只有无广告版本的链接。也可以在 FileZilla 首页点击下载，然后在下载页面“更多下载选项”下点击“显示其他下载选项”来找到无广告版本。

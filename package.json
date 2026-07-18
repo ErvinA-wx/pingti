@@ -22,7 +22,10 @@
     "lint": "eslint --cache .",
     "lint:md": "node scripts/lint-markdown.js || true",
     "og:dev": "x-satori -t ./docs/.vitepress/hooks/Template.vue -c ./docs/.vitepress/hooks/satoriConfig.ts --dev",
-    "prepare": "simple-git-hooks"
+    "prepare": "simple-git-hooks",
+    "translate:check": "node scripts/translate-content.mjs --check",
+    "translate:content": "node scripts/translate-content.mjs",
+    "translate:dry-run": "node scripts/translate-content.mjs --dry-run"
   },
   "simple-git-hooks": {
     "pre-commit": "sh scripts/pre-commit.sh"
@@ -90,10 +93,13 @@
     "prettier": "^3.8.3",
     "prettier-plugin-pkgsort": "^0.3.0",
     "prettier-plugin-tailwindcss": "^0.8.0",
+    "remark-parse": "^11.0.0",
     "sass": "^1.100.0",
     "simple-git-hooks": "^2.13.1",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.61.0",
+    "unified": "^11.0.5",
+    "unist-util-visit-parents": "^6.0.2",
     "unplugin-auto-import": "^21.0.0",
     "vite-plugin-optimize-exclude": "^0.0.1",
     "vite-plugin-pwa": "^1.3.0",

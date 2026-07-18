@@ -1,3 +1,3 @@
-#### Soft98 Note
+#### Soft98 说明
 
-Enable the `AdGuard - Ads` filter list in uBlock to allow downloads to work. To remove all ads, you can also get the [AdGuard Extra Userscript](https://github.com/AdguardTeam/AdGuardExtra?tab=readme-ov-file#userscript) (not the extension) and enable it in your [userscript manager](https://fmhy.net/internet-tools#userscripts).
+在 uBlock 中启用 `AdGuard - Ads` 过滤列表以允许下载。要移除所有广告，还可以获取 [AdGuard Extra Userscript](https://github.com/AdguardTeam/AdGuardExtra?tab=readme-ov-file#userscript)（不是扩展）并在 [userscript manager](https://fmhy.net/internet-tools#userscripts) 中启用它。

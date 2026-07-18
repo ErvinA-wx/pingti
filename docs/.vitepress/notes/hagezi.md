@@ -1,1 +1,1 @@
-Note that Hagezi does have a Anti-Piracy Blocklist, but it is totally optional, and is [disabled by default](https://i.ibb.co/mrpsX6KK/image.png) / [2](https://i.imgur.com/EXTbohV.png) in all of their blocklist versions.
+注意，Hagezi 确实有一个反盗版阻止列表，但它完全是可选的，并且在所有阻止列表版本中默认[禁用](https://i.ibb.co/mrpsX6KK/image.png) / [2](https://i.imgur.com/EXTbohV.png)。

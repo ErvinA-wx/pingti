@@ -1,15 +1,15 @@
-# Theme System
+# 主题系统
 
-This document explains the updated theme architecture, display modes, and integration components in the site.
+本文档说明站点中更新的主题架构、显示模式及集成组件。
 
-## Architecture
+## 架构
 
-- Display modes: `light` and `dark`.
-- AMOLED: an enhancement of `dark` mode (pure black backgrounds) toggled on top of dark — not a separate mode.
-- Themes: color schemes and optional design tokens that apply across modes.
-- Modes are independent from themes; themes define colors and tokens for light/dark.
+- 显示模式：`light` 和 `dark`。
+- AMOLED：`dark` 模式的增强版（纯黑背景），在深色模式基础上切换，并非独立模式。
+- 主题：跨模式应用的配色方案和可选设计标记。
+- 模式与主题相互独立；主题为浅色/深色定义颜色和标记。
 
-## File Structure
+## 文件结构
 
 ```
 docs/.vitepress/theme/themes/
@@ -21,48 +21,48 @@ docs/.vitepress/theme/themes/
     └── catppuccin.ts    // Example theme (default)
 ```
 
-## Core Types
+## 核心类型
 
 - `DisplayMode`: `'light' | 'dark'`.
 - `Theme`: `{ name, displayName, preview?, logo?, modes: { light, dark }, ... }`.
 - `ModeColors`:
-  - `brand?`: optional brand colors (`1`, `2`, `3`, `soft`). If omitted, the ColorPicker controls brand.
+  - `brand?`：可选品牌色（`1`、`2`、`3`、`soft`）。若省略，则由 ColorPicker 控制品牌色。
   - `bg`, `bgAlt`, `bgElv`, `bgMark?`.
-  - `text?`: optional (`1`, `2`, `3`). If omitted, VitePress defaults are used.
-  - `button`: `brand` and `alt` sub-objects with `bg`, `border`, `text`, `hover*`, `active*`.
-  - `customBlock`: `info`, `tip`, `warning`, `danger` with `bg`, `border`, `text`, `textDeep`.
+  - `text?`：可选（`1`、`2`、`3`）。若省略，则使用 VitePress 默认值。
+  - `button`：`brand` 和 `alt` 子对象，包含 `bg`、`border`、`text`、`hover*`、`active*`。
+  - `customBlock`：`info`、`tip`、`warning`、`danger`，包含 `bg`、`border`、`text`、`textDeep`。
   - `selection`: `{ bg }`.
-  - `home?`: optional hero styles.
+  - `home?`：可选首页样式。
 
-## Handler Behavior (`themeHandler.ts`)
+## 处理器行为（`themeHandler.ts`）
 
-- Persists `theme` (`vitepress-theme-name`) and `mode` (`vitepress-display-mode`).
-- Applies HTML classes: always the current mode; adds `dark` for compatibility; adds `amoled` when dark + AMOLED enabled.
-- AMOLED handling: overrides dark backgrounds to pure black while retaining other dark tokens.
-- Brand colors:
-  - If theme provides brand colors, inline CSS variables are set.
-  - If theme omits brand colors, inline brand variables are removed so the ColorPicker stylesheet takes effect.
-- Text colors:
-  - Applied only if defined in the theme; otherwise defaults are used.
-- Custom logo:
-  - If theme provides `logo`, sets `--vp-theme-logo: url(...)` for downstream usage.
+- 持久化 `theme`（`vitepress-theme-name`）和 `mode`（`vitepress-display-mode`）。
+- 应用 HTML 类：始终为当前模式；添加 `dark` 以兼容；当深色模式且 AMOLED 启用时添加 `amoled`。
+- AMOLED 处理：将深色背景覆盖为纯黑色，同时保留其他深色标记。
+- 品牌色：
+  - 如果主题提供品牌色，则设置内联 CSS 变量。
+  - 如果主题省略品牌色，则移除内联品牌变量，以便 ColorPicker 样式表生效。
+- 文本色：
+  - 仅在主题中定义时生效；否则使用默认值。
+- 自定义标志：
+  - 如果主题提供了 `logo`，则为下游使用设置 `--vp-theme-logo: url(...)`。
 
-## UI Components
+## UI 组件
 
-- `ThemeDropdown.vue`: replaces the appearance toggle.
-  - Options: Light, Dark, AMOLED (as dark variant).
-  - Stores/reads mode and AMOLED-enabled state.
-  - Aliased via `docs/.vitepress/config.mts` to override `VPSwitchAppearance.vue`.
+- `ThemeDropdown.vue`：替换外观切换按钮。
+  - 选项：浅色、深色、AMOLED（作为深色变体）。
+  - 存储/读取模式和 AMOLED 启用状态。
+  - 通过 `docs/.vitepress/config.mts` 别名化以覆盖 `VPSwitchAppearance.vue`。
 - `ColorPicker.vue`:
-  - Controls brand color CSS variables via a stylesheet tag (`#brand-color`).
-  - Reapplies colors on a custom event `theme-changed-apply-colors` when switching to themes without brand.
+  - 通过样式表标签（`#brand-color`）控制品牌颜色 CSS 变量。
+  - 在切换到无品牌主题时，通过自定义事件 `theme-changed-apply-colors` 重新应用颜色。
 - `ThemeSelector.vue`:
-  - Shows circular previews per theme (image via `preview` or gradient fallback).
-  - Calls `setTheme(name)`; independent from ColorPicker.
+  - 每个主题显示圆形预览（通过 `preview` 图片或渐变回退）。
+  - 调用 `setTheme(name)`；独立于 ColorPicker。
 
-## Theme Registry (`configs/index.ts`)
+## 主题注册表（`configs/index.ts`）
 
-- Example:
+- 示例：
 ```ts
 import { catppuccinTheme } from './catppuccin'
 
@@ -72,38 +72,38 @@ export const themeRegistry = {
 }
 ```
 
-## Creating a Theme (`configs/<name>.ts`)
+## 创建主题（`configs/<name>.ts`）
 
-- Export a `Theme` object with:
-  - `name`, `displayName`, optional `preview` (image URL/data) and `logo`.
-  - `modes.light` and `modes.dark` objects.
-  - Optional `fonts`, `spacing`, `borderRadius`, `customProperties`.
-- Register it in `configs/index.ts`.
-- If you omit `brand` in a mode, the ColorPicker-selected brand colors will be used.
-- If you omit `text` in a mode, VitePress default text colors will be used.
+- 导出一个包含以下内容的 `Theme` 对象：
+  - `name`、`displayName`、可选的 `preview`（图片 URL/数据）和 `logo`。
+  - `modes.light` 和 `modes.dark` 对象。
+  - 可选的 `fonts`、`spacing`、`borderRadius`、`customProperties`。
+- 在 `configs/index.ts` 中注册。
+- 如果在某个模式中省略了 `brand`，将使用 ColorPicker 选择的品牌颜色。
+- 如果在某个模式中省略了 `text`，将使用 VitePress 默认文本颜色。
 
-## CSS Variables
+## CSS 变量
 
-- Brand: `--vp-c-brand-1`, `--vp-c-brand-2`, `--vp-c-brand-3`, `--vp-c-brand-soft`.
-- Background: `--vp-c-bg`, `--vp-c-bg-alt`, `--vp-c-bg-elv`, `--vp-c-bg-mark`.
-- Text: `--vp-c-text-1`, `--vp-c-text-2`, `--vp-c-text-3`.
-- Buttons: `--vp-button-brand-*`, `--vp-button-alt-*`.
-- Custom blocks: `--vp-custom-block-{type}-*`.
-- Selection: `--vp-c-selection-bg`.
-- Home hero: `--vp-home-hero-*`.
-- Custom props: all keys in `customProperties`.
-- Optional: `--vp-theme-logo` (when theme defines `logo`).
+- 品牌：`--vp-c-brand-1`、`--vp-c-brand-2`、`--vp-c-brand-3`、`--vp-c-brand-soft`。
+- 背景：`--vp-c-bg`、`--vp-c-bg-alt`、`--vp-c-bg-elv`、`--vp-c-bg-mark`。
+- 文字：`--vp-c-text-1`、`--vp-c-text-2`、`--vp-c-text-3`。
+- 按钮：`--vp-button-brand-*`、`--vp-button-alt-*`。
+- 自定义块：`--vp-custom-block-{type}-*`。
+- 选中状态：`--vp-c-selection-bg`。
+- 首页英雄区：`--vp-home-hero-*`。
+- 自定义属性：`customProperties` 中的所有键。
+- 可选：`--vp-theme-logo`（当主题定义了 `logo` 时）。
 
-## Migration Notes
+## 迁移说明
 
-- AMOLED is no longer a separate mode; it’s a dark enhancement (pure black backgrounds) toggled in the dropdown.
-- The default `VPSwitchAppearance` toggle is replaced by `ThemeDropdown.vue` via alias in `config.mts`. The dropdown drives the radial light/dark reveal through `themes/themeTransition.ts`.
-- Themes can rely on the ColorPicker for brand colors by omitting `brand`.
+- AMOLED 不再是一个独立模式；它是在下拉菜单中切换的深色增强（纯黑背景）。
+- 默认的 `VPSwitchAppearance` 切换按钮被替换为 `ThemeDropdown.vue`（通过 `config.mts` 中的别名）。下拉菜单通过 `themes/themeTransition.ts` 驱动径向亮/暗切换。
+- 主题可以省略 `brand`，从而依赖 ColorPicker 来设置品牌色。
 
-## Troubleshooting
+## 故障排除
 
-- Theme not applying: ensure it’s added to `themeRegistry` and named correctly.
-- Brand not changing: if a theme sets inline brand variables, ColorPicker won’t override; remove `brand` from the theme to defer to ColorPicker.
-- Colors not updating after theme switch: ColorPicker listens for `theme-changed-apply-colors`; make sure that event dispatch remains in `setTheme()`.
-- AMOLED not pure black: confirm dark mode is active and AMOLED toggle is enabled; handler overrides backgrounds when enabled.
+- 主题未生效：请确保已添加到 `themeRegistry` 且名称正确。
+- 品牌色未更改：如果主题设置了内联品牌色变量，ColorPicker 将无法覆盖；请从主题中移除 `brand`，以将控制权交给 ColorPicker。
+- 切换主题后颜色未更新：ColorPicker 监听 `theme-changed-apply-colors` 事件；请确保该事件在 `setTheme()` 中仍然被触发。
+- AMOLED 不是纯黑色：请确认深色模式已启用且 AMOLED 切换开关已打开；启用后，处理程序会覆盖背景色。
 

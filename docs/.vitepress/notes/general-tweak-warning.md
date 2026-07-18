@@ -1,3 +1,3 @@
-#### General Tweak Warning
+#### 通用调整警告
 
-Make sure you know what you're doing before you apply these tweaks. Always research first, never just "Apply All" without knowing what what will happen.
+在应用这些调整之前，请确保了解操作内容。务必先研究，不要在不了解后果的情况下直接“全部应用”。

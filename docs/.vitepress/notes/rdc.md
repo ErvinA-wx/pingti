@@ -1,3 +1,3 @@
-#### Remote Desktop Client
+#### 远程桌面客户端
 
-Note that you can connect using Apple, Windows, Android and iOS.
+注意，可以使用 Apple、Windows、Android 和 iOS 进行连接。

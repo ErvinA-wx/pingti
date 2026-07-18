@@ -1,6 +1,6 @@
 ---
 layout: false
-title: Startpage
+title: 起始页
 pageClass: startpage-custom-styling
 ---
 

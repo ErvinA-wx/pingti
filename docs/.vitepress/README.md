@@ -1,3 +1,3 @@
-This is the website source code to be used with [VitePress](https://vitepress.dev/).
+这是与 [VitePress](https://vitepress.dev/) 配合使用的网站源代码。
 
-Licensed under the Apache License v2.0, see [LICENSE](./LICENSE) for more information.
+根据 Apache License v2.0 许可，更多信息请参见 [LICENSE](./LICENSE)。

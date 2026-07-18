@@ -1,3 +1,3 @@
-#### Partitioned Cookies
+#### 分区 Cookie
 
-Note that as of now, only Tampermonkey supports partitioned cookies, which are necessary for registering Cloudflare verification for scripts like IMDb Scout Mod and Discogs Scout.
+注意目前只有 Tampermonkey 支持分区 Cookie，这对于注册 Cloudflare 验证（如 IMDb Scout Mod 和 Discogs Scout 等脚本）是必需的。

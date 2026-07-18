@@ -1,3 +1,3 @@
-#### Nekoweb Note
+#### Nekoweb 说明
 
-Bandwidth is generally unlimited, but you might be asked to upgrade to a higher tier if your site consumes a huge amount.
+带宽通常无限制，但如果网站消耗大量带宽，可能会被要求升级到更高等级。

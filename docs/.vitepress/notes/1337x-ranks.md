@@ -1,8 +1,8 @@
-#### 1337x Ranks
+#### 1337x 等级
 
-* ⬛ Black - Administrators
-* 🟩 Green - Moderators
-* 🟦 Blue - VIP Uploaders (Very Trusted)
-* 🟨 Yellow - Uploaders (Trusted)
-* 🟥 Red - Trial Uploaders
-* ⬜ Grey - Users
+* ⬛ 黑色 - 管理员
+* 🟩 绿色 - 版主
+* 🟦 蓝色 - VIP 上传者（非常可信）
+* 🟨 黄色 - 上传者（可信）
+* 🟥 红色 - 试用上传者
+* ⬜ 灰色 - 用户

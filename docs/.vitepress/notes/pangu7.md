@@ -1,5 +1,5 @@
-#### Pangu7 Warning
+#### Pangu7 警告
 
-Do NOT install in a dark location, you will bootloop.
+请勿在黑暗环境中安装，否则会导致无限重启。
 
-Source: https://ios.cfw.guide/installing-pangu7/?tab=windows
+来源：https://ios.cfw.guide/installing-pangu7/?tab=windows

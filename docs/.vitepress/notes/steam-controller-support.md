@@ -1,3 +1,3 @@
-#### Steam Controller Support
+#### Steam 控制器支持
 
-Steam has built in support for most controller types, just add your games to Steam, right click the game, and turn on your controller.
+Steam 内置支持大多数控制器类型，只需将游戏添加到 Steam，右键点击游戏，然后开启控制器即可。

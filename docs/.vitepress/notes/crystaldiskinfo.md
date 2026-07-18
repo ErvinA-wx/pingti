@@ -1,3 +1,3 @@
-#### CrystalDiskInfo 
+#### CrystalDiskInfo
 
-Avoid versions labeled "Ads".
+避免使用标有“Ads”的版本。

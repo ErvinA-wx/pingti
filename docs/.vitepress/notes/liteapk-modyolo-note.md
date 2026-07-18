@@ -1,3 +1,3 @@
-#### LiteAPK + Modyolo Note
+#### LiteAPK + Modyolo 说明
 
-The site is safe, but they are known for mislabeling things like RockMods releases as their own, and mislabeling versions to make it look like they have newer things than they really do.
+该网站是安全的，但已知他们会错误标注内容，例如将 RockMods 的发布标为自己的，并错误标注版本号，以显得他们拥有比实际更新的东西。

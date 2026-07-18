@@ -1,6 +1,6 @@
 ---
-title: Changelog Sites
-description: Added Changelog Sites
+title: 更新日志站点
+description: 新增更新日志站点
 date: 2025-12-12
 next: false
 
@@ -13,8 +13,8 @@ footer: true
 
 **https://fmhy-tracker.pages.dev/**
 
-This covers links that have been added, updated, or removed by watching GitHub for changes.
+这涵盖了通过监视 GitHub 的变更而添加、更新或移除的链接。
 
 ***
 
-Note that we also make monthly posts on both reddit + our site with the bigger changes, and you can also follow them yourself by joining our [Discord](https://redd.it/17f8msf), or watching the [Commits Page](https://github.com/fmhy/edit/commits/main/) on GitHub.
+请注意，我们也会在 reddit 和我们的网站上每月发布包含较大变更的帖子，您也可以通过加入我们的 [Discord](https://redd.it/17f8msf) 或关注 GitHub 上的 [Commits Page](https://github.com/fmhy/edit/commits/main/) 来自行跟踪。

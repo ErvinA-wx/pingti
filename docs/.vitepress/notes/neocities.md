@@ -1,3 +1,3 @@
-#### Neocities Note
+#### Neocities 说明
 
- Note that free tier has limited file types and can't fetch to external sites.
+ 注意免费版的文件类型有限，且无法获取外部站点内容。

@@ -1,17 +1,17 @@
-#### Pollinations Limits
+#### Pollinations 限制
 
-For chat.pollinations.ai (and the underlying API), the rate limits depend on how you're using it:
+对于 chat.pollinations.ai（以及底层的 API），速率限制取决于使用方式：
 
-**Anonymous / Free Tier (No Login)**
-- **Text/Chat**: ~1 request every **3 seconds** (per IP).
-- **Images**: ~1 request every **5 seconds** (per IP).
+**匿名 / 免费层（无需登录）**
+- **文本/聊天**：每个 IP 约每 **3 秒** 1 次请求。
+- **图片**：每个 IP 约每 **5 秒** 1 次请求。
 
-**Logged In (Pollen System)**
-- Users get a **daily free Pollen allowance** based on their tier.
-- **Publishable Keys (`pk_`)**: Rate limited to prevent abuse (e.g., ~1 pollen/hour per IP).
-- **Secret Keys (`sk_`)**: **No rate limits** (requests run as fast as you can pay for them with Pollen).
+**已登录（Pollen 系统）**
+- 用户根据其等级获得 **每日免费 Pollen 配额**。
+- **可发布密钥（`pk_`）**：限制速率以防止滥用（例如，每个 IP 约 1 pollen/小时）。
+- **秘密密钥（`sk_`）**：**无速率限制**（请求运行速度取决于用 Pollen 支付的速度）。
 
-If you're hitting limits on the chat site:
-1. Slow down slightly (wait 3-5s between messages).
-2. **Log in** at [enter.pollinations.ai](https://enter.pollinations.ai) to use your daily free credits.
-3. If you need massive throughput, use an API key (`sk_`) with purchased credits.
+如果在聊天站点遇到限制：
+1. 稍微放慢速度（消息之间等待 3-5 秒）。
+2. **登录** [enter.pollinations.ai](https://enter.pollinations.ai) 以使用每日免费额度。
+3. 如果需要大量吞吐量，请使用带有购买额度的 API 密钥（`sk_`）。

@@ -1,3 +1,3 @@
-#### Mobilism Ranks
+#### Mobilism 等级
 
-See what the different Mobilism Ranks mean [here](https://i.imgur.com/WpShSFp.png).
+查看不同 Mobilism 等级的含义，请点击[此处](https://i.imgur.com/WpShSFp.png)。

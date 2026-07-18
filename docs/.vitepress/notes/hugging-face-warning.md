@@ -1,5 +1,5 @@
-#### Hugging Face Warning
+#### Hugging Face 警告
 
-HuggingFace uses a system called ZeroGPU to manage access to their high-end GPUs. To make sure that their GPUs don't get fully used up, there are limits on how long you can use the GPU on Spaces like this one.
+HuggingFace 使用名为 ZeroGPU 的系统来管理对其高端 GPU 的访问。为确保 GPU 不被完全占用，在此类 Spaces 上使用 GPU 有时间限制。
 
-The rate limit is 120 seconds per day for non-logged in users. You can get around the limit by changing your IP address using a [proxy](https://fmhy.net/privacy#proxy) or [VPN](https://fmhy.net/privacy#vpn) while logged out. If you sign up for a free account, you get a much higher 300 second daily limit, but changing your IP address won't reset it.
+未登录用户每天的限制为 120 秒。可以通过在退出登录状态下使用 [proxy](https://fmhy.net/privacy#proxy) 或 [VPN](https://fmhy.net/privacy#vpn) 更改 IP 地址来绕过限制。如果注册免费账户，每日限制会提高到 300 秒，但更改 IP 地址不会重置限制。

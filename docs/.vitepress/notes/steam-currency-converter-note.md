@@ -1,5 +1,5 @@
-#### Steam Currency Converter Note
+#### Steam 货币转换器说明
 
-For instant currency conversion:
+即时货币转换：
 
-Go to Firefox's add-on settings (or the link `about:addons`) -> click on the add-on -> go to the `Permissions and data` section -> enable the optional sites.
+进入 Firefox 的附加组件设置（或链接 `about:addons`）-> 点击附加组件 -> 进入 `Permissions and data` 部分 -> 启用可选站点。

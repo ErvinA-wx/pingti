@@ -1,5 +1,5 @@
-#### Spicetify Note
+#### Spicetify 说明
 
-Join their [Discord](https://discord.gg/VnevqPp2Rr) for version compatibility.
+加入他们的 [Discord](https://discord.gg/VnevqPp2Rr) 以了解版本兼容性。
 
-Note that you can use the store built in to get a full list of addons and themes.
+注意，可以使用内置商店获取完整的附加组件和主题列表。

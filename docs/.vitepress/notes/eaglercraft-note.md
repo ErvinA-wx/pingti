@@ -1,3 +1,3 @@
-#### Eaglercraft Note
+#### Eaglercraft 说明
 
-Play on Chromium-based browsers for the best performance.
+在基于 Chromium 的浏览器上运行可获得最佳性能。
