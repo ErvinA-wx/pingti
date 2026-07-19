@@ -30,14 +30,31 @@ export default defineConfig({
   description: meta.description,
   titleTemplate: ':title • 平替指南',
   lang: 'zh-CN',
-  lastUpdated: false,
+  lastUpdated: true,
   cleanUrls: true,
   appearance: true,
   base: baseUrl,
   srcExclude: ['README.md', 'public/single-page.md', 'single-page'],
   ignoreDeadLinks: true,
   sitemap: {
-    hostname: meta.hostname
+    hostname: meta.hostname,
+    transformItems: (items) => {
+      const excludedPaths = new Set([
+        '/feedback',
+        '/sandbox',
+        '/startpage',
+        '/submit/request',
+        '/submit/site'
+      ])
+
+      return items.filter((item) => {
+        const pathname = new URL(item.url, meta.hostname).pathname.replace(
+          /\/$/,
+          ''
+        )
+        return !excludedPaths.has(pathname)
+      })
+    }
   },
   head: [
     ['meta', { name: 'theme-color', content: '#7bc5e4' }],
