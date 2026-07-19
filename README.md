@@ -13,6 +13,18 @@
 - 简体中文导航、搜索、主题与博客界面
 - 自动生成 Sitemap、RSS、Open Graph 与 canonical 链接
 - 保留上游同步分支，定期检查 FMHY 的最新改动
+- 提供网站信息与用户需求提交中心，使用 Turnstile、限流和 D1 审核队列防滥用
+
+## 提交中心
+
+顶部“提交”导航包含网站信息提交和用户需求提交两类表单。生产链路如下：
+
+- `submit@pingti.org` 由 Cloudflare Email Routing 转发至维护邮箱。
+- 表单必须通过 Cloudflare Turnstile 服务端验证，并受 IP 频率限制和蜜罐字段保护。
+- 有效提交先持久化到 `pingti-submissions` D1 数据库，再发送邮件通知；邮件暂时失败不会丢失提交内容。
+- 表单只收集审核必需信息，联系邮箱为选填，不接受密码、证件或支付信息。
+
+API 的 D1 绑定、邮件发送绑定和迁移配置位于 `wrangler.toml` 与 `api/migrations/`。Turnstile 密钥只保存为 GitHub Actions 和 Cloudflare Worker 密钥，不写入仓库。
 
 ## 本地开发
 

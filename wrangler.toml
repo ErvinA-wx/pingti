@@ -4,3 +4,19 @@ workers_dev = true
 account_id = "e594b73115a07961107c2037f702acbc"
 compatibility_flags = ["nodejs_compat"]
 compatibility_date = "2024-11-01"
+
+[[d1_databases]]
+binding = "SUBMISSIONS_DB"
+database_name = "pingti-submissions"
+database_id = "d1186bee-929d-455e-ab6a-ac73d4ea74cf"
+migrations_dir = "api/migrations"
+
+[[send_email]]
+name = "SUBMISSION_EMAIL"
+destination_address = "eaweblink@gmail.com"
+allowed_sender_addresses = ["submit@pingti.org"]
+
+[[ratelimits]]
+name = "RATE_LIMITER"
+namespace_id = "1001"
+simple = { limit = 10, period = 60 }

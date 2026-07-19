@@ -32,6 +32,8 @@ export function transformsPlugin(): Plugin {
         // check if it's a post
         !id.includes('posts') &&
         !id.includes('other') &&
+        // Submission pages are authored locally and already have frontmatter.
+        !id.includes('/submit/') &&
         // Localized blog index is authored directly and already has frontmatter.
         !id.endsWith('/blog.md')
       ) {

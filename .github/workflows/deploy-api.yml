@@ -5,6 +5,10 @@ on:
   push:
     paths:
       - 'api/**'
+      - 'nitro.config.ts'
+      - 'wrangler.toml'
+      - 'package.json'
+      - 'pnpm-lock.yaml'
     branches:
       - main
   workflow_dispatch:
@@ -38,13 +42,17 @@ jobs:
 
       - name: Build
         run: pnpm api:build
+
+      - name: Apply D1 migrations
+        run: pnpm exec wrangler d1 migrations apply pingti-submissions --remote
         env:
-          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
 
       - name: Publish to Cloudflare
         uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          vars: WEBHOOK_URL
+          secrets: |
+            TURNSTILE_SECRET_KEY
         env:
-          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+          TURNSTILE_SECRET_KEY: ${{ secrets.TURNSTILE_SECRET_KEY }}
