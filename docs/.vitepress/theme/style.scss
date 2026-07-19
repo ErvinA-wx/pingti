@@ -203,6 +203,34 @@ html {
   }
 }
 
+/* Responsive homepage artwork: keep the transparent cards crisp without
+ * making small screens download the desktop-sized source. */
+.VPHero .image-src {
+  width: min(90vw, 360px);
+  max-width: none;
+  max-height: none !important;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (min-width: 640px) {
+  .VPHero .image-src {
+    width: min(72vw, 460px);
+  }
+}
+
+@media (min-width: 960px) {
+  .VPHero .image-src {
+    width: min(43vw, 520px);
+  }
+}
+
+@media (min-width: 1280px) {
+  .VPHero .image-src {
+    width: 560px;
+  }
+}
+
 html.june {
   --vp-home-hero-name-background: linear-gradient(
     120deg,
