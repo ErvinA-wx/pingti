@@ -10,8 +10,15 @@ hero:
     title: 关注网络隐私与数字自由 🔒
     link: https://fightchatcontrol.eu/
   image:
-    src: test.png
-    alt: 平替指南图标
+    src: /hero/pthero-800.webp
+    srcset: /hero/pthero-480.webp 480w, /hero/pthero-800.webp 800w, /hero/pthero-1120.webp 1120w
+    sizes: "(min-width: 1280px) 560px, (min-width: 960px) 43vw, (min-width: 640px) 460px, 90vw"
+    width: 1120
+    height: 667
+    alt: 开放、平等、协作、分享——平替指南的社区理念
+    loading: eager
+    fetchpriority: high
+    decoding: async
   actions:
     - theme: brand
       text: 查看新手指南
@@ -127,6 +134,8 @@ features:
 import { onMounted } from 'vue'
 
 onMounted(() => {
+  const defaultHeroSrc = '/hero/pthero-800.webp'
+  const defaultHeroSrcset = '/hero/pthero-480.webp 480w, /hero/pthero-800.webp 800w, /hero/pthero-1120.webp 1120w'
   var preferredKawaii
   try {
     preferredKawaii = localStorage.getItem('uwu')
@@ -136,13 +145,15 @@ onMounted(() => {
   const setKawaii = () => {
     const images = document.querySelectorAll('.VPImage.image-src')
     images.forEach((img) => {
+      img.removeAttribute('srcset')
       img.src = '/logo-uwu.svg'
     })
   }
   const resetKawaii = () => {
     const images = document.querySelectorAll('.VPImage.image-src')
     images.forEach((img) => {
-      img.src = '/test.png'
+      img.src = defaultHeroSrc
+      img.srcset = defaultHeroSrcset
     })
   }
   if (kawaii === 'true') {
