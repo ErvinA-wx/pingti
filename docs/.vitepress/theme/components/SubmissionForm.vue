@@ -551,7 +551,10 @@ onBeforeUnmount(() => {
           <small>利益关系不会导致自动拒绝，但请如实说明。</small>
         </div>
         <div class="field">
-          <label for="contact-email">联系邮箱（选填）</label>
+          <label for="contact-email">
+            {{ kind === 'site' ? '联系邮箱' : '联系邮箱（选填）' }}
+            <span v-if="kind === 'site'">*</span>
+          </label>
           <input
             id="contact-email"
             v-model.trim="form.contactEmail"
@@ -559,17 +562,25 @@ onBeforeUnmount(() => {
             maxlength="254"
             autocomplete="email"
             placeholder="name@example.com"
+            :required="kind === 'site'"
+            :aria-required="kind === 'site'"
           />
           <small>仅在需要补充确认时使用，不会公开显示。</small>
         </div>
         <label class="check-row">
-          <input v-model="form.allowContact" type="checkbox" />
+          <input
+            v-model="form.allowContact"
+            type="checkbox"
+            :required="kind === 'site'"
+            :aria-required="kind === 'site'"
+          />
           <span>
             {{
               kind === 'request'
-                ? '愿意接受后续联系或协助测试'
+                ? '愿意接受后续联系或协助测试（选填）'
                 : '允许工作人员联系确认信息'
             }}
+            <b v-if="kind === 'site'">*</b>
           </span>
         </label>
       </fieldset>
@@ -615,11 +626,6 @@ onBeforeUnmount(() => {
                 : '提交用户需求'
           }}
         </button>
-        <p class="privacy-note">
-          提交内容会存入受限审核数据库，并通过
-          <a href="mailto:submit@pingti.org">submit@pingti.org</a>
-          通知维护人员。
-        </p>
       </fieldset>
     </form>
   </div>
@@ -700,8 +706,7 @@ a:focus-visible {
   outline-offset: 2px;
   border-color: var(--vp-c-brand-1);
 }
-small,
-.privacy-note {
+small {
   color: var(--vp-c-text-2);
   font-size: 13px;
   line-height: 1.55;
@@ -759,9 +764,6 @@ small,
   border-color: var(--vp-c-divider);
   background: var(--vp-c-bg);
   color: var(--vp-c-text-1);
-}
-.privacy-note {
-  margin: 12px 0 0;
 }
 .error-summary {
   display: flex;

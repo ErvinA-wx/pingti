@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - 'api/**'
+      - 'docs/.vitepress/types/**'
       - 'nitro.config.ts'
       - 'wrangler.toml'
       - 'package.json'

@@ -18,6 +18,8 @@ const BaseSubmissionSchema = z.object({
 })
 
 export const SiteSubmissionSchema = BaseSubmissionSchema.extend({
+  contactEmail: z.string().trim().email().max(254),
+  allowContact: z.literal(true),
   kind: z.literal('site'),
   submissionType: z.enum(['new', 'update', 'broken', 'security', 'remove']),
   name: z.string().trim().min(1).max(120),
