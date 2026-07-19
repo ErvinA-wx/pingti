@@ -110,6 +110,14 @@ export const socialLinks: DefaultTheme.SocialLink[] = [
 
 export const nav: DefaultTheme.NavItem[] = [
   { text: '📰 博客', link: '/blog' },
+  {
+    text: '📮 提交',
+    items: [
+      { text: '🌐 提交网站信息', link: '/submit/site' },
+      { text: '💡 提交用户需求', link: '/submit/request' },
+      { text: '📋 提交说明', link: '/submit/' }
+    ]
+  },
   { text: '📑 更新日志', link: '/posts/changelog-sites' },
   { text: '📖 术语表', link: 'https://rentry.org/The-Piracy-Glossary' },
   {

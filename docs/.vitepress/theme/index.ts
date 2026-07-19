@@ -31,6 +31,7 @@ import 'virtual:uno.css'
 
 import FloatingVue from 'floating-vue'
 import Feedback from './components/Feedback.vue'
+import SubmissionForm from './components/SubmissionForm.vue'
 
 import 'floating-vue/dist/style.css'
 
@@ -53,6 +54,7 @@ export default {
     app.component('Tag', Tag)
     app.component('Post', Post)
     app.component('Feedback', Feedback)
+    app.component('SubmissionForm', SubmissionForm)
     app.component('Tooltip', Tooltip)
     loadProgress(router)
 
