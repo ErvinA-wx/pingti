@@ -7,8 +7,9 @@ next: false
 prev: false
 
 footer: true
+authors: [nbats]
 ---
 
 <Post authors="nbats" />
 
-# 公共 URL：https://github.com/fmhy/FMHY/wiki/FMHY-Discord
+## 公共 URL：https://github.com/fmhy/FMHY/wiki/FMHY-Discord

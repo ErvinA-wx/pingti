@@ -20,7 +20,8 @@ import type { DefaultTheme } from 'vitepress'
 
 export const meta = {
   name: '平替指南',
-  description: '互联网上最大的免费与开源替代资源中文合集！',
+  description:
+    '平替指南收录经过筛选的免费与开源软件、网站和工具替代方案，覆盖隐私、人工智能、影音、下载、开发与移动应用，并持续核验更新。',
   hostname: 'https://pingti.org',
   keywords: ['平替', '免费资源', '开源软件', '工具导航', '中文指南'],
   build: {
@@ -119,6 +120,7 @@ export const nav: DefaultTheme.NavItem[] = [
     ]
   },
   { text: '📑 更新日志', link: '/posts/changelog-sites' },
+  { text: '✅ 编辑规范', link: '/other/editorial-policy' },
   { text: '📖 术语表', link: 'https://rentry.org/The-Piracy-Glossary' },
   {
     text: '💾 备份',

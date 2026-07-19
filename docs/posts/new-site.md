@@ -7,6 +7,7 @@ next: false
 prev: false
 
 footer: true
+authors: [taskylizard]
 ---
 
 <Post authors="taskylizard" />

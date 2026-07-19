@@ -16,11 +16,47 @@
 
 import type { HeadConfig, TransformContext } from 'vitepress'
 
+const NOINDEX_PAGES = new Set([
+  'feedback.md',
+  'sandbox.md',
+  'startpage.md',
+  'submit/request.md',
+  'submit/site.md'
+])
+
+const AUTHOR_PROFILES: Record<string, string> = {
+  Kai: 'https://github.com/Kai-FMHY',
+  nbats: 'https://github.com/nbats',
+  Q: 'https://github.com/qiracy',
+  taskylizard: 'https://github.com/taskylizard',
+  zinklog: 'https://github.com/zinklog2'
+}
+
+function resolveAuthors(value: unknown) {
+  const names = Array.isArray(value)
+    ? value
+    : typeof value === 'string'
+      ? value.split(',')
+      : []
+
+  return names
+    .map((name) => String(name).trim())
+    .filter(Boolean)
+    .map((name) => ({
+      '@type': 'Person',
+      name,
+      ...(AUTHOR_PROFILES[name] ? { url: AUTHOR_PROFILES[name] } : {})
+    }))
+}
+
 export function generateMeta(context: TransformContext, hostname: string) {
   const head: HeadConfig[] = []
   const { pageData } = context
 
   if (pageData.isNotFound) return head
+  if (NOINDEX_PAGES.has(pageData.relativePath)) {
+    head.push(['meta', { name: 'robots', content: 'noindex,follow' }])
+  }
   if (Object.keys(pageData.frontmatter).length === 0) return head
 
   const url = `${hostname}/${pageData.relativePath.replace(/((^|\/)index)?\.md$/, '$2')}`
@@ -116,6 +152,10 @@ export function generateMeta(context: TransformContext, hostname: string) {
   }
 
   const isPost = pageData.relativePath.startsWith('posts/')
+  const image = pageData.frontmatter.image
+    ? `${hostname}/${pageData.frontmatter.image.replace(/^\//, '')}`
+    : `${hostname}/banner2.png`
+  const authors = resolveAuthors(pageData.frontmatter.authors)
   const structuredData = isPost
     ? {
         '@context': 'https://schema.org',
@@ -130,25 +170,46 @@ export function generateMeta(context: TransformContext, hostname: string) {
           (pageData.lastUpdated
             ? new Date(pageData.lastUpdated).toISOString()
             : pageData.frontmatter.date),
-        author: {
-          '@type': 'Organization',
-          name: pageData.frontmatter.author || '平替指南'
-        },
+        image,
+        mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+        author:
+          authors.length > 0
+            ? authors
+            : { '@type': 'Organization', name: '平替指南', url: hostname },
         publisher: {
           '@type': 'Organization',
           name: '平替指南',
-          url: hostname
+          url: hostname,
+          logo: {
+            '@type': 'ImageObject',
+            url: `${hostname}/pwa_icon.png`
+          }
         }
       }
     : pageData.relativePath === 'index.md'
       ? {
           '@context': 'https://schema.org',
-          '@type': 'WebSite',
-          name: '平替指南',
-          alternateName: 'Pingti',
-          url: hostname,
-          description: pageData.frontmatter.description,
-          inLanguage: 'zh-CN'
+          '@graph': [
+            {
+              '@type': 'Organization',
+              '@id': `${hostname}/#organization`,
+              name: '平替指南',
+              alternateName: 'Pingti',
+              url: hostname,
+              logo: `${hostname}/pwa_icon.png`,
+              sameAs: ['https://github.com/ErvinA-wx/pingti']
+            },
+            {
+              '@type': 'WebSite',
+              '@id': `${hostname}/#website`,
+              name: '平替指南',
+              alternateName: 'Pingti',
+              url: hostname,
+              description: pageData.frontmatter.description,
+              inLanguage: 'zh-CN',
+              publisher: { '@id': `${hostname}/#organization` }
+            }
+          ]
         }
       : null
 

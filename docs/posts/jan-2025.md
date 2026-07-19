@@ -7,6 +7,7 @@ next: false
 prev: false
 
 footer: true
+authors: [nbats]
 ---
 
 <Post authors="nbats"/>

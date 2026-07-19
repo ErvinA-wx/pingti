@@ -88,9 +88,14 @@ jobs:
           result=$?
           pnpm localize:links
           rewrite_result=$?
+          pnpm seo:normalize
+          seo_result=$?
           if [ "$rewrite_result" = "0" ]; then
             pnpm localize:links:check
             rewrite_result=$?
+          fi
+          if [ "$seo_result" != "0" ]; then
+            result=$seo_result
           fi
           if [ "$rewrite_result" != "0" ]; then
             result=$rewrite_result

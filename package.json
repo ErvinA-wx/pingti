@@ -26,6 +26,8 @@
     "localize:links:test": "node --test scripts/rewrite-internal-links.test.mjs",
     "og:dev": "x-satori -t ./docs/.vitepress/hooks/Template.vue -c ./docs/.vitepress/hooks/satoriConfig.ts --dev",
     "prepare": "simple-git-hooks",
+    "seo:check": "node scripts/normalize-seo-content.mjs --check",
+    "seo:normalize": "node scripts/normalize-seo-content.mjs",
     "translate:check": "node scripts/translate-content.mjs --check",
     "translate:content": "node scripts/translate-content.mjs",
     "translate:dry-run": "node scripts/translate-content.mjs --dry-run"

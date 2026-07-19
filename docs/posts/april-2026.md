@@ -7,6 +7,7 @@ next: false
 prev: false
 
 footer: true
+authors: [nbats]
 ---
 
 <Post authors="nbats"/>
@@ -15,7 +16,7 @@ footer: true
 这些更新帖子仅包含主要更新。如果想查看所有小改动，可以在 GitHub 上关注我们的 [Commits Page](https://github.com/fmhy/FMHYedit/commits/main)，或在 Discord 中关注 [Updates Channel](https://redd.it/17f8msf)。
 :::
 
-# Wiki 更新
+## Wiki 更新
 
 - 在备份页面新增了一个 **[Retro Style](https://pingti.org/other/backups)** 实例。感谢 ROI 的制作。[Screenshot](https://i.ibb.co/7JH9tB1B/image.png) / [2](https://i.imgur.com/fpPxo3y.png)
 
@@ -53,7 +54,7 @@ footer: true
 
 ***
 
-# 已添加星标 ⭐
+## 已添加星标 ⭐
 
 - 在浏览器隐私部分为 [LibreWolf](https://pingti.org/privacy#browser-privacy) 添加星标。基于 Firefox 的定制隐私版本，易于获取，配置良好且广受好评。
 
@@ -87,7 +88,7 @@ footer: true
 
 ***
 
-# 已移除的内容
+## 已移除的内容
 
 - 移除了 P-Stream，因为其所有者决定[退出该项目](https://i.ibb.co/6RRB4YBj/image.png) / [2](https://i.imgur.com/xYIO9aK.png)。
 

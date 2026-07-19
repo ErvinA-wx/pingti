@@ -7,6 +7,7 @@ next: false
 prev: false
 
 footer: true
+authors: [nbats]
 ---
 
 <Post authors="nbats"/>
@@ -15,7 +16,7 @@ footer: true
 这些更新帖子仅包含主要更新。如果想查看所有小改动，可以在 GitHub 上关注我们的 [Commits Page](https://github.com/fmhy/FMHYedit/commits/main)，或在 Discord 中关注 [Updates Channel](https://redd.it/17f8msf)。
 :::
 
-# Wiki 更新
+## Wiki 更新
 
 - 添加了 **[指南](https://pingti.org/other/selfhosting)**，用于在本地设置并运行自己的 FMHY 实例。
 
@@ -35,7 +36,7 @@ footer: true
 
 ***
 
-# 已添加星标 ⭐
+## 已添加星标 ⭐
 
 - 在音频 DDL 中收藏了 [DAB Music Player](https://pingti.org/audio#download-sites)。一键下载 FLAC 专辑，提供网页应用及适用于 Windows、Mac 和 Linux 的桌面应用，Android 支持即将推出。
 
@@ -57,7 +58,7 @@ footer: true
 
 ***
 
-# 已移除的内容
+## 已移除的内容
 
 - 移除了 TorrentGalaxy，遗憾的是它似乎短期内不会恢复。
 
