@@ -77,6 +77,10 @@ jobs:
         if: steps.prepare.outputs.needs_translation == 'true'
         run: pnpm install --frozen-lockfile
 
+      - name: 恢复平替本地内容并去重
+        if: steps.prepare.outputs.needs_translation == 'true'
+        run: pnpm local:apply
+
       - name: 翻译新增与变化内容
         if: steps.prepare.outputs.needs_translation == 'true'
         id: translate

@@ -21,6 +21,8 @@
     "licenser": "deno run --allow-read jsr:@kt3k/license-checker@3.3.1/main",
     "lint": "eslint --cache .",
     "lint:md": "node scripts/lint-markdown.js || true",
+    "local:apply": "node scripts/apply-local-content.mjs",
+    "local:check": "node scripts/apply-local-content.mjs --check",
     "localize:links": "node scripts/rewrite-internal-links.mjs",
     "localize:links:check": "node scripts/rewrite-internal-links.mjs --check",
     "localize:links:test": "node --test scripts/rewrite-internal-links.test.mjs",

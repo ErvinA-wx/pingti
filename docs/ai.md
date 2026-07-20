@@ -385,6 +385,21 @@
 
 ***
 
+<!-- pingti-local-ai-tools:start -->
+## ▷ 平替精选：AI 代理与开发工具
+
+* [Meetily](https://github.com/Zackriya-Solutions/meetily) - 完全本地的 AI 会议助手，由 Parakeet / Whisper 驱动，实现快速转录；会议内容不会离开设备，适合私密和机密对话
+* [agent-skills](https://github.com/addyosmani/agent-skills) - 面向 Claude Code 等 AI 编码代理的生产就绪技能集合，涵盖测试、代码审查、调试和重构等工作流
+* [system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) - 收集 Claude、ChatGPT、Gemini、Grok 等主要 AI 模型系统提示的数据库，便于比较不同 AI 助手的内部指令方式
+* [OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) - 让 AI 代理无需安装 Microsoft Office 即可读写 Word、Excel 和 PowerPoint 文件的轻量免费命令行工具
+* [Orca](https://github.com/stablyai/orca) - 使用现有订阅并行管理多个 AI 编码代理，支持桌面端和移动端，并提供统一界面
+* [OmniRoute](https://github.com/diegosouzapw/OmniRoute) - 通过单一端点连接 230 多个 AI 提供商的免费 AI 网关，支持 Claude、GPT、Gemini 等模型并优化令牌使用
+* [claude-video](https://github.com/bradautomates/claude-video) - 通过自动下载视频、提取帧、转录音频并准备分析材料，让 Claude 能够理解视频
+* [page-agent](https://github.com/alibaba/page-agent) - 按照自然语言指令点击、输入并与网页交互的浏览器自动化代理
+* [Astryx](https://github.com/facebook/astryx) - Meta 面向人类与 AI 代理共同构建一致用户界面的开源设计系统
+* [CubeSandbox](https://github.com/TencentCloud/CubeSandbox) - 专为 AI 代理构建的轻量沙箱，可即时启动、支持大规模并行执行并安全隔离代码
+<!-- pingti-local-ai-tools:end -->
+
 ## ▷ AI 提示词
 
 * **注意** - 绕过聊天机器人安全措施（即越狱）违反大多数 AI 的服务条款，请自行承担风险。

@@ -22,6 +22,7 @@ interface Post {
   title: string
   url: string
   date: string
+  category: 'upstream' | 'pingti'
 }
 
 type Dictionary = ReturnType<typeof createContentLoader>
@@ -34,7 +35,8 @@ function transformRawPosts(rawPosts: ContentData[]): Record<string, Post[]> {
     .map(({ url, frontmatter }) => ({
       title: frontmatter.title,
       url,
-      date: (frontmatter.date as Date).toISOString().slice(0, 10)
+      date: (frontmatter.date as Date).toISOString().slice(0, 10),
+      category: frontmatter.category === 'pingti' ? 'pingti' : 'upstream'
     }))
     .sort((a, b) => b.date.localeCompare(a.date))
 

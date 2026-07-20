@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Meetily",
+    "url": "https://github.com/Zackriya-Solutions/meetily",
+    "description": "完全本地的 AI 会议助手，由 Parakeet / Whisper 驱动，实现快速转录；会议内容不会离开设备，适合私密和机密对话"
+  },
+  {
+    "name": "agent-skills",
+    "url": "https://github.com/addyosmani/agent-skills",
+    "description": "面向 Claude Code 等 AI 编码代理的生产就绪技能集合，涵盖测试、代码审查、调试和重构等工作流"
+  },
+  {
+    "name": "system_prompts_leaks",
+    "url": "https://github.com/asgeirtj/system_prompts_leaks",
+    "description": "收集 Claude、ChatGPT、Gemini、Grok 等主要 AI 模型系统提示的数据库，便于比较不同 AI 助手的内部指令方式"
+  },
+  {
+    "name": "OfficeCLI",
+    "url": "https://github.com/iOfficeAI/OfficeCLI",
+    "description": "让 AI 代理无需安装 Microsoft Office 即可读写 Word、Excel 和 PowerPoint 文件的轻量免费命令行工具"
+  },
+  {
+    "name": "Orca",
+    "url": "https://github.com/stablyai/orca",
+    "description": "使用现有订阅并行管理多个 AI 编码代理，支持桌面端和移动端，并提供统一界面"
+  },
+  {
+    "name": "OmniRoute",
+    "url": "https://github.com/diegosouzapw/OmniRoute",
+    "description": "通过单一端点连接 230 多个 AI 提供商的免费 AI 网关，支持 Claude、GPT、Gemini 等模型并优化令牌使用"
+  },
+  {
+    "name": "claude-video",
+    "url": "https://github.com/bradautomates/claude-video",
+    "description": "通过自动下载视频、提取帧、转录音频并准备分析材料，让 Claude 能够理解视频"
+  },
+  {
+    "name": "page-agent",
+    "url": "https://github.com/alibaba/page-agent",
+    "description": "按照自然语言指令点击、输入并与网页交互的浏览器自动化代理"
+  },
+  {
+    "name": "Astryx",
+    "url": "https://github.com/facebook/astryx",
+    "description": "Meta 面向人类与 AI 代理共同构建一致用户界面的开源设计系统"
+  },
+  {
+    "name": "CubeSandbox",
+    "url": "https://github.com/TencentCloud/CubeSandbox",
+    "description": "专为 AI 代理构建的轻量沙箱，可即时启动、支持大规模并行执行并安全隔离代码"
+  }
+]

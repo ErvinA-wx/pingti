@@ -1,18 +1,41 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import { data as rawPosts } from './posts.data'
+
+type PostCategory = 'upstream' | 'pingti'
+type CategoryFilter = 'all' | PostCategory
 
 interface Post {
   title: string
   url: string
   date: string | number
+  category: PostCategory
 }
 
-// Group posts ONLY by Year to improve information density
-const groupedPosts = computed(() => {
-  const postArray: Post[] = Array.isArray(rawPosts)
+const categories: Array<{ value: CategoryFilter; label: string }> = [
+  { value: 'all', label: '全部更新' },
+  { value: 'upstream', label: 'FMHY 上游更新' },
+  { value: 'pingti', label: '平替指南更新' }
+]
+const selectedCategory = ref<CategoryFilter>('all')
+
+const posts = computed<Post[]>(() =>
+  Array.isArray(rawPosts)
     ? rawPosts
     : (Object.values(rawPosts).flat() as Post[])
+)
+
+const categoryCount = (category: CategoryFilter) =>
+  category === 'all'
+    ? posts.value.length
+    : posts.value.filter((post) => post.category === category).length
+
+const groupedPosts = computed(() => {
+  const postArray = posts.value.filter(
+    (post) =>
+      selectedCategory.value === 'all' ||
+      post.category === selectedCategory.value
+  )
 
   const groups: Record<string, Post[]> = {}
 
@@ -44,6 +67,9 @@ const formatDate = (timestamp: string | number): string => {
     timeZone: 'UTC'
   })
 }
+
+const categoryLabel = (category: PostCategory) =>
+  category === 'pingti' ? '平替指南更新' : 'FMHY 上游更新'
 </script>
 
 <template>
@@ -61,6 +87,21 @@ const formatDate = (timestamp: string | number): string => {
       </a>
     </section>
 
+    <nav class="category-filter" aria-label="博客分类">
+      <button
+        v-for="category in categories"
+        :key="category.value"
+        type="button"
+        class="category-button"
+        :class="{ active: selectedCategory === category.value }"
+        :aria-pressed="selectedCategory === category.value"
+        @click="selectedCategory = category.value"
+      >
+        {{ category.label }}
+        <span>{{ categoryCount(category.value) }}</span>
+      </button>
+    </nav>
+
     <div class="posts-timeline">
       <div v-for="group in groupedPosts" :key="group.year" class="year-section">
         <h2 class="year-title">{{ group.year }}</h2>
@@ -76,6 +117,9 @@ const formatDate = (timestamp: string | number): string => {
                 {{ formatDate(post.date) }}
               </span>
               <span class="post-title">{{ post.title }}</span>
+              <span class="post-category">
+                {{ categoryLabel(post.category) }}
+              </span>
             </div>
             <svg
               class="post-arrow"
@@ -118,6 +162,37 @@ const formatDate = (timestamp: string | number): string => {
 
 .posts-timeline {
   margin-top: 2.5rem;
+}
+
+.category-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 2rem;
+}
+
+.category-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 999px;
+  padding: 0.45rem 0.85rem;
+  color: var(--vp-c-text-2);
+  background: var(--vp-c-bg-soft);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.category-button:hover,
+.category-button.active {
+  border-color: var(--vp-c-brand-1);
+  color: var(--vp-c-brand-1);
+}
+
+.category-button span {
+  color: var(--vp-c-text-3);
+  font-size: 0.8rem;
 }
 
 .year-section {
@@ -179,6 +254,15 @@ const formatDate = (timestamp: string | number): string => {
   color: var(--vp-c-text-1);
 }
 
+.post-category {
+  border-radius: 999px;
+  padding: 0.1rem 0.5rem;
+  color: var(--vp-c-text-2);
+  background: var(--vp-c-bg-soft);
+  font-size: 0.75rem;
+  white-space: nowrap;
+}
+
 .post-item:hover .post-title {
   color: var(--vp-c-brand-1);
 }
@@ -201,7 +285,17 @@ const formatDate = (timestamp: string | number): string => {
 
 @media (max-width: 640px) {
   .post-meta {
+    align-items: flex-start;
+    flex-wrap: wrap;
     gap: 0.75rem;
+  }
+
+  .post-title {
+    width: calc(100% - 70px);
+  }
+
+  .post-category {
+    margin-left: 70px;
   }
 }
 </style>
