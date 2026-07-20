@@ -1,0 +1,70 @@
+name: Deploy Site to Cloudflare Pages
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/deploy-cloudflare-pages.yml'
+      - 'docs/**'
+      - 'local-content/**'
+      - 'scripts/**'
+      - 'package.json'
+      - 'pnpm-lock.yaml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cloudflare-pages-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Build and deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v6
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build VitePress site
+        run: pnpm docs:build
+
+      - name: Resolve Cloudflare Pages project
+        id: pages-project
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          project_json="$(pnpm exec wrangler pages project list --json)"
+          project_name="$(echo "$project_json" | jq -r '.[] | select((.domains // []) | index("pingti.org")) | .name' | head -n 1)"
+          if [ -z "$project_name" ]; then
+            echo 'No Cloudflare Pages project with the pingti.org custom domain was found.' >&2
+            exit 1
+          fi
+          echo "project_name=$project_name" >> "$GITHUB_OUTPUT"
+
+      - name: Deploy production site
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          PAGES_PROJECT_NAME: ${{ steps.pages-project.outputs.project_name }}
+        run: |
+          pnpm exec wrangler pages deploy docs/.vitepress/dist \
+            --project-name "$PAGES_PROJECT_NAME" \
+            --branch main \
+            --commit-hash "$GITHUB_SHA" \
+            --commit-dirty=false
