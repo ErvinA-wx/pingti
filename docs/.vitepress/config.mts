@@ -58,8 +58,7 @@ export default defineConfig({
   },
   head: [
     ['meta', { name: 'theme-color', content: '#7bc5e4' }],
-    ['meta', { name: 'og:type', content: 'website' }],
-    ['meta', { name: 'og:locale', content: 'zh_CN' }],
+    ['meta', { property: 'og:locale', content: 'zh_CN' }],
     ['link', { rel: 'icon', href: '/fmhy.ico' }],
     [
       'link',

@@ -388,12 +388,14 @@
 <!-- pingti-local-ai-tools:start -->
 ## ▷ 平替精选：AI 代理与开发工具
 
-* [Meetily](https://github.com/Zackriya-Solutions/meetily) - 完全本地的 AI 会议助手，由 Parakeet / Whisper 驱动，实现快速转录；会议内容不会离开设备，适合私密和机密对话
+> [延伸阅读：10 款 AI 代理与开发工具推荐、适用场景与风险对比](/posts/pingti-ai-tools-2026-07)
+
+* [Meetily](https://github.com/Zackriya-Solutions/meetily) - 隐私优先的本地 AI 会议助手，由 Parakeet / Whisper 驱动转录，并可选择本地或外部模型生成摘要
 * [agent-skills](https://github.com/addyosmani/agent-skills) - 面向 Claude Code 等 AI 编码代理的生产就绪技能集合，涵盖测试、代码审查、调试和重构等工作流
 * [system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) - 收集 Claude、ChatGPT、Gemini、Grok 等主要 AI 模型系统提示的数据库，便于比较不同 AI 助手的内部指令方式
 * [OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) - 让 AI 代理无需安装 Microsoft Office 即可读写 Word、Excel 和 PowerPoint 文件的轻量免费命令行工具
 * [Orca](https://github.com/stablyai/orca) - 使用现有订阅并行管理多个 AI 编码代理，支持桌面端和移动端，并提供统一界面
-* [OmniRoute](https://github.com/diegosouzapw/OmniRoute) - 通过单一端点连接 230 多个 AI 提供商的免费 AI 网关，支持 Claude、GPT、Gemini 等模型并优化令牌使用
+* [OmniRoute](https://github.com/diegosouzapw/OmniRoute) - 通过单一端点连接 268 多个 AI 提供商的开源模型网关，提供配额回退、路由和令牌压缩能力
 * [claude-video](https://github.com/bradautomates/claude-video) - 通过自动下载视频、提取帧、转录音频并准备分析材料，让 Claude 能够理解视频
 * [page-agent](https://github.com/alibaba/page-agent) - 按照自然语言指令点击、输入并与网页交互的浏览器自动化代理
 * [Astryx](https://github.com/facebook/astryx) - Meta 面向人类与 AI 代理共同构建一致用户界面的开源设计系统

@@ -44,6 +44,8 @@ function applyLocalAiTools(source, entries) {
     startMarker,
     '## ▷ 平替精选：AI 代理与开发工具',
     '',
+    '> [延伸阅读：10 款 AI 代理与开发工具推荐、适用场景与风险对比](/posts/pingti-ai-tools-2026-07)',
+    '',
     ...missing.map(
       ({ name, url, description }) => `* [${name}](${url}) - ${description}`
     ),

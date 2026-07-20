@@ -2,7 +2,7 @@
   {
     "name": "Meetily",
     "url": "https://github.com/Zackriya-Solutions/meetily",
-    "description": "完全本地的 AI 会议助手，由 Parakeet / Whisper 驱动，实现快速转录；会议内容不会离开设备，适合私密和机密对话"
+    "description": "隐私优先的本地 AI 会议助手，由 Parakeet / Whisper 驱动转录，并可选择本地或外部模型生成摘要"
   },
   {
     "name": "agent-skills",
@@ -27,7 +27,7 @@
   {
     "name": "OmniRoute",
     "url": "https://github.com/diegosouzapw/OmniRoute",
-    "description": "通过单一端点连接 230 多个 AI 提供商的免费 AI 网关，支持 Claude、GPT、Gemini 等模型并优化令牌使用"
+    "description": "通过单一端点连接 268 多个 AI 提供商的开源模型网关，提供配额回退、路由和令牌压缩能力"
   },
   {
     "name": "claude-video",

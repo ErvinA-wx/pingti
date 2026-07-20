@@ -60,9 +60,11 @@ export function generateMeta(context: TransformContext, hostname: string) {
   if (Object.keys(pageData.frontmatter).length === 0) return head
 
   const url = `${hostname}/${pageData.relativePath.replace(/((^|\/)index)?\.md$/, '$2')}`
+  const isPost = pageData.relativePath.startsWith('posts/')
 
   head.push(
     ['link', { rel: 'canonical', href: url }],
+    ['meta', { property: 'og:type', content: isPost ? 'article' : 'website' }],
     ['meta', { property: 'og:url', content: url }],
     ['meta', { name: 'twitter:url', content: url }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
@@ -90,20 +92,24 @@ export function generateMeta(context: TransformContext, hostname: string) {
   }
 
   if (pageData.frontmatter.image) {
-    head.push([
-      'meta',
-      {
-        property: 'og:image',
-        content: `${hostname}/${pageData.frontmatter.image.replace(/^\//, '')}`
-      }
-    ])
-    head.push([
-      'meta',
-      {
-        name: 'twitter:image',
-        content: `${hostname}/${pageData.frontmatter.image.replace(/^\//, '')}`
-      }
-    ])
+    const imageUrl = `${hostname}/${pageData.frontmatter.image.replace(/^\//, '')}`
+    head.push(
+      ['meta', { property: 'og:image', content: imageUrl }],
+      ['meta', { property: 'og:image:width', content: '1200' }],
+      ['meta', { property: 'og:image:height', content: '630' }],
+      ['meta', { property: 'og:image:type', content: 'image/png' }],
+      [
+        'meta',
+        { property: 'og:image:alt', content: pageData.frontmatter.title }
+      ],
+      ['meta', { name: 'twitter:image', content: imageUrl }],
+      ['meta', { name: 'twitter:image:width', content: '1200' }],
+      ['meta', { name: 'twitter:image:height', content: '630' }],
+      [
+        'meta',
+        { name: 'twitter:image:alt', content: pageData.frontmatter.title }
+      ]
+    )
   } else {
     head.push(
       ['meta', { property: 'og:image', content: `${hostname}/banner2.png` }],
@@ -141,17 +147,21 @@ export function generateMeta(context: TransformContext, hostname: string) {
     ])
   }
 
-  if (pageData.lastUpdated && pageData.frontmatter.lastUpdated !== false) {
+  const modifiedTime =
+    pageData.frontmatter.updated ||
+    (pageData.lastUpdated && pageData.frontmatter.lastUpdated !== false
+      ? pageData.lastUpdated
+      : null)
+  if (modifiedTime) {
     head.push([
       'meta',
       {
         property: 'article:modified_time',
-        content: new Date(pageData.lastUpdated).toISOString()
+        content: new Date(modifiedTime).toISOString()
       }
     ])
   }
 
-  const isPost = pageData.relativePath.startsWith('posts/')
   const image = pageData.frontmatter.image
     ? `${hostname}/${pageData.frontmatter.image.replace(/^\//, '')}`
     : `${hostname}/banner2.png`
@@ -159,32 +169,59 @@ export function generateMeta(context: TransformContext, hostname: string) {
   const structuredData = isPost
     ? {
         '@context': 'https://schema.org',
-        '@type': 'BlogPosting',
-        headline: pageData.frontmatter.title,
-        description: pageData.frontmatter.description,
-        url,
-        inLanguage: 'zh-CN',
-        datePublished: pageData.frontmatter.date,
-        dateModified:
-          pageData.frontmatter.updated ||
-          (pageData.lastUpdated
-            ? new Date(pageData.lastUpdated).toISOString()
-            : pageData.frontmatter.date),
-        image,
-        mainEntityOfPage: { '@type': 'WebPage', '@id': url },
-        author:
-          authors.length > 0
-            ? authors
-            : { '@type': 'Organization', name: '平替指南', url: hostname },
-        publisher: {
-          '@type': 'Organization',
-          name: '平替指南',
-          url: hostname,
-          logo: {
-            '@type': 'ImageObject',
-            url: `${hostname}/pwa_icon.png`
+        '@graph': [
+          {
+            '@type': 'BlogPosting',
+            headline: pageData.frontmatter.title,
+            description: pageData.frontmatter.description,
+            url,
+            inLanguage: 'zh-CN',
+            datePublished: pageData.frontmatter.date,
+            dateModified:
+              pageData.frontmatter.updated ||
+              (pageData.lastUpdated
+                ? new Date(pageData.lastUpdated).toISOString()
+                : pageData.frontmatter.date),
+            image,
+            mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+            author:
+              authors.length > 0
+                ? authors
+                : { '@type': 'Organization', name: '平替指南', url: hostname },
+            publisher: {
+              '@type': 'Organization',
+              name: '平替指南',
+              url: hostname,
+              logo: {
+                '@type': 'ImageObject',
+                url: `${hostname}/pwa_icon.png`
+              }
+            }
+          },
+          {
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              {
+                '@type': 'ListItem',
+                position: 1,
+                name: '首页',
+                item: `${hostname}/`
+              },
+              {
+                '@type': 'ListItem',
+                position: 2,
+                name: '博客',
+                item: `${hostname}/posts`
+              },
+              {
+                '@type': 'ListItem',
+                position: 3,
+                name: pageData.frontmatter.title,
+                item: url
+              }
+            ]
           }
-        }
+        ]
       }
     : pageData.relativePath === 'index.md'
       ? {
