@@ -174,22 +174,6 @@
 * [HelloGitHub](https://hellogithub.com/) - GitHub 项目
 * [hkslbrowser](http://www.cslds.org/hkslbrowser/index.jsp) 或 [special.moe](https://special.moe.gov.tw/signlanguage/) - 中国手语词典
 
-## ▷ 防火长城
-
-* **注意** - 请留意，某些声称能绕过 GFW 的 VPN 实际上是由中国机构制作的，目的是获取用户信息。建议避免使用任何通用 VPN，而坚持使用 [VPN section](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25BA_vpn) 中列出的 VPN。
-
-***
-
-* ↪️ **[Anti-Censorship Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25B7_anti-censorship)** / **[Proxy Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25BA_proxy)**
-* [Censorship Bypass](https://rentry.co/chinese-censorship-bypass-guide) - 审查规避指南
-* [gfwlist](https://github.com/gfwlist/gfwlist) - 被屏蔽网站列表
-* [r/dumbclub](https://www.reddit.com/r/dumbclub/) - GFW 讨论
-* [gfw.report](https://gfw.report/) - GFW 信息
-* [GHProxy](https://ghproxy.link/) - GitHub 代理（未被 GFW 屏蔽）
-* [⁠GFWMass](https://github.com/eli32-vlc/gfwmass) - 代理部署工具 / [指南](https://forum.blackfox.qzz.io/posts/introduction-to-gfwmass/)
-* [Accesser](https://github.com/URenko/Accesser/) - SNI RST 解决工具
-* [China Firewall Test](https://www.dotcom-tools.com/china-firewall-test)、[ChinaFirewallTest](http://www.chinafirewalltest.com/)、[BlockedInChina](https://www.comparitech.com/privacy-security-tools/blockedinchina/) 或 [Chinese Firewall](https://viewdns.info/chinesefirewall/) - 中国防火墙屏蔽测试
-
 ## ▷ 下载
 
 * [HaiSo ⁠海搜u](https://haisou.cc/) - 视频/音频/书籍
