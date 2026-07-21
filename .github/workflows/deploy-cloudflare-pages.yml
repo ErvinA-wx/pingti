@@ -49,6 +49,7 @@ jobs:
         id: pages-project
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: e594b73115a07961107c2037f702acbc
         run: |
           project_json="$(pnpm exec wrangler pages project list --json)"
           project_name="$(echo "$project_json" | jq -r '.[] | select((.domains // []) | index("pingti.org")) | .name' | head -n 1)"
@@ -61,6 +62,7 @@ jobs:
       - name: Deploy production site
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: e594b73115a07961107c2037f702acbc
           PAGES_PROJECT_NAME: ${{ steps.pages-project.outputs.project_name }}
         run: |
           pnpm exec wrangler pages deploy docs/.vitepress/dist \
