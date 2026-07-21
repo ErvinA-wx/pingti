@@ -1,0 +1,8 @@
+[
+  {
+    "name": "RustDesk",
+    "url": "https://github.com/rustdesk/rustdesk",
+    "aliases": ["https://rustdesk.com/"],
+    "description": "跨平台远程桌面应用，可使用公共基础设施，也可自行部署 ID 与中继服务器"
+  }
+]

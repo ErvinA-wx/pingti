@@ -788,6 +788,13 @@
 
 ***
 
+<!-- pingti-local-reverse-proxy-tools:start -->
+## ▷ 平替指南：内网服务发布
+
+> [延伸阅读：远程桌面、内网穿透与虚拟组网工具如何选择？](/posts/remote-access-mesh-network-tools-2026)
+
+<!-- pingti-local-reverse-proxy-tools:end -->
+
 ## ▷ 网站构建器
 
 * 🌐 **[Awesome Static Generators](https://myles.github.io/awesome-static-generators/)** / [GitHub](https://github.com/myles/awesome-static-generators) 或 **[Jamstack Generators](https://jamstack.org/generators/)** - 静态站点生成器索引

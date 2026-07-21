@@ -150,6 +150,13 @@
 
 ***
 
+<!-- pingti-local-remote-desktop-tools:start -->
+## ▷ 平替指南：远程桌面选型
+
+> [延伸阅读：RustDesk、frp、Tailscale、NetBird 与 ZeroTier 有什么区别？](/posts/remote-access-mesh-network-tools-2026)
+
+<!-- pingti-local-remote-desktop-tools:end -->
+
 ## ▷ 剪贴板管理器
 
 * ⭐ **[Ditto](https://ditto-cp.sourceforge.io/)** / Windows / [GitHub](https://sabrogden.github.io/Ditto/)

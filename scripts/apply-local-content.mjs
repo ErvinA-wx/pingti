@@ -21,11 +21,45 @@ const sections = [
     heading: '平替精选：中文内容创作与发布工具',
     article:
       '[选型指南：10 款中文内容创作、剪辑与多平台发布工具](/posts/content-creator-tools-2026)'
+  },
+  {
+    targetFile: 'docs/system-tools.md',
+    entriesFile: 'local-content/remote-desktop-tools.json',
+    id: 'remote-desktop-tools',
+    anchor: '## ▷ 剪贴板管理器',
+    heading: '平替指南：远程桌面选型',
+    article:
+      '[延伸阅读：RustDesk、frp、Tailscale、NetBird 与 ZeroTier 有什么区别？](/posts/remote-access-mesh-network-tools-2026)',
+    keepArticle: true
+  },
+  {
+    targetFile: 'docs/developer-tools.md',
+    entriesFile: 'local-content/reverse-proxy-tools.json',
+    id: 'reverse-proxy-tools',
+    anchor: '## ▷ 网站构建器',
+    heading: '平替指南：内网服务发布',
+    article:
+      '[延伸阅读：远程桌面、内网穿透与虚拟组网工具如何选择？](/posts/remote-access-mesh-network-tools-2026)',
+    keepArticle: true
+  },
+  {
+    targetFile: 'docs/privacy.md',
+    entriesFile: 'local-content/mesh-network-tools.json',
+    id: 'mesh-network-tools',
+    anchor: '## ▷ VPN 工具',
+    heading: '平替指南：虚拟组网选型',
+    article:
+      '[延伸阅读：Tailscale、NetBird 与 ZeroTier 的控制面、自托管和适用场景对比](/posts/remote-access-mesh-network-tools-2026)',
+    keepArticle: true
   }
 ]
 
 function canonicalUrl(value) {
-  return value.replace(/\/$/, '').toLowerCase()
+  return value
+    .replace(/[?#].*$/, '')
+    .replace(/\/$/, '')
+    .replace(/^https:\/\/www\./i, 'https://')
+    .toLowerCase()
 }
 
 function removeManagedBlock(source, startMarker, endMarker) {
@@ -48,13 +82,17 @@ function applyLocalSection(source, entries, section) {
   const endMarker = `<!-- pingti-local-${section.id}:end -->`
   const base = removeManagedBlock(source, startMarker, endMarker)
   const knownUrls = new Set(
-    [...base.matchAll(/https:\/\/github\.com\/[\w.-]+\/[\w.-]+\/?/gi)].map(
-      ([url]) => canonicalUrl(url)
+    [...base.matchAll(/https:\/\/[^\s)>\]]+/gi)].map(([url]) =>
+      canonicalUrl(url)
     )
   )
-  const missing = entries.filter(({ url }) => !knownUrls.has(canonicalUrl(url)))
+  const missing = entries.filter(({ url, aliases = [] }) =>
+    [url, ...aliases].every(
+      (candidate) => !knownUrls.has(canonicalUrl(candidate))
+    )
+  )
 
-  if (missing.length === 0) return base
+  if (missing.length === 0 && !section.keepArticle) return base
   if (!base.includes(section.anchor)) {
     throw new Error(`未找到插入位置：${section.anchor}`)
   }

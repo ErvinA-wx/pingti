@@ -432,6 +432,13 @@
 
 ***
 
+<!-- pingti-local-mesh-network-tools:start -->
+## ▷ 平替指南：虚拟组网选型
+
+> [延伸阅读：Tailscale、NetBird 与 ZeroTier 的控制面、自托管和适用场景对比](/posts/remote-access-mesh-network-tools-2026)
+
+<!-- pingti-local-mesh-network-tools:end -->
+
 ## ▷ VPN 工具
 
 * ↪️ **[Free VPN Configs](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_free_vpn_configs)**
