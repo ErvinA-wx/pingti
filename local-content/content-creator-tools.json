@@ -1,0 +1,52 @@
+[
+  {
+    "name": "social-auto-upload",
+    "url": "https://github.com/dreammis/social-auto-upload",
+    "description": "通过浏览器自动化把视频发布到抖音、小红书、视频号、TikTok、YouTube 和哔哩哔哩等平台"
+  },
+  {
+    "name": "MediaCrawler",
+    "url": "https://github.com/NanmiCoder/MediaCrawler",
+    "description": "采集小红书、抖音、快手、哔哩哔哩、微博、贴吧和知乎公开内容与评论的多平台工具"
+  },
+  {
+    "name": "MoneyPrinterTurbo",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+    "description": "根据主题或关键词，用大模型与自动化流程生成短视频"
+  },
+  {
+    "name": "FunClip",
+    "url": "https://github.com/modelscope/FunClip",
+    "description": "基于 FunASR 的视频转写、字幕生成与大模型辅助剪辑工具"
+  },
+  {
+    "name": "creatorhub",
+    "url": "https://github.com/3441293738/creatorhub",
+    "description": "通过 Web 面板监控、采集和管理抖音、小红书与快手内容"
+  },
+  {
+    "name": "SmartMediaHub",
+    "url": "https://github.com/aiseall/SmartMediaHub",
+    "description": "集成多种大模型的内容生成、定时发布与多平台账号管理系统"
+  },
+  {
+    "name": "res-downloader",
+    "url": "https://github.com/putyy/res-downloader",
+    "description": "用于捕获和下载视频号、小程序及多个内容平台网络资源的桌面工具"
+  },
+  {
+    "name": "wechat-skill",
+    "url": "https://github.com/843645440/wechat-skill",
+    "description": "覆盖热点发现、写作、配图、排版和公众号草稿管理的 Agent Skill 工具包"
+  },
+  {
+    "name": "Lime",
+    "url": "https://github.com/limecloud/lime",
+    "description": "面向中文创作者的桌面 AI 内容工作台，支持写作、研究、知识库和多模型工作流"
+  },
+  {
+    "name": "awesome-ai-persona-skills",
+    "url": "https://github.com/momozi1996/awesome-ai-persona-skills",
+    "description": "面向多 Agent 使用场景的中文角色与人格 Skill 合集"
+  }
+]

@@ -6,6 +6,23 @@
 
 # ► 社交媒体工具
 
+<!-- pingti-local-creator-tools:start -->
+## ▷ 平替精选：中文内容创作与发布工具
+
+> [选型指南：10 款中文内容创作、剪辑与多平台发布工具](/posts/content-creator-tools-2026)
+
+* [social-auto-upload](https://github.com/dreammis/social-auto-upload) - 通过浏览器自动化把视频发布到抖音、小红书、视频号、TikTok、YouTube 和哔哩哔哩等平台
+* [MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) - 采集小红书、抖音、快手、哔哩哔哩、微博、贴吧和知乎公开内容与评论的多平台工具
+* [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) - 根据主题或关键词，用大模型与自动化流程生成短视频
+* [FunClip](https://github.com/modelscope/FunClip) - 基于 FunASR 的视频转写、字幕生成与大模型辅助剪辑工具
+* [creatorhub](https://github.com/3441293738/creatorhub) - 通过 Web 面板监控、采集和管理抖音、小红书与快手内容
+* [SmartMediaHub](https://github.com/aiseall/SmartMediaHub) - 集成多种大模型的内容生成、定时发布与多平台账号管理系统
+* [res-downloader](https://github.com/putyy/res-downloader) - 用于捕获和下载视频号、小程序及多个内容平台网络资源的桌面工具
+* [wechat-skill](https://github.com/843645440/wechat-skill) - 覆盖热点发现、写作、配图、排版和公众号草稿管理的 Agent Skill 工具包
+* [Lime](https://github.com/limecloud/lime) - 面向中文创作者的桌面 AI 内容工作台，支持写作、研究、知识库和多模型工作流
+* [awesome-ai-persona-skills](https://github.com/momozi1996/awesome-ai-persona-skills) - 面向多 Agent 使用场景的中文角色与人格 Skill 合集
+<!-- pingti-local-creator-tools:end -->
+
 * 🌐 **[Farside](https://farside.link/)** / [2](https://cf.farside.link/)、[Disroot](https://disroot.org/en/#services)、[⁠Radical Servers](https://help.riseup.net/en/security/resources/radical-servers)、[canine.tools](https://canine.tools/services/)、[4d2](https://4d2.org/)、[Vern](https://vern.cc/eng/services)、[⁠NerdVPN](https://nerdvpn.de/)、[⁠Privacy Redirect](https://privacyredirect.com/)、[⁠Nadeko](https://nadeko.net/) 或 [alternative-frontends](https://github.com/ParniDEO/alternative-front-ends-unofficial) - 前端索引
 * ↪️ **[Chat / Forum Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/misc#wiki_.25B7_chat_.2F_forums)**
 * ↪️ **[Android](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android/#wiki_.25B7_social_media_apps)** / **[iOS](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android/#wiki_.25B7_social_media_apps2)** - 移动社交媒体应用
