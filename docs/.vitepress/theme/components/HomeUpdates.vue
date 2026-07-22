@@ -10,6 +10,7 @@ interface Resource {
   details: string
   type: string
   category: string
+  categoryHref: string
   date: string
 }
 
@@ -52,7 +53,7 @@ const formatDate = (date: string | number) => {
       <div class="update-panel-header">
         <div>
           <p class="update-panel-eyebrow">// LAST_30_DAYS</p>
-          <h2><a href="/posts">新增平替资源</a></h2>
+          <h2><a href="/latest">新增平替资源</a></h2>
         </div>
         <a href="/posts" class="update-panel-link">[更新日志]</a>
       </div>
@@ -75,7 +76,7 @@ const formatDate = (date: string | number) => {
                 ↗
               </a>
               <span class="resource-type">[{{ resource.type }}]</span>
-              <a class="resource-category" :href="resource.internalHref">
+              <a class="resource-category" :href="resource.categoryHref">
                 [分类: {{ resource.category }}]
               </a>
             </div>

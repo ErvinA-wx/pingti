@@ -6,7 +6,8 @@ const root = process.cwd()
 const sections = [
   {
     targetFile: 'docs/ai.md',
-    entriesFile: 'local-content/ai-tools.json',
+    entriesFile: 'local-content/projects.json',
+    collection: 'ai-tools',
     id: 'ai-tools',
     anchor: '## ▷ AI 提示词',
     heading: '平替精选：AI 代理与开发工具',
@@ -15,7 +16,8 @@ const sections = [
   },
   {
     targetFile: 'docs/social-media-tools.md',
-    entriesFile: 'local-content/content-creator-tools.json',
+    entriesFile: 'local-content/projects.json',
+    collection: 'creator-tools',
     id: 'creator-tools',
     anchor: '# ► 社交媒体工具',
     heading: '平替精选：中文内容创作与发布工具',
@@ -24,7 +26,8 @@ const sections = [
   },
   {
     targetFile: 'docs/system-tools.md',
-    entriesFile: 'local-content/remote-desktop-tools.json',
+    entriesFile: 'local-content/projects.json',
+    collection: 'remote-desktop-tools',
     id: 'remote-desktop-tools',
     anchor: '## ▷ 剪贴板管理器',
     heading: '平替指南：远程桌面选型',
@@ -34,7 +37,8 @@ const sections = [
   },
   {
     targetFile: 'docs/developer-tools.md',
-    entriesFile: 'local-content/reverse-proxy-tools.json',
+    entriesFile: 'local-content/projects.json',
+    collection: 'reverse-proxy-tools',
     id: 'reverse-proxy-tools',
     anchor: '## ▷ 网站构建器',
     heading: '平替指南：内网服务发布',
@@ -44,7 +48,8 @@ const sections = [
   },
   {
     targetFile: 'docs/privacy.md',
-    entriesFile: 'local-content/mesh-network-tools.json',
+    entriesFile: 'local-content/projects.json',
+    collection: 'mesh-network-tools',
     id: 'mesh-network-tools',
     anchor: '## ▷ VPN 工具',
     heading: '平替指南：虚拟组网选型',
@@ -64,12 +69,16 @@ function canonicalUrl(value) {
 
 function validateEntries(entries, entriesFile) {
   const requiredFields = [
+    'id',
     'name',
     'url',
     'description',
     'type',
     'category',
-    'addedAt'
+    'categoryHref',
+    'collection',
+    'addedAt',
+    'status'
   ]
 
   entries.forEach((entry, index) => {
@@ -149,8 +158,12 @@ for (const section of sections) {
     readFile(path.join(root, section.targetFile), 'utf8'),
     readFile(path.join(root, section.entriesFile), 'utf8')
   ])
-  const entries = JSON.parse(entriesSource)
-  validateEntries(entries, section.entriesFile)
+  const database = JSON.parse(entriesSource)
+  validateEntries(database, section.entriesFile)
+  const entries = database.filter(
+    (entry) =>
+      entry.collection === section.collection && entry.status === 'active'
+  )
   const result = applyLocalSection(source, entries, section)
 
   if (result === source) {

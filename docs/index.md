@@ -24,9 +24,12 @@ hero:
     fetchpriority: high
     decoding: async
   actions:
-    - theme: brand
+    - theme: alt
       text: 查看新手指南
       link: /beginners-guide
+    - theme: alt
+      text: 查看平替资源
+      link: /latest
 
 features:
   - title: 广告拦截 / 隐私

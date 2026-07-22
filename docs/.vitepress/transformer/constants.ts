@@ -143,6 +143,7 @@ export const excluded = [
   'single-page',
   'feedback.md',
   'index.md',
+  'latest.md',
   'sandbox.md',
   'startpage.md'
 ]

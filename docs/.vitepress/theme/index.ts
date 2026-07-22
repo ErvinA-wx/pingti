@@ -36,6 +36,7 @@ import SubmissionForm from './components/SubmissionForm.vue'
 import 'floating-vue/dist/style.css'
 
 import GradientCard from './components/GradientCard.vue'
+import LatestResources from './components/LatestResources.vue'
 import LinkCard from './components/LinkCard.vue'
 import LinkInline from './components/LinkInline.vue'
 import Tag from './components/Tag.vue'
@@ -51,6 +52,7 @@ export default {
     app.component('VideoFrame', VideoFrame)
     app.component('LinkCard', LinkCard)
     app.component('LinkInline', LinkInline)
+    app.component('LatestResources', LatestResources)
     app.component('Tag', Tag)
     app.component('Post', Post)
     app.component('Feedback', Feedback)
