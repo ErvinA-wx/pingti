@@ -302,5 +302,101 @@
     "addedAt": "2026-07-21",
     "status": "active",
     "description": "通过自有公网服务器把 NAT 或防火墙后的本地服务映射到外部网络"
+  },
+  {
+    "id": "ppt-master",
+    "name": "ppt-master",
+    "url": "https://github.com/hugohe3/ppt-master",
+    "type": "GitHub",
+    "category": "开发者工具",
+    "categoryHref": "/developer-tools",
+    "collection": "presentation-tools",
+    "addedAt": "2026-07-22",
+    "status": "active",
+    "description": "让 AI 将文档或主题生成可编辑的原生 PPTX，支持真实形状、图表、转场与逐元素动画"
+  },
+  {
+    "id": "ppt-director",
+    "name": "ppt-director",
+    "url": "https://github.com/Hermess/ppt-director",
+    "type": "GitHub",
+    "category": "开发者工具",
+    "categoryHref": "/developer-tools",
+    "collection": "presentation-tools",
+    "addedAt": "2026-07-22",
+    "status": "active",
+    "description": "将内容规划、设计语言、HTML 预览、评审与 PPTX 映射串成演示文稿生产流程的 Agent Skill"
+  },
+  {
+    "id": "guizang-ppt-skill",
+    "name": "guizang-ppt-skill",
+    "url": "https://github.com/op7418/guizang-ppt-skill",
+    "type": "GitHub",
+    "category": "开发者工具",
+    "categoryHref": "/developer-tools",
+    "collection": "presentation-tools",
+    "addedAt": "2026-07-22",
+    "status": "active",
+    "description": "为 AI 编码代理生成杂志风或瑞士风单文件 HTML 幻灯片、配图和社交封面的 Skill"
+  },
+  {
+    "id": "gorden-ppt-skill",
+    "name": "GordenPPTSkill",
+    "url": "https://github.com/GordenSun/GordenPPTSkill",
+    "type": "GitHub",
+    "category": "开发者工具",
+    "categoryHref": "/developer-tools",
+    "collection": "presentation-tools",
+    "addedAt": "2026-07-22",
+    "status": "active",
+    "description": "通过文本编辑配置保留版式地生成中文商务 PPTX 的模板与工具包，随附模板另有使用限制"
+  },
+  {
+    "id": "html-ppt-skill",
+    "name": "html-ppt-skill",
+    "url": "https://github.com/lewislulu/html-ppt-skill",
+    "type": "GitHub",
+    "category": "开发者工具",
+    "categoryHref": "/developer-tools",
+    "collection": "presentation-tools",
+    "addedAt": "2026-07-22",
+    "status": "active",
+    "description": "提供主题、版式和动画的 HTML 演示文稿工作台，面向 Agent 驱动的网页幻灯片制作"
+  },
+  {
+    "id": "frontend-slides",
+    "name": "frontend-slides",
+    "url": "https://github.com/zarazhangrui/frontend-slides",
+    "type": "GitHub",
+    "category": "开发者工具",
+    "categoryHref": "/developer-tools",
+    "collection": "presentation-tools",
+    "addedAt": "2026-07-22",
+    "status": "active",
+    "description": "利用编码代理的前端能力在浏览器中制作和预览演示文稿的项目"
+  },
+  {
+    "id": "beautiful-html-templates",
+    "name": "beautiful-html-templates",
+    "url": "https://github.com/zarazhangrui/beautiful-html-templates",
+    "type": "GitHub",
+    "category": "开发者工具",
+    "categoryHref": "/developer-tools",
+    "collection": "presentation-tools",
+    "addedAt": "2026-07-22",
+    "status": "active",
+    "description": "供编码代理选择并生成网页演示文稿的 HTML 幻灯片模板库"
+  },
+  {
+    "id": "dashi-ppt-skill",
+    "name": "dashiAI-ppt-skill",
+    "url": "https://github.com/chuspeeism/dashi-ppt-skill",
+    "type": "GitHub",
+    "category": "开发者工具",
+    "categoryHref": "/developer-tools",
+    "collection": "presentation-tools",
+    "addedAt": "2026-07-22",
+    "status": "active",
+    "description": "在浏览器中编辑多主题演示文稿，并导出 HTML、PDF 或 PPTX 的 AI Agent Skill"
   }
 ]

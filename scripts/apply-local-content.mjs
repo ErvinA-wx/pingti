@@ -56,6 +56,16 @@ const sections = [
     article:
       '[延伸阅读：Tailscale、NetBird 与 ZeroTier 的控制面、自托管和适用场景对比](/posts/remote-access-mesh-network-tools-2026)',
     keepArticle: true
+  },
+  {
+    targetFile: 'docs/developer-tools.md',
+    entriesFile: 'local-content/projects.json',
+    collection: 'presentation-tools',
+    id: 'presentation-tools',
+    anchor: '## ▷ 编码代理 / 扩展',
+    heading: '平替精选：AI 演示文稿与 PPT 工具',
+    article:
+      '[选型指南：8 款 AI PPT 与 HTML 幻灯片工具，如何选择可编辑 PPTX、网页演示与模板](/posts/ai-presentation-tools-2026)'
   }
 ]
 

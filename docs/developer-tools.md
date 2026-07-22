@@ -518,6 +518,21 @@
 
 # ► AI 工具
 
+<!-- pingti-local-presentation-tools:start -->
+## ▷ 平替精选：AI 演示文稿与 PPT 工具
+
+> [选型指南：8 款 AI PPT 与 HTML 幻灯片工具，如何选择可编辑 PPTX、网页演示与模板](/posts/ai-presentation-tools-2026)
+
+* [ppt-master](https://github.com/hugohe3/ppt-master) - 让 AI 将文档或主题生成可编辑的原生 PPTX，支持真实形状、图表、转场与逐元素动画
+* [ppt-director](https://github.com/Hermess/ppt-director) - 将内容规划、设计语言、HTML 预览、评审与 PPTX 映射串成演示文稿生产流程的 Agent Skill
+* [guizang-ppt-skill](https://github.com/op7418/guizang-ppt-skill) - 为 AI 编码代理生成杂志风或瑞士风单文件 HTML 幻灯片、配图和社交封面的 Skill
+* [GordenPPTSkill](https://github.com/GordenSun/GordenPPTSkill) - 通过文本编辑配置保留版式地生成中文商务 PPTX 的模板与工具包，随附模板另有使用限制
+* [html-ppt-skill](https://github.com/lewislulu/html-ppt-skill) - 提供主题、版式和动画的 HTML 演示文稿工作台，面向 Agent 驱动的网页幻灯片制作
+* [frontend-slides](https://github.com/zarazhangrui/frontend-slides) - 利用编码代理的前端能力在浏览器中制作和预览演示文稿的项目
+* [beautiful-html-templates](https://github.com/zarazhangrui/beautiful-html-templates) - 供编码代理选择并生成网页演示文稿的 HTML 幻灯片模板库
+* [dashiAI-ppt-skill](https://github.com/chuspeeism/dashi-ppt-skill) - 在浏览器中编辑多主题演示文稿，并导出 HTML、PDF 或 PPTX 的 AI Agent Skill
+<!-- pingti-local-presentation-tools:end -->
+
 ## ▷ 编码代理 / 扩展
 
 * **注意** - 请记住许多编码 AI 以 root 权限运行，因此最好避免授予它们完整的驱动器/root 访问权限，以防止任何问题或意外删除，因为它们可以修改文件并执行终端命令。在运行 AI 或提示之前，请先备份代码，因为它们有时可能会破坏内容。建议在容器或虚拟机中运行。
