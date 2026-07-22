@@ -8,6 +8,14 @@ const output = resolve(root, 'docs/.vitepress/data/home-updates.json')
 const localContentDir = resolve(root, 'local-content')
 const MAX_ITEMS = 20
 
+const pageByLocalFile = {
+  'ai-tools.json': '/ai',
+  'content-creator-tools.json': '/social-media-tools',
+  'mesh-network-tools.json': '/privacy',
+  'remote-desktop-tools.json': '/system-tools',
+  'reverse-proxy-tools.json': '/developer-tools'
+}
+
 const categoryByFile = {
   'ai.md': '人工智能',
   'audio.md': '音乐与音频',
@@ -59,6 +67,11 @@ function resourceType(url) {
   return '网站'
 }
 
+function pageFromDocsFile(file) {
+  const page = file.replace(/\.md$/, '')
+  return page === 'index' ? '/' : `/${page}`
+}
+
 async function structuredLocalResources() {
   const files = (await readdir(localContentDir)).filter((file) =>
     file.endsWith('.json')
@@ -66,6 +79,8 @@ async function structuredLocalResources() {
   const resources = []
 
   for (const file of files) {
+    const internalHref = pageByLocalFile[file]
+    if (!internalHref) continue
     const entries = JSON.parse(
       await readFile(resolve(localContentDir, file), 'utf8')
     )
@@ -74,6 +89,7 @@ async function structuredLocalResources() {
       resources.push({
         title: entry.name,
         href: entry.url,
+        internalHref,
         details: entry.description,
         type: entry.type || resourceType(entry.url),
         category: entry.category,
@@ -112,6 +128,7 @@ function resourcesFromCommit(hash, date) {
     resources.push({
       title,
       href,
+      internalHref: pageFromDocsFile(file),
       details: details.slice(0, 72),
       type: resourceType(href),
       category: categoryByFile[file] || '其他资源',
