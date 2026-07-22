@@ -62,6 +62,33 @@ function canonicalUrl(value) {
     .toLowerCase()
 }
 
+function validateEntries(entries, entriesFile) {
+  const requiredFields = [
+    'name',
+    'url',
+    'description',
+    'type',
+    'category',
+    'addedAt'
+  ]
+
+  entries.forEach((entry, index) => {
+    const missing = requiredFields.filter(
+      (field) => typeof entry[field] !== 'string' || !entry[field].trim()
+    )
+    if (missing.length > 0) {
+      throw new Error(
+        `${entriesFile} 第 ${index + 1} 条缺少字段：${missing.join('、')}`
+      )
+    }
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(entry.addedAt)) {
+      throw new Error(
+        `${entriesFile} 第 ${index + 1} 条 addedAt 必须使用 YYYY-MM-DD 格式`
+      )
+    }
+  })
+}
+
 function removeManagedBlock(source, startMarker, endMarker) {
   const start = source.indexOf(startMarker)
   if (start === -1) {
@@ -122,7 +149,9 @@ for (const section of sections) {
     readFile(path.join(root, section.targetFile), 'utf8'),
     readFile(path.join(root, section.entriesFile), 'utf8')
   ])
-  const result = applyLocalSection(source, JSON.parse(entriesSource), section)
+  const entries = JSON.parse(entriesSource)
+  validateEntries(entries, section.entriesFile)
+  const result = applyLocalSection(source, entries, section)
 
   if (result === source) {
     console.log(`${section.heading}已是最新状态。`)

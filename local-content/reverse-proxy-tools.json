@@ -2,6 +2,9 @@
   {
     "name": "frp",
     "url": "https://github.com/fatedier/frp",
+    "type": "GitHub",
+    "category": "开发者工具",
+    "addedAt": "2026-07-21",
     "description": "通过自有公网服务器把 NAT 或防火墙后的本地服务映射到外部网络"
   }
 ]

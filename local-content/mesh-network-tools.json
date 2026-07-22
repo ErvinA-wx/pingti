@@ -2,18 +2,27 @@
   {
     "name": "Tailscale",
     "url": "https://github.com/tailscale/tailscale",
+    "type": "GitHub",
+    "category": "隐私与安全",
+    "addedAt": "2026-07-21",
     "aliases": ["https://tailscale.com/"],
     "description": "基于 WireGuard 的设备组网产品，客户端核心公开源代码，默认使用托管控制面"
   },
   {
     "name": "NetBird",
     "url": "https://github.com/netbirdio/netbird",
+    "type": "GitHub",
+    "category": "隐私与安全",
+    "addedAt": "2026-07-21",
     "aliases": ["https://netbird.io/"],
     "description": "带身份认证与访问策略的 WireGuard 覆盖网络，支持托管服务和自托管控制面"
   },
   {
     "name": "ZeroTier",
     "url": "https://github.com/zerotier/ZeroTierOne",
+    "type": "GitHub",
+    "category": "隐私与安全",
+    "addedAt": "2026-07-21",
     "aliases": ["https://www.zerotier.com/"],
     "description": "面向多平台设备的虚拟二层与三层网络，可使用托管控制器或部署自有网络控制器"
   }
