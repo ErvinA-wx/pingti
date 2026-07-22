@@ -12,4 +12,5 @@ dist
 docs/.vitepress/.temp
 result
 docs/recently-removed.md
+docs/.vitepress/data/home-updates.json
 docs/public/single-page.md

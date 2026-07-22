@@ -4,6 +4,8 @@ import DefaultTheme from 'vitepress/theme'
 import { onMounted, onUnmounted, ref, watch } from 'vue'
 import Announcement from './components/Announcement.vue'
 import Base64Dialog from './components/Base64Dialog.vue'
+import HomeRandomResource from './components/HomeRandomResource.vue'
+import HomeUpdates from './components/HomeUpdates.vue'
 import Sidebar from './components/SidebarCard.vue'
 
 const { Layout } = DefaultTheme
@@ -114,7 +116,11 @@ onUnmounted(() => {
     <template #home-hero-info-before>
       <Announcement />
     </template>
+    <template #home-hero-actions-after>
+      <HomeRandomResource />
+    </template>
     <template #home-features-before>
+      <HomeUpdates />
       <p class="text-center text-lg text-text-2 mb-2">
         浏览以下资源分类
         <span class="inline-block i-twemoji:sparkles" />

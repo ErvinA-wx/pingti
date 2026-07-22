@@ -11,8 +11,12 @@ hero:
     link: https://fightchatcontrol.eu/
   image:
     src: /hero/pthero-800.webp
-    srcset: /hero/pthero-480.webp 480w, /hero/pthero-800.webp 800w, /hero/pthero-1120.webp 1120w
-    sizes: "(min-width: 1280px) 560px, (min-width: 960px) 43vw, (min-width: 640px) 460px, 90vw"
+    srcset:
+      /hero/pthero-480.webp 480w, /hero/pthero-800.webp 800w,
+      /hero/pthero-1120.webp 1120w
+    sizes:
+      '(min-width: 1280px) 560px, (min-width: 960px) 43vw, (min-width: 640px)
+      460px, 90vw'
     width: 1120
     height: 667
     alt: 开放、平等、协作、分享——平替指南的社区理念
@@ -23,15 +27,6 @@ hero:
     - theme: brand
       text: 查看新手指南
       link: /beginners-guide
-    - theme: alt
-      text: 博客
-      link: /blog
-    - theme: alt
-      text: 参与贡献
-      link: /other/contributing
-    - theme: alt
-      text: GitHub
-      link: https://github.com/ErvinA-wx/pingti
 
 features:
   - title: 广告拦截 / 隐私
