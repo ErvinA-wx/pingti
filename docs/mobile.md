@@ -224,6 +224,13 @@
 
 ***
 
+<!-- pingti-local-android-device-control-tools:start -->
+## ▷ 平替指南：Android 设备控制
+
+> [延伸阅读：网页数据提取与自动化工具的权限、数据与合规边界](/posts/web-data-extraction-tools-2026)
+
+<!-- pingti-local-android-device-control-tools:end -->
+
 ## ▷ 优化
 
 * ⭐ **[Canta](https://samolego.github.io/Canta/)** - Android 去臃肿工具 / 需要 Shizuku

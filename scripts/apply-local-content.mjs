@@ -66,6 +66,38 @@ const sections = [
     heading: '平替精选：AI 演示文稿与 PPT 工具',
     article:
       '[选型指南：8 款 AI PPT 与 HTML 幻灯片工具，如何选择可编辑 PPTX、网页演示与模板](/posts/ai-presentation-tools-2026)'
+  },
+  {
+    targetFile: 'docs/internet-tools.md',
+    entriesFile: 'local-content/projects.json',
+    collection: 'web-data-tools',
+    id: 'web-data-tools',
+    anchor: '# ► 开源情报',
+    heading: '平替精选：网页数据提取与浏览器自动化',
+    article:
+      '[选型指南：11 款网页数据提取与自动化工具，抓取、浏览器代理与 Markdown 转换怎么选？](/posts/web-data-extraction-tools-2026)'
+  },
+  {
+    targetFile: 'docs/text-tools.md',
+    entriesFile: 'local-content/projects.json',
+    collection: 'markdown-conversion-tools',
+    id: 'markdown-conversion-tools',
+    anchor: '## ▷ Markdown 编辑器',
+    heading: '平替指南：文档转 Markdown',
+    article:
+      '[延伸阅读：网页数据提取、内容转换与自动化工具如何选择](/posts/web-data-extraction-tools-2026)',
+    keepArticle: true
+  },
+  {
+    targetFile: 'docs/mobile.md',
+    entriesFile: 'local-content/projects.json',
+    collection: 'android-device-control-tools',
+    id: 'android-device-control-tools',
+    anchor: '## ▷ 优化',
+    heading: '平替指南：Android 设备控制',
+    article:
+      '[延伸阅读：网页数据提取与自动化工具的权限、数据与合规边界](/posts/web-data-extraction-tools-2026)',
+    keepArticle: true
   }
 ]
 

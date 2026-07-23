@@ -461,6 +461,13 @@
 
 ***
 
+<!-- pingti-local-markdown-conversion-tools:start -->
+## ▷ 平替指南：文档转 Markdown
+
+> [延伸阅读：网页数据提取、内容转换与自动化工具如何选择](/posts/web-data-extraction-tools-2026)
+
+<!-- pingti-local-markdown-conversion-tools:end -->
+
 ## ▷ Markdown 编辑器
 
 * ⭐ **[MarkD](https://markd.it/)** / [GitHub](https://github.com/itzcozi/markd/)

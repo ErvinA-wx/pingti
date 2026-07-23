@@ -903,6 +903,20 @@
 
 # ► 开源情报
 
+<!-- pingti-local-web-data-tools:start -->
+## ▷ 平替精选：网页数据提取与浏览器自动化
+
+> [选型指南：11 款网页数据提取与自动化工具，抓取、浏览器代理与 Markdown 转换怎么选？](/posts/web-data-extraction-tools-2026)
+
+* [Firecrawl](https://github.com/firecrawl/firecrawl) - 提供搜索、抓取、交互、全站爬取和批量抓取 API，可输出 Markdown、HTML、截图或结构化数据
+* [Browser Use](https://github.com/browser-use/browser-use) - 让 AI 代理理解和操作网站的浏览器自动化库，可用于导航、表单处理和页面信息提取
+* [Crawlee](https://github.com/apify/crawlee) - 面向 Node.js 的网页抓取与浏览器自动化框架，支持请求队列、重试、代理以及 Playwright、Puppeteer 等运行方式
+* [Scrapy](https://github.com/scrapy/scrapy) - Python 高层网页爬取与数据提取框架，适合构建可配置、可扩展的爬虫任务
+* [AutoScraper](https://github.com/alirezamika/autoscraper) - 根据示例文本或 URL 推断网页提取模式的轻量 Python 抓取器
+* [curl-impersonate](https://github.com/lwthiker/curl-impersonate) - 模拟 Chrome 和 Firefox TLS / HTTP 指纹特征的 curl 构建版本，适合兼容性与网络请求调试
+* [Wigolo](https://github.com/KnockOutEZ/wigolo) - 面向 AI 编码代理的本地优先 Web Intelligence MCP 服务器，提供搜索、抓取、爬取与研究能力
+<!-- pingti-local-web-data-tools:end -->
+
 * 🌐 **[Awesome OSINT](https://github.com/jivoi/awesome-osint)** - 优秀的 OSINT
 * ↪️ **[Domain / DNS Info](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools#wiki_.25B7_domain_.2F_dns)**
 * ↪️ **[Search Engine OSINT](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools#wiki_.25BA_search_tools)**
