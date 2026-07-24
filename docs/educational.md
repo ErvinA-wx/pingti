@@ -1327,6 +1327,23 @@
 
 # ► 开发者学习
 
+<!-- pingti-local-official-ai-learning:start -->
+## ▷ 平替精选：官方 AI 学习平台
+
+> [选型指南：10 个官方 AI 学习平台，按入门、开发、云与企业应用选择课程](/posts/official-ai-learning-platforms-2026)
+
+* [OpenAI Academy](https://academy.openai.com/) - OpenAI 官方学习平台，提供 AI 基础、ChatGPT 工作流及 Agent 与工作流相关课程
+* [Anthropic Academy](https://anthropic.skilljar.com/) - Anthropic 的官方课程入口，可查找 Claude、提示工程、MCP 与 Claude Code 相关学习内容
+* [Google AI Learning](https://ai.google/learn-ai-skills/) - Google 官方 AI 学习入口，覆盖 AI 素养、生成式 AI、Google 工具与进阶开发课程
+* [Microsoft AI Learning Hub](https://learn.microsoft.com/en-us/ai/) - Microsoft Learn 的 AI 学习中心，聚合 Copilot、Azure AI、Agent 和应用开发学习路径
+* [AWS AI Training](https://aws.amazon.com/ai/learn/) - AWS 官方 AI 学习入口，提供生成式 AI、Amazon Bedrock 与云上 AI 开发课程
+* [NVIDIA Deep Learning Institute](https://www.nvidia.com/en-us/training/) - NVIDIA DLI 的官方培训入口，覆盖深度学习、生成式 AI、GPU 加速与部署
+* [IBM SkillsBuild](https://skillsbuild.org/) - IBM 的免费技能学习平台，提供 AI、数据、云计算和职业发展学习资源
+* [Hugging Face Learn](https://huggingface.co/learn) - Hugging Face 的交互式课程入口，覆盖 LLM、Agent、扩散模型、强化学习、语音与视觉
+* [Salesforce Trailhead AI](https://trailhead.salesforce.com/en/einstein-ai) - Salesforce Trailhead 的企业 AI 学习入口，聚焦 CRM、Einstein、Agentforce 与业务自动化
+* [Oracle AI Training](https://www.oracle.com/education/training/ai/) - Oracle 官方 AI 培训与认证入口，涵盖 OCI 生成式 AI、机器学习、数据科学和企业应用
+<!-- pingti-local-official-ai-learning:end -->
+
 * 🌐 **[Awesome Courses](https://github.com/prakhar1989/awesome-courses/)** 或 **[Awesome Certificates](https://panx.io/awesome-certificates/)** / [GitHub](https://github.com/PanXProject/awesome-certificates) - 开发课程索引
 * 🌐 **[Awesome YouTubers](https://github.com/JoseDeFreitas/awesome-youtubers)** - YouTube 开发者频道索引
 * 🌐 **[ProgrammingLearningResources](https://rentry.co/ProgrammingLearningResources)**、[r/LearnProgramming Wiki](https://www.reddit.com/r/learnprogramming/wiki/faq#wiki_getting_started)、[Programming Learning Index](https://github.com/bobeff/programming-math-science)、[⁠awesome-opensource-documents](https://github.com/44bits/awesome-opensource-documents) 或 [A-to-Z-Resources-for-Students](https://github.com/dipakkr/A-to-Z-Resources-for-Students) - 编程学习资源

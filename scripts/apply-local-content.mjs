@@ -98,6 +98,16 @@ const sections = [
     article:
       '[延伸阅读：网页数据提取与自动化工具的权限、数据与合规边界](/posts/web-data-extraction-tools-2026)',
     keepArticle: true
+  },
+  {
+    targetFile: 'docs/educational.md',
+    entriesFile: 'local-content/projects.json',
+    collection: 'official-ai-learning',
+    id: 'official-ai-learning',
+    anchor: '# ► 开发者学习',
+    heading: '平替精选：官方 AI 学习平台',
+    article:
+      '[选型指南：10 个官方 AI 学习平台，按入门、开发、云与企业应用选择课程](/posts/official-ai-learning-platforms-2026)'
   }
 ]
 
