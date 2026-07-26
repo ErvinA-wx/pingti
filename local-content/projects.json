@@ -650,5 +650,53 @@
     "addedAt": "2026-07-24",
     "status": "active",
     "description": "Oracle 官方 AI 培训与认证入口，涵盖 OCI 生成式 AI、机器学习、数据科学和企业应用"
+  },
+  {
+    "id": "daily-stock-analysis",
+    "name": "daily_stock_analysis",
+    "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+    "type": "GitHub",
+    "category": "财务 / 储蓄",
+    "categoryHref": "/misc",
+    "collection": "financial-research-tools",
+    "addedAt": "2026-07-26",
+    "status": "active",
+    "description": "多市场股票分析与定时推送系统，聚合行情、新闻和模型分析以生成研究报告"
+  },
+  {
+    "id": "fincept-terminal",
+    "name": "FinceptTerminal",
+    "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+    "type": "GitHub",
+    "category": "财务 / 储蓄",
+    "categoryHref": "/misc",
+    "collection": "financial-research-tools",
+    "addedAt": "2026-07-26",
+    "status": "active",
+    "description": "桌面金融研究与分析应用，整合市场分析、经济数据、投资研究与可选 AI 工作流"
+  },
+  {
+    "id": "quantconnect-lean",
+    "name": "LEAN",
+    "url": "https://github.com/QuantConnect/Lean",
+    "type": "GitHub",
+    "category": "财务 / 储蓄",
+    "categoryHref": "/misc",
+    "collection": "financial-research-tools",
+    "addedAt": "2026-07-26",
+    "status": "active",
+    "description": "QuantConnect 的开源事件驱动量化交易引擎，可用于研究、回测、优化和实盘算法部署"
+  },
+  {
+    "id": "ai-berkshire",
+    "name": "AI Berkshire",
+    "url": "https://github.com/xbtlin/ai-berkshire",
+    "type": "GitHub",
+    "category": "财务 / 储蓄",
+    "categoryHref": "/misc",
+    "collection": "financial-research-tools",
+    "addedAt": "2026-07-26",
+    "status": "active",
+    "description": "面向 Claude Code 与 Codex 的价值投资研究框架，提供多视角研究与数据交叉核验流程"
   }
 ]

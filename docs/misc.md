@@ -1041,6 +1041,17 @@
 
 ***
 
+<!-- pingti-local-financial-research-tools:start -->
+## ▷ 平替精选：金融研究与量化工具
+
+> [选型指南：4 个开源金融研究与量化工具，日报、研究终端、回测和 AI 投研如何选择](/posts/open-source-financial-research-tools-2026)
+
+* [daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) - 多市场股票分析与定时推送系统，聚合行情、新闻和模型分析以生成研究报告
+* [FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) - 桌面金融研究与分析应用，整合市场分析、经济数据、投资研究与可选 AI 工作流
+* [LEAN](https://github.com/QuantConnect/Lean) - QuantConnect 的开源事件驱动量化交易引擎，可用于研究、回测、优化和实盘算法部署
+* [AI Berkshire](https://github.com/xbtlin/ai-berkshire) - 面向 Claude Code 与 Codex 的价值投资研究框架，提供多视角研究与数据交叉核验流程
+<!-- pingti-local-financial-research-tools:end -->
+
 ## ▷ 加密货币
 
 * **注意** - 建议将加密货币离线存储在 Electrum 等冷钱包中，而不是 Binance 等交易所。这样可以提高安全性，并完全控制资产。
