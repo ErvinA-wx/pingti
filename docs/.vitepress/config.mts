@@ -57,9 +57,30 @@ export default defineConfig({
     }
   },
   head: [
-    ['meta', { name: 'theme-color', content: '#7bc5e4' }],
-    ['meta', { property: 'og:locale', content: 'zh_CN' }],
-    ['link', { rel: 'icon', href: '/fmhy.ico' }],
+    ['meta', { name: 'theme-color', content: '#111827' }],
+    ['meta', { name: 'application-name', content: '平替指南' }],
+    ['meta', { name: 'apple-mobile-web-app-title', content: '平替指南' }],
+    ['meta', { name: 'mobile-web-app-capable', content: 'yes' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#111827' }],
+    ['link', { rel: 'icon', href: '/favicon.ico', sizes: 'any' }],
+    [
+      'link',
+      {
+        rel: 'icon',
+        href: '/icons/favicon-32x32.png',
+        type: 'image/png',
+        sizes: '32x32'
+      }
+    ],
+    [
+      'link',
+      {
+        rel: 'icon',
+        href: '/icons/favicon-16x16.png',
+        type: 'image/png',
+        sizes: '16x16'
+      }
+    ],
     [
       'link',
       {
@@ -71,14 +92,30 @@ export default defineConfig({
     ],
     // PWA
     ['link', { rel: 'manifest', href: '/manifest.json' }],
-    [
-      'link',
-      { rel: 'alternate icon', href: '/pwa_icon.png', type: 'image/png' }
-    ],
     ['meta', { name: 'keywords', content: meta.keywords.join(' ') }],
     [
       'link',
-      { rel: 'apple-touch-icon', href: '/pwa_icon.png', sizes: '192x192' }
+      {
+        rel: 'apple-touch-icon',
+        href: '/icons/apple-touch-icon-180.png',
+        sizes: '180x180'
+      }
+    ],
+    [
+      'link',
+      {
+        rel: 'apple-touch-icon',
+        href: '/icons/apple-touch-icon-167.png',
+        sizes: '167x167'
+      }
+    ],
+    [
+      'link',
+      {
+        rel: 'apple-touch-icon',
+        href: '/icons/apple-touch-icon-152.png',
+        sizes: '152x152'
+      }
     ],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     [
@@ -162,7 +199,7 @@ export default defineConfig({
                 });
               }
               function applyJuneLogo() {
-                var logos = document.querySelectorAll("img.logo, img[src*='fmhy.ico']");
+                var logos = document.querySelectorAll("img.logo, img[src*='favicon.ico']");
                 logos.forEach(function(img) {
                   if (img.getAttribute('src') !== '/june_icon.webp') {
                     img.setAttribute('src', '/june_icon.webp');
@@ -366,7 +403,7 @@ export default defineConfig({
       text: '📝 编辑此页'
     },
     logo: {
-      src: '/fmhy.ico',
+      src: '/favicon.ico',
       alt: '平替指南 Logo'
     },
     nav,

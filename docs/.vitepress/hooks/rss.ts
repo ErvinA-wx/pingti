@@ -29,7 +29,7 @@ export async function generateFeed(config: SiteConfig): Promise<void> {
     title: '平替指南博客',
     description: meta.description,
     language: 'zh-CN',
-    image: `${meta.hostname}/pwa_icon.png`,
+    image: `${meta.hostname}/icons/icon-512.png`,
     favicon: `${meta.hostname}/favicon.ico`,
     copyright: `Copyright (c) ${new Date().getFullYear()} 平替指南`
   })

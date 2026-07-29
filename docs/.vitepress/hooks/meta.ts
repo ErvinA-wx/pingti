@@ -16,6 +16,10 @@
 
 import type { HeadConfig, TransformContext } from 'vitepress'
 
+const DEFAULT_DESCRIPTION =
+  '发现更自由、更实用的免费与开源软件、网站、应用与数字服务替代方案。'
+const DEFAULT_SOCIAL_IMAGE = '/og/pingti-social-v1.png'
+
 const NOINDEX_PAGES = new Set([
   'feedback.md',
   'sandbox.md',
@@ -61,74 +65,37 @@ export function generateMeta(context: TransformContext, hostname: string) {
 
   const url = `${hostname}/${pageData.relativePath.replace(/((^|\/)index)?\.md$/, '$2')}`
   const isPost = pageData.relativePath.startsWith('posts/')
+  const pageTitle = pageData.frontmatter.title || pageData.title || '平替指南'
+  const socialTitle =
+    pageData.relativePath === 'index.md'
+      ? '平替指南｜免费与开源替代方案导航'
+      : `${pageTitle} · 平替指南`
+  const description = pageData.frontmatter.description || DEFAULT_DESCRIPTION
+  const imagePath = pageData.frontmatter.image || DEFAULT_SOCIAL_IMAGE
+  const imageUrl = `${hostname}/${imagePath.replace(/^\//, '')}`
+  const imageType = imagePath.endsWith('.webp') ? 'image/webp' : 'image/png'
 
   head.push(
     ['link', { rel: 'canonical', href: url }],
     ['meta', { property: 'og:type', content: isPost ? 'article' : 'website' }],
+    ['meta', { property: 'og:site_name', content: '平替指南' }],
+    ['meta', { property: 'og:locale', content: 'zh_CN' }],
     ['meta', { property: 'og:url', content: url }],
     ['meta', { name: 'twitter:url', content: url }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { property: 'og:title', content: pageData.frontmatter.title }],
-    ['meta', { name: 'twitter:title', content: pageData.frontmatter.title }]
+    ['meta', { property: 'og:title', content: socialTitle }],
+    ['meta', { name: 'twitter:title', content: socialTitle }],
+    ['meta', { property: 'og:description', content: description }],
+    ['meta', { name: 'twitter:description', content: description }],
+    ['meta', { property: 'og:image', content: imageUrl }],
+    ['meta', { property: 'og:image:secure_url', content: imageUrl }],
+    ['meta', { property: 'og:image:width', content: '1200' }],
+    ['meta', { property: 'og:image:height', content: '630' }],
+    ['meta', { property: 'og:image:type', content: imageType }],
+    ['meta', { property: 'og:image:alt', content: socialTitle }],
+    ['meta', { name: 'twitter:image', content: imageUrl }],
+    ['meta', { name: 'twitter:image:alt', content: socialTitle }]
   )
-
-  if (pageData.frontmatter.description) {
-    head.push(
-      [
-        'meta',
-        {
-          property: 'og:description',
-          content: pageData.frontmatter.description
-        }
-      ],
-      [
-        'meta',
-        {
-          name: 'twitter:description',
-          content: pageData.frontmatter.description
-        }
-      ]
-    )
-  }
-
-  if (pageData.frontmatter.image) {
-    const imageUrl = `${hostname}/${pageData.frontmatter.image.replace(/^\//, '')}`
-    head.push(
-      ['meta', { property: 'og:image', content: imageUrl }],
-      ['meta', { property: 'og:image:width', content: '1200' }],
-      ['meta', { property: 'og:image:height', content: '630' }],
-      ['meta', { property: 'og:image:type', content: 'image/png' }],
-      [
-        'meta',
-        { property: 'og:image:alt', content: pageData.frontmatter.title }
-      ],
-      ['meta', { name: 'twitter:image', content: imageUrl }],
-      ['meta', { name: 'twitter:image:width', content: '1200' }],
-      ['meta', { name: 'twitter:image:height', content: '630' }],
-      [
-        'meta',
-        { name: 'twitter:image:alt', content: pageData.frontmatter.title }
-      ]
-    )
-  } else {
-    head.push(
-      ['meta', { property: 'og:image', content: `${hostname}/banner2.png` }],
-      ['meta', { property: 'og:image:width', content: '1200' }],
-      ['meta', { property: 'og:image:height', content: '630' }],
-      ['meta', { property: 'og:image:type', content: 'image/png' }],
-      [
-        'meta',
-        { property: 'og:image:alt', content: pageData.frontmatter.title }
-      ],
-      ['meta', { name: 'twitter:image', content: `${hostname}/banner2.png` }],
-      ['meta', { name: 'twitter:image:width', content: '1200' }],
-      ['meta', { name: 'twitter:image:height', content: '630' }],
-      [
-        'meta',
-        { name: 'twitter:image:alt', content: pageData.frontmatter.title }
-      ]
-    )
-  }
 
   if (pageData.frontmatter.tag) {
     head.push([
@@ -162,9 +129,7 @@ export function generateMeta(context: TransformContext, hostname: string) {
     ])
   }
 
-  const image = pageData.frontmatter.image
-    ? `${hostname}/${pageData.frontmatter.image.replace(/^\//, '')}`
-    : `${hostname}/banner2.png`
+  const image = imageUrl
   const authors = resolveAuthors(pageData.frontmatter.authors)
   const structuredData = isPost
     ? {
@@ -194,7 +159,7 @@ export function generateMeta(context: TransformContext, hostname: string) {
               url: hostname,
               logo: {
                 '@type': 'ImageObject',
-                url: `${hostname}/pwa_icon.png`
+                url: `${hostname}/icons/icon-512.png`
               }
             }
           },
@@ -233,7 +198,7 @@ export function generateMeta(context: TransformContext, hostname: string) {
               name: '平替指南',
               alternateName: 'Pingti',
               url: hostname,
-              logo: `${hostname}/pwa_icon.png`,
+              logo: `${hostname}/icons/icon-512.png`,
               sameAs: ['https://github.com/ErvinA-wx/pingti']
             },
             {

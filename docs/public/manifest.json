@@ -1,39 +1,81 @@
 {
-  "name": "平替指南",
-  "short_name": "平替",
-  "description": "互联网上最大的免费与开源替代资源中文合集！",
-  "theme_color": "#7bc5e4",
-  "background_color": "#ffffff",
-  "display": "standalone",
-  "orientation": "portrait",
+  "id": "/",
+  "name": "平替指南 · 免费与开源替代方案导航",
+  "short_name": "平替指南",
+  "description": "发现更自由、更实用的免费与开源软件、网站、应用与数字服务替代方案。",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "/?source=pwa",
   "scope": "/",
-  "start_url": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "any",
+  "theme_color": "#111827",
+  "background_color": "#f6f7f9",
+  "categories": ["education", "productivity", "utilities"],
+  "prefer_related_applications": false,
   "icons": [
     {
-      "src": "/fmhy.ico",
-      "sizes": "16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "/pwa_icon.png",
+      "src": "/icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
-      "src": "/pwa_icon.png",
+      "src": "/icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
-  "categories": ["education", "entertainment", "lifestyle", "utilities"],
+  "shortcuts": [
+    {
+      "name": "最新收录",
+      "short_name": "最新收录",
+      "description": "查看最近 180 天收录的新项目",
+      "url": "/latest?source=pwa-shortcut",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "平替指南博客",
+      "short_name": "博客",
+      "description": "查看工具推荐、选型指南与站点更新",
+      "url": "/blog?source=pwa-shortcut",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
   "screenshots": [
     {
-      "src": "/banner2.png",
-      "sizes": "1280x720",
+      "src": "/screenshots/home-wide.png",
+      "sizes": "1265x712",
       "type": "image/png",
-      "form_factor": "wide"
+      "form_factor": "wide",
+      "label": "平替指南首页桌面版"
+    },
+    {
+      "src": "/screenshots/home-mobile.png",
+      "sizes": "735x1158",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "平替指南首页移动版"
     }
   ]
 }
