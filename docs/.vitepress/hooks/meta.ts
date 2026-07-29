@@ -19,6 +19,7 @@ import type { HeadConfig, TransformContext } from 'vitepress'
 const DEFAULT_DESCRIPTION =
   '发现更自由、更实用的免费与开源软件、网站、应用与数字服务替代方案。'
 const DEFAULT_SOCIAL_IMAGE = '/og/pingti-social-v1.png'
+const DEFAULT_TWITTER_IMAGE = '/og/pingti-twitter-hero-v2.png'
 
 const NOINDEX_PAGES = new Set([
   'feedback.md',
@@ -73,6 +74,11 @@ export function generateMeta(context: TransformContext, hostname: string) {
   const description = pageData.frontmatter.description || DEFAULT_DESCRIPTION
   const imagePath = pageData.frontmatter.image || DEFAULT_SOCIAL_IMAGE
   const imageUrl = `${hostname}/${imagePath.replace(/^\//, '')}`
+  const twitterImagePath =
+    pageData.frontmatter.twitterImage ||
+    pageData.frontmatter.image ||
+    DEFAULT_TWITTER_IMAGE
+  const twitterImageUrl = `${hostname}/${twitterImagePath.replace(/^\//, '')}`
   const imageType = imagePath.endsWith('.webp') ? 'image/webp' : 'image/png'
 
   head.push(
@@ -93,7 +99,7 @@ export function generateMeta(context: TransformContext, hostname: string) {
     ['meta', { property: 'og:image:height', content: '630' }],
     ['meta', { property: 'og:image:type', content: imageType }],
     ['meta', { property: 'og:image:alt', content: socialTitle }],
-    ['meta', { name: 'twitter:image', content: imageUrl }],
+    ['meta', { name: 'twitter:image', content: twitterImageUrl }],
     ['meta', { name: 'twitter:image:alt', content: socialTitle }]
   )
 

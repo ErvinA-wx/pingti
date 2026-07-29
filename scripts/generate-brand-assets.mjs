@@ -6,6 +6,7 @@ import sharp from 'sharp'
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const publicDir = resolve(root, 'docs/public')
 const sourceMark = resolve(publicDir, 'pwa_icon.png')
+const sourceHero = resolve(publicDir, 'hero/pthero-1120.webp')
 const iconsDir = resolve(publicDir, 'icons')
 const ogDir = resolve(publicDir, 'og')
 
@@ -144,7 +145,16 @@ await sharp(Buffer.from(ogSvg))
   .png({ compressionLevel: 9, adaptiveFiltering: true })
   .toFile(resolve(ogDir, 'pingti-social-v1.png'))
 
+await sharp(sourceHero)
+  .resize(1200, 630, {
+    fit: 'contain',
+    position: 'centre',
+    background: '#050609'
+  })
+  .png({ compressionLevel: 9, adaptiveFiltering: true })
+  .toFile(resolve(ogDir, 'pingti-twitter-hero-v2.png'))
+
 const sourceMeta = await sharp(sourceMark).metadata()
 console.log(
-  `品牌资产已生成：源图 ${sourceMeta.width}×${sourceMeta.height}，图标 ${iconSpecs.length} 个，OG 1200×630。`
+  `品牌资产已生成：源图 ${sourceMeta.width}×${sourceMeta.height}，图标 ${iconSpecs.length} 个，OG 与 X 卡片均为 1200×630。`
 )
