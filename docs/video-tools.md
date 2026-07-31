@@ -401,6 +401,23 @@
 
 # ► 视频编辑
 
+<!-- pingti-local-agent-video-production-tools:start -->
+## ▷ 平替精选：Agent 视频制作与动效工具
+
+> [选型指南：10 个 Agent 视频制作工具，渲染引擎、生产系统与专项 Skill 怎么选？](/posts/agent-video-production-tools-2026)
+
+* [HyperFrames](https://github.com/heygen-com/hyperframes) - 面向 Agent 的 HTML 视频渲染框架，可将 HTML、CSS、媒体与可寻址动画确定性渲染为 MP4
+* [OpenMontage](https://github.com/calesthio/OpenMontage) - 面向 AI 编码代理的视频生产系统，用工作流编排研究、脚本、素材、剪辑与最终合成
+* [video-shotcraft](https://github.com/Vincentwei1021/video-shotcraft) - 面向 Claude Code 与 Codex 的 Remotion 产品视频 Skill，提供镜头配方、动效预览与完整模板
+* [HyperFrames Motion Director](https://github.com/geekjourneyx/hyperframes-motion-director) - 中文优先的 HyperFrames 视频制作 Skill，可把文章、产品、网站或 README 组织为竖版动态视频
+* [LLM Video Maker](https://github.com/GoldLegendW80/llm-video-maker) - 基于 HyperFrames 的提示驱动视频 Skill，可生成带配音、字幕、音乐和多种画幅的 MP4
+* [Vibe Creating](https://github.com/Alisa0808/vibe-creating-skill) - 双语视频提示词 Skill，将粗略创意整理为适合文生视频模型的自然语言提示词
+* [Generative Media Skills](https://github.com/calesthio/generative-media-skills) - 面向 AI 编码代理的生成媒体技能库，覆盖图像、视频、音频、语音、制作规范与交付检查
+* [each::labs Skills](https://github.com/eachlabs/skills) - 通过 each::labs API 为 Agent 提供视频、图像、音乐、配音与多步骤媒体工作流
+* [brag](https://github.com/latent-spaces/brag) - 读取当前项目并借助 HyperFrames 生成短篇产品发布视频、制作计划和分享文案的 Agent Skill
+* [HyperFrames Launches](https://github.com/heygen-com/hyperframes-launches) - HeyGen 官方 HyperFrames 产品发布视频源码与成片示例库，可用于查看真实项目结构和工作流
+<!-- pingti-local-agent-video-production-tools:end -->
+
 * ⭐ **[r/VideoEditing](https://www.reddit.com/r/VideoEditing/)** - 视频编辑子版块 / [Wiki](https://www.reddit.com/r/VideoEditing/wiki/index/)
 * ⭐ **[Eyecandy](https://eyecannndy.com/)** - 视觉技巧示例 / [Discord](https://discord.com/invite/WRyrPkWEzT)
 * ⭐ **[Waifu2x GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI)**, [⁠TheAnimeScripter](https://github.com/NevermindNilas/TheAnimeScripter), [Video2x](https://github.com/k4yt3x/video2x), [Enhancr](https://github.com/mafiosnik777/enhancr), [Warlock-Studio](https://github.com/Ivan-Ayub97/Warlock-Studio), [Lossless Scaling](https://pingti.org/gaming#download-games)（搜索）或 [Dandere2x](https://github.com/akai-katto/dandere2x) - 视频放大

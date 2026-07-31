@@ -118,6 +118,16 @@ const sections = [
     heading: '平替精选：金融研究与量化工具',
     article:
       '[选型指南：4 个开源金融研究与量化工具，日报、研究终端、回测和 AI 投研如何选择](/posts/open-source-financial-research-tools-2026)'
+  },
+  {
+    targetFile: 'docs/video-tools.md',
+    entriesFile: 'local-content/projects.json',
+    collection: 'agent-video-production-tools',
+    id: 'agent-video-production-tools',
+    anchor: '# ► 视频编辑',
+    heading: '平替精选：Agent 视频制作与动效工具',
+    article:
+      '[选型指南：10 个 Agent 视频制作工具，渲染引擎、生产系统与专项 Skill 怎么选？](/posts/agent-video-production-tools-2026)'
   }
 ]
 
