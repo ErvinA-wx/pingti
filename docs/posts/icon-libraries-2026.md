@@ -26,14 +26,14 @@ authors: []
 | 场景 | 优先选择 | 关键边界 |
 | --- | --- | --- |
 | React、Vue、Svelte 等项目按需打包 | [Lucide](https://lucide.dev/)、[Iconoir](https://iconoir.com/)、[Tabler Icons](https://tabler.io/icons) | 仍应只引入实际使用的图标，避免整个图标包进入前端产物 |
-| 一套图标需要粗细、填充、双色等多种视觉层次 | [Phosphor Icons](https://phosphoricons.com/)、[IconPark](https://iconpark.oceanengine.com/)、[Remix Icon](https://remixicon.com/) | 同一界面应固定图标网格、描边与圆角规则，避免混搭 |
+| 一套图标需要粗细、填充、双色等多种视觉层次 | [Phosphor Icons](https://phosphoricons.com/)、[IconPark](https://iconpark.oceanengine.com/)、[Remix Icon](https://remixicon.com/) | Remix Icon 当前使用自定义许可；IconPark 仓库已归档。三者都要先确认维护与授权边界 |
 | Material Design 或 Google 字体工作流 | [Material Symbols](https://fonts.google.com/icons) | 图标字体便利，但要评估首屏字体加载、可访问名称与字体子集 |
 | 简洁线框、小型原型或旧项目兼容 | [Feather Icons](https://feathericons.com/)、[Eva Icons](https://akveo.github.io/eva-icons/) | 图标规模较小，开始前先确认是否覆盖业务语义 |
 | 快速搜索多个开放图标集 | [Icônes](https://icones.js.org/) | 它是入口而非统一许可证；每个图标集的署名与使用范围不同 |
 | 中文图标管理与团队项目协作 | [iconfont](https://www.iconfont.cn/) | 每个图标库的授权不同，不应从平台名称推断可商用或可再分发 |
 | 需要 3D、动画或大规模商业素材 | [Iconsax](https://iconsax.io/)、[Hugeicons](https://hugeicons.com/)、[Nucleo](https://nucleoapp.com/)、[Iconly Pro](https://iconly.pro/) | 免费入口不等于开源；需要看席位、订阅有效期、模板分发与源文件再分发限制 |
 
-## 可优先采用的开源图标库
+## 开源图标库与官方授权库
 
 ### Material Symbols：Google 设计系统的图标字体与 SVG
 
@@ -47,9 +47,12 @@ authors: []
 
 三者都允许商业使用，但不应把许可证宽松理解为可以随意混用。一个页面里若同时使用不同图标库，很容易在描边末端、圆角、视觉重量与 24px 网格上失去一致性。
 
-### Remix Icon、Iconoir、Reicon、Feather 与 Eva：按风格和生态选
+### Remix Icon：当前版本使用自定义许可证
 
-- [Remix Icon](https://remixicon.com/) 是 Apache-2.0 的中性风格图标系统，适合需要线框与填充配对的通用 Web 界面。
+[Remix Icon](https://remixicon.com/) 是适合线框与填充配对的中性风格图标系统。官方仓库当前使用 2026 年 1 月发布的 [Remix Icon License v1.0](https://github.com/Remix-Design/RemixIcon/blob/master/License)，不再是早期常见资料所写的 Apache-2.0。该许可允许在个人、商业与客户项目中使用和修改图标，也允许把图标作为较大产品中的功能或装饰组件；但禁止把图标作为独立图标包销售、建立竞争图标库，或把图标用作 Logo、商标与品牌标识。分发完整图库或其中实质部分时还要保留版权与许可信息。
+
+### Iconoir、Reicon、Feather 与 Eva：按风格和生态选
+
 - [Iconoir](https://iconoir.com/) 为 MIT 开源，官方提供 SVG、React、React Native、Vue、Flutter、Figma 与 Framer 等入口，适合多端复用。
 - [Reicon](https://reicon.dev/) 为 MIT 开源，提供描边、填充及多端框架和设计工具入口，适合想从较新的图标系统开始的项目。
 - [Feather Icons](https://feathericons.com/) 为 MIT 开源，以少量、克制的线框图标见长；当业务图标需求不大时，它反而更容易维持视觉统一。
@@ -57,7 +60,7 @@ authors: []
 
 ### IconPark：需要同一图形的多主题变体
 
-[IconPark](https://iconpark.oceanengine.com/) 是字节跳动维护的 Apache-2.0 开源项目。它将同一图形转换为线框、填充、双色和多色主题，适合状态提示、儿童向产品或需要强色彩编码的界面。多色图标的优势也是风险：正式产品仍应为错误、成功、警告等状态保留文字或形状差异，不能只依赖颜色传递信息。
+[IconPark](https://iconpark.oceanengine.com/) 是字节跳动发布的 Apache-2.0 开源项目。它将同一图形转换为线框、填充、双色和多色主题，适合状态提示、儿童向产品或需要强色彩编码的界面。官方 GitHub 仓库已归档，最后一次代码推送为 2023 年 2 月，因此新项目采用前要确认现有包是否兼容当前框架，并准备自行维护。多色图标的优势也是风险：正式产品仍应为错误、成功、警告等状态保留文字或形状差异，不能只依赖颜色传递信息。
 
 ## 聚合与图标管理：授权要回到来源
 

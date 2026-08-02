@@ -427,7 +427,7 @@
 
 > [选型指南：16 个 UI 图标库与图标搜索工具，开源、免费层与商用授权怎么选？](/posts/icon-libraries-2026)
 
-* [Remix Icon](https://remixicon.com/) - 面向界面设计的 Apache-2.0 开源中性风格图标系统，可下载或作为图标字体使用
+* [Remix Icon](https://remixicon.com/) - 面向界面设计的中性风格图标系统，可用于商业产品，但当前自定义许可限制独立销售、竞争图库与品牌标识用途
 * [Feather Icons](https://feathericons.com/) - 以简洁线框风格为主的 MIT 开源 SVG 图标集，适合轻量界面与原型
 * [Reicon](https://reicon.dev/) - 提供描边与填充版本的 MIT 开源 SVG 图标，覆盖 React、Vue、Svelte、Flutter 与 Figma
 * [Eva Icons](https://akveo.github.io/eva-icons/) - 与 Eva Design System 配套的开源界面图标集，提供 SVG、字体和动画版本
