@@ -422,6 +422,23 @@
 
 ***
 
+<!-- pingti-local-icon-tools:start -->
+## ▷ 平替精选：图标库与图标搜索工具
+
+> [选型指南：16 个 UI 图标库与图标搜索工具，开源、免费层与商用授权怎么选？](/posts/icon-libraries-2026)
+
+* [Remix Icon](https://remixicon.com/) - 面向界面设计的 Apache-2.0 开源中性风格图标系统，可下载或作为图标字体使用
+* [Feather Icons](https://feathericons.com/) - 以简洁线框风格为主的 MIT 开源 SVG 图标集，适合轻量界面与原型
+* [Reicon](https://reicon.dev/) - 提供描边与填充版本的 MIT 开源 SVG 图标，覆盖 React、Vue、Svelte、Flutter 与 Figma
+* [Eva Icons](https://akveo.github.io/eva-icons/) - 与 Eva Design System 配套的开源界面图标集，提供 SVG、字体和动画版本
+* [IconPark](https://iconpark.oceanengine.com/) - 字节跳动的 Apache-2.0 开源图标库，可把同一图标切换为线框、填充、双色或多色主题
+* [iconfont](https://www.iconfont.cn/) - 阿里巴巴的矢量图标管理与下载平台，实际授权须逐个图标库或素材确认
+* [Iconsax](https://iconsax.io/) - 提供免费与付费档位的专有授权图标库；免费图标可集成到成品但不得单独再分发
+* [Hugeicons](https://hugeicons.com/) - 提供免费与 Pro 图标包的商业服务，成品可使用但图标源文件不得再分发
+* [Nucleo](https://nucleoapp.com/) - 提供免费 Essential 子集与付费图标家族的图标管理应用，使用受每项目数量与再分发限制约束
+* [Iconly Pro](https://iconly.pro/) - 包含免费入口与付费订阅的图标服务，覆盖扁平、3D、破碎线和动画等风格
+<!-- pingti-local-icon-tools:end -->
+
 ## SVG 图标
 
 * 🌐 **[Awesome Icons](https://github.com/notlmn/awesome-icons)**、**[Awesome Stock Resources](https://github.com/neutraltone/awesome-stock-resources#icons)** 或 **[Free Icons](https://www.iconshock.com/freeicons/)** - 图标站点索引

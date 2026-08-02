@@ -128,6 +128,16 @@ const sections = [
     heading: '平替精选：Agent 视频制作与动效工具',
     article:
       '[选型指南：10 个 Agent 视频制作工具，渲染引擎、生产系统与专项 Skill 怎么选？](/posts/agent-video-production-tools-2026)'
+  },
+  {
+    targetFile: 'docs/storage.md',
+    entriesFile: 'local-content/projects.json',
+    collection: 'icon-tools',
+    id: 'icon-tools',
+    anchor: '## SVG 图标',
+    heading: '平替精选：图标库与图标搜索工具',
+    article:
+      '[选型指南：16 个 UI 图标库与图标搜索工具，开源、免费层与商用授权怎么选？](/posts/icon-libraries-2026)'
   }
 ]
 
