@@ -241,6 +241,7 @@
 * [⁠itinypdf](https://itinypdf.com/) - 客户端
 * [PDFClear](https://www.pdfclear.com/) - 客户端
 * [DigiPDF](https://digipdf.app/?lang=en_US) - 客户端
+* [PDFKing](https://pdfking.app/)
 * [Sejda](https://www.sejda.com/)
 * [ILovePDF](https://www.ilovepdf.com/)
 * [⁠PDFResizer](https://pdfresizer.com/)
