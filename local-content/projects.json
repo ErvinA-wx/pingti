@@ -1010,5 +1010,89 @@
     "addedAt": "2026-08-01",
     "status": "active",
     "description": "基于 Iconify 的多图标集搜索与复制工具，使用具体图标前仍应遵循其原始图库授权"
+  },
+  {
+    "id": "female-outfit-director",
+    "name": "female-outfit-director",
+    "url": "https://github.com/liyue-aigc/female-outfit-director",
+    "type": "GitHub",
+    "category": "视频工具",
+    "categoryHref": "/video-tools",
+    "collection": "specialized-video-workflows",
+    "addedAt": "2026-08-05",
+    "status": "active",
+    "description": "面向 Agent 的中文提示词导演 Skill，用于设计成年女性多套穿搭拼贴首帧与卡点换装视频方案"
+  },
+  {
+    "id": "story-to-handdrawn-video",
+    "name": "story-to-handdrawn-video",
+    "url": "https://github.com/gnipbao/story-to-handdrawn-video",
+    "type": "GitHub",
+    "category": "视频工具",
+    "categoryHref": "/video-tools",
+    "collection": "specialized-video-workflows",
+    "addedAt": "2026-08-05",
+    "status": "active",
+    "description": "将中文故事或有序图片制作成 3:4 手绘日记漫画动画，并通过 Remotion 输出静音 H.264 画面轨"
+  },
+  {
+    "id": "vox-director",
+    "name": "Vox Director",
+    "url": "https://github.com/Alisa0808/vox-director",
+    "type": "GitHub",
+    "category": "视频工具",
+    "categoryHref": "/video-tools",
+    "collection": "specialized-video-workflows",
+    "addedAt": "2026-08-05",
+    "status": "active",
+    "description": "借助 Atlas Cloud 与本地 FFmpeg 生成纸张拼贴风解说或广告视频的 Agent Skill"
+  },
+  {
+    "id": "gbro-collage-broll",
+    "name": "gbro-collage-broll",
+    "url": "https://github.com/pyang5166/gbro-collage-broll",
+    "type": "GitHub",
+    "category": "视频工具",
+    "categoryHref": "/video-tools",
+    "collection": "specialized-video-workflows",
+    "addedAt": "2026-08-05",
+    "status": "active",
+    "description": "通过隐喻、静帧和视频三阶段确认生成半调纸拼贴 B-roll 的 Agent Skill"
+  },
+  {
+    "id": "classical-poem-silk-video",
+    "name": "HBG Classical Poem Silk Video",
+    "url": "https://github.com/Mr-funny/hbg-classical-poem-silk-video",
+    "type": "GitHub",
+    "category": "视频工具",
+    "categoryHref": "/video-tools",
+    "collection": "specialized-video-workflows",
+    "addedAt": "2026-08-05",
+    "status": "active",
+    "description": "把中国古诗词制作成带动态国画、竖排题字、环境声与 BGM 的竖屏视频 Skill"
+  },
+  {
+    "id": "book-video-factory",
+    "name": "book-video-factory",
+    "url": "https://github.com/bytec-ai/book-video-factory",
+    "type": "GitHub",
+    "category": "视频工具",
+    "categoryHref": "/video-tools",
+    "collection": "specialized-video-workflows",
+    "addedAt": "2026-08-05",
+    "status": "active",
+    "description": "管理多账号图书短视频的研究、文案、分镜、配音、字幕、预览与成片生产流程"
+  },
+  {
+    "id": "book-video",
+    "name": "Book Video",
+    "url": "https://github.com/Endless1936/book-video",
+    "type": "GitHub",
+    "category": "视频工具",
+    "categoryHref": "/video-tools",
+    "collection": "specialized-video-workflows",
+    "addedAt": "2026-08-05",
+    "status": "active",
+    "description": "用自然语言组织选书、文案、氛围图、用户配音、字幕对齐与图书短视频渲染的工作流"
   }
 ]

@@ -138,6 +138,16 @@ const sections = [
     heading: '平替精选：图标库与图标搜索工具',
     article:
       '[选型指南：16 个 UI 图标库与图标搜索工具，开源、免费层与商用授权怎么选？](/posts/icon-libraries-2026)'
+  },
+  {
+    targetFile: 'docs/video-tools.md',
+    entriesFile: 'local-content/projects.json',
+    collection: 'specialized-video-workflows',
+    id: 'specialized-video-workflows',
+    anchor: '## ▷ 视频编辑器',
+    heading: '平替精选：专项 AI 视频工作流 Skill',
+    article:
+      '[选型指南：8 个 AI 视频工作流 Skill，换装、漫画、Vox、古诗词与图书短视频怎么选？](/posts/specialized-ai-video-workflow-skills-2026)'
   }
 ]
 
