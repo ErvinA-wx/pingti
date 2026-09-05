@@ -605,6 +605,7 @@
 * [NFG's Arcade Font Maker](https://nfggames.com/games/fontmaker/) 或 [Arcade Font Writer](https://arcade.photonstorm.com/) - 街机文字生成器
 * [The Ransomizer](https://www.ransomizer.com/) - 勒索信风格文字
 * [Glitch](https://glitchtextgenerator.com/) - Zalgo 文字生成器
+* [textkits](https://textkits.org/) - 多种文字生成器
 
 ***
 
