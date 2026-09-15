@@ -1,9 +1,10 @@
 {
-  "state": "complete",
+  "state": "balance_required",
   "model": "deepseek-v4-flash",
-  "updatedAt": "2026-07-18T16:14:44.880Z",
-  "files": 191,
-  "segments": 274,
-  "cached": 274,
-  "pending": 0
+  "updatedAt": "2026-09-15T13:09:23.559Z",
+  "files": 213,
+  "segments": 363,
+  "cached": 278,
+  "pending": 85,
+  "message": "DeepSeek 余额不足。充值后重新运行相同命令即可从翻译记忆继续。"
 }
