@@ -435,7 +435,7 @@
 * ⭐ **[⁠Comix](https://comix.to/)**, [2](https://comix.ws/) / [Subreddit](https://reddit.com/r/comix) / [Discord](https://discord.com/invite/kZgWWHUj22)
 * ⭐ **[MangaDotNet](https://mangadot.net/)** / [Matrix](https://fuckdm.ca/)
 * ⭐ **[⁠OniSaga](https://onisaga.com/)**
-* ⭐ **[MangaDex](https://mangadex.org/)** - Account Required / [Downloader](https://mangadex-dl.mansuf.link/) / [Script](https://github.com/frozenpandaman/mangadex-dl) / [Wiki](https://wikidex.tr25.es/) / [Subreddit](https://www.reddit.com/r/mangadex/) / [Discord](https://discord.gg/mangadex)
+* ⭐ **[MangaDex](https://mangadex.org/)** - 需要注册 / [Downloader](https://mangadex-dl.mansuf.link/) / [Script](https://github.com/frozenpandaman/mangadex-dl) / [Wiki](https://wikidex.tr25.es/) / [Subreddit](https://www.reddit.com/r/mangadex/) / [Discord](https://discord.gg/mangadex)
 * ⭐ **[MangaNato](https://www.manganato.gg/)**, [2](https://www.nelomanga.net/), [3](https://www.mangakakalot.gg), [4](https://www.natomanga.com/) / [Discord](https://discord.gg/Qhz84GGvE9)
 * ⭐ **[Nyaa 漫画/轻小说](https://nyaa.si/?f=0&c=3_0&q=)** - 种子
 * [Nyora](https://web.nyora.xyz/) - 多站漫画聚合器

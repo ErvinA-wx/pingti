@@ -36,7 +36,7 @@
 * [APK4Free](https://apk4free.net/) / [Telegram](https://t.me/apk4free_net)
 * [Release APK](https://forum.release-apk.com/) / [Discord](https://discord.gg/RDVKXsnqce)
 * [ReXDL](https://rexdl.com/) / [Telegram](https://t.me/joinchat/AAAAAFVMhwX7IzS5hMc8OQ)
-* [⁠V-Alpha](https://discord.com/invite/dqs3VPxbC8) - Mobile PC Ports / [Telegram](https://t.me/VAlpha_Official)
+* [⁠V-Alpha](https://discord.com/invite/dqs3VPxbC8) - 移动端 PC 移植 / [Telegram](https://t.me/VAlpha_Official)
 
 ***
 
@@ -1035,7 +1035,7 @@
 
 ## ▷ Android 视频播放器
 
-* ⭐ **[⁠mpvEx](https://github.com/marlboro-advance/mpvEx)**, [⁠mpvRex](https://github.com/sfsakhawat999/mpvRex) or [mpvRx](https://github.com/Riteshp2001/mpvRx) - Free Open Source Video Players
+* ⭐ **[⁠mpvEx](https://github.com/marlboro-advance/mpvEx)**、[⁠mpvRex](https://github.com/sfsakhawat999/mpvRex) 或 [mpvRx](https://github.com/Riteshp2001/mpvRx) - 免费开源视频播放器
 * ⭐ **[mpv-android](https://github.com/mpv-android/mpv-android)**
 * ⭐ **[VLC](https://www.videolan.org/vlc/download-android.html)**
 * ⭐ **[Synkplay](https://github.com/yuroyami/syncplay-mobile)** - 视频流同步

@@ -26,7 +26,7 @@ authors: [nbats]
 
 ### [⁠FMHY λ Seλrch](https://search.fmhy.bid/)
 
-FMHY semantic search engine
+FMHY 语义搜索引擎
 
 ---
 

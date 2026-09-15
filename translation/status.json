@@ -1,10 +1,16 @@
 {
-  "state": "balance_required",
-  "model": "deepseek-v4-flash",
-  "updatedAt": "2026-09-15T13:09:23.559Z",
+  "state": "complete",
+  "model": "deepseek-flash",
+  "updatedAt": "2026-09-15T13:15:06.818Z",
   "files": 213,
   "segments": 363,
   "cached": 278,
-  "pending": 85,
-  "message": "DeepSeek 余额不足。充值后重新运行相同命令即可从翻译记忆继续。"
+  "translated": 85,
+  "pending": 0,
+  "completedBatches": 4,
+  "batches": 4,
+  "usage": {
+    "promptTokens": 10168,
+    "completionTokens": 4224
+  }
 }

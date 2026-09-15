@@ -1,3 +1,3 @@
-#### Pahe Note
+#### Pahe 说明
 
-Note that the Pahe Ad-Bypass script needs to be turned **off** in order to use intercelestial links, and can be turned back on for anything else.
+注意，使用 intercelestial 链接时需要将 Pahe Ad-Bypass 脚本**关闭**，其他情况下可以重新开启。

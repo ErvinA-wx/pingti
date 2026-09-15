@@ -1,3 +1,3 @@
-#### Fluffle Note
+#### Fluffle 说明
 
-Note that Fluffle has been archived, but we decided to keep it as it still stands out and works well.
+注意 Fluffle 已归档，但我们决定保留它，因为它依然表现出色且运行良好。

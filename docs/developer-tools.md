@@ -82,7 +82,7 @@
 * [Web Toolbox](https://web-toolbox.dev/en)
 * [devina](https://devina.io/)
 * [Coders Tool](https://www.coderstool.com/)
-* [UUID Tools](https://www.uuidtools.com/) or [⁠UUID Generator](https://toolkitvault.com/uuid-generator) - UUID Generators
+* [UUID Tools](https://www.uuidtools.com/) 或 [⁠UUID Generator](https://toolkitvault.com/uuid-generator) - UUID 生成器
 
 ***
 

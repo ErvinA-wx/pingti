@@ -682,7 +682,7 @@
 * [LiveScience](https://livescience.com/)
 * [ScienceNews](https://www.sciencenews.org/)
 * [IFLScience](https://www.iflscience.com/)
-* [⁠Nature This Week](https://naturethisweek.com/) - View Nature / Biology News from any Location
+* [⁠Nature This Week](https://naturethisweek.com/) - 查看任意地点的自然 / 生物新闻
 
 ***
 
@@ -1706,7 +1706,7 @@
 * [WorldCam](https://worldcam.eu/)
 * [⁠Tomarigi](https://tomarigi.me/world)
 * [Mangolink World](https://www.mangolinkworld.com/)
-* [Insecam](http://www.insecam.org/en/) - Public Surveillance Webcams
+* [Insecam](http://www.insecam.org/en/) - 公共监控摄像头
 * [CameraFTP](https://www.cameraftp.com/cameraftp/publish/publishedcameras.aspx)
 * [WebcamGalore](https://www.webcamgalore.com/)
 * [Windy Webcams](https://www.windy.com/-Webcams/webcams)

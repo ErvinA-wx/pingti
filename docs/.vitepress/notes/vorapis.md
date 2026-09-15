@@ -1,7 +1,7 @@
-#### VORAPIS Fix
+#### VORAPIS 修复
 
-Disable ublock (or any other ad blocker such as brave sheilds) for youtube.com.
+针对 youtube.com 禁用 ublock（或 brave sheilds 等其他广告拦截器）。
 
-Firefox: Disable enhanced tracking prevention (shield in url bar).
+Firefox：禁用增强跟踪保护（地址栏中的盾牌图标）。
 
-Vorapis blocks ads and displays dislike count by itself, compatible with dearrow and sponsorblock.
+Vorapis 自身即可拦截广告并显示不喜欢数，兼容 dearrow 和 sponsorblock。

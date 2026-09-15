@@ -634,7 +634,7 @@
 
 ## ▷ 国际象棋
 
-* 🌐 **[ChessVariants](https://www.chessvariants.com/index/favorites.php)** - Chess Variant Encyclopedia
+* 🌐 **[ChessVariants](https://www.chessvariants.com/index/favorites.php)** - 国际象棋变体百科
 * ↪️ **[Chess Learning / Practice](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu#wiki_.25B7_chess)**
 * ⭐ **[lichess](https://lichess.org/)** - 国际象棋平台 / [Discord](https://discord.com/invite/lichess) / [GitHub](https://github.com/lichess-org)
 * ⭐ **lichess Tools** - [Mobile Apps](https://lichess.org/mobile) / [Prettier UI](https://prettierlichess.github.io/) / [Themes](https://github.com/algertc/prettierlichess-themes) / [Leagues](https://www.lichess4545.com/) / [Extra Functionality](https://lichess.org/page/extend)

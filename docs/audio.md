@@ -551,7 +551,7 @@
 ***
 
 * ↪️ **[General Torrent Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/torrent)**
-* ⭐ **[Redacted](https://redacted.sh/)** - MP3 / FLAC / [Interviews](https://interviewfor.red/), [2](https://clarasguide.valeena.workers.dev/Guides/private-trackers/#introducing-red)
+* ⭐ **[Redacted](https://redacted.sh/)** - MP3 / FLAC / [Interviews](https://interviewfor.red/)，[2](https://clarasguide.valeena.workers.dev/Guides/private-trackers/#introducing-red)
 * ⭐ **[New-Team](https://new-team.org/)** - MP3 / FLAC
 * ⭐ **[Orpheus](https://orpheus.network/)** - MP3 / FLAC / [Interviews](https://interview.orpheus.network/)
 * ⭐ **[Lidarr](https://lidarr.audio/)** / [GitHub](https://github.com/Lidarr/Lidarr) 或 [Headphones](https://github.com/rembo10/headphones) - 音频 BT 自动下载
@@ -848,8 +848,8 @@
 * ⭐ **[WatZatSong](https://www.watzatsong.com/en)** 或 [r/NameThatSong](https://reddit.com/r/NameThatSong) - 歌曲识别社区
 * [FlairMax](https://apps.microsoft.com/detail/9pdzvj34ztxg) / Windows
 * [AudioTag](https://audiotag.info/) / Web
-* [SongFinder](https://songfinder.dev/) / Web
-* [⁠SongFinder.gg](https://songfinder.gg/) / Web
+* [SongFinder](https://songfinder.dev/) / 网页
+* [⁠SongFinder.gg](https://songfinder.gg/) / 网页
 * [SoundHound](https://www.soundhound.com/soundhound) / Android, iOS
 * [Audile](https://github.com/aleksey-saenko/MusicRecognizer) / Android
 * [Audire](https://github.com/alexmercerind/audire) / Android

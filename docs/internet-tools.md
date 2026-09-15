@@ -195,7 +195,7 @@
 * [PolitePaul](https://politepaul.com/en/)
 * [Janicek](https://feed.janicek.co/)
 * [FiveFilters](https://createfeed.fivefilters.org/)
-* [Kill the Newsletter](https://kill-the-newsletter.com/) - Convert Email Newsletters into Atom Feeds
+* [Kill the Newsletter](https://kill-the-newsletter.com/) - 将邮件新闻稿转换为 Atom 订阅源
 
 ***
 
