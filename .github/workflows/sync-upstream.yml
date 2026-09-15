@@ -128,7 +128,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           RESULT: ${{ steps.translate.outputs.exit_code }}
         run: |
-          git add docs translation README.md .github
+          git add docs translation README.md .github pnpm-lock.yaml
           git commit --no-verify -m "同步 FMHY 上游并更新中文内容" || true
           git push --set-upstream origin upstream-localized --force-with-lease
 
