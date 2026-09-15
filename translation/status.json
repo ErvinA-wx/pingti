@@ -1,6 +1,6 @@
 {
   "state": "complete",
-  "model": "deepseek-v4-flash",
+  "model": "deepseek-flash",
   "updatedAt": "2026-07-18T16:14:44.880Z",
   "files": 191,
   "segments": 274,
