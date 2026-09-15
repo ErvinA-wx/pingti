@@ -80,8 +80,6 @@ jobs:
       - name: 设置 pnpm
         if: steps.prepare.outputs.needs_translation == 'true'
         uses: pnpm/action-setup@v4
-        with:
-          version: 10.12.2
 
       - name: 设置 Node
         if: steps.prepare.outputs.needs_translation == 'true'
