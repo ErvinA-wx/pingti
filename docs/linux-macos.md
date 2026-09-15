@@ -202,6 +202,7 @@
 
 ## ▷ Linux 视频
 
+* ↪️ **[Streaming Apps](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video#wiki_.25BA_streaming_apps)** / **[Torrent Streaming](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video#wiki_.25BA_streaming_apps)**
 * ↪️ **[Media Servers / Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video-tools#wiki_.25BA_media_servers)**
 * ⭐ **[mpv](https://mpv.io/)** 或 [VLC](https://www.videolan.org/) - 视频播放器
 * ⭐ **[Haruna](https://apps.kde.org/haruna/)** / [GitHub](https://github.com/KDE/haruna) 或 **[Celluloid](https://github.com/celluloid-player/celluloid)** - MPV 前端
@@ -676,6 +677,8 @@
 
 ## ▷ Mac 视频
 
+* ↪️ **[Streaming Apps](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video#wiki_.25BA_streaming_apps)** / **[Torrent Streaming](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video#wiki_.25BA_streaming_apps)**
+* ↪️ **[Media Servers / Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video-tools#wiki_.25BA_media_servers)**
 * ↪️ **[Editing Software](https://rentry.co/FMHYB64#quick-guide)**
 * [IINA](https://iina.io/) - 视频播放器
 * [Fusion](https://fusionapp.dev/) - 流媒体应用（支持 Stremio 插件）/ [Discord](https://discord.gg/frkaK2B2Y9)

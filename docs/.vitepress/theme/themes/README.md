@@ -24,7 +24,7 @@ docs/.vitepress/theme/themes/
 ## 核心类型
 
 - `DisplayMode`: `'light' | 'dark'`.
-- `Theme`: `{ name, displayName, preview?, logo?, modes: { light, dark }, ... }`.
+- `Theme`: `{ displayName, preview?, modes: { light, dark }, fonts?: { body? } }`.
 - `ModeColors`:
   - `brand?`：可选品牌色（`1`、`2`、`3`、`soft`）。若省略，则由 ColorPicker 控制品牌色。
   - `bg`, `bgAlt`, `bgElv`, `bgMark?`.

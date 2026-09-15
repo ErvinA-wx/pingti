@@ -511,7 +511,7 @@
 * [FreeVideoEffect](https://freevideoeffect.com/)
 * [VideoCoPilot](https://www.videocopilot.net/products/ae22/)
 * [VFXmed](https://www.vfxmed.com/)
-* [Team V.R releases](https://rentry.co/FMHYB64#team-vr)
+* [Team V.R Releases](https://rentry.co/FMHYB64#team-vr)
 * [flex_cg_vfx](https://t.me/flex_cg_vfx)
 * [Download Pirate](https://www.downloadpirate.com/) - **使用 [Adblock](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy/#wiki_.25BA_adblocking)** / [Discord](https://discord.gg/ucTvVtBz9Z)
 * [Ae Blender](https://www.aeblender.com/)

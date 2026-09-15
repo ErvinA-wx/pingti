@@ -169,7 +169,6 @@
 * [CopyChar](https://copychar.cc/)
 * [Unicode Table](https://symbl.cc/)
 * [Asciify Unicode](https://asciify.dev/unicode)
-* [Symbol.so](https://symbol.so/)
 * [Unicode Table](https://www.grogllc.com/unicodetable.html)
 * [Graphemica](https://graphemica.com/)
 * [SymbolSelect](https://www.symbolselect.com/)
@@ -304,7 +303,7 @@
 ## ▷ 思维导图
 
 * ⭐ **[Obsidian Canvas](https://obsidian.md/canvas)**
-* [FreeMind](https://freemind.sourceforge.net/)
+* [FreeMind](https://freemind.sourceforge.io/)
 * [Kinopio](https://kinopio.club/)
 * [Freeplane](https://github.com/freeplane/freeplane)
 * [Mindomo](https://www.mindomo.com/)
@@ -344,7 +343,7 @@
 * [Pixso](https://pixso.net/)
 * [FidusWriter](https://www.fiduswriter.org/)
 * [Overleaf](https://www.overleaf.com/)
-* [Typst](https://typst.app/home) / [Resources](https://github.com/qjcg/awesome-typst) / [GitHub](https://github.com/typst/typst)
+* [Typst](https://typst.app/home) / [Resources](https://github.com/qjcg/awesome-typst) / [Discord](https://discord.gg/2uDybryKPe) / [GitHub](https://github.com/typst/typst)
 * [Rustpad](https://rustpad.io) / [GitHub](https://github.com/ekzhang/rustpad)
 * [OnlineInterview.io](https://onlineinterview.io/)
 
@@ -475,6 +474,8 @@
 * [⁠Markdown Monster](https://markdownmonster.west-wind.com/) / [GitHub](https://github.com/RickStrahl/MarkdownMonster)
 * [Zettlr](https://www.zettlr.com/) / [GitHub](https://github.com/Zettlr/Zettlr)
 * [Dillinger](https://dillinger.io/)
+* [Tinymarkdwn Editor](https://jmcrafter26.github.io/tinymarkdwn-editor/) / [GitHub](https://github.com/JMcrafter26/tinymarkdwn-editor)
+* [Markdown Viewer](https://github.com/ThisIs-Developer/Markdown-Viewer/) / [Web](https://markdownviewer.pages.dev/)
 * [MarkdownTools](https://www.markdowntools.com/)
 * [MarkLiveEdit](https://markdownlivepreview.dev/)
 * [Glow](https://github.com/charmbracelet/glow)
@@ -554,11 +555,12 @@
 * ⭐ **[BeFonts](https://befonts.com/)**
 * [Free Fonts Family](https://freefontsfamily.org/)
 * [Cufon Fonts](https://www.cufonfonts.com/)
+* [⁠FontFreak](https://www.fontfreak.com/)
 * [FontsFree](https://fontsfree.net)
 * [DFonts](https://www.dfonts.org/)
 * [⁠FontYukle](https://www.fontyukle.net/)
 * [⁠Font.Download](https://font.download/)
-* [⁠dafont.style](https://dafont.style/)
+* [Free Font Download](https://www.freefontdownload.org/)
 * [Font Spring](https://www.fontspring.com/free)
 * [⁠FontBolt](https://www.fontbolt.com/)
 * [Best Font](https://best-font.com/)

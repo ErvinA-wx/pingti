@@ -10,7 +10,7 @@ footer: true
 authors: [nbats]
 ---
 
-<Post authors="nbats"/>
+<Post authors="nbats" />
 
 **https://fmhy-tracker.pages.dev/**
 

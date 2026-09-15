@@ -340,7 +340,7 @@
 * ⭐ **[Rave Search](https://ravebooksearch.com/index-audiobooks)** 或 **[Audiobook CSE](https://cse.google.com/cse?cx=006516753008110874046:cwbbza56vhd)** - 多站有声书搜索
 * [AudioBooksBee](https://audiobooksbee.com/)
 * [LearnOutLoud](https://www.learnoutloud.com/Free-Audiobooks)
-* [Golden Audiobooks](https://goldenaudiobook.net/)
+* [Golden Audiobooks](https://goldenaudiobooks.com/)
 * [Librivox](https://librivox.org/)
 * [Book Radio](https://bookradio.vercel.app/)
 * [Audiobooks For Soul](https://audiobooks4soul.com/)
@@ -355,10 +355,8 @@
 
 ## ▷ 在线观看
 
-* ⭐ **[NEPU Audiobooks](https://nepu.to/ebooks)**
+* ⭐ **[NEPU Audiobooks](https://nepu.io/ebooks)**, [2](https://nepu.net/ebooks), [3](https://nepu.app/ebooks), [4](https://nepu.is/ebooks) / [Status](https://rar.to/) / [Discord](https://discord.gg/nepu)
 * [FullLengthAudiobooks](https://fulllengthaudiobooks.com/)
-* [HDAudiobooks](https://hdaudiobooks.net/)
-* [BigAudiobooks](https://bigaudiobooks.net/)
 * [Mapple](https://mapplee.com/audiobooks)
 * [HotAudioBooks](https://hotaudiobooks.com/)
 * [BookAudiobook](https://bookaudiobook.net/)
@@ -434,10 +432,10 @@
 * ⭐ **[Weeb Central](https://weebcentral.com/)** / 使用 [Adblock](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy/#wiki_.25BA_adblocking)
 * ⭐ **[MangaFire](https://mangafire.to/)** / [Subreddit](https://www.reddit.com/r/Mangafire/) / [Discord](https://discord.com/invite/KRQQKzQ6CS)
 * ⭐ **[Atsumaru](https://atsu.moe/)** / [Discord](https://discord.gg/Tj4QmEF4uV)
-* ⭐ **[⁠Comix](https://comix.to/)** / [Subreddit](https://reddit.com/r/comix) / [Discord](https://discord.com/invite/kZgWWHUj22)
-* ⭐ **[MangaDotNet](https://mangadot.net/)** / [Discord](https://discord.com/invite/XCdaT6tyy8)
+* ⭐ **[⁠Comix](https://comix.to/)**, [2](https://comix.ws/) / [Subreddit](https://reddit.com/r/comix) / [Discord](https://discord.com/invite/kZgWWHUj22)
+* ⭐ **[MangaDotNet](https://mangadot.net/)** / [Matrix](https://fuckdm.ca/)
 * ⭐ **[⁠OniSaga](https://onisaga.com/)**
-* ⭐ **[MangaDex](https://mangadex.org/)** / [Downloader](https://mangadex-dl.mansuf.link/) / [Script](https://github.com/frozenpandaman/mangadex-dl) / [Subreddit](https://www.reddit.com/r/mangadex/) / [Discord](https://discord.gg/mangadex)
+* ⭐ **[MangaDex](https://mangadex.org/)** - Account Required / [Downloader](https://mangadex-dl.mansuf.link/) / [Script](https://github.com/frozenpandaman/mangadex-dl) / [Wiki](https://wikidex.tr25.es/) / [Subreddit](https://www.reddit.com/r/mangadex/) / [Discord](https://discord.gg/mangadex)
 * ⭐ **[MangaNato](https://www.manganato.gg/)**, [2](https://www.nelomanga.net/), [3](https://www.mangakakalot.gg), [4](https://www.natomanga.com/) / [Discord](https://discord.gg/Qhz84GGvE9)
 * ⭐ **[Nyaa 漫画/轻小说](https://nyaa.si/?f=0&c=3_0&q=)** - 种子
 * [Nyora](https://web.nyora.xyz/) - 多站漫画聚合器
@@ -448,7 +446,7 @@
 * [Mangapill](https://mangapill.com/) / [Github](https://github.com/real-zephex/MangaThingy)（代理）
 * [⁠MangaTaro](https://mangataro.org/) / [Discord](https://discord.gg/FKd8XVneCw)
 * [MangaHere](https://www.mangahere.cc/) or [MangaFox](https://fanfox.net/)
-* [Rive Manga](https://www.rivestream.app/manga), [2](https://rivestream.ru/manga), [3](https://rivestream.top/manga) / [Status](https://rentry.co/rivestream) / [Discord](https://discord.gg/6xJmJja8fV)
+* [Rive Manga](https://www.rivestream.app/manga), [2](https://rivestream.ru/manga) / [Status](https://rentry.co/rivestream) / [Discord](https://discord.gg/6xJmJja8fV)
 * [MangaTown](https://www.mangatown.com/)
 * [All Manga](https://allmanga.to/) or [MKissa](https://mkissa.to/) / [Discord](https://discord.com/invite/6nce6cyJyM)
 * [The Manga Library](https://rentry.co/FMHYB64#the-manga-library)
@@ -521,7 +519,7 @@
 * [Online Books Page](https://onlinebooks.library.upenn.edu/)
 * [Springer](https://link.springer.com/search?showAll=false&query=&facet-content-type=%22Book%22)
 * [Taleem360](https://www.taleem360.com/)
-* [LibreTexts](https://commons.libretexts.org), [2](https://libretexts.org/platforms/libraries/), [3](https://libretexts.org/)
+* [LibreTexts](https://commons.libretexts.org), [2](https://libretexts.org/libreverse), [3](https://libretexts.org/)
 * [PDFBooksWorld](https://www.pdfbooksworld.com/)
 * [Monoskop](https://monoskop.org/log/)
 * [LibertyFund](https://oll.libertyfund.org/)

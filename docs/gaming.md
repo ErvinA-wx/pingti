@@ -334,7 +334,6 @@
 * ⭐ **[Vimm's Lair](https://vimm.net/)** - ROMs / [Discord](https://discord.com/invite/XReX2ZGNcV)
 * ⭐ **[No-Intro Archive](https://rentry.co/FMHYB64#no-intro)** - ROMs / 非官方
 * ⭐ **[ROM Heaven](https://romheaven.com/)** - ROMs
-* ⭐ **[LoLROMs](https://rentry.co/FMHYB64#lolroms)** - ROMs
 * ⭐ **[Ziperto](https://ziperto.com/)** - ROMs
 * ⭐ **[RuTracker ROMs](https://rutracker.org/forum/viewforum.php?f=548)** - ROMs / 种子 / 使用 [VPN](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy/#wiki_.25BA_vpn) / [工具](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/torrent#wiki_.25BA_torrent_sites)
 * ⭐ **[RetroGameTalk](https://retrogametalk.com/)**（需要注册）/ [Subreddit](https://www.reddit.com/r/RetroGameTalk/)、[CDRomance](https://cdromance.org/)、[⁠ROMHack.ing](https://www.romhack.ing/) / [Discord](https://discord.gg/uAufcgz)、[⁠ROMHacking.com](https://romhacking.com/)、[ROMhacking](https://www.romhacking.net/)、[⁠ROMHack Plaza](https://romhackplaza.org/) / [Discord](https://discord.gg/5CKzeWmZZU) 或 [Reality Incorporated](https://sites.google.com/view/bonmarioinc/rom-hacks/released-rom-hacks) - ROM 爱好者翻译 / 修改版
@@ -635,6 +634,7 @@
 
 ## ▷ 国际象棋
 
+* 🌐 **[ChessVariants](https://www.chessvariants.com/index/favorites.php)** - Chess Variant Encyclopedia
 * ↪️ **[Chess Learning / Practice](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu#wiki_.25B7_chess)**
 * ⭐ **[lichess](https://lichess.org/)** - 国际象棋平台 / [Discord](https://discord.com/invite/lichess) / [GitHub](https://github.com/lichess-org)
 * ⭐ **lichess Tools** - [Mobile Apps](https://lichess.org/mobile) / [Prettier UI](https://prettierlichess.github.io/) / [Themes](https://github.com/algertc/prettierlichess-themes) / [Leagues](https://www.lichess4545.com/) / [Extra Functionality](https://lichess.org/page/extend)

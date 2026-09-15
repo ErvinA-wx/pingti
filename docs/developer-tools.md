@@ -82,6 +82,7 @@
 * [Web Toolbox](https://web-toolbox.dev/en)
 * [devina](https://devina.io/)
 * [Coders Tool](https://www.coderstool.com/)
+* [UUID Tools](https://www.uuidtools.com/) or [⁠UUID Generator](https://toolkitvault.com/uuid-generator) - UUID Generators
 
 ***
 
@@ -1087,7 +1088,6 @@
 * [Render](https://render.com/)
 * [pythonanywhere](https://www.pythonanywhere.com/)
 * [IBM Cloud](https://www.ibm.com/cloud/free)
-* [Fleek](https://fleek.xyz/)
 * [Stormkit](https://www.stormkit.io/)
 
 ***

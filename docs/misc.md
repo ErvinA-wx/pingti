@@ -609,7 +609,7 @@
 
 ## ▷ 聚合器
 
-* ⭐ **[Spike News](https://readspike.com/)**, [2](https://spike.news/)
+* ↪️ **[RSS Readers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools#wiki_.25B7_rss_readers)**
 * [QotNews](https://news.t0.vc/) - Hacker News / Reddit / Lobsters / Tildes
 * [Kagi News](https://news.kagi.com/) - 聚合器/摘要 / [GitHub](https://github.com/kagisearch/kite-public)
 * [NewsMinimalist](https://www.newsminimalist.com/) - 聚合器/摘要
@@ -682,6 +682,7 @@
 * [LiveScience](https://livescience.com/)
 * [ScienceNews](https://www.sciencenews.org/)
 * [IFLScience](https://www.iflscience.com/)
+* [⁠Nature This Week](https://naturethisweek.com/) - View Nature / Biology News from any Location
 
 ***
 
@@ -829,6 +830,7 @@
 
 ## ▷ 戒除色情
 
+* 🌐 **[Porn Addiction Recovery Resources](https://xliwt.github.io/Recovery-resources/)**
 * ↪️ **[Site Blocking](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/misc#wiki_.25B7_productivity_.2F_time_tracking)**
 * ⭐ **[EasyPeasy](https://easypeasymethod.org/)**、[2](https://gitlab.com/snuggy/easypeasy) / [Audiobook](https://youtu.be/ZktxO6adTnI) 或 [QuitPornEasily](https://quitporneasily.com/) - 轻松戒除色情
 * [⁠FreeLife](https://rentry.org/FreeLife) - 色情拦截指南
@@ -1702,8 +1704,9 @@
 * [SkylineWebcams](https://www.skylinewebcams.com/en.html)
 * [Webcam Hopper](https://www.webcamhopper.com/)
 * [WorldCam](https://worldcam.eu/)
+* [⁠Tomarigi](https://tomarigi.me/world)
 * [Mangolink World](https://www.mangolinkworld.com/)
-* [Insecam](http://www.insecam.org/en/)
+* [Insecam](http://www.insecam.org/en/) - Public Surveillance Webcams
 * [CameraFTP](https://www.cameraftp.com/cameraftp/publish/publishedcameras.aspx)
 * [WebcamGalore](https://www.webcamgalore.com/)
 * [Windy Webcams](https://www.windy.com/-Webcams/webcams)

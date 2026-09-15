@@ -17,16 +17,13 @@
 * [Thought Maybe](https://thoughtmaybe.com/)
 * [Media Burn Archive](https://mediaburn.org/)
 * [ARTE](https://www.arte.tv/)
-* [Documentary Network](https://documentary.net/)
 * [Documentary Storm](https://www.documentarystorm.com/)
 * [Rocumentaries](https://rocumentaries.com/)
 * [PBS](https://www.pbs.org/video/)
-* [National Geographic](https://www.natgeotv.com/)
 * [Folkstreams](https://www.folkstreams.net/)
 * [Films For Action](https://www.filmsforaction.org/)
 * [r/Documentaries](https://reddit.com/r/Documentaries)
 * [Videoneat](https://www.videoneat.com/)
-* [WatchDocumentaries](https://watchdocumentaries.com/)
 * [MVGroup](https://forums.mvgroup.org/)
 * [NASA+](https://plus.nasa.gov/) - NASA 官方流媒体服务
 

@@ -1,7 +1,6 @@
 import type { Theme } from '../types'
 
 export const monochromeTheme: Theme = {
-  name: 'monochrome',
   displayName: 'Monochrome',
   preview: '#808080',
   modes: {
@@ -15,7 +14,6 @@ export const monochromeTheme: Theme = {
       bg: '#FFFFFF',
       bgAlt: '#F5F5F5',
       bgElv: 'rgba(255, 255, 255, 0.95)',
-      bgMark: '#E0E0E0',
       text: {
         1: '#000000',
         2: '#333333',
@@ -84,10 +82,9 @@ export const monochromeTheme: Theme = {
         3: '#CCCCCC',
         soft: '#999999'
       },
-      bg: '#000000',
-      bgAlt: '#0A0A0A',
-      bgElv: 'rgba(0, 0, 0, 0.95)',
-      bgMark: '#1A1A1A',
+      bg: '#1a1a1a',
+      bgAlt: '#171717',
+      bgElv: 'rgba(26, 26, 26, 0.95)',
       text: {
         1: '#FFFFFF',
         2: '#CCCCCC',

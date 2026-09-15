@@ -149,7 +149,6 @@
 * [Podbean](https://www.podbean.com/)
 * [Podbay](https://podbay.fm/)
 * [BBC Podcasts](https://www.bbc.co.uk/sounds/podcasts) / [Downloader](https://github.com/get-iplayer/get_iplayer)
-* [Podcast Index](https://podcastindex.org/)
 * [Player FM](https://player.fm/)
 * [Podcast Republic](https://www.podcastrepublic.net/)
 * [Relay.fm](https://www.relay.fm/)
@@ -448,7 +447,6 @@
 * [FlacMusic](https://www.flacmusic.info/) - FLAC
 * [DiscogC](https://www.discogc.com/) - FLAC
 * [LosslessAlbums](https://losslessalbums.club/) - FLAC
-* [⁠Music and Books](https://musicsandbooks.org/) - MP3 / FLAC
 * [IntMusic](https://intmusic.net/) - MP3 / FLAC
 * [Gangster](https://gangster.su/) - MP3 / FLAC
 * [GetRockMusic](https://getrockmusic.net/) - MP3 / FLAC
@@ -470,7 +468,7 @@
 * [SoundClick](https://www.soundclick.com/default.cfm) - MP3
 * [z3.fm](https://z3.fm/) - MP3
 * [nodata](https://nodata.tv/) - MP3
-* [Discografias Completas](https://www.discografiascompletas.com/) - MP3 / [Telegram](https://t.me/+wdUhO_yV_A5lM2E5)
+* [Discografias Completas](https://www.discografias-completas.org/) - MP3 / [Telegram](https://t.me/+wdUhO_yV_A5lM2E5)
 * [LEAKED](https://leaked.cx/) - MP3
 * [Tancpol](https://tancpol.net/) - MP3
 * [New Album Releases](https://newalbumreleases.net/) - MP3
@@ -478,7 +476,6 @@
 * [DeadPulpit](https://www.deadpulpit.com/) - MP3
 * [CannaPower](https://canna-power.to) - MP3
 * [GloryBeats](https://glorybeats.com/) - MP3
-* [Cliggo](https://music.cliggo.com/) - MP3
 * [Mixupload](https://mixupload.com/) - MP3
 * [FreeMP3Cloud](https://freemp3cloud.com/) - MP3
 * [zvu4no](https://zvu4it.org/) - MP3
@@ -554,7 +551,7 @@
 ***
 
 * ↪️ **[General Torrent Sites](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/torrent)**
-* ⭐ **[Redacted](https://redacted.sh/)** - MP3 / FLAC / [Interviews](https://interviewfor.red/), [2](https://igwiki.lyci.de/wiki/Redacted.sh_Guide)
+* ⭐ **[Redacted](https://redacted.sh/)** - MP3 / FLAC / [Interviews](https://interviewfor.red/), [2](https://clarasguide.valeena.workers.dev/Guides/private-trackers/#introducing-red)
 * ⭐ **[New-Team](https://new-team.org/)** - MP3 / FLAC
 * ⭐ **[Orpheus](https://orpheus.network/)** - MP3 / FLAC / [Interviews](https://interview.orpheus.network/)
 * ⭐ **[Lidarr](https://lidarr.audio/)** / [GitHub](https://github.com/Lidarr/Lidarr) 或 [Headphones](https://github.com/rembo10/headphones) - 音频 BT 自动下载
@@ -851,7 +848,8 @@
 * ⭐ **[WatZatSong](https://www.watzatsong.com/en)** 或 [r/NameThatSong](https://reddit.com/r/NameThatSong) - 歌曲识别社区
 * [FlairMax](https://apps.microsoft.com/detail/9pdzvj34ztxg) / Windows
 * [AudioTag](https://audiotag.info/) / Web
-* [⁠SongFinder](https://songfinder.gg/) / Web
+* [SongFinder](https://songfinder.dev/) / Web
+* [⁠SongFinder.gg](https://songfinder.gg/) / Web
 * [SoundHound](https://www.soundhound.com/soundhound) / Android, iOS
 * [Audile](https://github.com/aleksey-saenko/MusicRecognizer) / Android
 * [Audire](https://github.com/alexmercerind/audire) / Android
