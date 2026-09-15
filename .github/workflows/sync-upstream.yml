@@ -49,14 +49,31 @@ jobs:
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           if ! git merge upstream/main --no-edit -X ours; then
-            git merge --abort || true
-            issue_number="$(gh issue list --state open --search 'FMHY 上游同步冲突 in:title' --json number --jq '.[0].number // empty')"
-            if [ -z "$issue_number" ]; then
-              gh issue create \
-                --title "FMHY 上游同步冲突：需要人工处理" \
-                --body "自动合并上游时出现无法安全解决的冲突。生产分支未被修改，请人工检查最新的 FMHY 上游提交。"
+            # -X ours does not resolve files changed locally but deleted upstream.
+            # Preserve those localized files; leave every other conflict for review.
+            conflicts="$(git diff --name-only --diff-filter=U)"
+            while IFS= read -r file; do
+              if git cat-file -e ":2:$file" 2>/dev/null && \
+                 ! git cat-file -e ":3:$file" 2>/dev/null; then
+                git add -- "$file"
+              fi
+            done <<< "$conflicts"
+
+            if git diff --quiet --diff-filter=U; then
+              git commit --no-edit --no-verify
+            else
+              unresolved="$(git diff --name-only --diff-filter=U)"
+              git merge --abort || true
+              {
+                echo "## FMHY 上游同步冲突"
+                echo
+                echo '以下冲突无法安全自动处理：'
+                echo '```text'
+                echo "$unresolved"
+                echo '```'
+              } >> "$GITHUB_STEP_SUMMARY"
+              exit 1
             fi
-            exit 1
           fi
           echo "needs_translation=true" >> "$GITHUB_OUTPUT"
 
