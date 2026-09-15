@@ -1,16 +1,16 @@
 {
   "state": "complete",
   "model": "deepseek-flash",
-  "updatedAt": "2026-09-15T13:15:06.818Z",
+  "updatedAt": "2026-09-15T13:17:22.498Z",
   "files": 213,
-  "segments": 363,
-  "cached": 278,
-  "translated": 85,
+  "segments": 267,
+  "cached": 266,
+  "translated": 1,
   "pending": 0,
-  "completedBatches": 4,
-  "batches": 4,
+  "completedBatches": 1,
+  "batches": 1,
   "usage": {
-    "promptTokens": 10168,
-    "completionTokens": 4224
+    "promptTokens": 576,
+    "completionTokens": 52
   }
 }
