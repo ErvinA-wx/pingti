@@ -39,6 +39,7 @@
 * [Torrents-CSV](https://torrents-csv.com/) / [Source Code](https://codeberg.org/heretic/torrents-csv-server)
 * [FileMood](https://filemood.com/)
 * [BT4G](https://bt4gprx.com/)
+* [⁠The Black Hole Bay](https://theblackholebay.lol/) - 基于 DHT / [Discord](https://discord.gg/Qb2GQqW3Uq)
 * [snowfl](https://snowfl.com/)
 * [Torlock](https://www.torlock.com/)
 * [uIndex](https://uindex.org/)
@@ -123,7 +124,7 @@
 * [Torrent_To_Google_Drive_Downloader](https://colab.research.google.com/github/FKLC/Torrent-To-Google-Drive-Downloader/blob/master/Torrent_To_Google_Drive_Downloader.ipynb) - Google Colab / 15GB
 * [webtor](https://webtor.io/) - 无限 / 下载速度受限 / 无需注册
 * [⁠Magnet.diy](https://magnet.diy/) - 2.5GB
-* [⁠SonicBit](https://my.sonicbit.net/) - 4GB
+* [⁠SonicBit](https://sonicbit.net/) - 4GB
 * [Multi-Up](https://multiup.io/en/upload/from-torrent) - 10 GB
 
 ***

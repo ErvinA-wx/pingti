@@ -24,13 +24,19 @@ authors: [nbats]
 
 ---
 
+### [⁠FMHY λ Seλrch](https://search.fmhy.bid/)
+
+FMHY 语义搜索引擎
+
+---
+
 ### [GitHub Search](https://github.com/search?q=repo%3Afmhy%2FFMHY+&type=wikis)
 
 GitHub 页面搜索引擎
 
 ---
 
-### [Bookmark HTML](https://github.com/fmhy/bookmarks)
+### [Bookmark Extension](https://github.com/mian196/fmhy-bookmarks-extension) / [Bookmark HTML](https://github.com/fmhy/bookmarks)
 
 将 FMHY 转换为浏览器书签
 

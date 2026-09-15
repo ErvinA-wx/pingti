@@ -100,4 +100,6 @@
 
 ### [Fake Z-Lib Sites](https://www.reddit.com/r/zlibrary/wiki/index/scamsites/)
 
-### [Fake Windows Activators](https://pastebin.com/gCmWs2GR)
+### [Fake Annas Archive Sites](https://i.ibb.co/35S5c8Qd/image.png) / [2](https://i.imgur.com/Tn9sTzP.png)
+
+### [Fake Windows Activators](https://i.ibb.co/hxb4GjVr/image.png) / [2](https://i.imgur.com/765LuHM.png)

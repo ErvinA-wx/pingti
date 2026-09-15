@@ -36,6 +36,7 @@
 * [APK4Free](https://apk4free.net/) / [Telegram](https://t.me/apk4free_net)
 * [Release APK](https://forum.release-apk.com/) / [Discord](https://discord.gg/RDVKXsnqce)
 * [ReXDL](https://rexdl.com/) / [Telegram](https://t.me/joinchat/AAAAAFVMhwX7IzS5hMc8OQ)
+* [⁠V-Alpha](https://discord.com/invite/dqs3VPxbC8) - 移动端 PC 移植 / [Telegram](https://t.me/VAlpha_Official)
 
 ***
 
@@ -90,6 +91,7 @@
 * [Android Ultimate Collection](https://xdaforums.com/t/android-ultimate-collection-guides.4513231/)
 * [APKToy](https://www.apktoy.com/)
 * [APKPure](https://apkpure.net/), [2](https://apkpure.com/)
+* [⁠APKCube](https://apkcube.com/)
 * [Material-You-app-list](https://myal.vercel.app/) / [Telegram](https://t.me/materialyouapps) / [GitHub](https://github.com/nyas1/Material-You-app-list)
 * [⁠gplaydl](https://github.com/rehmatworks/gplaydl) - Google Playstore APK 下载命令行工具
 * [NikGapps](https://nikgapps.com/) - Google 应用包 / [Telegram](https://t.me/NikGapps)
@@ -625,6 +627,7 @@
 
 ## ▷ Android 文本工具
 
+* ↪️ **[Android Note-Taking](https://old.reddit.com/r/FREEMEDIAHECKYEAH/wiki/text-tools#wiki_.25B7_note-taking)**
 * ↪️ **[Android Code Editors](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/dev-tools#wiki_.25B7_android_code_editors)**
 * ⭐ **[Obsidian](https://obsidian.md/mobile)** - 高度可定制的笔记应用
 * ⭐ **[Easy Notes](https://github.com/Kin69/EasyNotes)**, [Notally](https://github.com/OmGodse/Notally), [NotallyX](https://github.com/PhilKes/NotallyX), [Google Keep](https://keep.google.com/) 或 [ColorNote](https://www.colornote.com/) - 极简笔记应用
@@ -1032,7 +1035,7 @@
 
 ## ▷ Android 视频播放器
 
-* ⭐ **[⁠mpvEx](https://github.com/marlboro-advance/mpvEx)** or [mpvRx](https://github.com/Riteshp2001/mpvRx)
+* ⭐ **[⁠mpvEx](https://github.com/marlboro-advance/mpvEx)**、[⁠mpvRex](https://github.com/sfsakhawat999/mpvRex) 或 [mpvRx](https://github.com/Riteshp2001/mpvRx) - 免费开源视频播放器
 * ⭐ **[mpv-android](https://github.com/mpv-android/mpv-android)**
 * ⭐ **[VLC](https://www.videolan.org/vlc/download-android.html)**
 * ⭐ **[Synkplay](https://github.com/yuroyami/syncplay-mobile)** - 视频流同步
@@ -1056,6 +1059,7 @@
 * ⭐ **[Anikku](https://anikku-app.github.io/)** / [Extension Guide](https://wotaku.wiki/guides/ext/mihon) / [Discord](https://discord.com/invite/85jB7V5AJR) / [GitHub](https://github.com/komikku-app/anikku) or [Aniyomi](https://aniyomi.org/) / [Discord](https://discord.gg/F32UjdJZrR) / [GitHub](https://github.com/aniyomiorg/aniyomi)
 * [AnymeX](https://anymex.vercel.app/) / [Extension Guide](https://wotaku.wiki/guides/ext/mangayomi) / [Discord](https://discord.gg/hDwQ3heJ8V) / [GitHub](https://github.com/RyanYuuki/AnymeX)
 * [Dantotsu](https://discord.com/invite/4HPZ5nAWwM) / [Extension Guide](https://wotaku.wiki/guides/ext/mihon) / [Telegram](https://t.me/+gzBCQExtLQo1YTNh) / [Source Code](https://git.rebelonion.dev/rebelonion/Dantotsu/)
+* [⁠AniStation](https://www.anistation.top/)
 * [Animiru](https://github.com/Quickdesh/Animiru)
 * [AnimeTV](https://discord.com/invite/zD6URsM4ms)
 * [Hayase](https://hayase.watch/) - BT 种子流媒体应用 / [扩展](https://rentry.co/FMHYB64#hayase) / [Wiki](https://wiki.hayase.watch/)
