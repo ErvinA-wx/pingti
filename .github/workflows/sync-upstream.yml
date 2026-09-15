@@ -163,7 +163,8 @@ jobs:
               --base main \
               --head upstream-localized \
               --title "同步并汉化 FMHY 上游更新" \
-              --body "FMHY 上游已更新到 \`$upstream_sha\`。新增和变化的 Markdown 内容已通过 DeepSeek V4 Flash、术语库和翻译记忆转换为简体中文；合并前请检查构建和 Cloudflare Preview。"
+              --body "FMHY 上游已更新到 \`$upstream_sha\`。新增和变化的 Markdown 内容已通过 DeepSeek Flash、术语库和翻译记忆转换为简体中文；合并前请检查构建和 Cloudflare Preview。" || \
+              echo "仓库不允许 Actions 创建 PR；结果已保存在 upstream-localized 分支。" >> "$GITHUB_STEP_SUMMARY"
           else
             gh pr comment "$existing_pr" --body "已同步并汉化 FMHY 上游 \`$upstream_sha\`。"
           fi
