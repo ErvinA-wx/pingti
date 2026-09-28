@@ -717,6 +717,7 @@
 
 ## ▷ Mac 图像
 
+* ↪️ **[Mac Image Editors](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/image-tools#wiki_.25B7_editing_software)**
 * ↪️ **[Editing Software](https://rentry.co/FMHYB64#quick-guide)**
 * [Gifski](https://sindresorhus.com/gifski) - 图像转 GIF 转换器 / [GitHub](https://github.com/sindresorhus/Gifski)
 * [Darkroom](https://apps.apple.com/us/app/darkroom-photo-video-editor/id953286746) - 图像 / 视频编辑器
