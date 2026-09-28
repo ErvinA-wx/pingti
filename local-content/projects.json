@@ -1094,5 +1094,20 @@
     "addedAt": "2026-08-05",
     "status": "active",
     "description": "用自然语言组织选书、文案、氛围图、用户配音、字幕对齐与图书短视频渲染的工作流"
+  },
+  {
+    "id": "awesome-claude-video-skills",
+    "name": "Awesome Claude Video Skills",
+    "url": "https://github.com/zhuyansen/awesome-claude-video-skills",
+    "aliases": [
+      "https://github.com/zhuyansen/awesome-claude-video-skills/blob/main/README.zh-CN.md"
+    ],
+    "type": "GitHub",
+    "category": "视频工具",
+    "categoryHref": "/video-tools",
+    "collection": "specialized-video-workflows",
+    "addedAt": "2026-09-27",
+    "status": "active",
+    "description": "持续更新的 Agent 视频工具导航，按框架、宣传片、讲解、剪辑、短视频、数字人、故事、动效等场景分类；2026 年 9 月核验时收录 180 个仓库"
   }
 ]

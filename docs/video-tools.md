@@ -429,7 +429,7 @@
 <!-- pingti-local-specialized-video-workflows:start -->
 ## ▷ 平替精选：专项 AI 视频工作流 Skill
 
-> [选型指南：8 个 AI 视频工作流 Skill，换装、漫画、Vox、古诗词与图书短视频怎么选？](/posts/specialized-ai-video-workflow-skills-2026)
+> [专项工作流选型：换装、漫画、Vox、古诗词与图书短视频](/posts/specialized-ai-video-workflow-skills-2026) · [目录使用指南：从 180 个 Claude/Codex 视频 Skill 中按场景筛选](/posts/claude-codex-video-skills-directory-2026)
 
 * [female-outfit-director](https://github.com/liyue-aigc/female-outfit-director) - 面向 Agent 的中文提示词导演 Skill，用于设计成年女性多套穿搭拼贴首帧与卡点换装视频方案
 * [story-to-handdrawn-video](https://github.com/gnipbao/story-to-handdrawn-video) - 将中文故事或有序图片制作成 3:4 手绘日记漫画动画，并通过 Remotion 输出静音 H.264 画面轨
@@ -438,6 +438,7 @@
 * [HBG Classical Poem Silk Video](https://github.com/Mr-funny/hbg-classical-poem-silk-video) - 把中国古诗词制作成带动态国画、竖排题字、环境声与 BGM 的竖屏视频 Skill
 * [book-video-factory](https://github.com/bytec-ai/book-video-factory) - 管理多账号图书短视频的研究、文案、分镜、配音、字幕、预览与成片生产流程
 * [Book Video](https://github.com/Endless1936/book-video) - 用自然语言组织选书、文案、氛围图、用户配音、字幕对齐与图书短视频渲染的工作流
+* [Awesome Claude Video Skills](https://github.com/zhuyansen/awesome-claude-video-skills) - 持续更新的 Agent 视频工具导航，按框架、宣传片、讲解、剪辑、短视频、数字人、故事、动效等场景分类；2026 年 9 月核验时收录 180 个仓库
 <!-- pingti-local-specialized-video-workflows:end -->
 
 ## ▷ 视频编辑器

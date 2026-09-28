@@ -147,7 +147,7 @@ const sections = [
     anchor: '## ▷ 视频编辑器',
     heading: '平替精选：专项 AI 视频工作流 Skill',
     article:
-      '[选型指南：8 个 AI 视频工作流 Skill，换装、漫画、Vox、古诗词与图书短视频怎么选？](/posts/specialized-ai-video-workflow-skills-2026)'
+      '[专项工作流选型：换装、漫画、Vox、古诗词与图书短视频](/posts/specialized-ai-video-workflow-skills-2026) · [目录使用指南：从 180 个 Claude/Codex 视频 Skill 中按场景筛选](/posts/claude-codex-video-skills-directory-2026)'
   }
 ]
 
