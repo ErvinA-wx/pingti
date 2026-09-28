@@ -229,7 +229,7 @@
 * [biniou](https://github.com/Woolverine94/biniou)
 * [Sygil WebUI](https://sygil-dev.github.io/sygil-webui/) / [Colab](https://colab.research.google.com/github/Sygil-Dev/sygil-webui/blob/main/Web_based_UI_for_Stable_Diffusion_colab.ipynb) / [Discord](https://discord.com/invite/ttM8Tm6wge) / [GitHub](https://github.com/Sygil-Dev/sygil-webui)
 * [Radiata](https://ddpn08.github.io/Radiata/en/)
-* [SD WebUI Forge](https://github.com/lllyasviel/stable-diffusion-webui-forge)
+* [SD WebUI Forge](https://github.com/Haoming02/sd-webui-forge-classic/tree/neo)
 * [ComfyUI-Zluda](https://github.com/patientx/ComfyUI-Zluda)
 * [⁠Pinokio](https://pinokio.co/) - 基于插件 / 自托管 / 需要 NVIDIA
 

@@ -76,7 +76,7 @@
 * ⭐ **[Hagezi Blocklists](https://github.com/hagezi/dns-blocklists)** - 多源域名拦截列表 / 使用完整版 / [说明](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/hagezi.md)
 * ⭐ **[OISD](https://oisd.nl/)** - 多源域名拦截列表 / [GitHub](https://github.com/sjhgvr/oisd)
 * [hBlock](https://github.com/hectorm/hblock)
-* [Hosts File Aggregator](https://github.com/StevenBlack/hosts)
+* [StevenBlack Hosts](https://github.com/StevenBlack/hosts)
 * [Spamhaus](https://www.spamhaus.org/blocklists/) / [X](https://x.com/spamhaus)
 * [black-mirror](https://github.com/T145/black-mirror)
 * [Scam Blocklist](https://github.com/durablenapkin/scamblocklist)

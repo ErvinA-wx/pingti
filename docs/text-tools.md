@@ -409,13 +409,13 @@
 * [Columns](https://columns.app/) - 清单
 * [YearCompass](https://yearcompass.com/) - 新年决心手册
 * [daily.place](https://www.daily.place/)
+* [Mindwtr](https://mindwtr.app/) / [GitHub](https://github.com/dongdongbh/Mindwtr)
 * [SuperList](https://www.superlist.com/)
 * [dooit](https://github.com/dooit-org/dooit) / [Extras](https://github.com/dooit-org/dooit-extras)
 * [ToDo List](https://www.abstractspoon.com/) / [GitHub](https://github.com/abstractspoon)
 * [Fokus](https://fokus-website.netlify.app/)
 * [OpenToDoList](https://gitlab.com/rpdev/opentodolist)
 * [Microsoft To Do](https://to-do.office.com/)
-* [NullBoard](https://github.com/apankrat/nullboard)
 * [LunaTask](https://lunatask.app/)
 * [ToDoZero](https://todozero.com/)
 * [LifeAt](https://lifeat.io/)
@@ -553,7 +553,7 @@
 * ⭐ **[Font Piracy 101](https://gist.github.com/Overimagine1/9f32e11b4c770fcd33374ad936a57d90)** - 字体下载指南
 * ⭐ **[wFonts](https://wfonts.com/)**
 * ⭐ **[BeFonts](https://befonts.com/)**
-* [Free Fonts Family](https://freefontsfamily.org/)
+* [Free Fonts Family](https://freefontsfamily.com/)
 * [Cufon Fonts](https://www.cufonfonts.com/)
 * [⁠FontFreak](https://www.fontfreak.com/)
 * [FontsFree](https://fontsfree.net)
@@ -632,7 +632,6 @@
 * [⁠Discord Fonts](https://discord-fonts.com/)
 * [Aesthetic Font Generator](https://www.tesms.net/)
 * [Text-Generator](https://text-generator.app/)
-* [BoldTextGenerator](https://boldtextgenerator.org/)
 * [FontGenOnline](https://fontgenonline.com/)
 * [TextEditor](https://texteditor.com/)
 * [CuteFontCopy](https://cutefontcopy.com/)
