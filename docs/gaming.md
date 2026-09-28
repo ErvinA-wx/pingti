@@ -4,6 +4,7 @@
 ***
 ***
 
+<span id="download-games"></span>
 # ► 下载游戏
 
 * **注意** - 许多热门文件托管站的下载按钮会重定向到虚假恶意下载页面。使用完整版 [uBlock Origin](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25BA_adblocking) 可以防止这种情况，但并非总是有效。请查看[本指南](https://cs.rin.ru/forum/viewtopic.php?f=14&t=159345)了解虚假恶意下载页面的特征及如何避免。一般规则是避免在新标签页或重定向页面中打开的下载页面，真正的下载发生在文件托管站的同一页面内。
@@ -46,6 +47,7 @@
 
 ***
 
+<span id="game-repacks"></span>
 ## ▷ 游戏压缩包
 
 * **注意** - 压缩包是游戏的压缩版本，以更小的下载体积换取更长的安装时间。适合带宽低或流量有限的情况。
@@ -77,6 +79,7 @@
 
 ***
 
+<span id="special-interest"></span>
 # ► 特殊兴趣
 
 * 🌐 **[Awesome Terminal Games](https://ligurio.github.io/awesome-ttygames/)** - ASCII 终端游戏
@@ -100,6 +103,7 @@
 
 ***
 
+<span id="virtual-reality"></span>
 ## ▷ 虚拟现实
 
 * 🌐 **[r/QuestPiracy Mega](https://qpmegathread.top/)** - Quest VR 资源 / [GitHub](https://github.com/KaladinDMP/QP-Megathread)
@@ -117,6 +121,7 @@
 
 ***
 
+<span id="indie-games"></span>
 ## ▷ 独立游戏
 
 * 🌐 **[Indie Rentry](https://rentry.org/hhtxv7ud)** - 独立游戏列表
@@ -163,6 +168,7 @@
 
 ***
 
+<span id="decomps-ports"></span>
 ## ▷ 反编译 / 移植
 
 * 🌐 **[Game Decompilations](https://decomps.fun/)**, [2](https://decomps.samidy.com/), [3](https://rentry.co/Decomps) - 游戏反编译 / 移植 / [GitHub](https://github.com/SamidyFR/Game-Decompilations)
@@ -193,6 +199,7 @@
 
 ***
 
+<span id="remakes-recreations"></span>
 ## ▷ 重制版 / 复刻版
 
 * 🌐 **[Awesome Game Remakes](https://github.com/radek-sprta/awesome-game-remakes)** 或 [Game Clones](https://osgameclones.com/) - 开源重制版
@@ -246,6 +253,7 @@
 
 ***
 
+<span id="revival-projects"></span>
 ## ▷ 复兴项目
 
 * ↪️ **[Multiplayer Revivals / Mods](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/game-tools#wiki_.25B7_multiplayer_mods)**
@@ -265,6 +273,7 @@
 
 # ► 模拟器 / ROM
 
+<span id="emulators"></span>
 ## ▷ 模拟器
 
 * 🌐 **[Emulation Wiki](https://emulation.gametechwiki.com/)**、[Awesome Emulators](https://github.com/DerekTurtleRoe/awesome-emulators)、[PlanetEmu](https://www.planetemu.net/)、[EmuWiki](https://www.vincenzoscarpa.it/emuwiki/pmwiki/pmwiki.php?n=Emulators.Emulators&lng=en)、[⁠Emu-France](https://www.emu-france.com/emulateurs/) 或 [EmuCR](https://www.emucr.com/) - 下载模拟器
@@ -308,6 +317,7 @@
 
 ***
 
+<span id="rom-resources"></span>
 ## ▷ ROM 资源
 
 * 🌐 **[ROM Managers](https://emulation.gametechwiki.com/index.php/ROM_managers)** - ROM 管理器列表
@@ -326,6 +336,7 @@
 
 ***
 
+<span id="rom-sites"></span>
 ## ▷ ROM 网站
 
 * 🌐 **[ROM Sites Wiki](https://emulation.gametechwiki.com/index.php/ROM_%26_ISO_Sites)** - ROM 下载网站列表
@@ -382,6 +393,7 @@
 
 ***
 
+<span id="nintendo-roms"></span>
 ## ▷ 任天堂 ROM
 
 * ⭐ **[hShop](https://hshop.erista.me/)** / [Discord](https://discord.gg/dYKm279) 或 [3DS ROMS](https://3dsroms.org) - ROM / 3DS
@@ -482,6 +494,7 @@
 
 ***
 
+<span id="puzzle-games"></span>
 # ► 益智游戏
 
 * 🌐 **[Think Labyrinth](https://www.astrolog.org/labyrnth.htm)** - 迷宫算法与资源百科全书
@@ -520,6 +533,7 @@
 
 ***
 
+<span id="rubiks-cube"></span>
 ## ▷ 魔方
 
 * ↪️ **[Cubing Practice / Training](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu/#wiki_.25B7_rubiks_cube)**
@@ -534,6 +548,7 @@
 
 ***
 
+<span id="minesweeper"></span>
 ## ▷ 扫雷
 
 * ⭐ **[Minesweeper.Online](https://minesweeper.online/)** / [Wiki](https://minesweeper.online/help) 或 [PROXX](https://proxx.app/) - 玩扫雷
@@ -545,6 +560,7 @@
 
 ***
 
+<span id="crosswords"></span>
 ## ▷ 填字游戏
 
 * ⭐ **[Crosshare](https://crosshare.org/)** - 填字游戏 / 创建器
@@ -602,6 +618,7 @@
 
 ***
 
+<span id="tabletop-games"></span>
 # ► 桌游
 
 * 🌐 **[BoardGameGeek](https://boardgamegeek.com/)**、**[RPGGeek](https://rpggeek.com/)**、**[⁠EntertainMe](https://www.entertainme.fun/)**、**[Online Board Games](https://drive.google.com/file/d/1NO-05LM-SakbwqNajBXgIO4HuCSkBd6n/view)** 或 **[Kallax](https://kallax.io/)** - 桌游 / TTRPG 数据库
@@ -632,6 +649,7 @@
 
 ***
 
+<span id="chess"></span>
 ## ▷ 国际象棋
 
 * 🌐 **[ChessVariants](https://www.chessvariants.com/index/favorites.php)** - 国际象棋变体百科
@@ -654,6 +672,7 @@
 
 ***
 
+<span id="card-games"></span>
 ## ▷ 卡牌游戏
 
 * ↪️ **[Tabletop Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/game-tools#wiki_.25B7_tabletop_tools)**
@@ -685,6 +704,7 @@
 
 ***
 
+<span id="browser-games"></span>
 # ► 浏览器游戏
 
 * ↪️ **[浏览器玩具 / 游戏](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/misc#wiki_.25B7_random)** - 浏览器玩具 / 游戏索引
@@ -742,6 +762,7 @@
 
 ***
 
+<span id="multi-game-sites"></span>
 ## ▷ 多游戏站点
 
 * ⭐ **[Flash Arch](https://flasharch.com/en)** - 浏览器游戏聚合器 / [Discord](https://discord.com/invite/guQ9Afn)
@@ -796,6 +817,7 @@
 
 ***
 
+<span id="indie-browser-games"></span>
 ## ▷ 独立浏览器游戏
 
 * 🌐 **[Browser Craft](https://browsercraft.com/)** - 独立浏览器游戏索引/跟踪器
@@ -818,6 +840,7 @@
 
 ***
 
+<span id="unblocked-games"></span>
 ## ▷ 解锁游戏
 
 * **注意** - 这些浏览器游戏合集同时充当代理/解锁工具。
@@ -835,6 +858,7 @@
 
 ***
 
+<span id="party-multiplayer"></span>
 ## ▷ 派对 / 多人
 
 * ⭐ **[Eaglercraft](https://eaglercraft.com/)** / [Discord](https://discord.gg/yxpa55BahB), [Eaglercraft.dev](https://eaglercraft.dev/), [q13x's Distros](https://eaglercraft.q13x.com/), [MessCraft](https://mess.eu.org/) / [Discord](https://discord.com/invite/kbzUdZQWgd), [Hiracraft](https://craft.hira.im/), [⁠AmplerLauncher](https://irv77.github.io/AmplerLauncher/), [WebMC](https://webmc.xyz/) / [2](https://webmc.colbster937.dev/) / [3](https://webmc-launcher.vercel.app/), [EaglerCraftX](https://fastest.eaglercraft.win/) / [2](https://client.eaglercraft.win/) 或 [Minecraft Classic](https://classic.minecraft.net/) - 在线浏览器 Minecraft / [Site List](https://deev.is/) / [说明](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/eaglercraft-note.md)
@@ -881,6 +905,7 @@
 
 ***
 
+<span id="text-adventures"></span>
 ## ▷ 文字冒险
 
 * **注意** - 老式文字冒险游戏以 [unforgiving](https://www.ifwiki.org/Cruelty_scale) 著称，但通常可以在网上找到攻略。也可以尝试将文字输入 [AI chatbots](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/ai#wiki_.25B7_online_chatbots)，既实用又有趣。
@@ -903,6 +928,7 @@
 
 ***
 
+<span id="shooter"></span>
 ## ▷ 射击
 
 * ⭐ **[Play-CS](https://play-cs.com/)** - 浏览器版反恐精英 1.6
@@ -931,6 +957,7 @@
 
 ***
 
+<span id="platformer"></span>
 ## ▷ 平台游戏
 
 * ⭐ **[Bonk](https://bonk.io/)** - 多人物理游戏
@@ -945,6 +972,7 @@
 
 ***
 
+<span id="simulation"></span>
 ## ▷ 模拟
 
 * 🌐 **[Sports Games](https://rentry.co/c7zwkv9t)** - 模拟体育选秀游戏索引
@@ -991,6 +1019,7 @@
 
 ***
 
+<span id="strategy"></span>
 ## ▷ 策略
 
 * ⭐ **[OpenFront](https://openfront.io/)** / [Wiki](https://openfront.wiki/) / [Subreddit](https://www.reddit.com/r/OpenFront/) / [Discord](https://discord.gg/k22YrnAzGp) / [GitHub](https://github.com/openfrontio/openfrontio), [⁠LANDS.io](https://lands.io/) / [Discord](https://discord.gg/landsio) 或 [Territorial.io](https://territorial.io/) / [Discord](https://discord.com/invite/pthqvpTXmh) - 征服 / 战争风格游戏
@@ -1088,6 +1117,7 @@
 
 ***
 
+<span id="tetris"></span>
 ## ▷ 俄罗斯方块
 
 * ⭐ **[TETR.IO](https://tetr.io/)** - 多人浏览器俄罗斯方块 / [Plus](https://gitlab.com/UniQMG/tetrio-plus) / [Skin Database](https://you.have.fail/tetrioplus//) / [Stats](https://tsbeta.dan63.by/) / [Discord](https://discord.com/invite/tetrio) / [GitHub](https://github.com/tetrio/)
@@ -1108,6 +1138,8 @@
 
 ***
 
+<span id="pokemon"></span>
+<span id="pokémon-tools"></span>
 ## ▷ 宝可梦
 
 * ↪️ **[Pokémon Resources / Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/game-tools#wiki_.25B7_pokemon_tools)**

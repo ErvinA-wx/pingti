@@ -162,6 +162,7 @@ API 将部署到配置的域名或 `*.workers.dev` 子域名。
 
 速率限制绑定需要通过 Cloudflare 仪表盘进行设置。对于基本部署可以跳过此步骤，或稍后通过 Workers 仪表盘的“速率限制”部分进行配置。
 
+<span id="environment-variables"></span>
 #### 环境变量
 
 ##### 构建时变量（用于文档）

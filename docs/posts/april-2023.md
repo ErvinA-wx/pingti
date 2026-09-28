@@ -30,7 +30,7 @@ authors: [nbats]
 
 - 将 [开发工具](/developer-tools/) 的学习部分拆分为子部分。
 
-- 在 [图像工具](/image-tools/#art-education) 中新增了艺术教育部分。
+- 在 [图像工具](/image-tools/) 中新增了艺术教育部分。
 
 - 在 NSFW 中新增了 NoFap 部分以拯救灵魂。
 
@@ -42,13 +42,13 @@ authors: [nbats]
 
 - 在 AI 聊天机器人中为 [ChatPDF](/ai/#ai-chatbots) 添加星标。可将任何书籍转化为聊天机器人的 AI。
 
-- 在视频下载中为 [Foogle](/video/#drives--directories) 添加星标。快速、一键下载视频。
+- 在视频下载中为 [Foogle](/video/) 添加星标。快速、一键下载视频。
 
-- 在流媒体网站中为 [JustChill](/video/#dedicated-hosts) 添加星标。界面美观，1080p 流畅。
+- 在流媒体网站中为 [JustChill](/video/) 添加星标。界面美观，1080p 流畅。
 
-- 在流媒体网站中为 [movie-web](/video/#multi-hosts) 添加星标。界面美观，1080p 流畅。
+- 在流媒体网站中为 [movie-web](/video/) 添加星标。界面美观，1080p 流畅。
 
-- 在流媒体网站中为 [Primewire](/video/#multi-hosts) 添加星标。Primewire 已重新开始添加盗版内容链接。
+- 在流媒体网站中为 [Primewire](/video/) 添加星标。Primewire 已重新开始添加盗版内容链接。
 
 - 在索引中为 [Wotaku](https://wotaku.pages.dev/) 添加星标。优秀的日本盗版索引。
 

@@ -4,6 +4,7 @@
 ***
 ***
 
+<span id="ebooks"></span>
 # ► 电子书
 
 * 🌐 **[Open Slum](https://open-slum.org/)**、[2](https://open-slum.pages.dev/) - 图书站点索引 / 在线时间追踪
@@ -39,6 +40,7 @@
 
 ***
 
+<span id="public-domain"></span>
 ## ▷ 公共领域
 
 * ⭐ **[Project Gutenberg](https://www.gutenberg.org/)** 或 [Lex](https://lex-books.com/) - 历史小说 / 非虚构 / [Australia](https://gutenberg.net.au/) / [Canada](https://gutenberg.ca/index.html) / [Nordic](https://runeberg.org/)
@@ -72,6 +74,7 @@
 
 ***
 
+<span id="pdf-search"></span>
 ## ▷ PDF 搜索
 
 * ⭐ **[OceanOfPDF](https://oceanofpdf.com/)** - 书籍/漫画
@@ -86,6 +89,7 @@
 
 ***
 
+<span id="calibre-libraries"></span>
 ## ▷ Calibre 图书馆
 
 * ↪️ **[Calibre Libraries](https://rentry.co/FMHYB64#calibre-libraries)** - 需要注册
@@ -97,6 +101,7 @@
 
 ***
 
+<span id="ebook-readers"></span>
 ## ▷ 电子书阅读器
 
 * 🌐 **[Ebook Reader Index](https://wiki.mobileread.com/wiki/E-book_software)** 或 [Mobile Read](https://www.mobileread.com/) - 电子书阅读器索引
@@ -132,6 +137,7 @@
 
 ***
 
+<span id="browser-ebook-readers"></span>
 ## ▷ 浏览器电子书阅读器
 
 * ⭐ **[Reader View](https://webextension.org/listing/chrome-reader-view.html)**, [2](https://mybrowseraddon.com/reader-view.html)
@@ -165,6 +171,7 @@
 
 ***
 
+<span id="kindle-tools"></span>
 ## ▷ Kindle 工具
 
 * **注意** - 使用本部分大多数功能前，需要先越狱 Kindle。可参考下方指南了解操作方法。
@@ -219,6 +226,7 @@
 
 ***
 
+<span id="light-novels"></span>
 ## ▷ 轻小说
 
 * 🌐 **[Wotaku](https://wotaku.wiki/websites#novels)** - 轻小说网站索引 / [Discord](https://discord.gg/vShRGx8ZBC)
@@ -267,6 +275,7 @@
 
 ***
 
+<span id="fanfiction-stories"></span>
 ## ▷ 同人小说 / 故事
 
 * ⭐ **[Archive of Our Own](https://archiveofourown.org/)** - 同人小说存档 / [Enhancements](https://github.com/jsmnbom/ao3-enhancements/)
@@ -302,6 +311,7 @@
 
 ***
 
+<span id="newspapers"></span>
 ## ▷ 报纸
 
 * 🌐 **[Veridian](https://veridiansoftware.com/collections/)** - 报纸存档列表
@@ -332,6 +342,7 @@
 
 # ► 有声书
 
+<span id="downloading"></span>
 ## ▷ 下载
 
 * ⭐ **[Mobilism Audiobooks](https://forum.mobilism.org/viewforum.php?f=124)**, [2](https://forum.mobilism.me/viewforum.php?f=124) / [User Ranks](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/mobilism-ranks.md)
@@ -353,6 +364,7 @@
 * [audiobook-dl](https://github.com/jo1gi/audiobook-dl) or [PlayTorrio](https://playtorrio.xyz/), [2](https://playtorrio.pages.dev/) / [Subreddit](https://www.reddit.com/r/PlayTorrio/) / [Discord](https://discord.gg/bbkVHRHnRk) / [GitHub](https://github.com/ayman708-UX/PlayTorrioV2)
 ***
 
+<span id="streaming"></span>
 ## ▷ 在线观看
 
 * ⭐ **[NEPU Audiobooks](https://nepu.io/ebooks)**, [2](https://nepu.net/ebooks), [3](https://nepu.app/ebooks), [4](https://nepu.is/ebooks) / [Status](https://rar.to/) / [Discord](https://discord.gg/nepu)
@@ -383,6 +395,8 @@
 
 * ↪️ **[Visual Novel Resources](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/game-tools#wiki_.25B7_visual_novel_tools)**
 
+<span id="comics"></span>
+<span id="manga"></span>
 ## ▷ 漫画
 
 * ⭐ **[BatCave](https://batcave.biz/)** - 可能需要 VPN
@@ -474,6 +488,7 @@
 
 ***
 
+<span id="magazines"></span>
 ## ▷ 杂志
 
 * ⭐ **[Mobilism Magazines](https://forum.mobilism.org/viewforum.php?f=123)** - 多托管 / [User Ranks](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/mobilism-ranks.md)
@@ -508,6 +523,7 @@
 
 ***
 
+<span id="educational-books"></span>
 # ► 教育类书籍
 
 * ↪️ **[Language Learning Resources](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu/#wiki_.25BA_language_learning)**
@@ -560,6 +576,7 @@
 
 ***
 
+<span id="textbooks"></span>
 ## ▷ 教科书
 
 * 🌐 **[IvyPanda](https://ivypanda.com/blog/1000-open-textbooks-and-learning-resources-for-all-subjects/)** - 开源教科书
@@ -576,6 +593,7 @@
 
 ***
 
+<span id="stem-resources"></span>
 ## ▷ STEM 资源
 
 * 🌐 **[Awesome AI](https://github.com/owainlewis/awesome-artificial-intelligence#free-content)** - 人工智能书籍
@@ -595,6 +613,7 @@
 
 ***
 
+<span id="history-books"></span>
 ## ▷ 历史书籍
 
 * 🌐 **[r/AskHistorians Recommended](https://www.reddit.com/r/AskHistorians/wiki/books)** - 推荐历史书籍
@@ -632,6 +651,7 @@
 
 ***
 
+<span id="quotes-poetry"></span>
 ## ▷ 语录 / 诗歌
 
 * ⭐ **[Wikiquote](https://wikiquote.org)**
@@ -653,6 +673,7 @@
 
 ***
 
+<span id="programming-books"></span>
 ## ▷ 编程书籍
 
 * 🌐 **[Free-Programming-Books](https://ebookfoundation.github.io/free-programming-books-search/)** - 编程书籍索引 / [GitHub](https://github.com/EbookFoundation/free-programming-books)
@@ -674,6 +695,7 @@
 
 ***
 
+<span id="academic-papers"></span>
 ## ▷ 学术论文
 
 * ↪️ **[Study / Research Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu#wiki_.25B7_study_.2F_research)**
@@ -755,6 +777,7 @@
 
 ***
 
+<span id="manuals"></span>
 ## ▷ 手册
 
 * 🌐 **[Manuals & Schematics](https://redd.it/nlw3er)**、[SafeManuals](https://safe-manuals.com/)、[Manuzoid](https://manuzoid.com/)、[manualzz](https://manualzz.com/)、[ManualsNet](https://manualsnet.com/)、[manua.ls](https://www.manua.ls/) 或 [ManualsLib](https://www.manualslib.com/) - 手册目录
@@ -774,6 +797,7 @@
 
 ***
 
+<span id="documents-articles"></span>
 # ► 文档/文章
 
 * ↪️ **[Bypass Article Paywalls](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools#wiki_.25B7_paywall_bypass)**
@@ -818,6 +842,7 @@
 
 ***
 
+<span id="declassified-leaked-documents"></span>
 ## ▷ 解密/泄露文件
 
 * 🌐 **[Epstein Research Resources](https://redd.it/1rc3gaz)** - 爱泼斯坦研究站点/工具/读者自行判断/包含审查后的 NSFW 图片
@@ -906,6 +931,7 @@
 
 ***
 
+<span id="book-tracking-databases"></span>
 # ► 书籍追踪 / 数据库
 
 * ⭐ **[StoryGraph](https://www.thestorygraph.com/)** - 追踪 / 评论 / 推荐
@@ -952,8 +978,10 @@
 
 ***
 
+<span id="curated-recommendations"></span>
 # ► 精选推荐
 
+<span id="book-recommendations"></span>
 ## ▷ 书籍推荐
 
 * ⭐ **[StoryGraph](https://www.thestorygraph.com/)** - 发现与推荐
@@ -985,6 +1013,8 @@
 
 ***
 
+<span id="comic-recommendations"></span>
+<span id="manga-recommendations"></span>
 ## ▷ 漫画推荐
 
 * ⭐ **[ComicBookRoundup](https://comicbookroundup.com/)** - 漫画评分聚合

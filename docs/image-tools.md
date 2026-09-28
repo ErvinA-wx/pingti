@@ -20,6 +20,7 @@
 
 ***
 
+<span id="editing-software"></span>
 ## ▷ 编辑软件
 
 * ↪️ **[Editing Software](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/torrent/#wiki_.25BA_torrent_sites)** 或 [Keyflame](https://rentry.co/FMHYB64#keyflame) - 编辑软件
@@ -38,6 +39,7 @@
 
 ***
 
+<span id="online-editors"></span>
 ## ▷ 在线编辑器
 
 * ⭐ **[Pixlr](https://pixlr.com/)** - 简易编辑器 / [Hide Premium](https://greasyfork.org/en/scripts/425737) / [Unlimited Saves](https://greasyfork.org/en/scripts/460881)、[2](https://greasyfork.org/en/scripts/490940)
@@ -63,6 +65,7 @@
 
 ***
 
+<span id="content-removers"></span>
 ## ▷ 内容移除工具
 
 * ⭐ **[ObjectRemover](https://objectremover.com/)**、[Inpaint](https://theinpaint.com/) 或 [HAMA](https://www.hama.app/) - 对象移除工具
@@ -76,6 +79,7 @@
 
 ***
 
+<span id="upscale-restore"></span>
 ## ▷ 放大 / 修复
 
 * ⭐ **[Waifu2x](https://github.com/nagadomi/nunif)** - 动漫图像放大 / [WebUI](https://www.waifu2x.net/)、[2](https://unlimited.waifu2x.net/)、[3](https://waifu2x.pro/) / 自托管
@@ -96,6 +100,7 @@
 
 ***
 
+<span id="image-effects"></span>
 ## ▷ 图像特效
 
 * ⭐ **[Mosh](https://moshpro.app/)**、[glitch2](https://akx.github.io/glitch2/) 或 [GlitchyImage](https://glitchyimage.com/) - 故障图像
@@ -130,10 +135,12 @@
 
 ***
 
+<span id="image-creation"></span>
 # ► 图像创作
 
 ***
 
+<span id="painting-drawing"></span>
 ## ▷ 绘画/涂鸦
 
 * ↪️ **[Digital Art Brushes](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_digital_brushes)** - 下载笔刷
@@ -212,6 +219,7 @@
 
 ***
 
+<span id="gif-tools"></span>
 ## ▷ GIF 工具
 
 * ⭐ **[Gifski](https://gif.ski/)** - GIF 编码器 / Windows、macOS、Linux / [GitHub](https://github.com/ImageOptim/gifski)
@@ -231,6 +239,7 @@
 
 ***
 
+<span id="meme-tools"></span>
 ## ▷ 表情包工具
 
 * ⭐ **[Know Your Meme](https://knowyourmeme.com/)** 或 [FindThatMeme](https://findthatmeme.com/) - 表情包数据库
@@ -260,6 +269,7 @@
 
 ***
 
+<span id="design-resources-ideas"></span>
 # ► 设计资源 / 灵感
 
 * ↪️ **[Design Resources](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_design_resources)**
@@ -274,6 +284,7 @@
 
 ***
 
+<span id="design-apps"></span>
 ## ▷ 设计应用
 
 * ⭐ **[Figma](https://www.figma.com/)** - 设计协作应用 / 网页
@@ -289,6 +300,7 @@
 
 ***
 
+<span id="icons-avatars"></span>
 ## ▷ 图标 / 头像
 
 * ↪️ **[SVG Icons](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_svg_icons)** / **[SVG Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/dev-tools#wiki_.25B7_svg_tools)**
@@ -342,6 +354,7 @@
 
 ***
 
+<span id="free-assets"></span>
 ## ▷ 免费资源
 
 * 🌐 **[Free Design Assets](https://github.com/noahelhadedy/400-free-design-resources)** 或 **[Freesets](https://freesets.dev/)** / [GitHub](https://github.com/cosmoart/Freesets) - 设计资源站点索引
@@ -396,6 +409,7 @@
 
 ***
 
+<span id="image-search-engines"></span>
 ## ▷ 图片搜索引擎
 
 * ⭐ **[Search by Image](https://github.com/dessant/search-by-image)** - 浏览器扩展
@@ -418,6 +432,7 @@
 
 ***
 
+<span id="stock-images"></span>
 ## ▷ 图库图片
 
 * **注意** - 免版税意味着图片可免费用于个人或商业用途，但有一些使用限制（参见网站服务条款）。CC0 代表 Creative Commons Zero，表示图片属于公共领域。未标记的网站许可协议各不相同。
@@ -464,6 +479,7 @@
 
 ***
 
+<span id="art-illustrations"></span>
 ## ▷ 艺术 / 插画
 
 * ↪️ **[Digital Art Collections](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_digital_art_collections)**
@@ -494,6 +510,7 @@
 
 ***
 
+<span id="media-covers-posters"></span>
 ## ▷ 媒体封面 / 海报
 
 * ⭐ **[Ben Dodson](https://bendodson.com/projects/itunes-artwork-finder/)**, [2](https://bendodson.com/projects/apple-tv-movies-artwork-finder/) - 电影 / 电视 / 音乐 / 漫画 / 书籍 / 动漫 / 漫画
@@ -507,6 +524,7 @@
 
 ***
 
+<span id="download-extensions"></span>
 ## ▷ 下载扩展
 
 * [Download all Images](https://webextension.org/listing/save-images.html) / [GitHub](https://github.com/belaviyo/save-images/)
@@ -521,6 +539,7 @@
 
 ***
 
+<span id="_3d-models"></span>
 # ► 3D 模型
 
 * ⭐ **[Thingiverse](https://www.thingiverse.com/)** - 分享 / 下载 3D 模型
@@ -594,6 +613,7 @@
 
 ***
 
+<span id="_3d-printing"></span>
 ## ▷ 3D 打印
 
 * 🌐 **[Awesome 3D Printing](https://github.com/ad-si/awesome-3d-printing)** - 3D 打印资源
@@ -606,6 +626,7 @@
 
 ***
 
+<span id="cad-engineering"></span>
 ## ▷ CAD 工程
 
 * ⭐ **[⁠Solid Edge](https://resources.sw.siemens.com/en-US/download-solid-edge-community-edition/)** - CAD 应用
@@ -671,6 +692,7 @@
 
 ***
 
+<span id="image-optimization"></span>
 ## ▷ 图像优化
 
 * ⭐ **[ImageMagick](https://imagemagick.org/)** - 图像优化 / [Scripts](https://www.fmwconcepts.com/imagemagick/index.php) / [GitHub](https://github.com/imagemagick/imagemagick)
@@ -713,6 +735,7 @@
 
 ***
 
+<span id="image-to-text-ocr"></span>
 ## ▷ 图像转文字 / OCR
 
 * **注意** - 请记住，大多数 [AI Chatbots](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/ai#wiki_.25B7_online_chatbots) 都内置了图像转文字功能，而且在许多情况下甚至比 OCR 工具更准确。请注意，这些工具也可能产生实际上不存在的内容幻觉。
@@ -736,6 +759,7 @@
 
 ***
 
+<span id="image-viewers"></span>
 ## ▷ 图片查看器
 
 * ⭐ **[IrfanView](https://www.irfanview.com/)**
@@ -768,6 +792,7 @@
 
 ***
 
+<span id="offline-galleries"></span>
 ## ▷ 离线图库
 
 * **注意** - 本节列出的选项需要自托管。
@@ -797,6 +822,7 @@
 
 ***
 
+<span id="online-galleries"></span>
 ## ▷ 在线图库
 
 * ⭐ **[Postimages](https://postimages.org/)** - 32MB / 永久
@@ -818,6 +844,7 @@
 
 ***
 
+<span id="image-hosts"></span>
 ## ▷ 图片托管
 
 * ⭐ **[ImgBB](https://imgbb.com/)** - 32MB / 永久
@@ -842,6 +869,7 @@
 
 ***
 
+<span id="screenshot-tools"></span>
 ## ▷ 截图工具
 
 * ⭐ **[ShareX](https://getsharex.com/)** - 截图与屏幕录制工具 / Windows / [Image Hosts](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/image-tools/#wiki_.25B7_image_hosts) / [File Manager](https://xbackbone.app/) / [Discord](https://discord.com/invite/ShareX) / [GitHub](https://github.com/ShareX/ShareX)
@@ -863,6 +891,7 @@
 
 ***
 
+<span id="palette-generators"></span>
 ## ▷ 调色板生成器
 
 * ⭐ **[Color Designer](https://colordesigner.io/tools)**, [Color Palette Pro](https://colorpalette.pro/) / [指南](https://colorpalette.pro/manual), [TheGoodColors](https://thegoodcolors.com/), [Super Color Palette](https://supercolorpalette.com/), [⁠ColorTones](https://colortones.aashuu.tech/), [Nof](https://nofpg.netlify.app/) / [GitHub](https://github.com/Northstrix/nof) 或 [Coolors](https://coolors.co/) - 调色板生成器
@@ -879,6 +908,7 @@
 
 ***
 
+<span id="color-pickers"></span>
 ## ▷ 取色器
 
 * 🌐 **[React Color](https://casesandberg.github.io/react-color/)** - 取色器索引
@@ -896,6 +926,7 @@
 
 ***
 
+<span id="photography-cameras"></span>
 # ► 摄影 / 相机
 
 * ↪️ **[Android Camera](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25BA_android_camera)** - Android 相机资源 / 工具
@@ -917,6 +948,7 @@
 
 ***
 
+<span id="photo-forensics-metadata"></span>
 ## ▷ 照片取证 / 元数据
 
 * 🌐 **[Photo OSINT](https://start.me/p/0PgzqO/photo-osint)** - 图像 OSINT 资源

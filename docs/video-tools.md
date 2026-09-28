@@ -23,6 +23,7 @@
 
 ***
 
+<span id="disc-utilities"></span>
 ## ▷ 光盘工具
 
 * [ImgBurn](https://www.majorgeeks.com/files/details/imgburn.html)、[DVDStyler](https://www.dvdstyler.org/en/)、[DeepBurner](https://www.deepburner.com/) 或 [Alcohol Soft](https://www.alcohol-soft.com/) - CD/DVD 刻录
@@ -36,6 +37,7 @@
 
 ***
 
+<span id="video-file-hosts"></span>
 ## ▷ 视频文件托管站
 
 * **注意** - 大多数文件托管站会在文件不活跃后删除文件，有些则无论是否活跃都会删除。如果担心文件过期，请检查各托管站。标签含义：账户空间 / 单个文件限制 / 文件保留时间。
@@ -70,6 +72,7 @@
 
 ***
 
+<span id="screen-recording"></span>
 ## ▷ 屏幕录制
 
 * ⭐ **[OBS Studio](https://obsproject.com/)** / Windows, macOS, Linux / [Discord](https://discord.com/invite/obsproject) / [GitHub](https://github.com/obsproject/obs-studio)
@@ -89,6 +92,7 @@
 
 ***
 
+<span id="processing-encoding"></span>
 ## ▷ 处理 / 编码
 
 * ⭐ **[⁠Codecs Wiki](https://codecs.wiki/)**、[⁠Video Noob Guide](https://gist.github.com/arch1t3cht/b5b9552633567fa7658deee5aec60453/)、[archived-things](https://sometimes-archives-things.github.io/archived-things/)、[JET Guide](https://jaded-encoding-thaumaturgy.github.io/JET-guide/master/)、[The Encoding Guide](https://encoding-guide.neocities.org/) 或 [Silentaperture](https://silentaperture.gitlab.io/mdbook-guide/) - 视频编码指南
@@ -112,6 +116,7 @@
 
 ***
 
+<span id="online-processing"></span>
 ## ▷ 在线处理
 
 * [Compress Video Online](https://compress-video-online.com/) - 压缩 / 无限制
@@ -128,6 +133,7 @@
 
 ***
 
+<span id="ffmpeg-tools"></span>
 ## ▷ FFmpeg 工具
 
 * [FFmpeg-Builds](https://github.com/BtbN/FFmpeg-Builds) 或 [media-autobuild_suite](https://github.com/m-ab-s/media-autobuild_suite) - 自动构建工具
@@ -141,6 +147,7 @@
 
 ***
 
+<span id="live-streaming"></span>
 ## ▷ 直播
 
 * 🌐 **[Awesome Streaming](https://github.com/juancarlospaco/awesome-streaming-tools)** 或 [StreamerFreebies](https://streamerfreebies.com/) - 直播资源
@@ -169,6 +176,7 @@
 
 ***
 
+<span id="vtuber-tools"></span>
 ## ▷ VTuber 工具
 
 * 🌐 **[Runa's Archive](https://kekuwi.github.io/Runa-Archive)** - VTuber 资源 / [Discord](https://discord.com/invite/GdfHVZ6Z33)
@@ -197,6 +205,7 @@
 
 ***
 
+<span id="video-players"></span>
 # ► 视频播放器
 
 * 🌐 **[Awesome Video](https://github.com/krzemienski/awesome-video)** - 视频流资源
@@ -229,6 +238,7 @@
 
 ***
 
+<span id="stream-sync"></span>
 ## ▷ 同步播放
 
 * ⭐ **[Syncplay](https://syncplay.pl/)** - 应用 / [GitHub](https://github.com/Syncplay/syncplay)
@@ -284,6 +294,7 @@
 
 ***
 
+<span id="media-servers"></span>
 # ► 媒体服务器
 
 * ↪️ **[Torrent Automation](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video#wiki_.25BA_torrent_apps)**
@@ -324,6 +335,7 @@
 
 ***
 
+<span id="plex-tools"></span>
 ## ▷ Plex 工具
 
 * [Reddit 指南](https://redd.it/ma1hlm) - Plex 设置指南
@@ -338,6 +350,7 @@
 
 ***
 
+<span id="jellyfin-tools"></span>
 ## ▷ Jellyfin 工具
 
 * 🌐 **[Awesome Jellyfin](https://github.com/awesome-jellyfin/awesome-jellyfin)** - Jellyfin 资源
@@ -354,6 +367,7 @@
 
 ***
 
+<span id="kodi-tools"></span>
 ## ▷ Kodi 工具
 
 * ⭐ **[Elementum](https://elementum.surge.sh/)** - 种子流媒体 / Trakt 同步 / 类似 Stremio + Torrentio
@@ -369,6 +383,7 @@
 
 ***
 
+<span id="video-download"></span>
 # ► 视频下载
 
 * ↪️ **[YouTube Video Downloaders](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/social-media#wiki_.25B7_youtube_downloaders)**
@@ -441,6 +456,7 @@
 * [Awesome Claude Video Skills](https://github.com/zhuyansen/awesome-claude-video-skills) - 持续更新的 Agent 视频工具导航，按框架、宣传片、讲解、剪辑、短视频、数字人、故事、动效等场景分类；2026 年 9 月核验时收录 180 个仓库
 <!-- pingti-local-specialized-video-workflows:end -->
 
+<span id="video-editors"></span>
 ## ▷ 视频编辑器
 
 * ↪️ **[Editing Software](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/torrent/#wiki_.25BA_torrent_sites)** / [2](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/download#wiki_.25BA_software_sites)
@@ -466,6 +482,7 @@
 
 ***
 
+<span id="online-editors"></span>
 ## ▷ 在线编辑器
 
 * ⭐ **[wide.video](https://wide.video/)** / [Discord](https://discord.gg/Q54kW97yj5)
@@ -524,6 +541,7 @@
 
 ***
 
+<span id="animation-tools"></span>
 ## ▷ 动画工具
 
 * 🌐 **[Creator Resources](https://www.newgrounds.com/wiki/creator-resources/)** - 艺术与动画资源索引

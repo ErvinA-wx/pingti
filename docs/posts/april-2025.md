@@ -40,7 +40,7 @@ authors: [nbats]
 
 - 在音频 DDL 中收藏了 [DAB Music Player](https://pingti.org/audio#download-sites)。一键下载 FLAC 专辑，提供网页应用及适用于 Windows、Mac 和 Linux 的桌面应用，Android 支持即将推出。
 
-- 在 Android 隐私浏览器中收藏了 [IronFox](https://pingti.org/storage#privacy-based)。基于 Firefox 的浏览器，专注于隐私/安全。功能丰富，得到 LibreWolf 开发团队的推荐，社区似乎也非常喜欢。
+- 在 Android 隐私浏览器中收藏了 [IronFox](https://pingti.org/storage)。基于 Firefox 的浏览器，专注于隐私/安全。功能丰富，得到 LibreWolf 开发团队的推荐，社区似乎也非常喜欢。
 
 - 在 Twitch 广告拦截器中收藏了 [AdGuardExtra](https://pingti.org/social-media-tools#twitch-adblockers)。这似乎是目前拦截广告的最佳方式。
 

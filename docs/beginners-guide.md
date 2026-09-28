@@ -1,3 +1,4 @@
+<span id="adblocking"></span>
 ### 广告拦截
 
 > 使用广告拦截器有多重要？
@@ -25,6 +26,7 @@
 
 ***
 
+<span id="browsers"></span>
 ### 浏览器
 
 > 应该使用哪个网页浏览器？
