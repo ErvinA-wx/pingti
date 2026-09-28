@@ -6,9 +6,6 @@
 
 # ► 图像编辑
 
-* 🌐 **[PuccaNoodles' Sheet](https://docs.google.com/spreadsheets/d/1-8OKuEvRR038Uno--Vi9tQRe4eFCSfQTPov7nXgiJ3w/)** - 图像创作资源
-* ↪️ **[AI Image Generators](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/ai#wiki_.25BA_image_generation)**
-* ↪️ **[Art Education](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu#wiki_.25B7_art_.2F_editing)**
 * [Croppola](https://croppola.com/)、[AutoCropper](https://www.autocropper.io/)、[Bulk Image Crop](https://bulkimagecrop.com/) 或 [Avatar Cropper](https://avatarcropper.com/) - 裁剪工具
 * [⁠PixelFrame](https://pixelframe.design/) - 自定义流行文化图形生成器
 * [Scribus](https://www.scribus.net/) 或 [Quarkdown](https://quarkdown.com/) / [GitHub](https://github.com/iamgio/quarkdown) - 页面布局与排版程序
