@@ -466,7 +466,6 @@
 * [DiscogC](https://www.discogc.com/) - FLAC
 * [LosslessAlbums](https://losslessalbums.club/) - FLAC
 * [IntMusic](https://intmusic.net/) - MP3 / FLAC
-* [Gangster](https://gangster.su/) - MP3 / FLAC
 * [GetRockMusic](https://getrockmusic.net/) - MP3 / FLAC
 * [Core Radio](https://coreradio.online/) - MP3 / FLAC
 * [AlterPortal](https://alterportal.net/) - MP3 / FLAC
@@ -480,7 +479,7 @@
 * [ccMixter](https://ccmixter.org/) - 下载 / 在线收听 / 320kb / MP3
 * [RockDownload](https://www.rockdownload.org/) - 320kb / MP3
 * [punk.cat](https://punkcata.blogspot.com/) - 320kb / MP3
-* [SongsLover](https://songslover.li/) - 256kb / MP3
+* [SongsLover](https://songslover.net/) - 256kb / MP3
 * [Ezhevika](https://ezhevika.blogspot.com/) - 192kb / MP3
 * [Internet Archive](https://archive.org/details/audio) - MP3
 * [SoundClick](https://www.soundclick.com/default.cfm) - MP3
@@ -878,6 +877,7 @@
 * ⭐ **[Shazam](https://www.shazam.com/)** / Android、iOS、Web / [Features](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_modded_apks)（搜索）/ [Desktop App](https://github.com/BayernMuller/vibra)、[2](https://github.com/zemoto/WhatAmIHearing) / [扩展](https://github.com/FoxRefire/Librezam)
 * ⭐ **[WatZatSong](https://www.watzatsong.com/en)** 或 [r/NameThatSong](https://reddit.com/r/NameThatSong) - 歌曲识别社区
 * [FlairMax](https://apps.microsoft.com/detail/9pdzvj34ztxg) / Windows
+* [Song Finder](https://songfinder.dev/) / 网页
 * [AudioTag](https://audiotag.info/) / Web
 * [SongFinder](https://songfinder.dev/) / 网页
 * [⁠SongFinder.gg](https://songfinder.gg/) / 网页

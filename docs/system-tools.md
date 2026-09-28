@@ -163,6 +163,7 @@
 <!-- pingti-local-remote-desktop-tools:end -->
 
 <span id="clipboard-managers"></span>
+
 ## ▷ 剪贴板管理器
 
 * ⭐ **[Ditto](https://ditto-cp.sourceforge.io/)** / Windows / [GitHub](https://sabrogden.github.io/Ditto/)

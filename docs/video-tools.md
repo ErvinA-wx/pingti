@@ -83,7 +83,7 @@
 * [Recordly](https://recordly.dev/) / Windows, macOS, Linux / [GitHub](https://github.com/webadderallorg/Recordly)
 * [ShareX](https://getsharex.com/) / Windows / [Discord](https://discord.com/invite/ShareX) / [GitHub](https://github.com/ShareX/ShareX)
 * [vokoscreenNG](https://linuxecke.volkoh.de/vokoscreen/vokoscreen.html) / Windows, Linux / [GitHub](https://github.com/vkohaupt/vokoscreenNG)
-* [Cap](https://cap.so/) / Windows, macOS / [GitHub](https://github.com/CapSoftware/Cap)
+* [Cap](https://cap.so/) / Windows、macOS、Linux、网页 / [X](https://x.com/cap) / [Discord](https://discord.gg/y8gdQ3WRN3) / [GitHub](https://github.com/CapSoftware/Cap)
 * [Shar.ec](https://shar.ec/) / Web
 * [ScreenREC](https://screen-rec.vercel.app/) / Web / [GitHub](https://github.com/heysagnik/screenREC)
 * [RecordScreen](https://recordscreen.io/) / Web
@@ -457,6 +457,7 @@
 <!-- pingti-local-specialized-video-workflows:end -->
 
 <span id="video-editors"></span>
+
 ## ▷ 视频编辑器
 
 * ↪️ **[Editing Software](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/torrent/#wiki_.25BA_torrent_sites)** / [2](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/download#wiki_.25BA_software_sites)
