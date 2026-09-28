@@ -494,7 +494,7 @@
 * [World Mags](https://www.worldmags.net/) - Nitroflare / Novafile
 * [PDF Dude](https://pdfdude.com/) - Novafile
 * [PDF Magazines Download](https://pdf-magazines-download.com/) - Novafile
-* [PDF Magaz](https://www.pdfmagaz.in/) - Novafile / Some NSFW
+* [PDF Magaz](https://www.pdfmagaz.in/) - Novafile / 部分内容含 NSFW
 * [PDF Magazines Archive](https://pdf-magazines-archive.com/) - Novafile
 * [MagDownload](https://magdownload.org/) - Nitroflare
 * [WholeEarth](https://wholeearth.info/) - Whole Earth 科学杂志

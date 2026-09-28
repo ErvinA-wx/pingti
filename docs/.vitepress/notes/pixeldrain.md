@@ -1,3 +1,3 @@
-#### Pixeldrain Bypass Note
+#### Pixeldrain 绕过说明
 
-If you get redirected to main gamedrive.org site on this tool either its possible they're in maintenance or down.
+如果使用此工具时被重定向到 gamedrive.org 主站，可能是该站正在维护或已下线。

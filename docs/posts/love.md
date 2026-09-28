@@ -1,6 +1,6 @@
 ---
-title: To those who feel unloved, misunderstood, or afraid
-description: A message of unconditional love 🤍
+title: 致那些感到不被爱、被误解或恐惧的人
+description: 一封关于无条件的爱的信息 🤍
 date: 2026-09-22
 next: false
 
@@ -11,30 +11,30 @@ footer: true
 
 <Post authors="nbats" />
 
-I understand the world can feel devoid of love, but I swear, there is a spark within humanity that has the capability to care deeply. To love unconditionally. It doesn't always shine through us all, but it exists, it's real, it's tangible, and no one is exempt from it.
+我明白这个世界可能让人感觉毫无爱意，但我发誓，人类之中存在一簇火花，有能力深切地关怀，无条件地去爱。它并非总能透过所有人闪耀，但它存在，它真实，它可感可触，没有人能置身其外。
 
-We often see it shine through parents, as so many of you do truly love your children unconditionally. I was lucky enough to have that, parents that always put me first. Always listened to me, wanted the best for me, and did everything they could to make sure I had a happy life growing up, and I did. I was very lucky, but as I'm sure many of you reading this are aware, that is not a universal experience.
+我们常常看到它透过父母闪耀，因为许多人确实无条件地爱着自己的孩子。我很幸运拥有这样的父母，他们总是把我放在第一位。总是倾听我，希望我过得好，竭尽所能确保我拥有一个快乐的成长过程，而我也确实如此。我非常幸运，但正如许多读到这里的读者所知，这并非普遍的经历。
 
-A long time ago when I was in school, there was a boy who would bully me. He would punch me in the arm, toss things at me, chase me, etc. As you can imagine, I was not fond of him. One day, I was getting a ride home, and I saw him out the window walking to his dad's car, which had been parked 2 miles away from the actual school. I then witnessed him get smacked very hard in the face by his father and yelled at for "being too slow walking."
+很久以前我还在上学时，有个男孩总是欺负我。他会捶我的胳膊、朝我扔东西、追着我跑等等。可以想象，我并不喜欢他。有一天，我坐车回家，透过车窗看到他走向他父亲的车，那辆车停在离学校实际位置两英里远的地方。随后我目睹他父亲狠狠地扇了他一耳光，并因为“走得太慢”而对他大吼。
 
-In that moment it all made sense. I understood the situation and why he had treated the world around him, and me, the way he did. The person who was supposed to be a positive example for him in his life taught him to handle his negative feelings with violence, and I felt horrible for him and his situation. I never viewed him the same way again.
+那一刻一切都说得通了。我理解了他的处境，也明白了他为何那样对待周围的世界，以及我。那个本应成为他人生正面榜样的人，却教会他用暴力来处理负面情绪，我为他和他的处境感到难过。从那以后，我再也没有用同样的眼光看待他。
 
-From that point on, I started treating him much more kindly; I no longer cared that he had lashed out at me at all, and in time he stopped messing with me, and we ended up becoming friends. I learned then that a lot of the time, people treat the world the way they feel the world is treating them.
+从那时起，我开始对他友善得多；我完全不再在意他曾对我发过火，渐渐地他也不再找我麻烦，我们最终成了朋友。那时我学到，很多时候，人们对待世界的方式，正是他们感受到世界对待自己的方式。
 
-I now know that when someone is full of anger and hatred, that is usually a sign that person has experienced much pain in their lives and likely very little love from their fellow beings. When someone feels deeply unloved and hurt, the odds of them hurling negativity back at the world are greatly increased.
+我现在明白，当一个人充满愤怒和仇恨时，通常意味着这个人一生中经历过许多痛苦，很可能很少从同类那里得到爱。当一个人深感不被爱、深受伤害时，他们向世界回掷负面情绪的可能性就会大大增加。
 
-This is why it's so important for us to make sure those around us are genuinely loved, understood, and comforted where we can. To not let our own pain turn us into bad examples for those we care for.
+这就是为什么我们要尽力确保身边的人真正被爱、被理解、被安慰，如此重要。不要让自己的痛苦使我们变成所关心之人的坏榜样。
 
-Show others that same pain can be used as energy and motivation to want to prevent those negative feelings in others, rather than cause them. That one of the most wonderful parts of getting to live a human life is the chance to affect the lives around us in a positive way. To pick people up, to comfort them when they're afraid or down. To help show those who feel lost their true power and potential.
+向他人展示，同样的痛苦可以化作能量和动力，去防止他人产生那些负面情绪，而不是制造它们。活出人的一生最美好的部分之一，就是有机会以积极的方式影响周围的生命。扶起他人，在他们恐惧或低落时给予安慰。帮助那些感到迷失的人看到自己真正的力量和潜能。
 
-Be their light, love them unconditionally, put them first, and show them something they've never seen before.
+成为他们的光，无条件地爱他们，把他们放在第一位，向他们展示从未见过的东西。
 
-Show them a strength that defies all odds, that despite pain, despite the flaws of the world, we rise above it every single time. We don't use it as an excuse to do harm to others or to hate the world; instead, we use it as an excuse to flood the world with the opposite. With equality, understanding, and pure, unwavering love for not just those close to us, but for humanity. 
+向他们展示一种超越一切逆境的力量：尽管有痛苦，尽管世界有缺陷，我们每一次都能超越它。我们不把它当作伤害他人或憎恨世界的借口；相反，我们把它当作让世界充满相反之物的理由。充满平等、理解，以及对身边之人乃至全人类纯粹而坚定的爱。 
 
-**Prove to them this world really is their home.**
+**向他们证明，这个世界真的是他们的家。**
 
 ***
 
-*"Well, I suppose it's an invitation, "won't you be my neighbor?" It's an invitation for somebody to be close to you. You know, I think everybody longs to be loved, and longs to know that he or she is lovable. And consequently, the greatest thing that we can do is to help somebody know that they're loved and capable of loving."* - Mister Rogers
+*“嗯，我想这是一种邀请，‘你愿意做我的邻居吗？’这是邀请某人靠近你。你知道，我想每个人都渴望被爱，渴望知道自己值得被爱。因此，我们能做的最伟大的事，就是帮助某人知道他们被爱着，并且有能力去爱。”* - 罗杰斯先生
 
 https://redd.it/1wn7vfq

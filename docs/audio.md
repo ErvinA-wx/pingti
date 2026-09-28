@@ -846,7 +846,7 @@
 * ⭐ **[Shazam](https://www.shazam.com/)** / Android、iOS、Web / [Features](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_modded_apks)（搜索）/ [Desktop App](https://github.com/BayernMuller/vibra)、[2](https://github.com/zemoto/WhatAmIHearing) / [扩展](https://github.com/FoxRefire/Librezam)
 * ⭐ **[WatZatSong](https://www.watzatsong.com/en)** 或 [r/NameThatSong](https://reddit.com/r/NameThatSong) - 歌曲识别社区
 * [FlairMax](https://apps.microsoft.com/detail/9pdzvj34ztxg) / Windows
-* [Song Finder](https://songfinder.dev/) / Web
+* [Song Finder](https://songfinder.dev/) / 网页
 * [AudioTag](https://audiotag.info/) / Web
 * [SongFinder](https://songfinder.dev/) / 网页
 * [⁠SongFinder.gg](https://songfinder.gg/) / 网页
