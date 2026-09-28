@@ -265,15 +265,15 @@ function generateRemovedSites() {
   const sortedRemoved = Array.from(uniqueRemoved.values())
 
   // Generate Markdown
-  let markdown = `# ► Recently Removed Sites\n\n`
+  let markdown = `# ► 最近移除的站点\n\n`
   markdown += `<!-- search-exclude -->\n`
-  markdown += `This page lists sites that were removed from the wiki in the last ${DAYS} days. This helps you find sites that may have gone down or were moved.\n\n`
+  markdown += `此页面列出过去 ${DAYS} 天内从资源库移除的站点，方便查找可能已下线或迁移的资源。\n\n`
   markdown += `> [!TIP]\n`
-  markdown += `> For more information about why a site was removed, feel free to join our [Discord](https://github.com/fmhy/FMHY/wiki/FMHY-Discord).\n`
+  markdown += `> 如需了解移除原因，可加入 [Discord 社群](https://github.com/fmhy/FMHY/wiki/FMHY-Discord)。\n`
   markdown += `<!-- /search-exclude -->\n\n`
 
   if (sortedRemoved.length === 0) {
-    markdown += `No sites were removed in the last ${DAYS} days.\n`
+    markdown += `过去 ${DAYS} 天内没有站点被移除。\n`
   } else {
     for (const site of sortedRemoved) {
       const fileHash = crypto
@@ -317,7 +317,7 @@ function generateRemovedSites() {
 
       const cleanMsg = site.msg ? `: ${stripLinks(site.msg).trim()}` : ''
 
-      markdown += `- ${cleanSearchable} <!-- search-exclude -->${cleanHidden} (Removed in [\`${site.hash.slice(0, 7)}\`](${commitLink})${prLink}${cleanMsg})<!-- /search-exclude -->\n`
+      markdown += `- ${cleanSearchable} <!-- search-exclude -->${cleanHidden}（移除记录：[\`${site.hash.slice(0, 7)}\`](${commitLink})${prLink}${cleanMsg}）<!-- /search-exclude -->\n`
     }
   }
 

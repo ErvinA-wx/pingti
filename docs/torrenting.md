@@ -8,6 +8,7 @@
 
 ***
 
+<span id="torrent-sites"></span>
 # ► BT 站点
 
 * ⭐ **[RuTracker](https://rutracker.org/)**, [2](https://rutracker.net/) - 视频 / 音频 / 漫画 / 杂志 / 需要注册
@@ -27,6 +28,7 @@
 
 ***
 
+<span id="aggregators"></span>
 ## ▷ 聚合器
 
 * ⭐ **[ExT](https://ext.to/)**, [2](https://search.extto.com/) / [Proxy](https://extranet.torrentbay.st/)
@@ -71,6 +73,7 @@
 
 ***
 
+<span id="torrent-clients"></span>
 # ► BT 客户端
 
 * **警告** - 请记得将 [bind](https://wispydocs.pages.dev/torrenting/) 绑定到 [VPN](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25BA_vpn)，以避免 ISP 来信。
@@ -101,6 +104,7 @@
 
 ***
 
+<span id="qbittorrent-tools"></span>
 ## ▷ qBittorrent 工具
 
 * 🌐 **[qBit Plugins](https://github.com/qbittorrent/search-plugins)** - 插件索引
@@ -116,6 +120,7 @@
 
 ***
 
+<span id="remote-torrenting"></span>
 ## ▷ 远程下载
 
 * ↪️ **[Debrid / Leeches](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/download#wiki_.25BA_debrid_.2F_leeches)**

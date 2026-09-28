@@ -17,6 +17,7 @@
 
 ***
 
+<span id="download-managers"></span>
 ## ▷ 下载管理器
 
 * **注意** - 有关下载管理器优势的更多信息，请参见 [The Piracy Glossary](https://rentry.org/the-piracy-glossary)。
@@ -60,6 +61,7 @@
 
 ***
 
+<span id="file-converters"></span>
 ## ▷ 文件转换器
 
 * ⭐ **[File Converter](https://file-converter.io/)** - 离线 / 转换并压缩文件 / Windows / [GitHub](https://github.com/Tichau/FileConverter) / [警告](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/file-converter-note.md)
@@ -84,6 +86,7 @@
 
 ***
 
+<span id="file-managers"></span>
 ## ▷ 文件管理器
 
 * ⭐ **[Directory Opus](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/download#wiki_.25BA_software_sites)**（搜索）- Windows 文件管理器
@@ -117,6 +120,7 @@
 
 ***
 
+<span id="file-encryption"></span>
 ## ▷ 文件加密
 
 * ⭐ **[Cryptomator](https://cryptomator.org/)** / [GitHub](https://github.com/cryptomator/cryptomator) 或 [Tahoe-LAFS](https://tahoe-lafs.org/trac/tahoe-lafs) / [GitHub](https://github.com/tahoe-lafs/tahoe-lafs) - 云文件加密
@@ -130,6 +134,7 @@
 
 ***
 
+<span id="file-sync"></span>
 ## ▷ 文件同步
 
 * ⭐ **[SyncThing](https://syncthing.net/)** - 跨平台文件同步 / [Android](https://github.com/researchxxl/syncthing-android)、[2](https://github.com/chenxiaolong/BasicSync) / [Tray Support](https://martchus.github.io/syncthingtray/) / [GitHub](https://github.com/syncthing/syncthing)
@@ -146,6 +151,7 @@
 
 ***
 
+<span id="file-backup"></span>
 ## ▷ 文件备份
 
 * ⭐ **[restic](https://restic.net/)** - 安全文件备份 / [GitHub](https://github.com/restic/restic)
@@ -163,6 +169,7 @@
 
 ***
 
+<span id="file-recovery"></span>
 ## ▷ 文件恢复
 
 * 🌐 **[Data Recovery](https://igwiki.lyci.de/wiki/Data_recovery)** - 数据恢复工具索引
@@ -176,6 +183,7 @@
 
 ***
 
+<span id="file-info-metadata"></span>
 ## ▷ 文件信息 / 元数据
 
 * ↪️ **[Image Metadata Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/image-tools#wiki_.25B7_photo_forensics_.2F_metadata)**
@@ -195,6 +203,7 @@
 
 ***
 
+<span id="formatting-deletion"></span>
 ## ▷ 格式化 / 删除
 
 * ⭐ **[SDelete](https://learn.microsoft.com/en-us/sysinternals/downloads/sdelete)** - 文件删除命令行工具
@@ -206,6 +215,7 @@
 
 ***
 
+<span id="data-automation"></span>
 ## ▷ 数据自动化
 
 * ⭐ **[Advanced Renamer](https://www.advancedrenamer.com/)**、[PowerRename](https://learn.microsoft.com/en-us/windows/powertoys/powerrename)、[Szyszka](https://github.com/qarmin/szyszka)、[F2](https://github.com/ayoisaiah/f2)、[Ant Renamer](https://www.antp.be/software/renamer)、[Flut Renamer](https://github.com/sun-jiao/flut-renamer) 或 [Bulk Rename Utility](https://www.bulkrenameutility.co.uk/) - 批量重命名工具
@@ -218,6 +228,7 @@
 
 ***
 
+<span id="pdf-tools"></span>
 # ► PDF 工具
 
 * [PDFGrep](https://pdfgrep.org/) 或 [OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) - PDF 文本搜索
@@ -232,6 +243,7 @@
 
 ***
 
+<span id="online-pdf-toolkits"></span>
 ## ▷ 在线 PDF 工具包
 
 * ⭐ **[BentoPDF](https://bentopdf.com/)** 或 [File PDF](https://filepdf.net/) - 客户端 / [GitHub](https://github.com/alam00000/bentopdf)
@@ -250,6 +262,7 @@
 
 ***
 
+<span id="offline-pdf-toolkits"></span>
 ## ▷ 离线 PDF 工具包
 
 * ⭐ **[Stirling](https://stirling.com/)** / 需要注册 / Windows、macOS、Linux / [GitHub](https://github.com/Stirling-Tools/Stirling-PDF)
@@ -261,6 +274,7 @@
 
 ***
 
+<span id="pdf-conversion-tools"></span>
 ## ▷ PDF 转换工具
 
 * [Rare2PDF](https://rare2pdf.com/)、[online2pdf](https://online2pdf.com/) 或 [2PDFConverter](https://www.2pdfconverter.com/) - 文件转 PDF
@@ -274,6 +288,7 @@
 
 ***
 
+<span id="file-transfer"></span>
 # ► 文件传输
 
 * ⭐ **[LocalSend](https://localsend.org/)** - 本地 / 全平台 / [Web Version](https://web.localsend.org/) / [Discord](https://discord.com/invite/GSRWmQNP87) / [Subreddit](https://www.reddit.com/r/localsend/) / [GitHub](https://github.com/localsend/localsend)
@@ -302,6 +317,7 @@
 
 ***
 
+<span id="p2p-transfer"></span>
 ## ▷ P2P 传输
 
 * ⭐ **[PairDrop](https://pairdrop.net/)** / [GitHub](https://github.com/schlagmichdoch/pairdrop) 或 [⁠Snapdrop](https://node-snapdrop.onrender.com/) - Web
@@ -315,6 +331,7 @@
 
 ***
 
+<span id="file-hosts"></span>
 # ► 文件托管站
 
 * **注意** - 请记住，**永远**不要将个人或机密文件上传到任何文件托管站，即使它们声称已加密。大多数文件托管站仅在不活动后删除文件，而有些则无论是否活动都会删除。如果担心文件过期，请检查每个托管站。标签含义：总存储空间（有账户 x 天）/ 最大文件大小 / 文件过期时间（有账户 x 天）/ 注册要求。
@@ -445,6 +462,7 @@
 
 ***
 
+<span id="cloud-managers"></span>
 ## ▷ 云管理器
 
 * ⭐ **[Rclone](https://rclone.org/)** - 云存储管理器 / [指南](https://rentry.co/simple-rclone-usage) / [GUI](https://github.com/liriliri/rem) / [Colab](https://colab.research.google.com/github/szyha/RcloneLabArchive/blob/master/RcloneLab.ipynb) / [Transfer Tool](https://github.com/TheCaduceus/Multi-Cloud-Transfer-Tool) / [Telegram](https://t.me/rclonexbot)

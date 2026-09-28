@@ -4,6 +4,7 @@
 ***
 ***
 
+<span id="app-site-mockups"></span>
 ## 应用/网站模型
 
 * [Mockoops](https://mockoops.mohitya.dev/) - 动画模型
@@ -14,6 +15,7 @@
 
 ***
 
+<span id="css-framework-tools"></span>
 ## CSS 框架工具
 
 * 🌐 **[Awesome CSS Frameworks](https://github.com/troxler/awesome-css-frameworks)** - CSS 框架索引
@@ -27,6 +29,7 @@
 
 ***
 
+<span id="data-visualization-tools"></span>
 ## 数据可视化工具
 
 * ⭐ **[RAWGraphs](https://app.rawgraphs.io/)** / [GitHub](https://github.com/rawgraphs/rawgraphs-app)
@@ -46,6 +49,7 @@
 
 ***
 
+<span id="design-resources"></span>
 ## 设计资源
 
 * 🌐 **[Evernote.Design](https://www.evernote.design/)** - 设计资源
@@ -56,6 +60,7 @@
 
 ***
 
+<span id="digital-art-collections"></span>
 ## 数字艺术收藏
 
 * ⭐ **[VADS](https://vads.ac.uk/digital/)**
@@ -66,12 +71,14 @@
 
 ***
 
+<span id="digital-brushes"></span>
 ## 数字画笔
 
 [brushes_and_patterns](https://t.me/brushes_and_patterns), [myphotoshopbrushes](https://myphotoshopbrushes.com/), [brusheezy](https://www.brusheezy.com/brushes), [tala](https://t.me/tala_photoshop_brushes), [BrushBase](https://t.me/brushbase), [⁠daBrushes](https://dabrushes.com/)
 
 ***
 
+<span id="dynamic-dns-services-subdomains"></span>
 ## 动态 DNS 服务 / 子域名
 
 * ⭐ **[Cloudflare DNS](https://www.cloudflare.com/application-services/products/dns/)**
@@ -108,6 +115,7 @@
 
 ***
 
+<span id="free-dns-resolvers"></span>
 ## 免费 DNS 解析器
 
 * 🌐 **[Public DNS indexes](https://www.publicdns.xyz/)** / [2](https://acavalin.com/p/free_dns) / [3](https://publicdnsserver.com/) / [4](https://public-dns.info/)
@@ -128,6 +136,7 @@
 
 ***
 
+<span id="free-vpn-configs"></span>
 ## 免费 VPN 配置
 
 * **注意** - 这些服务器来自社区，请勿用于敏感数据，或者最好自行托管。
@@ -156,6 +165,7 @@
 
 ***
 
+<span id="geometry-dash-demon-lists"></span>
 ## Geometry Dash 恶魔列表
 
 * 🌐 **[⁠GD Demon / Challenge Lists](https://docs.google.com/document/d/1tYM7XWS18B7s2g4lplzF6qU2T8LHi3-kQkybGIhXlqE)**
@@ -176,6 +186,7 @@
 
 ***
 
+<span id="git-projects"></span>
 ## Git 项目
 
 * [GitHub Rankings](https://evanli.github.io/Github-Ranking/) - Git 项目排名 / [GitHub](https://github.com/EvanLi/Github-Ranking)
@@ -186,6 +197,7 @@
 
 ***
 
+<span id="internet-archive-tools"></span>
 ## Internet Archive 工具
 
 * [⁠Internet Archival Bot](https://internet-archival.xyz/) - Discord Internet Archival Bot / [Discord](https://discord.gg/gzdhhZSmhm) / [GitHub](https://github.com/Pendonym/Internet-Archival-Bot)
@@ -195,16 +207,19 @@
 
 ***
 
+<span id="japanese-learning-sites"></span>
 ## 日语学习网站
 
 * ⭐ **[TheMoeWay](https://learnjapanese.moe/)** / [Discord](https://discord.gg/nhqjydaR8j)
 
 [Kakugo](https://github.com/blastrock/kakugo), [Marshall's Site](https://marshallyin.com/), [HeyJapan](https://heylearning.net/), [Renshuu](https://www.renshuu.org/), [GuideToJapanese](https://guidetojapanese.org/), [jpdb](https://jpdb.io/), [NativShark](https://www.nativshark.com/), [Donkuri](https://donkuri.github.io/learn-japanese/), [Tofugu](https://www.tofugu.com/), [KanaDojo](https://kanadojo.com/en) / [GitHub](https://github.com/lingdojo/kana-dojo), [⁠Lingual Ninja](https://www.lingual-ninja.com/), [⁠Ten](https://www.ten.guide/) / [Discord](https://discord.com/invite/immerse)
 
+<span id="youtube-channels"></span>
 ### YouTube 频道
 
 [Japanese Ammo with Misa](https://www.youtube.com/@JapaneseAmmowithMisa), [Comprehensible Japanese](https://www.youtube.com/@cijapanese), [JapanesePod101](https://www.youtube.com/@JapanesePod101)
 
+<span id="dictionaries-translation"></span>
 ### 词典 / 翻译
 
 * [japReader](https://github.com/marisukukise/japReader) - 日语文本翻译器
@@ -213,6 +228,7 @@
 
 [Jotoba](https://jotoba.de/), [Tagaini](https://www.tagaini.net/), [Takoboto](https://takoboto.jp/), [Jisho](https://jisho.org/), [Massif](https://github.com/rsimmons/massif), [Shirabe Jisho](https://apps.apple.com/us/app/shirabe-jisho/id1005203380), [Weblio](https://ejje.weblio.jp/), [JS-Dict](https://github.com/petlyh/JS-Dict), [rtk-search](https://hochanh.github.io/rtk/)
 
+<span id="kanji-learning"></span>
 ### 汉字学习
 
 * [KanjiTomo](https://kanjitomo.net/) - 汉字识别工具
@@ -221,6 +237,7 @@
 
 ***
 
+<span id="libgen-mirrors"></span>
 ## LibGen 镜像站
 
 * <https://librarygenesis.net/> - 站点列表
@@ -230,18 +247,21 @@
 
 ***
 
+<span id="libgen-tools"></span>
 ## LibGen 工具
 
 [Search Extension](https://chromewebstore.google.com/detail/libgen-search/cbcehgllfaddbjidleabcdjpldlognad) / [Need Seeds](https://phillm.net/libgen-seeds-needed.php) / [Backup](https://redd.it/edwi9b)
 
 ***
 
+<span id="manga-downloaders"></span>
 ## 漫画下载工具
 
 [Comics Downloader](https://github.com/Girbons/comics-downloader), [Comic-DL](https://github.com/Xonshiz/comic-dl), [work_crawler](https://github.com/kanasimi/work_crawler/blob/master/document/README.en-US.md), [HDoujinDownloader](https://github.com/HDoujinDownloader/HDoujinDownloader), [FMD2](https://github.com/dazedcat19/FMD2), [anime-dl](https://github.com/vrienstudios/anime-dl)
 
 ***
 
+<span id="manga-readers"></span>
 ## 漫画阅读器
 
 * ↪️ **[Android Readers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_android_manga)** / **[iOS Readers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25BA_ios_reading)**
@@ -258,31 +278,37 @@
 
 ## 媒体数据库站点工具
 
+<span id="trakt-tools"></span>
 ### Trakt 工具
 
 [Apps](https://trakt.tv/apps) / [Recommendations](https://couchmoney.tv/) / [Universal Scrobble](https://github.com/trakt-tools/universal-trakt-scrobbler) / [List Import](https://github.com/damienhaynes/TraktRater)
 
 
+<span id="letterboxd-tools"></span>
 ### Letterboxd 工具
 
 [Multi Tool](https://www.letterboxd.tools/) / [Extra Site Ratings](https://github.com/duncanlang/Letterboxd-Extras/) / [Shortcuts](https://github.com/alandours/letterboxd-shortcuts) / [Watchlist Picker](https://watchlistpicker.com/) / [Watchlist Roulette](https://watchlistroulette.com/) / [Collections](https://mrdys.github.io/letterboxd-completionist/) / [Celeb Accounts](https://fameboxd.com/)
 
+<span id="myanimelist-tools"></span>
 ### MyAnimeList 工具
 
 [Profile Extension / Stats](https://anime.plus/) / [Scripts](https://myanimelist.net/forum/?topicid=1849731) / [Stats / Badges](https://www.mal-badges.com/) / [Search Helper](https://greasyfork.org/en/scripts/429784) / [Hide Seen](https://greasyfork.org/en/scripts/17961) / [Export](https://malscraper.azurewebsites.net/) / [Site Sync](https://malsync.moe/) / [MALSync Discord](https://discord.com/invite/cTH4yaw) / [API](https://jikan.moe/) / [Tier Lists](https://www.gomitier.tech/)
 
+<span id="anilist-tools"></span>
 ### AniList 工具
 
 [Multiple Tools](https://due.moe/tools) / [Extras](https://greasyfork.org/en/scripts/370473-automail) / [List Comparison / Migration](https://animelistdiff.zerolabs.fyi/) / [MPV Sync](https://github.com/hotsno/keroro) / [Tier Lists](https://www.gomitier.tech/)
 
 ***
 
+<span id="multireddits"></span>
 ## 多版块合集
 
 [Piracy](https://www.reddit.com/user/nbatman/m/piracy/) / [2](https://www.reddit.com/user/rekuloustoad/m/the_piracy_feed/) / [3](https://www.reddit.com/user/nanomuto/m/piracyhub/) / [4](https://www.reddit.com/user/goretsky/m/piracy_counterfeit_goods/), [Random](https://www.reddit.com/user/nbatman/m/random/) / [2](https://www.reddit.com/user/nbatman/m/random2/), [Streaming](https://www.reddit.com/user/nbatman/m/streaming/), [Cord Free TV](https://www.reddit.com/user/efidol/m/cordfreetv/), [Piracy Leaks](https://www.reddit.com/user/nbatman/m/leaks/), [News](https://www.reddit.com/user/nbatman/m/news/), [Tech](https://www.reddit.com/user/goretsky/m/win_itpro/), [Left](https://www.reddit.com/user/nbatman/m/left/) / [2](https://www.reddit.com/user/nbatman/m/left_2/), [Mysteries](https://www.reddit.com/user/nbatman/m/mysteries/), [Aliens](https://www.reddit.com/user/nbatman/m/aliens/), [Paranormal](https://www.reddit.com/user/nbatman/m/paranormal/), [Metaphysics](https://www.reddit.com/user/nbatman/m/metaphysics/), [Minimalism](https://www.reddit.com/user/rainbowlemon/m/minimalist_lifestyle/), [Countries](https://www.reddit.com/user/sneaky5erpent/m/countries/) / [2](https://www.reddit.com/user/sneaky5erpent/m/countries2/), [International AskARedditor](https://www.reddit.com/user/sneaky5erpent/m/ask_people_nationality/), [Text Only](https://www.reddit.com/user/aokaga/m/stories), [Chess](https://www.reddit.com/user/korfor/m/chess/), [Engineering](https://www.reddit.com/user/nbatman/m/engineering/)
 
 ***
 
+<span id="music-sheet-collections"></span>
 ## 乐谱合集
 
 ### 通用乐谱
@@ -318,12 +344,14 @@
 
 ***
 
+<span id="png-images-clipart"></span>
 ## PNG 图片 / 剪贴画
 
 [CleanPNG](https://www.cleanpng.com/), [PNGWing](https://www.pngwing.com/), [AnyRGB](https://www.anyrgb.com/), [pngmart](https://www.pngmart.com/), [pngall](https://www.pngall.com/), [pngplay](https://www.pngplay.com/), [freepngimg](https://www.freepngimg.com/), [KindPNG](https://www.kindpng.com/), [FreePNGLogos](https://www.freepnglogos.com/), [PNGFind](https://www.pngfind.com), [PNGHero](https://pnghero.com/), [openclipart](https://openclipart.org), [transparentpng](https://www.transparentpng.com/), [pngfind](https://www.pngfind.com/), [⁠PNGitem](https://www.pngitem.com/)
 
 ***
 
+<span id="poll-sites"></span>
 ## 投票网站
 
 [⁠BetterVoting](https://bettervoting.com/) / [Info](https://www.starvoting.org/), [⁠RCV123](https://www.rcv123.org/), [minipoll](https://minipoll.co/), [StrawPoll](https://strawpoll.com/), [framadate](https://framadate.org/), [polltab](https://www.polltab.com/), [polling-app](https://xoyondo.com/polling-app), [poll.ly](https://poll.ly/)
@@ -334,6 +362,7 @@
 
 ***
 
+<span id="presentation-tools"></span>
 ## 演示工具
 
 * [Slides](https://maaslalani.com/slides/) - 终端演示工具 / [GitHub](https://github.com/maaslalani/slides)
@@ -356,6 +385,7 @@
 
 ***
 
+<span id="proxy-lists"></span>
 ## 代理列表
 
 * ⭐ **[PROXY List](https://github.com/TheSpeedX/PROXY-List)**
@@ -364,12 +394,14 @@
 
 ***
 
+<span id="self-hosted-wiki-alts"></span>
 ## 自托管 Wiki 替代方案
 
 [WikiDocs](https://www.wikidocs.app/) / [GitHub](https://github.com/Zavy86/WikiDocs), [Media Wiki](https://www.mediawiki.org/) / [GitHub](https://github.com/Wikia/mediawiki), [xWiki](https://www.xwiki.org/xwiki/bin/view/Main/), [DokuWiki](https://www.dokuwiki.org/dokuwiki) / [GitHub](https://github.com/dokuwiki/dokuwiki), [Miraheze](https://miraheze.org/), [wikmd](https://linbreux.github.io/wikmd/), [Fandom](https://www.fandom.com/)
 
 ***
 
+<span id="searx-instances"></span>
 ## Searx 实例
 
 * 🌐 **[Instance Scores](https://searx.neocities.org/instancescores)** 或 [Searx Index](https://www.startpage.com/sp/search?q=%22powered%20by%20Searx%22) - Searx 实例索引
@@ -389,6 +421,7 @@
 
 ***
 
+<span id="sms-verification-sites"></span>
 ## 短信验证网站
 
 * ⭐ **[SMSCodeOnline](https://smscodeonline.com/)**
@@ -402,6 +435,7 @@
 
 ***
 
+<span id="survival"></span>
 ## 生存
 
 * ⭐ **[Survivor Library](https://www.survivorlibrary.com/)**
@@ -430,6 +464,7 @@
 * [Iconly Pro](https://iconly.pro/) - 包含免费入口与付费订阅的图标服务，覆盖扁平、3D、破碎线和动画等风格
 <!-- pingti-local-icon-tools:end -->
 
+<span id="svg-icons"></span>
 ## SVG 图标
 
 * 🌐 **[Awesome Icons](https://github.com/notlmn/awesome-icons)**、**[Awesome Stock Resources](https://github.com/neutraltone/awesome-stock-resources#icons)** 或 **[Free Icons](https://www.iconshock.com/freeicons/)** - 图标站点索引
@@ -446,6 +481,7 @@
 
 ***
 
+<span id="tab-managers"></span>
 ## 标签页管理器
 
 * ⭐ **[Sidebery](https://github.com/mbnuqw/sidebery)** or **[Simple Tab Groups](https://github.com/drive4ik/simple-tab-groups)** - Firefox
@@ -465,6 +501,7 @@
 
 ***
 
+<span id="typescript-tools"></span>
 ## TypeScript 工具
 
 * [React TypeScript Cheatsheets](https://react-typescript-cheatsheet.netlify.app) - React 开发者 TypeScript 速查表
@@ -475,6 +512,7 @@
 
 ***
 
+<span id="udemy-coupons"></span>
 ## Udemy 优惠券
 
 * **注意** - 如果在美国，可以通过图书馆查找 "Gale Presents Udemy" 免费访问 Udemy 课程。

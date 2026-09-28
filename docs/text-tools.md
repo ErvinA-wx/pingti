@@ -27,6 +27,7 @@
 
 ***
 
+<span id="pastebins"></span>
 ## ▷ 粘贴板
 
 * ⭐ **[PrivateBin](https://privatebin.net/)**、[Paste.to](https://paste.to/)、[NoteBin](https://notebin.de/)、[TxtBin](https://txtbin.org/) 或 [⁠ZeroBin](https://www.zerobin.net/) - 支持 Markdown / 语法高亮 / [Instances](https://privatebin.info/directory) / [GitHub](https://github.com/PrivateBin/PrivateBin)
@@ -64,6 +65,7 @@
 
 ***
 
+<span id="translators"></span>
 ## ▷ 翻译工具
 
 * **注意** - [AI Chatbots](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/ai#wiki_.25B7_online_chatbots) 有时比传统翻译工具翻译得更好，尤其是对于结构差异较大的语言。
@@ -93,6 +95,7 @@
 
 ***
 
+<span id="audio-transcription"></span>
 ## ▷ 音频转录
 
 * 🌐 **[ASR Leaderboard](https://huggingface.co/spaces/hf-audio/open_asr_leaderboard)** - 语音转文本排行榜
@@ -111,6 +114,7 @@
 
 ***
 
+<span id="encode-decode"></span>
 ## ▷ 编码 / 解码
 
 * ⭐ **[CyberChef](https://gchq.github.io/CyberChef/)** - 编码 / 解码文本 / [GitHub](https://github.com/gchq/CyberChef)
@@ -130,6 +134,7 @@
 
 ***
 
+<span id="grammar-check"></span>
 ## ▷ 语法检查
 
 * **注意** - AI 部分的大多数聊天机器人也可以检查语法。
@@ -179,6 +184,7 @@
 
 ***
 
+<span id="typing-lessons"></span>
 ## ▷ 打字课程
 
 * ⭐ **[Monkeytype](https://monkeytype.com/)** - 自定义触键打字测试 / [Discord](https://discord.com/invite/monkeytype) / [GitHub](https://github.com/monkeytypegame/monkeytype)
@@ -197,6 +203,7 @@
 
 ***
 
+<span id="text-editors"></span>
 # ► 文本编辑器
 
 * 🌐 **[文本编辑器列表](https://wikipedia.org/wiki/List_of_text_editors)** - 文本编辑器/记事本索引
@@ -216,6 +223,7 @@
 
 ***
 
+<span id="note-taking"></span>
 ## ▷ 笔记
 
 * ↪️ **[Android Note-Taking](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android/#wiki_.25B7_android_text_tools)**
@@ -258,6 +266,7 @@
 
 ***
 
+<span id="office-suites"></span>
 ## ▷ 办公套件
 
 * ↪️ **[Office Activation](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/system-tools#wiki_.25B7_windows_activation)** / [Custom Install Guide](https://massgrave.dev/office_c2r_custom)
@@ -270,6 +279,7 @@
 
 ***
 
+<span id="online-editors"></span>
 ## ▷ 在线编辑器
 
 * ⭐ **[Zen](https://zen.unit.ms/)** - 本地保存
@@ -300,6 +310,7 @@
 
 ***
 
+<span id="mind-mapping"></span>
 ## ▷ 思维导图
 
 * ⭐ **[Obsidian Canvas](https://obsidian.md/canvas)**
@@ -327,6 +338,7 @@
 
 ***
 
+<span id="text-code-collaboration"></span>
 ## ▷ 文本/代码协作
 
 * ⭐ **[Google Docs](https://www.google.com/docs/about/)** / [HTML Converter](https://github.com/evbacher/gd2md-html) / [Templates](https://gdoc.io/)
@@ -368,6 +380,7 @@
 
 ***
 
+<span id="writing-tools"></span>
 ## ▷ 写作工具
 
 * ↪️ **[RPG / Fantasy Writing Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/game-tools/#wiki_.25B7_rpg_worldbuilding)**
@@ -399,6 +412,7 @@
 
 ***
 
+<span id="to-do-lists"></span>
 ## ▷ 待办事项列表
 
 * ↪️ **[Android To-Do Apps](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_to-do_apps)**
@@ -425,6 +439,7 @@
 
 ***
 
+<span id="ascii-art"></span>
 ## ▷ ASCII 艺术
 
 * ⭐ **[TAAG](https://patorjk.com/software/taag/)**、[DeepAA](https://github.com/OsciiArt/DeepAA)、[Kammerl](https://www.kammerl.de/ascii/AsciiSignature.php)、[ASCII Art Studio](https://www.majorgeeks.com/files/details/ascii_art_studio.html) 或 [ASCII Today](https://ascii.today/) - ASCII 艺术/文本生成器
@@ -438,6 +453,7 @@
 
 ***
 
+<span id="markup-tools"></span>
 # ► 标记工具
 
 * ↪️ **[HTML Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/dev-tools#wiki_.25B7_html)**
@@ -486,6 +502,7 @@
 
 ***
 
+<span id="latex-tools"></span>
 ## ▷ LaTeX 工具
 
 * ⭐ **[Typst](https://typst.app/home)** - LaTeX 替代方案 / [Resources](https://github.com/qjcg/awesome-typst) / [GitHub](https://github.com/typst/typst)
@@ -511,6 +528,7 @@
 
 ***
 
+<span id="open-source-freeware"></span>
 ## ▷ 开源 / 免费软件
 
 * ⭐ **[FontSource](https://fontsource.org/)** - 开源
@@ -547,6 +565,7 @@
 
 ***
 
+<span id="free-fonts"></span>
 ## ▷ 免费字体
 
 * ⭐ **[Fonts CSE](https://cse.google.com/cse?cx=82154ebab193e493d)** - 多站点字体搜索
@@ -576,6 +595,7 @@
 
 ***
 
+<span id="font-tools"></span>
 # ► 字体工具
 
 * ⭐ **[Font Interceptor](https://fontinterceptor.mschfmag.com/)** - 从网站下载字体
@@ -595,6 +615,7 @@
 
 ***
 
+<span id="font-text-generators"></span>
 ## ▷ 字体/文本生成器
 
 * ⭐ **[FontoGen](https://github.com/SerCeMan/fontogen)** 或 [⁠Refont](https://refont.ai/) - 自定义 AI 字体生成器
@@ -610,6 +631,7 @@
 
 ***
 
+<span id="font-customization"></span>
 ## ▷ 字体定制
 
 * ⭐ **[TypeTrials](https://typetrials.com/)** - 可变字体游乐场

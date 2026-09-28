@@ -6,6 +6,7 @@
 
 ***
 
+<span id="software-sites"></span>
 # ► 软件站点
 
 * **注意** - 安装前务必使用 **[VirusTotal](https://www.virustotal.com/gui/)** 扫描下载的软件，并在 **[Triage](https://tria.ge/)** 等沙箱环境中运行，以防系统受损。请注意，任何使用虚假名称的应用通常不值得使用。许多流行的文件托管站的下载按钮会重定向到虚假恶意下载页面。使用完整版 [uBlock Origin](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25BA_adblocking) 可以防止这种情况，但并不总是有效。阅读此[指南](https://cs.rin.ru/forum/viewtopic.php?f=14&t=159345)了解虚假恶意下载页面的样子以及如何避免。一般规则是避免在新标签页或重定向页面中打开的下载页面，真正的下载发生在文件托管站的同一页面内。
@@ -31,6 +32,7 @@
 
 ***
 
+<span id="foss-sites"></span>
 ## ▷ 开源软件站点
 
 * 🌐 **[Awesome Open Source](https://awesomeopensource.com/)**、[⁠definitive-opensource](https://github.com/mustbeperfect/definitive-opensource)、[Awesome Useful Projects](https://github.com/Furthir/awesome-useful-projects) 或 [Awesome OSS](https://github.com/RunaCapital/awesome-oss-alternatives) - 开源软件索引
@@ -52,6 +54,7 @@
 
 ***
 
+<span id="freeware-sites"></span>
 ## ▷ 免费软件站点
 
 * 🌐 **[Awesome Free Software](https://github.com/Axorax/awesome-free-apps)**、[Awesome Free Apps](https://github.com/Axorax/awesome-free-apps)、[Windows Ultimate Collection](https://xdaforums.com/t/windows-ultimate-collection-guides.4507867/) 或 [Free Lunch](https://github.com/auctors/free-lunch) - 免费软件索引
@@ -88,6 +91,7 @@
 
 ***
 
+<span id="download-directories"></span>
 # ► 下载目录
 
 * **注意** - 部分开放目录会追踪 IP 地址。访问这些资源时，请始终使用 [VPN](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy/#wiki_.25BA_vpn) 或 [Tor](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy/#wiki_.25B7_browser_privacy)。
@@ -108,6 +112,7 @@
 
 ***
 
+<span id="download-sites"></span>
 # ► 下载站点
 
 * **注意** - 通用 DDL 站点使用多个来源，因此软件和游戏最好避免使用。如有需要，可使用 **[重定向绕过工具](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools/#wiki_.25B7_redirect_bypass)** 跳过链接缩短器。许多流行文件托管站的下载按钮会重定向到虚假恶意下载页面。使用完整版 [uBlock Origin](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25BA_adblocking) 可以防止这种情况，但并非总是有效。阅读此 [指南](https://cs.rin.ru/forum/viewtopic.php?f=14&t=159345) 了解虚假恶意下载页面的特征及如何避免。一般规则是：避免在新标签页或重定向页面中打开的下载页面，真正的下载发生在文件托管站同一页面内。
@@ -223,6 +228,7 @@
 
 ***
 
+<span id="debrid-leeches"></span>
 # ► Debrid / 吸血
 
 * 🌐 **[Debrid Services Comparison](https://debridcompare.pages.dev/)** / [GitHub](https://github.com/fynks/debrid-services-comparison)
@@ -237,6 +243,7 @@
 
 ***
 
+<span id="irc-tools"></span>
 # ► IRC 工具
 
 * 🌐 **[Awesome IRC](https://github.com/davisonio/awesome-irc)** - IRC 资源

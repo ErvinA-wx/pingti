@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url'
 
 const ROOT = process.cwd()
 const EXCLUDED_FILES = new Set([
+  'scripts/lint-markdown.js',
   'scripts/rewrite-internal-links.mjs',
   'scripts/rewrite-internal-links.test.mjs'
 ])

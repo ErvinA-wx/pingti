@@ -1,1 +1,11 @@
 /posts  /blog  301
+/audio-tools /audio 301
+/audio-tools/ /audio 301
+/miscguide /misc 301
+/miscguide/ /misc 301
+/posts/minecraft-server /gaming-tools 301
+/posts/minecraft-server/ /gaming-tools 301
+/readingpiracyguide /reading 301
+/readingpiracyguide/ /reading 301
+/toolsguide / 301
+/toolsguide/ / 301

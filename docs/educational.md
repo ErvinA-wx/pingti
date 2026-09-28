@@ -4,6 +4,7 @@
 ***
 ***
 
+<span id="documentaries"></span>
 # ► 纪录片
 
 * 🌐 **[官方 YT 纪录片频道](https://github.com/superlincoln953/Free-Official-Youtube-Content?tab=readme-ov-file#Documentaries)** - YouTube 纪录片频道
@@ -31,6 +32,7 @@
 
 # ► 课程
 
+<span id="streaming"></span>
 ## ▷ 在线观看
 
 * 🌐 **[Limnology](https://limnology.co/)** - 教育类 YouTube 频道
@@ -59,6 +61,7 @@
 
 ***
 
+<span id="downloading"></span>
 ## ▷ 下载
 
 * **注意** - 使用 **[重定向绕过器](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools/#wiki_.25B7_redirect_bypass)** 跳过烦人的链接缩短器。
@@ -76,6 +79,7 @@
 
 ***
 
+<span id="learning-sites"></span>
 # ► 学习网站
 
 * 🌐 **[Learn Anything](https://learn-anything.xyz/)** - 学习资源搜索 / [Free Method](https://rentry.co/FMHYB64#learn-anything) / [Discord](https://discord.gg/W7yDkEN67Y) / [GitHub](https://github.com/learn-anything/learn-anything)
@@ -234,6 +238,7 @@
 
 ***
 
+<span id="engineering"></span>
 ## ▷ 工程
 
 * 🌐 **[The Engineering Toolbox](https://www.engineeringtoolbox.com/)** 或 [EngineersEdge](https://www.engineersedge.com/) - 工程资源
@@ -315,6 +320,7 @@
 
 ***
 
+<span id="periodic-tables"></span>
 ## ▷ 元素周期表
 
 * ⭐ **[Ptable](https://ptable.com/)** - 交互式表格
@@ -374,6 +380,7 @@
 
 ***
 
+<span id="med-school"></span>
 ## ▷ 医学院
 
 * 🌐 **[r/MedicalSchool Wiki](https://www.reddit.com/r/medicalschool/wiki/resources)** - 医学院资源
@@ -419,6 +426,7 @@
 
 ***
 
+<span id="space"></span>
 # ► 太空
 
 * ⭐ **[r/Space](https://reddit.com/r/Space)** - 太空子版块
@@ -448,6 +456,7 @@
 
 ***
 
+<span id="astronomy"></span>
 ## ▷ 天文学
 
 * 🌐 **[Astronomy Resources](https://er-cryptid.tumblr.com/post/176809097526/free-astronomy-resources)** - 天文学资源
@@ -490,6 +499,7 @@
 
 ***
 
+<span id="spacecraft"></span>
 ## ▷ 航天器
 
 * ↪️ **[Aerospace Engineering Resources](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu#wiki_.25BA_aerospace_engineering)**
@@ -519,6 +529,7 @@
 
 ***
 
+<span id="aerospace-engineering"></span>
 # ► 航空航天工程
 
 * 🌐 **[Awesome Aerospace Engineering](https://github.com/mahran-sayed/awesome-aerospace-engineering/)** - 航空航天工程学习资源
@@ -543,6 +554,7 @@
 
 ***
 
+<span id="rocketry"></span>
 ## ▷ 火箭
 
 * [⁠The Rocketry Forum](https://www.rocketryforum.com/) 或 [Ye Olde Rocket Forum](https://www.oldrocketforum.com/) - 火箭论坛 / 社区
@@ -563,6 +575,7 @@
 
 ***
 
+<span id="drones"></span>
 ## ▷ 无人机
 
 * [⁠UAVs FYI](https://www.uavs.fyi/) - 无人机信息、资源、硬件及供应链分析 / [X](https://x.com/osoraku_1997)
@@ -575,6 +588,7 @@
 
 ***
 
+<span id="simulators"></span>
 ## ▷ 模拟器
 
 * [Falcon BMS](https://www.falcon-bms.com/) - Falcon 4.0 现代化项目 / [Wiki](https://wiki.falcon-bms.com/) / [Forum](https://forum.falcon-bms.com/) / [YouTube](https://www.youtube.com/@falcon-bms) / [Subreddit](https://www.reddit.com/r/falconbms/) / [Discord](https://discord.gg/KQNHQBz)
@@ -639,6 +653,7 @@
 
 ***
 
+<span id="tech-history"></span>
 ## ▷ 科技史
 
 * ⭐ **[⁠Historical Tech Tree](https://www.historicaltechtree.com/)** / [Discord](https://discord.gg/e96JwQjUmX) 或 [Calculating Empires](https://calculatingempires.net/) - 历史发现/科技时间线
@@ -683,6 +698,7 @@
 
 ***
 
+<span id="world-data"></span>
 ## ▷ 世界数据
 
 * 🌐 **[Awesome Datasets](https://github.com/awesomedata/awesome-public-datasets)** - 公共数据集
@@ -707,6 +723,7 @@
 
 ***
 
+<span id="geography-sociology"></span>
 ## ▷ 地理 / 社会学
 
 * 🌐 **[Soar](https://soaratlas.com/)**、[ArcGIS Living Atlas](https://livingatlas.arcgis.com/)、[⁠WorldAtlas](https://www.worldatlas.com/) 或 [Cool Maps](https://coolmaps.esri.com/) - 地图集
@@ -731,6 +748,7 @@
 
 ***
 
+<span id="vexillology-flags"></span>
 ## ▷ 旗帜学/旗帜
 
 * ⭐ **[世界旗帜](https://www.fotw.info/flags/index.html)** / [2](https://www.crwflags.com/fotw/flags/)、[Vexilo](https://vexilo.org/)、[Flagid](https://flagid.org/)、[FlagLog](https://www.flaglog.com/) 或 [Flaglookup](https://flaglookup.com/) - 旗帜数据库
@@ -744,6 +762,7 @@
 
 ***
 
+<span id="economics"></span>
 ## ▷ 经济学
 
 * ↪️ **[Finance / Market Resources](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/misc#wiki_.25B7_finance_.2F_savings)**
@@ -771,6 +790,7 @@
 
 ***
 
+<span id="philosophy"></span>
 ## ▷ 哲学
 
 * ⭐ **[斯坦福哲学百科全书](https://plato.stanford.edu/index.html)**、[IEP](https://iep.utm.edu/) 或 [nLab Philosophy](https://ncatlab.org/nlab/show/philosophy) - 哲学百科全书 / [搜索](https://www.visualizingsep.com/)
@@ -801,6 +821,7 @@
 
 ***
 
+<span id="skills-hobbies-diy"></span>
 # ► 技能 / 爱好 / 手工
 
 * ↪️ **[Photography / Cameras](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/image-tools#wiki_.25BA_photography_.2F_cameras)**
@@ -878,6 +899,7 @@
 
 ***
 
+<span id="art-editing"></span>
 ## ▷ 艺术 / 编辑
 
 * 🌐 **[Creator Resources](https://www.newgrounds.com/wiki/creator-resources/)** - 艺术与动画资源索引
@@ -928,6 +950,7 @@
 
 ***
 
+<span id="rubiks-cube"></span>
 ## ▷ 魔方
 
 * 🌐 **[Cubing.net](https://www.cubing.net/)** - 魔方工具
@@ -952,6 +975,7 @@
 
 ***
 
+<span id="chess"></span>
 ## ▷ 国际象棋
 
 * 🌐 **[Awesome Chess](https://github.com/hkirat/awesome-chess)**、[⁠Immortal Chess Network](https://t.me/Immortal_Chess_Network)、[⁠TheChessDirectory](https://thechessdirectory.com/) 或 [Chess Resources](https://redd.it/u43nrc) - 国际象棋资源
@@ -988,6 +1012,8 @@
 
 ***
 
+<span id="go-baduk-weiqi"></span>
+<span id="-go-baduk-weiqi"></span>
 ## ▷ 围棋 / Baduk / Weiqi
 
 * 🌐 **[Go Magic: 如何下围棋](https://gomagic.org/how-to-play-go-rules/)** - 围棋初学者教程
@@ -1009,6 +1035,7 @@
 
 ***
 
+<span id="dungeons-dragons"></span>
 ## ▷ 龙与地下城
 
 * ↪️ **[D&D Building Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/game-tools/#wiki_.25B7_rpg_worldbuilding)** – 地图编辑器、战役管理器、世界构建等
@@ -1027,6 +1054,7 @@
 
 ***
 
+<span id="lego"></span>
 ## ▷ 乐高
 
 * 🌐 **[Awesome Lego](https://github.com/ad-si/awesome-lego)** – 乐高资源
@@ -1039,8 +1067,10 @@
 
 ***
 
+<span id="language-learning"></span>
 # ► 语言学习
 
+<span id="multi-language"></span>
 ## ▷ 多语言
 
 * 🌐 **[Language Links](https://docs.google.com/spreadsheets/d/1EGPFLFJdyKGKjh8LXXA099ddf1yB6ZQgr_mmtBnYCy8)**、[LibreTexts Languages](https://human.libretexts.org/Bookshelves/Languages)、[/int/ Guide](https://4chanint.miraheze.org/)、[⁠MondeLibrary](https://library.mondecast.com/?price=free) 或 [r/LanguageLearning Resources](https://www.reddit.com/r/languagelearning/wiki/resources/) - 语言学习资源
@@ -1201,6 +1231,7 @@
 
 ***
 
+<span id="cantonese"></span>
 ## ▷ 粤语
 
 * 🌐 **[Cantonese Sheik](https://www.cantonese.sheik.co.uk/)** - 粤语学习资源
@@ -1238,6 +1269,7 @@
 
 ***
 
+<span id="german"></span>
 ## ▷ 德语
 
 * 🌐 **[⁠German Learning Roadmap](https://learngerman.pages.dev/)** 或 **[German Resources](https://docs.google.com/document/d/1J5PJK0qStw2DHQHdRHuKIfq_bJrZkFarQVT7fkz13tg/edit#heading=h.biavq1413l4t)** - 德语学习资源
@@ -1299,6 +1331,7 @@
 
 ***
 
+<span id="constructed-languages"></span>
 ## ▷ 人工语言
 
 * 🌐 **[⁠Links from Esperanto](https://ligil.ujo.moe/)** - 世界语学习网站索引
@@ -1322,6 +1355,7 @@
 
 ***
 
+<span id="developer-learning"></span>
 # ► 开发者学习
 
 <!-- pingti-local-official-ai-learning:start -->
@@ -1399,6 +1433,7 @@
 
 ***
 
+<span id="coding-tutorials"></span>
 ## ► 编程教程
 
 * 🌐 **[Project Based Learning](https://github.com/practical-tutorials/project-based-learning)** - 基于项目的学习资源
@@ -1413,6 +1448,7 @@
 
 ***
 
+<span id="programming-languages"></span>
 ## ▷ 编程语言
 
 * ⭐ **[30 Days Of Python](https://github.com/Asabeneh/30-Days-Of-Python)** - Python 编程挑战
@@ -1482,6 +1518,7 @@
 
 ***
 
+<span id="computer-science"></span>
 ## ▷ 计算机科学
 
 * 🌐 **[CompSciLib](https://www.compscilib.com/)** - 计算机科学工具
@@ -1587,6 +1624,7 @@
 
 ***
 
+<span id="cybersecurity"></span>
 ## ▷ 网络安全
 
 * 🌐 **[Free Cyber Resources](https://github.com/gerryguy311/Free_CyberSecurity_Professional_Development_Resources)**、[BlueTeam Tools](https://github.com/A-poc/BlueTeam-Tools) 或 [Applied Cybersecurity](https://www.nist.gov/itl/applied-cybersecurity/nice/resources/online-learning-content) - 网络安全学习资源
@@ -1619,6 +1657,7 @@
 
 ***
 
+<span id="game-development"></span>
 ## ▷ 游戏开发
 
 * 🌐 **[Awesome-Gamedev](https://github.com/FronkonGames/Awesome-Gamedev)**、[Learn Gamedev](https://github.com/notpresident35/awesome-learn-gamedev)、[MagicTools](https://github.com/ellisonleao/magictools)、[Newgrounds Wiki: 游戏开发资源](https://www.newgrounds.com/wiki/creator-resources/game-dev-resources) 或 [The VG Resource](https://www.vg-resource.com/) - 学习资源
@@ -1677,6 +1716,7 @@
 
 ***
 
+<span id="sat-testing"></span>
 ## ▷ SAT 考试
 
 * 🌐 **[Digital SAT Resources](https://redd.it/zzsgzl)** - SAT 资源
@@ -1707,6 +1747,7 @@
 
 ***
 
+<span id="educational-tools"></span>
 # ► 教育工具
 
 * 🌐 **[nanoHUB](https://nanohub.org/)** - 纳米技术工具
@@ -1734,6 +1775,7 @@
 
 ***
 
+<span id="study-research"></span>
 ## ▷ 学习 / 研究
 
 
@@ -1783,6 +1825,7 @@
 
 ***
 
+<span id="flashcards"></span>
 ## ▷ 闪卡
 
 * ⭐ **[Anki](https://apps.ankiweb.net/)** - 闪卡应用 / [Subreddit](https://www.reddit.com/r/Anki/) / [Discord](https://discord.gg/jUvBM2sEs4) / [GitHub](https://github.com/ankitects/anki)
@@ -1801,6 +1844,7 @@
 
 ***
 
+<span id="calculators"></span>
 ## ▷ 计算器
 
 * ⭐ **[WolframAlpha](https://www.wolframalpha.com/examples/mathematics)** - 计算器
@@ -1824,6 +1868,7 @@
 
 ***
 
+<span id="dictionaries-thesaurus"></span>
 ## ▷ 词典 / 同义词词典
 
 * ⭐ **[OneLook](https://onelook.com/)** - 多源词典/同义词词典搜索
@@ -1857,6 +1902,7 @@
 
 ***
 
+<span id="encyclopedias"></span>
 ## ▷ 百科全书
 
 * 🌐 **[List of Encyclopedias](https://wikipedia.org/wiki/List_of_online_encyclopedias)** - 在线百科全书索引
