@@ -42,6 +42,7 @@ export default defineConfig({
     transformItems: (items) => {
       const excludedPaths = new Set([
         '/feedback',
+        '/posts',
         '/sandbox',
         '/startpage',
         '/submit/request',
