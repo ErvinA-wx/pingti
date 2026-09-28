@@ -4,6 +4,7 @@
 ***
 ***
 
+<span id="gaming-tools"></span>
 # ► 游戏工具
 
 * ↪️ **[Gaming Equipment Comparisons](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/misc#wiki_.25B7_gaming_equipment)**
@@ -51,6 +52,7 @@
 
 ***
 
+<span id="game-launchers"></span>
 ## ▷ 游戏启动器
 
 * ⭐ **[Playnite](https://playnite.link/)** - 游戏库 / 启动器 / [扩展](https://playnite.link/addons.html), [2](https://github.com/darklinkpower/PlayniteExtensionsCollection) / Windows / [Subreddit](https://www.reddit.com/r/playnite/) / [Discord](https://discord.com/invite/BrtABqe) / [GitHub](https://github.com/JosefNemec/Playnite/)
@@ -70,6 +72,7 @@
 
 ***
 
+<span id="optimization-tools"></span>
 ## ▷ 优化工具
 
 * 🌐 **[Nvidia Overclocking](https://github.com/LunarPSD/NvidiaOverclocking/blob/main/Nvidia%20Overclocking.md)** 或 [Nvidia Overclocking Guide](https://docs.google.com/document/d/14ma-_Os3rNzio85yBemD-YSpF_1z75mZJz1UdzmW8GE/) - Nvidia 超频资源 / 指南
@@ -132,6 +135,7 @@
 
 ***
 
+<span id="game-mods"></span>
 ## ▷ 游戏模组
 
 * **注意** - 本节列出的网站仅支持单人游戏。不支持也不纵容在多人游戏中作弊。
@@ -170,6 +174,7 @@
 
 ***
 
+<span id="game-saves"></span>
 ## ▷ 游戏存档
 
 * ↪️ **[File Backup](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/file-tools/#wiki_.25B7_file_backup) / [Sync](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/file-tools/#wiki_.25B7_file_sync)**
@@ -237,6 +242,7 @@
 
 ***
 
+<span id="tracking-databases"></span>
 # ► 追踪 / 数据库
 
 * ⭐ **[Backloggd](https://www.backloggd.com/)** - 追踪 / 数据库 / [Discord](https://discord.gg/cMjGusjbwg)
@@ -289,6 +295,7 @@
 
 ***
 
+<span id="curated-recommendations"></span>
 ## ▷ 精选推荐
 
 * 🌐 **[Awesome Engineering Games](https://github.com/arcataroger/awesome-engineering-games)** - 工程类游戏
@@ -328,6 +335,7 @@
 
 ***
 
+<span id="client-tools"></span>
 ## ▷ 客户端工具
 
 * ⭐ **[Heroic Games Launcher](https://heroicgameslauncher.com/)** - Epic / GOG / Prime 游戏启动器 / [Discord](https://discord.com/invite/rHJ2uqdquK) / [GitHub](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher)
@@ -347,6 +355,7 @@
 
 ***
 
+<span id="dlc-unlock-drm-bypass"></span>
 ## ▷ DLC 解锁 / DRM 绕过
 
 * ⭐ **[CreamAPI](https://cs.rin.ru/forum/viewtopic.php?t=70576)** - Steam DLC 解锁器
@@ -366,6 +375,7 @@
 
 ***
 
+<span id="store-tools"></span>
 ## ▷ 商店工具
 
 * ⭐ **[SteamDB](https://steamdb.info/)** / [扩展](https://steamdb.info/extension/) / [Discord](https://discord.com/invite/steamdb), [⁠Raijin](https://raijin.gg/), [BestOfSteam](https://bestofsteam.com/), [Steam250](https://steam250.com/) 或 [Steambase](https://steambase.io/) / [扩展](https://chromewebstore.google.com/detail/better-steam/iobagpbkbdkobggejjcnidehfenchpec) - Steam 洞察工具 / 游戏排行榜
@@ -408,6 +418,7 @@
 
 ***
 
+<span id="multiplayer-fixes"></span>
 ## ▷ 多人游戏修复
 
 * ⭐ **[Online Fix](https://online-fix.me/)** - 在线 / 局域网多人游戏修复 / [Discord](https://discord.gg/yExgFYncMD)
@@ -422,6 +433,7 @@
 
 ***
 
+<span id="multiplayer-mods"></span>
 ## ▷ 多人游戏模组
 
 * 🌐 **[Multiplayer Mods](https://docs.google.com/spreadsheets/d/e/2PACX-1vSV41AswEt3EpzSyd85YRVtoJaIIXWjtBy347dISJg4fs6xSNPqcgfsh76TxX_l-mnT7pjMlSqTW-87/pubhtml)** 或 [Unmoddable](https://unmoddable.com/) - 单人游戏的多人模组
@@ -459,6 +471,7 @@
 
 ***
 
+<span id="multiplayer-servers"></span>
 ## ▷ 多人服务器
 
 * ⭐ **[TrackyServer](https://www.trackyserver.com/)** - 寻找私人多人服务器
@@ -543,6 +556,7 @@
 
 ***
 
+<span id="wii-u-wii-homebrew"></span>
 ## ▷ Wii U / Wii 自制
 
 * ⭐ **[Wii U Hacks Guide](https://wiiu.hacks.guide/)** - Wii U 自制指南
@@ -561,6 +575,7 @@
 
 ***
 
+<span id="_3ds-ds-homebrew"></span>
 ## ▷ 3DS / DS 自制
 
 * 🌐 **[DS Homebrew](https://ds-homebrew.com/)** - DS / 3DS 自制资源 / [Wiki](https://wiki.ds-homebrew.com/) / [Discord](https://discord.com/invite/yD3spjv)
@@ -582,6 +597,7 @@
 
 ***
 
+<span id="playstation-homebrew"></span>
 ## ▷ Playstation 自制软件
 
 * ⭐ **[PS4 Modding](https://www.youtube.com/playlist?list=PLn7ji3VsPy3FRxLrjz5ScpvpTirAxQ3me)** - PS4 自制软件指南
@@ -611,6 +627,7 @@
 
 ***
 
+<span id="xbox-homebrew"></span>
 ## ▷ Xbox 自制软件
 
 * 🌐 **[r/360Hacks Guide](https://redd.it/8y9jql)** - Xbox 360 改装指南列表
@@ -643,6 +660,7 @@
 
 ***
 
+<span id="minecraft-tools"></span>
 # ► Minecraft 工具
 
 * 🌐 **[MCDOC](https://mcdoc.site/)** - Minecraft 工具与解锁器 / [Discord](https://discord.gg/TtJM3ahtuM) / [Source Code](https://codeberg.org/OpenM/pages)
@@ -672,6 +690,7 @@
 
 ***
 
+<span id="hosting-tools"></span>
 ## ▷ 托管工具
 
 * 🌐 **[FMHL](https://www.myuui.com/)** - 免费 Minecraft 主机列表 / [GitHub](https://github.com/Myuui/Free-Minecraft-Hosts)
@@ -700,6 +719,7 @@
 
 ***
 
+<span id="launchers"></span>
 ## ▷ 启动器
 
 * ⭐ **[PineconeMC](https://pineconemc.ru/)**, [2](https://elyprismlauncher.github.io/) / [Discord](https://discord.gg/5kcBCvnbTp) / [GitHub](https://github.com/ElyPrismLauncher/Launcher), **[Freesm Launcher](https://freesmlauncher.org/)** / [Theme Creator](https://new.freesmlauncher.org/themes) / [Telegram](https://t.me/freesmteam) / [Discord](https://discord.com/invite/6jjw4gjy4w) / [GitHub](https://github.com/FreesmTeam/FreesmLauncher) 或 [ShatteredPrism](https://github.com/LunaisLazier/ShatteredPrism) - 支持 Alt 认证服务器的 Prism Launcher 分支 / Windows, macOS, Linux
@@ -736,6 +756,7 @@
 
 ***
 
+<span id="mod-resource-packs"></span>
 ## ▷ 模组 / 资源包
 
 * 🌐 **[UsefulMods](https://github.com/TheUsefulLists/UsefulMods)** - 优化与增强模组 / [Discord](https://discord.gg/8nzHYhVUQS)
@@ -788,6 +809,7 @@
 
 ***
 
+<span id="maps-world-tools"></span>
 ## ▷ 地图 / 世界工具
 
 * 🌐 **[ChunkBase](https://www.chunkbase.com/apps/)** - 地图工具
@@ -808,6 +830,7 @@
 
 ***
 
+<span id="technical-tools"></span>
 ## ▷ 技术工具
 
 * 🌐 **[TMC Links](https://gist.github.com/JoakimThorsen/e90bd7a588af25ae529530987d9acc8a)** - 技术性 Minecraft 资源
@@ -827,6 +850,7 @@
 
 ***
 
+<span id="customization"></span>
 ## ▷ 个性化
 
 * 🌐 **[ShaderLABS](https://shaderlabs.org/wiki/Main_Page)** - 着色器对比与资源 / [Discord](https://discord.com/invite/RpzWN9S)
@@ -846,6 +870,7 @@
 
 ***
 
+<span id="_3d-tools"></span>
 ## ▷ 3D 工具
 
 * [Mineways](https://www.realtimerendering.com/erich/minecraft/public/mineways/) / [Discord](https://discord.com/invite/wfayQA6Dyc)、[MiEX](https://bramstout.nl/en/miex/)、[Minutor](https://seancode.com/minutor/) - Minecraft 世界导出器
@@ -865,6 +890,7 @@
 
 # ► 特定类型
 
+<span id="moba-tools"></span>
 ## ▷ MOBA 工具
 
 * ⭐ **[OP.GG](https://www.op.gg/)** - LoL 玩家背景查询
@@ -887,6 +913,7 @@
 
 ***
 
+<span id="fighting-tools"></span>
 ## ▷ 格斗游戏工具
 
 * 🌐 **[⁠The Melee Library](https://www.meleelibrary.com/)** - Super Smash Bros. Melee 学习资源
@@ -928,6 +955,7 @@
 
 ***
 
+<span id="tabletop-tools"></span>
 ## ▷ 桌游工具
 
 * 🌐 **[Awesome TTRPGs](https://github.com/Zireael07/awesome-tabletop-rpgs)** - 在线 TTRPG 与资源
@@ -949,6 +977,7 @@
 
 ***
 
+<span id="rpg-worldbuilding"></span>
 ## ▷ RPG 世界构建
 
 * ↪️ **[Writing Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/text-tools#wiki_.25B7_writing_tools)** - 写作工具 / 故事管理器
@@ -966,6 +995,7 @@
 
 ***
 
+<span id="arpg-mmorpg-tools"></span>
 ## ▷ ARPG / MMORPG 工具
 
 * 🌐 **[Grim Tools](https://www.grimtools.com/)** - Grim Dawn 工具
@@ -981,6 +1011,7 @@
 
 ***
 
+<span id="visual-novel-tools"></span>
 ## ▷ 视觉小说工具
 
 * 🌐 **[Visual Novel Wiki](https://www.vnwiki.xyz/)** - 视觉小说资源 / 指南 / [Discord](https://discord.gg/dejvpMhWaH) / [GitHub](https://github.com/VNWiki/visual-novel-wiki)
@@ -1024,6 +1055,7 @@
 
 ***
 
+<span id="pokemon-tools"></span>
 ## ▷ 宝可梦工具
 
 * 🌐 **[r/PTCGP Resource Guide](https://redd.it/1gf94ey)** - 宝可梦 TCG Pocket 资源
@@ -1064,6 +1096,7 @@
 
 ***
 
+<span id="gta-tools"></span>
 ## ▷ GTA 工具
 
 * 🌐 **[GTAAll](https://www.gtaall.com/)**、[⁠GTAForums](https://gtaforums.com/)、[⁠FusionFix](https://fusionfix.io/)、[GTAInside](https://www.gtainside.com/)、[GameModding](https://gamemodding.com/)、[GTAGarage](https://gtagarage.com/) 或 [LibertyCity](https://libertycity.net/) - GTA 模组、攻略等
@@ -1181,6 +1214,7 @@
 
 ***
 
+<span id="rimworld-tools"></span>
 ## ▷ RimWorld 工具
 
 * ⭐ **[RimWorld Wiki](https://rimworldwiki.com/)** - 官方维基 / [Discord](https://discord.com/invite/UTaMDWc)

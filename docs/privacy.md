@@ -4,6 +4,7 @@
 ***
 ***
 
+<span id="adblocking"></span>
 # ► 广告拦截
 
 * **注意** - 许多网站包含广告、弹窗或重定向，因此我们[强烈建议](https://pingti.org/beginners-guide#adblocking)使用广告拦截器。不要同时运行多个通用广告拦截器（例如 uBlock Origin 和 AdGuard），以免[导致问题](https://x.com/gorhill/status/1033706103782170625)。将通用广告拦截器与 SponsorBlock 等工具结合使用是可行的。另外请注意，uBO 完整版的效果远优于精简版。
@@ -41,6 +42,7 @@
 
 ***
 
+<span id="dns-adblocking"></span>
 ## ▷ DNS 广告拦截
 
 * **注意** - 如果目标是拦截浏览器广告，最好只使用 uBlock Origin，因为额外的过滤规则可能导致冲突或触发反广告拦截。
@@ -71,6 +73,7 @@
 
 ***
 
+<span id="dns-filters"></span>
 ## ▷ DNS 过滤器
 
 * ⭐ **[Hagezi Blocklists](https://github.com/hagezi/dns-blocklists)** - 多源域名拦截列表 / 使用完整版 / [说明](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/hagezi.md)
@@ -124,6 +127,7 @@
 
 ***
 
+<span id="file-scanners"></span>
 ## ▷ 文件扫描器
 
 * 🌐 **[The Second Opinion](https://jijirae.github.io/thesecondopinion/index.html)** - 便携式恶意软件扫描器/清除工具 / [GitHub](https://github.com/jijirae/thesecondopinion/)
@@ -185,6 +189,7 @@
 
 ***
 
+<span id="privacy-indexes"></span>
 ## ▷ 隐私索引
 
 * ⭐ **[The Hitchhiker’s Guide](https://anonymousplanet.net/)** - 在线匿名指南 / [GitHub](https://github.com/Anon-Planet/thgtoa)
@@ -210,6 +215,7 @@
 
 ***
 
+<span id="network-security"></span>
 ## ▷ 网络安全
 
 * ⭐ **[Safing Portmaster](https://safing.io/)** - 网络监控 / DNS 解析器 / 防火墙 / [X](https://twitter.com/SafingIO) / [Discord](https://discord.com/invite/9ScnccuXaZ) / [GitHub](https://github.com/safing)
@@ -239,6 +245,7 @@
 
 ***
 
+<span id="web-privacy"></span>
 # ► 网络隐私
 
 * 🌐 **[Google Alt List](https://www.techspot.com/article/2752-all-google-alternatives/)**、[r/degoogle](https://www.reddit.com/r/degoogle) 或 [No More Google](https://nomoregoogle.com/) - Google 应用替代方案
@@ -254,6 +261,7 @@
 
 ***
 
+<span id="browser-privacy"></span>
 ## ▷ 浏览器隐私
 
 * 🌐 **[Browser Privacy Guides](https://www.privacyguides.org/en/desktop-browsers)** - 浏览器隐私 / 设置指南
@@ -270,6 +278,7 @@
 
 ***
 
+<span id="password-privacy-2fa"></span>
 ## ▷ 密码隐私 / 双因素认证
 
 * 🌐 **[2FA Directory](https://2fa.directory/)** - 支持双因素认证的网站列表 / [GitHub](https://github.com/2factorauth/twofactorauth)
@@ -297,6 +306,7 @@
 
 ***
 
+<span id="encrypted-messengers"></span>
 ## ▷ 加密即时通讯
 
 * **注意** - 请注意，即使启用了端到端加密，元数据仍可能对用户的主服务器以及聊天对象的主服务器可见。
@@ -327,6 +337,7 @@
 
 ***
 
+<span id="email-privacy"></span>
 ## ▷ 邮件隐私
 
 * 🌐 **[⁠OpenPGP Email Encryption](https://www.openpgp.org/software/)** - 加密（OpenPGP）邮件客户端索引
@@ -342,6 +353,7 @@
 
 ***
 
+<span id="data-breach-monitoring"></span>
 ## ▷ 数据泄露监控
 
 * ⭐ **[Have I Been Pwned?](https://haveibeenpwned.com/)** / [GitHub](https://github.com/HaveIBeenPwned) 或 [F-Secure](https://www.f-secure.com/en/identity-theft-checker) / [X](https://x.com/FSecure) - 监控邮箱泄露
@@ -354,6 +366,7 @@
 
 ***
 
+<span id="fingerprinting-tracking"></span>
 ## ▷ 指纹识别 / 跟踪
 
 * ⭐ **[CreepJS](https://abrahamjuliot.github.io/creepjs)**, [webkay](https://webkay.robinlinus.com/), [browserrecon](https://www.computec.ch/projekte/browserrecon/?s=scan), [TZP](https://arkenfox.github.io/TZP/tzp.html), [Cover Your Tracks](https://coveryourtracks.eff.org/), [⁠DeviceInfo](https://www.deviceinfo.me/), [⁠BrowserScan](https://www.browserscan.net/) 或 [PersonalData](https://personaldata.info/) - 跟踪 / 指纹识别测试
@@ -369,6 +382,7 @@
 
 ***
 
+<span id="search-engines"></span>
 ## ▷ 搜索引擎
 
 * 🌐 **[Search Engine Party](https://searchengine.party/)** - 隐私搜索引擎比较 / [GitLab](https://gitlab.com/nitrohorse/search-engines-compare)
@@ -408,6 +422,7 @@
 
 ***
 
+<span id="vpn-server"></span>
 ## ▷ VPN 服务器
 
 * ⭐ **[WireGuard](https://www.wireguard.com/)** - VPN 隧道 / [指南](https://www.wireguard.com/quickstart/) / [Web UI](https://github.com/wg-easy/wg-easy) / [Source Code](https://www.wireguard.com/repositories/)
@@ -439,6 +454,8 @@
 
 <!-- pingti-local-mesh-network-tools:end -->
 
+<span id="vpn-tools"></span>
+
 ## ▷ VPN 工具
 
 * ↪️ **[Free VPN Configs](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_free_vpn_configs)**
@@ -450,6 +467,7 @@
 
 ***
 
+<span id="proxy"></span>
 # ► 代理
 
 * [Lantern](https://lantern.io/) - 代理应用 / [GitHub](https://github.com/getlantern/lantern)
@@ -480,6 +498,7 @@
 
 ***
 
+<span id="proxy-clients"></span>
 ## ▷ 代理客户端
 
 * ⭐ **[v2rayN](https://github.com/2dust/v2rayN)** - 代理客户端 / Windows, macOS, Linux
@@ -501,6 +520,7 @@
 
 ***
 
+<span id="anti-censorship"></span>
 ## ▷ 反审查
 
 * ↪️ **[Great Firewall Bypass](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/non-eng#wiki_.25B7_great_firewall)**
@@ -518,6 +538,7 @@
 
 ***
 
+<span id="proxy-sites"></span>
 ## ▷ 代理网站
 
 * **注意** - 请留意许多代理网站会记录 IP 地址、访问的网站等信息。它们可用于解除网站封锁，但对隐私保护作用有限。

@@ -20,45 +20,45 @@ authors: [nbats]
 
 - 为 [Courses](https://cse.google.com/cse?cx=f7a118c70d0804fc4) 和 [Fonts](https://cse.google.com/cse?cx=82154ebab193e493d) 添加了自定义搜索引擎（CSE）。
 
-- 在实用网站中新增了 [Productivity Tools](https://pingti.org/misc#productivity-tools) 板块。
+- 在实用网站中新增了 [Productivity Tools](https://pingti.org/misc) 板块。
 
 - 在文件工具中新增了 [File Recovery](https://pingti.org/file-tools#file-recovery) 板块。
 
 - 在隐私中新增了 [Fingerprinting / Tracking](https://pingti.org/privacy#fingerprinting-tracking) 板块。
 
-- 在游戏中新增了 [Mario Kart](https://pingti.org/gaming#mario-kart-tools) + [Geometry Dash](https://pingti.org/gaming#geometry-dash-tools) 板块。
+- 在游戏中新增了 [Mario Kart](https://pingti.org/gaming) + [Geometry Dash](https://pingti.org/gaming) 板块。
 
-- 在职业中新增了 [Crypto / Bitcoin](https://pingti.org/misc#crypto-bitcoin) 板块。
+- 在职业中新增了 [Crypto / Bitcoin](https://pingti.org/misc) 板块。
 
 - 在 Linux 中新增了 [Raspberry Pi](https://pingti.org/linux-macos#raspberry-pi) 板块。
 
 - 在图像工具中新增了 [Design Apps](https://pingti.org/image-tools#design-apps) + [Design Assets](https://pingti.org/image-tools#free-assets) 板块。
 
-- Minecraft 服务器现已上线。点击 **[此处](https://pingti.org/posts/minecraft-server)** 加入。
+- Minecraft 服务器现已上线。点击 **[此处](https://pingti.org/gaming-tools#minecraft-工具)** 加入。
 
 ---
 
 ### 已添加星标 ⭐
 
-- 在音频下载中标记了 [yet another music server](https://pingti.org/audio#audio-downloading)。多站点 DDL（Deezer、Qobuz、Tidal、Spotify、YouTube、FLAC）。
+- 在音频下载中标记了 [yet another music server](https://pingti.org/audio)。多站点 DDL（Deezer、Qobuz、Tidal、Spotify、YouTube、FLAC）。
 
-- 在在线聊天机器人中标记了 [wrtn](https://pingti.org/ai#online-chatbots)。无限制 GPT-4；可要求其始终使用英语交流。
+- 在在线聊天机器人中标记了 [wrtn](https://pingti.org/ai)。无限制 GPT-4；可要求其始终使用英语交流。
 
 - 在在线观看中标记了 [M4UFree + YesMovies](https://pingti.org/video#streaming-sites)。两者均拥有庞大资源库、快速 1080p 播放，且已运营超过十年。
 
-- 在图像生成器中标记了 [Poe](https://pingti.org/ai#online-generators)。100 次 SDXL 和 100 次 Playground 生成。
+- 在图像生成器中标记了 [Poe](https://pingti.org/ai)。100 次 SDXL 和 100 次 Playground 生成。
 
-- 在 Minecraft 优化中标记了 [Simply Optimized](https://pingti.org/storage#minecraft-optimization-mods)。部分用户认为其优于 Fabulously Optimized。
+- 在 Minecraft 优化中标记了 [Simply Optimized](https://pingti.org/storage)。部分用户认为其优于 Fabulously Optimized。
 
 - 在 BT 聚合器中标记了 [SolidTorrents](https://pingti.org/torrenting#aggregators)。
 
 - 在直播电视中标记了 [MrGamingStreams](https://pingti.org/video#live-tv-sports)。流媒体速度快，界面美观，无广告。
 
-- 在体育直播中标记了 [720pier](https://pingti.org/video#sports-streaming)。体育赛事回放种子。
+- 在体育直播中标记了 [720pier](https://pingti.org/video)。体育赛事回放种子。
 
 - 在 YouTube 自定义中标记了 [Enhancer for YT](https://pingti.org/social-media-tools#youtube-customization)。YouTube 增强扩展。
 
-- 在追踪/发现中标记了 [RatS](https://pingti.org/video#tracking-discovery)。同步不同站点的媒体评分。
+- 在追踪/发现中标记了 [RatS](https://pingti.org/video)。同步不同站点的媒体评分。
 
 ---
 

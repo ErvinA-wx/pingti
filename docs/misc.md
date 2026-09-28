@@ -4,6 +4,7 @@
 ***
 ***
 
+<span id="indexes"></span>
 # ► 索引
 
 * 🌐 **[Awesome List Index](https://github.com/sindresorhus/awesome), [GitHub Topics](https://github.com/topics/awesome)** / [2](https://github.com/topics/awesome-list) - 所有 Awesome 列表
@@ -57,6 +58,7 @@
 
 ***
 
+<span id="free-stuff"></span>
 # ► 免费资源
 
 * [AppAgg](https://appagg.com/) - 多平台 / 应用 / [Discord](https://discord.gg/XUhs6fcFqQ) / [GitHub](https://github.com/AppsAgg/AppAgg)
@@ -108,6 +110,7 @@
 
 ***
 
+<span id="assistance-charity"></span>
 ## ▷ 援助 / 慈善
 
 * ⭐ **[GiveWell](https://www.givewell.org/)**、[CharityNavigator](https://www.charitynavigator.org/)、[Effective Altruism Funds](https://funds.effectivealtruism.org/)、[Arab.org](https://arab.org/)、[CharityWatch](https://www.charitywatch.org/) 或 [ProPublica](https://projects.propublica.org/nonprofits/) - 慈善评级 / 资源
@@ -124,6 +127,7 @@
 
 ***
 
+<span id="food"></span>
 # ► 食品
 
 * 🌐 **[/m/food](https://www.reddit.com/user/Siryonkee/m/food/)** - 食品多版块
@@ -184,6 +188,7 @@
 
 ***
 
+<span id="drinks"></span>
 ## ▷ 饮品
 
 * ⭐ **[/coffee/](https://rentry.co/coffeeguide)** 或 [Coffee Time General](https://pastebin.com/UEzwuyLz) - 咖啡冲泡指南大全
@@ -200,6 +205,7 @@
 
 ***
 
+<span id="fashion-clothing"></span>
 # ► 时尚/服装
 
 * 🌐 **[Sewing Pattern Sites](https://purrfect-experience-8f2.notion.site/1e5ee5eeea7a80d9b703e7954cb63c35?v=1e5ee5eeea7a802aa2ec000c9ae6e046)** - 缝纫图案网站索引
@@ -222,6 +228,7 @@
 
 ***
 
+<span id="household"></span>
 # ► 家居
 
 * ↪️ **[Raspberry Pi Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/linux#wiki_.25B7_raspberry_pi)**
@@ -266,6 +273,7 @@
 
 ***
 
+<span id="vehicle"></span>
 # ► 车辆
 
 * 🌐 **[Awesome Vehicle Security](https://github.com/jaredthecoder/awesome-vehicle-security)** - 车辆安全资源
@@ -290,6 +298,7 @@
 
 ***
 
+<span id="sports"></span>
 # ► 体育
 
 * 🌐 **[/sport calendars/](https://rentry.co/sportcalendars)** 或 [⁠EntertainMe](https://www.entertainme.fun/) - 体育日历
@@ -314,6 +323,7 @@
 
 ***
 
+<span id="travel"></span>
 # ► 旅行
 
 * ↪️ **[Concerts / Live Shows](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/audio/#wiki_.25B7_concerts_.2F_live_shows)**
@@ -337,6 +347,7 @@
 
 ***
 
+<span id="flights"></span>
 ## ▷ 航班
 
 * **注意** - 建议始终在多家供应商和航空公司官网交叉核对航班价格，以确保获得最佳优惠。
@@ -358,6 +369,7 @@
 
 ***
 
+<span id="maps"></span>
 # ► 地图
 
 * 🌐 **[Awesome Maps](https://github.com/simsieg/awesome-maps)** - 在线地图资源
@@ -399,6 +411,7 @@
 
 ***
 
+<span id="navigation-transport"></span>
 ## ▷ 导航 / 交通
 
 * ⭐ **[Google Maps](https://www.google.com/maps/)**、[Apple Maps](https://beta.maps.apple.com/)、[Bing Maps](https://www.bing.com/maps)、[Vela](https://github.com/PimpinPumpkin/Vela/)、[OsmAnd](https://f-droid.org/packages/net.osmand.plus/)、[FacilMap](https://facilmap.org/)、[OsmAPP](https://osmapp.org/) 或 [Mapy](https://mapy.com) - 在线 / 离线地图
@@ -507,6 +520,7 @@
 
 ***
 
+<span id="historic-maps"></span>
 ## ▷ 历史地图
 
 * 🌐 **[Map History](https://www.maphistory.info/)** 或 [David Rumsey 地图收藏](https://www.davidrumsey.com/) - 历史地图索引
@@ -556,6 +570,7 @@
 
 ***
 
+<span id="satellite-earth-data"></span>
 ## ▷ 卫星/地球数据
 
 * ⭐ **[Google Earth](https://www.google.com/earth/about/versions/)** - 地球浏览器
@@ -571,6 +586,7 @@
 
 ***
 
+<span id="news"></span>
 # ► 新闻
 
 * 🌐 **[AllYouCanRead](https://www.allyoucanread.com/)** - 全球新闻网站索引
@@ -607,6 +623,7 @@
 
 ***
 
+<span id="aggregators"></span>
 ## ▷ 聚合器
 
 * ↪️ **[RSS Readers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools#wiki_.25B7_rss_readers)**
@@ -628,6 +645,7 @@
 
 ***
 
+<span id="tech-news"></span>
 ## ▷ 科技新闻
 
 * ↪️ **[Dev / Cybersecurity News](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/dev-tools#wiki_.25BA_dev_news)**
@@ -654,6 +672,7 @@
 
 ***
 
+<span id="hacker-news-tools"></span>
 ## ▷ Hacker News 工具
 
 * 🌐 **[Awesome Hacker News](https://github.com/cheeaun/awesome-hacker-news)** - HN 应用与资源索引
@@ -671,6 +690,7 @@
 
 ***
 
+<span id=".25B7science_news"></span>
 ## ▷ 科学新闻
 
 * ⭐ **[Phys](https://phys.org/)** - 物理新闻/文章
@@ -686,8 +706,10 @@
 
 ***
 
+<span id="health"></span>
 # ► 健康
 
+<span id="mental-health"></span>
 ## ▷ 心理健康
 
 * 🌐 **[Awesome Mental Health](https://dreamingechoes.github.io/awesome-mental-health)** 或 [mentalillnessmouse](https://mentalillnessmouse.wordpress.com/helpfulresources/) - 心理健康资源
@@ -708,6 +730,7 @@
 
 ***
 
+<span id="physical-health"></span>
 ## ▷ 身体健康
 
 * ⭐ **[Simple Science Fitness](https://ss.fitness/calculators)** - 健身计算器
@@ -735,6 +758,7 @@
 
 ***
 
+<span id="workout-exercise"></span>
 ## ▷ 锻炼/运动
 
 * 🌐 **[ExRx.net](https://exrx.net/)** - 锻炼资源
@@ -767,6 +791,7 @@
 
 ***
 
+<span id="nutritional-health"></span>
 ## ▷ 营养健康
 
 * ⭐ **[r/Nutrition](https://www.reddit.com/r/nutrition/)** - 营养子版块
@@ -790,6 +815,7 @@
 
 ***
 
+<span id="sexual-health"></span>
 ## ▷ 性健康
 
 * ⭐ **[PlannedParenthood](https://www.plannedparenthood.org/)**、[Abortion Resources](https://redd.it/phrcrn) / [2](https://redd.it/vm56bs) 或 [Safe2Choose](https://safe2choose.org/) - 堕胎资源
@@ -802,6 +828,7 @@
 
 ***
 
+<span id="hrt-trans-health"></span>
 ## ▷ 激素替代疗法 / 跨性别健康
 
 * 🌐 **[Trans Healthcare Resources](https://transharmreduction.org/healthcare-resources)** or **[TFS Tools](https://transfemscience.org/misc/)**
@@ -886,6 +913,7 @@
 
 ***
 
+<span id="job-search-application"></span>
 ## ▷ 求职 / 申请
 
 * ⭐ **[4-Day Week](https://4dayweek.io/)** - 寻找四天工作制的工作
@@ -900,6 +928,7 @@
 
 ***
 
+<span id="resume-portfolio"></span>
 ## ▷ 简历 / 作品集
 
 * 🌐 **[⁠r/Resumes Wiki](https://www.reddit.com/r/resumes/wiki/index/)** - 简历资源/指南
@@ -913,6 +942,7 @@
 
 ***
 
+<span id="remote-jobs"></span>
 ## ▷ 远程工作
 
 * 🌐 **[Awesome Remote Jobs](https://github.com/lukasz-madon/awesome-remote-job)** 或 [Established Remote](https://github.com/yanirs/established-remote) - 远程工作资源
@@ -943,6 +973,7 @@
 
 ***
 
+<span id="tech-jobs"></span>
 ## ▷ 技术岗位
 
 * 🌐 **[30-sec](https://30secondsofinterviews.org/)** - 技术面试题索引
@@ -975,6 +1006,7 @@
 
 ***
 
+<span id="startup"></span>
 ## ▷ 初创公司
 
 * 🌐 **[Awesome Startup](https://github.com/Ibexoft/awesome-startup-tools-list)**、[Awesome Launching Platforms](https://github.com/DirectorySurf/awesome-launch-platforms)、[Awesome Launch](https://github.com/soGeneri/awesome-launch) 或 [Tools for Startups](https://docs.google.com/spreadsheets/d/1s6-hGBh0_tqa-jd23fsdYuwbmS8UPmElPqaH-Rnoa_A/htmlview) - 初创公司资源索引
@@ -987,6 +1019,7 @@
 
 ***
 
+<span id="collaboration-platforms"></span>
 ## ▷ 协作平台
 
 * ⭐ **[NextCloud](https://nextcloud.com/)** - 协作平台 / 文件共享 / [GitHub](https://github.com/nextcloud)
@@ -1010,6 +1043,7 @@
 
 ***
 
+<span id="finance-savings"></span>
 ## ▷ 财务 / 储蓄
 
 * 🌐 **[r/PersonalFinance Wiki](https://www.reddit.com/r/personalfinance/wiki/index)** / [Countries](https://www.reddit.com/r/personalfinance/wiki/country_index/) 或 [UK Personal Finance](https://ukpersonal.finance/) - 财务建议 / 资源
@@ -1080,6 +1114,7 @@
 
 ***
 
+<span id="shopping"></span>
 # ► 购物
 
 
@@ -1136,6 +1171,7 @@
 
 ***
 
+<span id="electronics"></span>
 ## ▷ 电子产品
 
 * ⭐ **[PCPartPicker](https://pcpartpicker.com/)**、[BuildCores](http://www.buildcores.com/) / [Subreddit](https://reddit.com/r/buildcores) / [Discord](https://discord.gg/gxHtZx3Uxe) 或 [CGDirector](https://www.cgdirector.com/pc-builder/) - 装机网站
@@ -1292,6 +1328,7 @@
 
 ***
 
+<span id="multi-tool-sites"></span>
 ## ▷ 多功能工具网站
 
 * 🌐 **[Mr Free Tools](https://mrfreetools.com/)** - 查找免费工具
@@ -1324,6 +1361,7 @@
 
 ***
 
+<span id="productivity-time-tracking"></span>
 ## ▷ 生产力 / 时间追踪
 
 * 🌐 **[ProductivePrivacy](https://priductive.com/)** - 注重隐私的生产力应用
@@ -1359,6 +1397,7 @@
 
 ***
 
+<span id="calendars-events"></span>
 ## ▷ 日历 / 事件
 
 * ↪️ **[To-Do Apps](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android/#wiki_.25B7_to-do_apps)**
@@ -1381,8 +1420,10 @@
 
 ***
 
+<span id="fun-sites"></span>
 # ► 趣味网站
 
+<span id="chat-forums"></span>
 ## ▷ 聊天 / 论坛
 
 * 🌐 **[r/ListOfSubreddits](https://www.reddit.com/r/ListOfSubreddits/wiki/listofsubreddits/)** - 子版块列表
@@ -1724,6 +1765,7 @@
 
 ***
 
+<span id="random"></span>
 ## ▷ 随机
 
 * 🌐 **[Funny / Useless](https://rentry.org/aksry2vc)** - 有趣/无用的网站

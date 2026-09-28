@@ -4,6 +4,7 @@
 ***
 ***
 
+<span id="dev-communities"></span>
 # ► 开发者社区
 
 * ⭐ **[StackOverflow](https://stackoverflow.com/)** - 开发者论坛
@@ -18,6 +19,7 @@
 
 ***
 
+<span id="dev-news"></span>
 # ► 开发者新闻
 
 * ⭐ **[KrebsOnSecurity](https://krebsonsecurity.com/)** - 网络安全新闻
@@ -75,6 +77,7 @@
 
 ***
 
+<span id="online-toolkits"></span>
 ## ▷ 在线工具包
 
 * ⭐ **[AppDevTools](https://appdevtools.com/)**
@@ -221,6 +224,7 @@
 
 ***
 
+<span id="docker-tools"></span>
 ## ▷ Docker 工具
 
 * 🌐 **[Awesome Docker](https://moistcatawumpus.github.io/awesome-docker/)** - Docker 服务索引
@@ -262,6 +266,7 @@
 
 ***
 
+<span id="api-tools"></span>
 ## ▷ API 工具
 
 * 🌐 **[Public APIs](https://github.com/public-apis/public-apis)**、[API List](https://apilist.fun/)、[Public APIs](https://publicapis.dev/)、[APIsList](https://apislist.com/)、[APIs Guru](https://apis.guru/)、[FreePublicAPIs](https://www.freepublicapis.com/)、[Public API Lists](https://github.com/public-api-lists/public-api-lists)、[⁠PublicAPIs](https://publicapis.io/) 或 [Any API](https://any-api.com/) - API 索引
@@ -299,6 +304,7 @@
 
 ***
 
+<span id="game-dev-tools"></span>
 # ► 游戏开发工具
 
 * 🌐 **[PCGamingWiki Engine List](https://www.pcgamingwiki.com/wiki/Category:Engines)**、[Wiki Engine List](https://wikipedia.org/wiki/List_of_game_engines)、[Awesome Game Engine](https://github.com/stevinz/awesome-game-engine-dev) 或 [Game-Engines](https://rentry.co/Game-Engines) - 游戏引擎开发资源
@@ -322,6 +328,7 @@
 
 ***
 
+<span id="game-assets"></span>
 ## ▷ 游戏资源
 
 * [Itch.io Assets](https://itch.io/game-assets/free) - 免费游戏资源
@@ -342,6 +349,7 @@
 
 ***
 
+<span id="asset-creation"></span>
 ## ▷ 资源创建
 
 * ↪️ **[3D Models / Modeling Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/image-tools#wiki_.25B7_3d_models)**
@@ -359,6 +367,7 @@
 
 ***
 
+<span id="map-creators-editors"></span>
 ## ▷ 地图创建器 / 编辑器
 
 * ↪️ **[RPG / Fantasy Building Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/game-tools/#wiki_.25B7_rpg_worldbuilding)**
@@ -369,6 +378,7 @@
 
 ***
 
+<span id="ides-code-editors"></span>
 # ► IDE / 代码编辑器
 
 * 🌐 **[⁠Awesome Web Editor](https://github.com/xjh22222228/awesome-web-editor)** - FOSS 网页编辑器索引
@@ -431,6 +441,7 @@
 
 ***
 
+<span id="android-code-editors"></span>
 ## ▷ Android 代码编辑器
 
 * ⭐ **[Android Studio](https://developer.android.com/studio)** 或 [Plasmic](https://www.plasmic.app/) - 应用创建器/构建器
@@ -446,6 +457,7 @@
 
 ***
 
+<span id="coding-tools"></span>
 ## ▷ 编码工具
 
 * 🌐 **[Awesome Creative Coding](https://github.com/terkelg/awesome-creative-coding)** - 创意编码资源
@@ -497,6 +509,7 @@
 
 ***
 
+<span id="vscode-tools"></span>
 ## ▷ VSCode 工具
 
 * 🌐 **[Awesome VSC Extensions](https://hl2guide.github.io/Awesome-Visual-Studio-Code-Extensions/)**, [VS Studio Marketplace](https://marketplace.visualstudio.com/) or [vsixhub](https://www.vsixhub.com/)
@@ -517,6 +530,7 @@
 
 ***
 
+<span id="ai-tools"></span>
 # ► AI 工具
 
 <!-- pingti-local-presentation-tools:start -->
@@ -850,6 +864,7 @@
 
 ***
 
+<span id="color-schemes"></span>
 ## ▷ 配色方案
 
 * 🌐 **[Colorful](https://github.com/Siddharth11/Colorful)** - 配色方案资源
@@ -924,6 +939,7 @@
 
 ***
 
+<span id="wordpress-tools"></span>
 ## ▷ WordPress 工具
 
 * ⭐ **[GPLDL](https://gpldl.com/)** - 高级主题/插件 / 每月 25 个 / 需要注册
@@ -937,6 +953,7 @@
 
 ***
 
+<span id="regex-tools"></span>
 ## ▷ 正则表达式工具
 
 * **注意** - 可以使用 [AI chatbots](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/ai/#wiki_.25B7_online_chatbots) 更轻松地创建正则表达式模式。
@@ -975,6 +992,7 @@
 
 ***
 
+<span id="svg-tools"></span>
 ## ▷ SVG 工具
 
 * ↪️ **[SVG / Vector Icons](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_svg_icons)**
@@ -1003,6 +1021,7 @@
 
 ***
 
+<span id="hosting-tools"></span>
 # ► 托管工具
 
 * ↪️ **[Dynamic DNS Services / Subdomains](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/storage#wiki_dynamic_dns_services_.2F_subdomains)**
@@ -1092,6 +1111,7 @@
 
 ***
 
+<span id="static-page-hosting"></span>
 ## ▷ 静态页面托管
 
 * **注意** - 本节标签含义如下：存储限制 / 月带宽限制。
@@ -1219,6 +1239,7 @@
 
 ***
 
+<span id="reverse-engineering"></span>
 ## ▷ 逆向工程
 
 * 🌐 **[Reverse Engineering Resources](https://github.com/wtsxDev/reverse-engineering)** 或 [ReversingBits](https://mohitmishra786.github.io/reversingBits/) / [GitHub](https://github.com/mohitmishra786/reversingBits) - 逆向工程资源

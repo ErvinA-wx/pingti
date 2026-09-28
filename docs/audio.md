@@ -26,6 +26,7 @@
 
 ***
 
+<span id="streaming-sites"></span>
 ## ▷ 流媒体网站
 
 * ⭐ **[YouTube Music](https://music.youtube.com/)** 或 [⁠Ytify](https://ytify.pp.ua/) / [Telegram](https://t.me/ytifytg) - YouTube 音乐 WebUI / [工具](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/audio#wiki_.25B7_youtube_music_tools)
@@ -57,6 +58,7 @@
 
 ***
 
+<span id="genre-specific-streaming"></span>
 ## ▷ 按流派流媒体
 
 * [The Urban Emporium](https://www.youtube.com/@theurbanemporium204/playlists) - 嘻哈
@@ -72,6 +74,7 @@
 
 ***
 
+<span id="youtube-music-tools"></span>
 ## ▷ YouTube 音乐工具
 
 * [Themesong](https://themesong.app/) 或 [BetterYTM](https://github.com/Sv443/BetterYTM) - 增强扩展
@@ -83,6 +86,7 @@
 
 ***
 
+<span id="specialty-streaming"></span>
 # ► 特色流媒体
 
 * ⭐ **[UCSB Cylinders](https://cylinders.library.ucsb.edu/index.php)** - 圆柱音频档案
@@ -98,6 +102,7 @@
 
 ***
 
+<span id="concerts-live-shows"></span>
 ## ▷ 音乐会/现场演出
 
 * ⭐ **[bt.etree](https://bt.etree.org/)** - 音乐会录音/种子
@@ -135,6 +140,7 @@
 
 ***
 
+<span id="podcast-streaming"></span>
 ## ▷ 播客在线收听
 
 * ↪️ **[Android](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_android_podcasts_.2F_radio) / [iOS](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_ios_podcasts_.2F_radio)** - 播客 / 广播应用
@@ -163,6 +169,7 @@
 
 ***
 
+<span id="ambient-relaxation"></span>
 ## ▷ 氛围 / 放松
 
 * ↪️ **[Android](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android/#wiki_.25B7_android_relaxation)** / **[iOS](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android/#wiki_.25B7_ios_relaxation)** - 氛围 / 放松移动应用
@@ -193,6 +200,7 @@
 
 ***
 
+<span id="radio-streaming"></span>
 # ► 电台在线收听
 
 * 🌐 **[FMSTREAM](https://fmstream.org/)**、**[Recommended Streams](https://github.com/deroverda/recommended-radio-streams)**、**[Station Index](https://wikipedia.org/wiki/List_of_Internet_radio_stations)**、**[RadioStationWorld](https://radiostationworld.com/)** 或 **[Radio Browser](https://www.radio-browser.info/users)** - 电台索引
@@ -219,6 +227,7 @@
 
 ***
 
+<span id="internet-radio"></span>
 ## ▷ 网络广播
 
 * ⭐ **[SomaFM](https://somafm.com/)** - 在线广播 / 用户支持 / [Discovery Guide](https://rentry.co/musicdiscovery/#somafm)
@@ -262,6 +271,7 @@
 
 ***
 
+<span id="radio-directories"></span>
 ## ▷ 电台目录
 
 * ⭐ **[Radio Garden](https://radio.garden/)** / [Site Unblock](https://redd.it/18e12gf), [2](https://redd.it/13b53zs), [WorldRadioMap](https://worldradiomap.com/), [⁠TuneJourney](https://tunejourney.com/), [GlobeRadio](https://globeradio.app/) 或 [⁠RadioCast](https://www.radiocast.co/) - 全球风格世界电台
@@ -287,6 +297,7 @@
 
 ***
 
+<span id="genre-specific-radio"></span>
 ## ▷ 按类型分类的电台
 
 * [⁠WQXR](https://www.wqxr.org/streams/) 或 [⁠The Classical Station](https://theclassicalstation.org/) - 古典音乐电台
@@ -330,6 +341,7 @@
 
 ***
 
+<span id="spotify-tools"></span>
 # ► Spotify 工具
 
 * 🌐 **[Awesome Spotify Stats](https://github.com/hugo9655/awesome-spotify-stats)** - 收听统计索引
@@ -356,6 +368,7 @@
 
 ***
 
+<span id="playlist-tools"></span>
 ## ▷ 播放列表工具
 
 * ⭐ **[Exportify](https://exportify.app/)** / [GitHub](https://github.com/watsonbox/exportify) 或 [spotify-backup](https://github.com/caseychu/spotify-backup) - 导出播放列表
@@ -373,12 +386,14 @@
 * [Spotify Playlist Archive](https://spotifyplaylistarchive.com/) - 公开 Spotify 播放列表存档 / [GitHub](https://github.com/mackorone/spotify-playlist-archive)
 ***
 
+<span id="audio-ripping"></span>
 # ► 音频提取
 
 * **注意** - 部分网站和工具接受来自多个流媒体网站的 URL，但仅使用特定来源（通常是 YouTube）获取音频。仅当平台可直接从该处提取音频时，才会提及该平台。
 
 ***
 
+<span id="audio-ripping-sites"></span>
 ## ▷ 音频提取网站
 
 * ⭐ **[lucida](https://lucida.to/)** - 多站点 / 320kb / MP3 / FLAC / [Telegram](https://t.me/lucidahasmusic) / [Discord](https://discord.com/invite/dXEGRWqEbS)
@@ -397,6 +412,7 @@
 
 ***
 
+<span id="audio-ripping-tools"></span>
 ## ▷ 音频提取工具
 
 * ↪️ **[Video Audio Downloaders](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video-tools#wiki_.25BA_video_download)** / **[YouTube](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/social-media#wiki_.25B7_youtube_downloaders)**
@@ -421,6 +437,7 @@
 
 ***
 
+<span id="telegram-bots"></span>
 ## ▷ Telegram 机器人
 
 * [DeezerMusicBot](https://t.me/DeezerMusicBot) - Deezer / SoundCloud / VK / 320kb MP3 / FLAC / [Support](https://t.me/DeezerMusicNews)
@@ -435,6 +452,7 @@
 
 ***
 
+<span id="download-sites"></span>
 ## ▷ 下载站点
 
 * **注意** - 使用 **[重定向绕过器](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools/#wiki_.25B7_redirect_bypass)** 跳过烦人的链接缩短器。
@@ -543,6 +561,7 @@
 
 ***
 
+<span id="audio-torrenting"></span>
 # ► 音频 BT 下载
 
 * **注意** - 使用 BT 下载前请先获取 [VPN](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25BA_vpn)，如果客户端支持，请[将其绑定到客户端](https://wispydocs.pages.dev/torrenting/)。
@@ -568,6 +587,7 @@
 
 ***
 
+<span id="royalty-free-music"></span>
 # ► 免版税音乐
 
 * ⭐ **[NCS](https://ncs.io/)** - 无版权音乐
@@ -588,6 +608,7 @@
 
 ***
 
+<span id="media-soundtracks"></span>
 # ► 媒体原声带
 
 * 🌐 **[EverythingMoe](https://everythingmoe.com/section/music)**, [2](https://everythingmoe.org/section/music) - 御宅族音乐站点索引 / [Discord](https://discord.gg/GuueaDgKdS)
@@ -607,6 +628,7 @@
 
 ***
 
+<span id="game-soundtracks"></span>
 ## ▷ 游戏原声带
 
 * ⭐ **[Khinsider](https://downloads.khinsider.com/)** 或 [⁠KHI-DL](https://khinsider.squid.wtf/) - 游戏原声带 / MP3 / FLAC / ALAC / [Bulk Downloader](https://github.com/madLinux7/khi-explorer)
@@ -674,6 +696,7 @@
 
 ***
 
+<span id="curated-recommendations"></span>
 ## ▷ 精选推荐
 
 * ⭐ **[AnyDecentMusic](http://www.anydecentmusic.com/)** - 专辑评论聚合
@@ -695,6 +718,7 @@
 
 ***
 
+<span id="music-discovery"></span>
 ## ▷ 音乐发现
 
 * 🌐 **[/music discovery/](https://rentry.co/musicdiscovery)** - 音乐发现指南
@@ -720,6 +744,7 @@
 
 ***
 
+<span id="last-fm-tools"></span>
 ## ▷ Last.fm 工具
 
 * 🌐 **[Awesome Last.fm](https://github.com/jnguyen1098/awesome-lastfm)** 或 [Last.fm Tool List](https://redd.it/1h8ec76) - Last.fm 工具索引
@@ -737,6 +762,7 @@
 
 ***
 
+<span id="audio-tools"></span>
 # ► 音频工具
 
 * 🌐 **[Binaural Audio](https://binaural-audio.slite.page/p/i38zsD7728/Binaural-Audio)** - 双耳/3D 音频资源
@@ -757,6 +783,7 @@
 
 ***
 
+<span id="audio-players"></span>
 ## ▷ 音频播放器
 
 * ↪️ **[Android Audio Players](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_android_audio_players)**
@@ -795,6 +822,7 @@
 
 ***
 
+<span id="audio-servers"></span>
 ## ▷ 音频服务器
 
 * ⭐ **[Navidrome](https://navidrome.org)**
@@ -814,6 +842,7 @@
 
 ***
 
+<span id="audio-metadata"></span>
 ## ▷ 音频元数据
 
 * ⭐ **[MP3Tag](https://www.mp3tag.de/en/)** - 元数据整理工具
@@ -829,6 +858,7 @@
 
 ***
 
+<span id="album-artwork"></span>
 ## ▷ 专辑封面
 
 * ⭐ **[Cover Search Engine](https://covers.musichoarders.xyz)**、[CoverAtlas](https://www.coveratlas.com/)、[Albumart.Digital](https://albumart.digital/) 或 [bigpictures](https://bigpictures.xyz/) - 专辑封面搜索引擎
@@ -840,6 +870,7 @@
 
 ***
 
+<span id="song-identification"></span>
 ## ▷ 歌曲识别
 
 * ⭐ **[Google Song Identification](https://support.google.com/websearch/answer/7554088)** / Android, iOS / [Guide](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/google-song-identification.md)
@@ -873,6 +904,7 @@
 
 ***
 
+<span id="karaoke-synced-lyrics"></span>
 ## ▷ 卡拉 OK / 同步歌词
 
 * ⭐ **[LRCGET](https://github.com/tranxuanthang/lrcget)** - 下载同步歌词
@@ -889,6 +921,7 @@
 
 ***
 
+<span id="sheet-music-notation"></span>
 ## ▷ 乐谱/记谱法
 
 * 🌐 **[Awesome Music](https://github.com/noteflakes/awesome-music)** - 音乐/记谱工具索引
@@ -948,6 +981,7 @@
 
 ***
 
+<span id="audio-editors"></span>
 ## ▷ 音频编辑器
 
 * ⭐ **[Tenacity](https://tenacityaudio.org/)** / [Source Code](https://codeberg.org/tenacityteam/tenacity)、[Audacity](https://www.audacityteam.org/) / [Discord](https://discord.com/invite/audacity) / [GitHub](https://github.com/audacity/audacity) 或 [ocenaudio](https://www.ocenaudio.com/) - 音频编辑器
@@ -972,6 +1006,7 @@
 
 ***
 
+<span id="browser-editors-synths"></span>
 ## ▷ 浏览器编辑器/合成器
 
 * ⭐ **[BandLab](https://www.bandlab.com/)**、**[Audioalter](https://audioalter.com/)**、**[WavaCity](https://wavacity.com/)**、[⁠Riffle](https://www.riffle.studio/)、[Bosca Ceoil](https://humnom.net/apps/boscaceoil/)、[⁠AudioTool](https://www.audiotool.com/)、[AudioMass](https://github.com/pkalogiros/audiomass)、[editor.audio](https://editor.audio/)、[TwistedWave](https://twistedwave.com/online) 或 [xAudioPro](https://www.xaudiopro.com/en/) - 在线编辑器/Web DAW
@@ -1025,6 +1060,7 @@
 
 ***
 
+<span id="sfx-loops"></span>
 ## ▷ 音效 / 采样
 
 * ⭐ **[Kits4Beats](https://kits4beats.com/)** - 采样 / 使用 Ublock / [Telegram](https://t.me/kits4beats)

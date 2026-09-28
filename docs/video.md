@@ -4,8 +4,11 @@
 ***
 ***
 
+<span id="streaming-sites"></span>
 # ► 在线观看站点
 
+<span id="stream-aggregators"></span>
+<span id="streaming-apps"></span>
 ## ▷ 流媒体聚合器
 
 * **注意** - 这些站点仅在其自定义播放器中检查并播放流媒体。来源因站点而异，取决于哪些站点认为值得使用。请确保安装 [adblocker](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25BA_adblocking)（uBlock Origin 完整版），并注意某些站点允许在设置中关闭广告。查看[评分页面](https://github.com/fmhy/FMHY/wiki/Stream-Site-Grading) / [2](https://fmhy-grading.pages.dev/) 了解每个站点的优缺点。
@@ -71,6 +74,7 @@
 
 ***
 
+<span id="p-stream-forks"></span>
 ## ▷ P-Stream 衍生版
 
 * **注意** - 这些站点是原始 P-Stream / movie-web 项目的衍生版。可以通过此 **[扩展](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/movie-web-sources.md)** 添加**额外源**。默认源因站点而异，取决于各站点认为值得使用的源。请确保安装 [adblocker](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25BA_adblocking)（uBlock Origin 完整版），并注意部分站点允许在设置中关闭广告。
@@ -125,6 +129,7 @@
 
 ***
 
+<span id="multi-server"></span>
 ## ▷ 多服务器
 
 * **注意** - 允许用户从列表中选择多个不同播放器的站点。来源因站点而异，取决于哪些站点被认为值得使用。请确保安装 [adblocker](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25BA_adblocking)（uBlock Origin 完整版），并注意有些站点允许在设置中关闭广告。查看[评分页面](https://github.com/fmhy/FMHY/wiki/Stream-Site-Grading) / [2](https://fmhy-grading.pages.dev/) 了解每个站点的优缺点。
@@ -201,6 +206,7 @@
 
 ***
 
+<span id="free-w-ads"></span>
 ## ▷ 免费，含广告
 
 * 🌐 **[Free-Official-Youtube-Content](https://github.com/superlincoln953/Free-Official-Youtube-Content)** - YouTube 频道列表
@@ -231,6 +237,7 @@
 
 ***
 
+<span id="video-streaming"></span>
 ## ▷ 视频在线观看
 
 * **注意** - 这些适合寻找经典、冷门和短片。
@@ -288,6 +295,7 @@
 
 ***
 
+<span id="anime-streaming"></span>
 ## ▷ 动漫在线观看
 
 * 🌐 **[Wotaku](https://wotaku.wiki/websites)** - 动漫网站索引 / [Discord](https://discord.gg/vShRGx8ZBC) / [GitHub](https://github.com/wotakumoe/Wotaku)
@@ -351,6 +359,7 @@
 
 ***
 
+<span id="cartoon-streaming"></span>
 ## ▷ 卡通在线观看
 
 * 🌐 **[Free Official YT Cartoons](https://github.com/superlincoln953/Free-Official-Youtube-Content?tab=readme-ov-file#cartoons)**
@@ -396,6 +405,7 @@
 
 ***
 
+<span id="drama-streaming"></span>
 ## ▷ 剧集在线观看
 
 * 🌐 **[EverythingMoe](https://everythingmoe.com/section/drama)**, [2](https://everythingmoe.org/section/drama) - 索引 / [Subreddit](https://www.reddit.com/r/everythingmoe/) / [Discord](https://discord.gg/GuueaDgKdS)
@@ -417,6 +427,7 @@
 
 ***
 
+<span id="classics-public-domain"></span>
 ## ▷ 经典 / 公共领域
 
 * ⭐ **[Internet Archive](https://archive.org/details/moviesandfilms)** - 经典 / 无声电影 / [Spreadsheet](https://rentry.co/FMHYB64#archive-films)
@@ -437,6 +448,7 @@
 
 ***
 
+<span id="film-archives"></span>
 ## ▷ 电影档案
 
 * ⭐ **[The Library of Congress](https://www.loc.gov/film-and-videos/)** - 电影 / 短片
@@ -471,12 +483,14 @@
 
 ***
 
+<span id="live-tv-sports"></span>
 # ► 直播电视 / 体育
 
 * **注意** - 使用直播网站前，请确保安装了 [adblocker](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25BA_adblocking)（推荐完整版 uBlock Origin）。如果网站被屏蔽，尝试使用 [VPN](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy/#wiki_.25BA_vpn)，注册网站时记得使用 [throwaway](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools/#wiki_.25B7_temp_mail) 或 [alias](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools/#wiki_.25B7_email_aliasing) 邮箱。
 
 ***
 
+<span id="live-tv"></span>
 ## ▷ 直播电视
 
 * 🌐 **[TVCL](https://www.tvchannellists.com/)** - 电视频道索引
@@ -530,6 +544,7 @@
 
 ***
 
+<span id="live-sports"></span>
 ## ▷ 体育直播
 
 * **注意** - 使用直播网站前，请确保安装了 [adblocker](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25BA_adblocking)（推荐完整版 uBlock Origin）。如果网站被屏蔽，尝试使用 [VPN](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy/#wiki_.25BA_vpn)，注册网站时记得使用 [throwaway](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools/#wiki_.25B7_temp_mail) 或 [alias](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools/#wiki_.25B7_email_aliasing) 邮箱。
@@ -587,6 +602,7 @@
 
 ***
 
+<span id="sports-replays"></span>
 ## ▷ 体育回放
 
 * 🌐 **[Official YT Sports Replay Channels](https://github.com/superlincoln953/Free-Official-Youtube-Content?tab=readme-ov-file#Sport)**
@@ -634,6 +650,7 @@
 
 ***
 
+<span id="iptv-tools"></span>
 ## ▷ IPTV 工具
 
 * 🌐 **[Awesome IPTV](https://github.com/iptv-org/awesome-iptv)** - IPTV 资源
@@ -652,6 +669,7 @@
 
 ***
 
+<span id="iptv-players"></span>
 ## ▷ IPTV 播放器
 
 * ↪️ **[Android IPTV Players](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android/#wiki_.25B7_android_live_tv)**
@@ -741,6 +759,7 @@
 
 ***
 
+<span id="download-sites"></span>
 # ► 下载站点
 
 * **注意** - 使用 **[重定向绕过工具](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools/#wiki_.25B7_redirect_bypass)** 跳过链接缩短器。
@@ -841,6 +860,7 @@
 
 ***
 
+<span id="anime-downloading"></span>
 ## ▷ 动漫下载
 
 * **注意** - 使用 **[重定向绕过工具](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools/#wiki_.25B7_redirect_bypass)** 跳过链接缩短器。
@@ -876,6 +896,7 @@
 
 ***
 
+<span id="torrent-apps"></span>
 # ► BT 客户端
 
 * **注意** - 使用 BT 下载前请记得开启 [VPN](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25BA_vpn)，并在客户端中将其 [bind](https://wispydocs.pages.dev/torrenting/) 到 [client](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/torrent#wiki_.25BA_torrent_clients)（如果支持）。
@@ -912,6 +933,7 @@
 
 ***
 
+<span id="stremio-tools"></span>
 ## ▷ Stremio 工具
 
 * 🌐 **[Stremio Addons](https://stremio-addons.net/)** / [Subreddit](https://www.reddit.com/r/StremioAddons/) / [Discord](https://discord.com/invite/zNRf6YF) 或 [Midnight's Addons](https://addonsfortheweebs.midnightignite.me/addons) - Stremio 插件
@@ -926,6 +948,7 @@
 
 ***
 
+<span id="torrent-sites"></span>
 # ► BT 站点
 
 * **注意** - 请记住，[BT 聚合站](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/torrent/#wiki_.25B7_aggregators) 或 Nuvio/Stremio & Torrentio 等设置，在查找内容时有时效果更好。
@@ -957,6 +980,7 @@
 
 ***
 
+<span id="anime-torrenting"></span>
 ## ▷ 动漫种子
 
 * ⭐ **[Nyaa](https://nyaa.si/)**、[2](https://nyaa.iss.one/)、[3](https://nyaa.iss.ink/) - 字幕 / 配音
@@ -1027,6 +1051,7 @@
 
 ***
 
+<span id="curated-recommendations"></span>
 ## ▷ 精选推荐
 
 * ⭐ **[They Shoot Pictures](https://www.theyshootpictures.com/)** - 电影 Top 1000 榜单
@@ -1052,6 +1077,7 @@
 
 ***
 
+<span id="recommendation-tools"></span>
 ## ▷ 推荐工具
 
 * ⭐ **[⁠Nothing To Watch](https://nothing-to-watch.port80.ch/)** - 交互式电影发现可视化 / 占用 250MB / [GitHub](https://github.com/gnovotny/nothing-to-watch)
@@ -1066,6 +1092,7 @@
 
 ***
 
+<span id="calendar-upcoming"></span>
 ## ▷ 日历/即将上映
 
 * ⭐ **[Your Countdown To](https://yourcountdown.to/)** - 电影/电视/动漫/游戏倒计时
@@ -1084,6 +1111,7 @@
 
 ***
 
+<span id="subtitle-tools"></span>
 # ► 字幕工具
 
 * 🌐 **[elSubtitle](https://www.elsubtitle.com/)**、[SubConverter](https://subconverter.com/)、[Subtitle One](https://subtitleone.cc/) 或 [Subtitle Tools](https://subtitletools.com/) - 字幕工具
@@ -1107,6 +1135,7 @@
 
 ***
 
+<span id="download-subtitles"></span>
 ## ▷ 下载字幕
 
 * ⭐ **[Open Subtitles](https://opensubtitles.org/)** / [Beta Site](https://www.opensubtitles.com/) - 字幕
@@ -1133,6 +1162,7 @@
 
 ***
 
+<span id="helpful-sites-tools"></span>
 # ► 实用网站/工具
 
 * 🌐 **[r/Animepiracy Wiki](https://thewiki.moe/)** 或 [Awesome ACG](https://github.com/soruly/awesome-acg) - 动漫工具索引

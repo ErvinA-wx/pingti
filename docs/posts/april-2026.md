@@ -66,7 +66,7 @@ authors: [nbats]
 
 - 在 AI 部分为 [Qwen](https://pingti.org/ai#official-model-sites) 和 [Ask Brave](https://pingti.org/ai#specialized-chatbots) 添加星标。两者均无使用限制，且模型表现良好。
 
-- 在隐私索引部分为 [The OPSEC Bible](https://pingti.org/privacy#privacy-indexes) 添加星标。内容深入且备受推崇的在线匿名指南。
+- 在隐私索引部分为 [The OPSEC Bible](https://pingti.org/privacy) 添加星标。内容深入且备受推崇的在线匿名指南。
 
 - 在 FOSS 部分为 [Is it really FOSS](https://pingti.org/downloading#foss-sites) 添加星标。帮助判断某项目是否真正开源的数据库。
 

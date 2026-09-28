@@ -29,7 +29,7 @@ const sections = [
     entriesFile: 'local-content/projects.json',
     collection: 'remote-desktop-tools',
     id: 'remote-desktop-tools',
-    anchor: '## ▷ 剪贴板管理器',
+    anchor: '<span id="clipboard-managers"></span>\n\n## ▷ 剪贴板管理器',
     heading: '平替指南：远程桌面选型',
     article:
       '[延伸阅读：RustDesk、frp、Tailscale、NetBird 与 ZeroTier 有什么区别？](/posts/remote-access-mesh-network-tools-2026)',
@@ -51,7 +51,7 @@ const sections = [
     entriesFile: 'local-content/projects.json',
     collection: 'mesh-network-tools',
     id: 'mesh-network-tools',
-    anchor: '## ▷ VPN 工具',
+    anchor: '<span id="vpn-tools"></span>\n\n## ▷ VPN 工具',
     heading: '平替指南：虚拟组网选型',
     article:
       '[延伸阅读：Tailscale、NetBird 与 ZeroTier 的控制面、自托管和适用场景对比](/posts/remote-access-mesh-network-tools-2026)',
@@ -93,7 +93,7 @@ const sections = [
     entriesFile: 'local-content/projects.json',
     collection: 'android-device-control-tools',
     id: 'android-device-control-tools',
-    anchor: '## ▷ 优化',
+    anchor: '<span id="optimization"></span>\n\n## ▷ 优化',
     heading: '平替指南：Android 设备控制',
     article:
       '[延伸阅读：网页数据提取与自动化工具的权限、数据与合规边界](/posts/web-data-extraction-tools-2026)',
@@ -134,7 +134,7 @@ const sections = [
     entriesFile: 'local-content/projects.json',
     collection: 'icon-tools',
     id: 'icon-tools',
-    anchor: '## SVG 图标',
+    anchor: '<span id="svg-icons"></span>\n\n## SVG 图标',
     heading: '平替精选：图标库与图标搜索工具',
     article:
       '[选型指南：16 个 UI 图标库与图标搜索工具，开源、免费层与商用授权怎么选？](/posts/icon-libraries-2026)'
@@ -144,7 +144,7 @@ const sections = [
     entriesFile: 'local-content/projects.json',
     collection: 'specialized-video-workflows',
     id: 'specialized-video-workflows',
-    anchor: '## ▷ 视频编辑器',
+    anchor: '<span id="video-editors"></span>\n\n## ▷ 视频编辑器',
     heading: '平替精选：专项 AI 视频工作流 Skill',
     article:
       '[专项工作流选型：换装、漫画、Vox、古诗词与图书短视频](/posts/specialized-ai-video-workflow-skills-2026) · [目录使用指南：从 180 个 Claude/Codex 视频 Skill 中按场景筛选](/posts/claude-codex-video-skills-directory-2026)'

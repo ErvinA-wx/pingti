@@ -4,12 +4,15 @@
 ***
 ***
 
+<span id="ai-chatbots"></span>
+<span id="online-chatbots"></span>
 # ► AI 聊天机器人
 
 * **注意** - 将任何个人或机密信息上传到云端 AI 从来都不是一个好主意，因为许多 AI 会使用提示词进行数据收集或训练。如果需要隐私保护，最好在本地运行 LLM。如果网站未说明需要注册，则可以在不登录的情况下使用，但会面临更严格的限制，并且可用的模型更少。
 
 ***
 
+<span id="official-model-sites"></span>
 ## ▷ 官方模型站点
 
 * ⭐ **[DeepSeek](https://chat.deepseek.com/)** - DeepSeek V4 Pro（专家版）/ DeepSeek V4 Flash（即时版）/ 需要注册 / 无限制 / [Add Features](https://github.com/EdgeTypE/better-deepseek/) / [Subreddit](https://www.reddit.com/r/DeepSeek/) / [Discord](https://discord.com/invite/Tc7c45Zzu5) / [GitHub](https://github.com/deepseek-ai)
@@ -38,6 +41,7 @@
 
 ***
 
+<span id="multiple-model-sites"></span>
 ## ▷ 多模型站点
 
 * [⁠ISH](https://beta.ish.chat/) - Claude Opus 4.8 / Claude Sonnet 5 / 多模型 / 需要注册（GitHub）/ [Subreddit](https://www.reddit.com/r/Ishchat/) / [Discord](https://discord.gg/cwDTVKyKJz) / [Token Note](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/ish.md)
@@ -52,6 +56,7 @@
 
 ***
 
+<span id="specialized-chatbots"></span>
 ## ▷ 专用聊天机器人
 
 * 🌐 **[Awesome AI Web Search](https://github.com/felladrin/awesome-ai-web-search), [2](https://huggingface.co/spaces/Felladrin/awesome-ai-web-search)** - AI搜索引擎索引
@@ -79,6 +84,7 @@
 
 ***
 
+<span id="local-ai-frontends"></span>
 ## ▷ 本地 AI 前端
 
 * ⭐ **[SillyTavern](https://docs.sillytavern.app/)** - 桌面应用 / [Presets / Themes](https://discord.gg/MU5FKZvuT7) / [Subreddit](https://www.reddit.com/r/SillyTavernAI/) / [Discord](https://discord.gg/sillytavern) / [GitHub](https://github.com/SillyTavern/SillyTavern)
@@ -103,6 +109,7 @@
 
 ***
 
+<span id="self-hosting-tools"></span>
 ## ▷ 自托管工具
 
 * 🌐 **[Awesome Local LLM](https://github.com/rafska/awesome-local-llm/)** - 本地 LLM 平台 / 资源
@@ -147,6 +154,7 @@
 
 ***
 
+<span id="video-generation"></span>
 # ► 视频生成
 
 * **注意** - 请记住，其中大部分需要注册，并且在大多数情况下只能生成相对较短的视频。
@@ -175,6 +183,7 @@
 
 ***
 
+<span id="image-generation"></span>
 # ► 图像生成
 
 * 🌐 **[Arena Text to Image](https://arena.ai/leaderboard/text-to-image)** 或 **[Arena Editing](https://arena.ai/leaderboard/image-edit)** - 图像生成基准 / 每日 15 次 / 排行榜
@@ -235,6 +244,7 @@
 
 ***
 
+<span id="guides-tools"></span>
 ## ▷ 指南 / 工具
 
 * 🌐 **[Paper2GUI](https://github.com/Baiyuetribe/paper2gui/blob/main/README_en.md)**、[sdg-link](https://rentry.co/sdg-link)、[LocalModelsLinks](https://rentry.org/LocalModelsLinks) 或 [SDTools](https://sdtools.org) - AI 图像资源
@@ -253,6 +263,7 @@
 
 ***
 
+<span id="audio-generation"></span>
 # ► 音频生成
 
 * ⭐ **[Suno](https://suno.com/)** - 每日 10 次 / [指南](https://sunoaiwiki.com/en) / [Discord](https://discord.com/invite/suno)
@@ -277,6 +288,7 @@
 
 ***
 
+<span id="text-to-speech"></span>
 ## ▷ 文本转语音
 
 * 🌐 **[Arena TTS](https://arena.ai4bharat.org/#/tts)** - 文本转语音模型基准/排行榜
@@ -319,6 +331,7 @@
 
 ***
 
+<span id="voice-change-clone"></span>
 ## ▷ 变声 / 克隆
 
 * ⭐ **[Applio](https://applio.org/)** - 语音克隆 / 无需注册 / [Discord](https://discord.com/invite/wY7gmqTyEV) / [GitHub](https://github.com/IAHispano/Applio)
@@ -331,6 +344,7 @@
 
 ***
 
+<span id="voice-removal-separation"></span>
 ## ▷ 人声移除 / 分离
 
 * 🌐 **[MultiSong Leaderboard](https://mvsep.com/quality_checker/multisong_leaderboard)** - 音乐与人声分离 AI 排行榜
@@ -350,6 +364,7 @@
 
 ***
 
+<span id="ai-agents"></span>
 # ► AI 代理
 
 * **注意** - 许多代理以 root 权限运行，因此最好避免授予它们完整的驱动器/root 访问权限，以防止任何问题或意外删除，因为如果设置不正确且不安全，它们可以在未经许可的情况下修改文件并执行终端命令。代理也往往存在大量漏洞，因此最好不要将代理放在包含重要内容的机器上。强烈建议在容器、VPS 或虚拟机中运行。
@@ -421,6 +436,7 @@
 
 ***
 
+<span id="ai-indexes"></span>
 # ► AI 索引
 
 * ⭐ **[⁠LLM Explorer](https://llm-explorer.com/)**、[Wiki LLM List](https://en.wikipedia.org/wiki/List_of_large_language_models) 或 [LifeArchitect](https://lifearchitect.ai/models-table/) - 大语言模型数据库 / 索引
@@ -435,6 +451,7 @@
 
 ***
 
+<span id="ai-benchmarks"></span>
 # ► AI 基准测试
 
 * 🌐 **[⁠LM Council](https://lmcouncil.ai/benchmarks)** - AI 基准测试索引 / 比较
@@ -452,6 +469,7 @@
 
 ***
 
+<span id="specialized-benchmarks"></span>
 ## ▷ 专项基准测试
 
 * ⭐ **[Open VLM Leaderboard](https://huggingface.co/spaces/opencompass/open_vlm_leaderboard)** - VLM 基准测试排行榜聚合器
@@ -469,6 +487,7 @@
 
 ***
 
+<span id="coding-benchmarks"></span>
 ## ▷ 编程基准测试
 
 * ⭐ **[SWEBench](https://www.swebench.com/)** - 软件工程 AI 排行榜 / 基准测试 / [GitHub](https://github.com/princeton-nlp/SWE-bench)
@@ -479,6 +498,7 @@
 
 ***
 
+<span id="machine-learning"></span>
 # ► 机器学习
 
 * 🌐 **[Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning)** - 机器学习框架索引

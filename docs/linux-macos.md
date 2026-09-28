@@ -4,6 +4,7 @@
 ***
 ***
 
+<span id="linux-guides"></span>
 # ► Linux 指南
 
 * **注意** - 安装指南通常可以在每个发行版的文档页面上找到。文档页面可以在每个发行版的网站上找到，或者通过它们的 [DistroWatch](https://distrowatch.com/dwres.php?resource=popularity) 页面访问。
@@ -25,6 +26,7 @@
 
 ***
 
+<span id="cli-cheat-sheets"></span>
 ## ▷ CLI 速查表
 
 * ⭐ **[Linux Command Library](https://linuxcommandlibrary.com/)** - 可搜索的 Linux 命令索引 / [GitHub](https://github.com/SimonSchubert/LinuxCommandLibrary)
@@ -39,6 +41,7 @@
 
 ***
 
+<span id="linux-communities"></span>
 # ► Linux 社区
 
 * **注意** - 请记住，如果需要帮助，最好寻找特定发行版的论坛。
@@ -59,6 +62,7 @@
 
 ***
 
+<span id="linux-distros"></span>
 # ► Linux 发行版
 
 * **注意** - 我们没有自行整理各个发行版，因为我们认为列出的索引已经足够完善。请注意，安装指南通常可以在每个发行版的文档页面找到。可以通过每个发行版的网站或其 [DistroWatch](https://distrowatch.com/dwres.php?resource=popularity) 页面找到文档页面。
@@ -77,6 +81,7 @@
 
 ***
 
+<span id="linux-apps"></span>
 # ► Linux 应用
 
 * 🌐 **[GNOME Shell Extensions](https://extensions.gnome.org/)**
@@ -121,6 +126,8 @@
 
 ***
 
+<span id="software-sites"></span>
+<span id="software-sites-1"></span>
 ## ▷ 软件站点
 
 * 🌐 **[ArchWiki App Sites](https://wiki.archlinux.org/title/List_of_applications)** 或 **[Ultimate Cheatsheet](https://gist.github.com/bgoonz/be5c5be77169ef333b431bc37d331176)** - Linux 软件/站点索引
@@ -152,6 +159,7 @@
 
 ***
 
+<span id="linux-system"></span>
 ## ▷ Linux 系统
 
 * 🌐 **[Hardware for Linux](https://linux-hardware.org/)** - Linux 硬件兼容性数据库 / [GitHub](https://github.com/linuxhw/)
@@ -200,6 +208,7 @@
 
 ***
 
+<span id="linux-video"></span>
 ## ▷ Linux 视频
 
 * ↪️ **[Streaming Apps](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video#wiki_.25BA_streaming_apps)** / **[Torrent Streaming](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video#wiki_.25BA_streaming_apps)**
@@ -223,6 +232,7 @@
 
 ***
 
+<span id="linux-audio"></span>
 ## ▷ Linux 音频
 
 * 🌐 **[Awesome Linux Audio](https://gitlab.com/nodiscc/awesome-linuxaudio)** - 实时音频资源
@@ -260,6 +270,7 @@
 
 ***
 
+<span id="linux-image"></span>
 ## ▷ Linux 映像
 
 * ↪️ **[Linux Image Editors](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/image-tools#wiki_.25B7_editing_software)**
@@ -286,6 +297,7 @@
 
 ***
 
+<span id="linux-gaming"></span>
 ## ▷ Linux 游戏
 
 * ↪️ **[Steam Deck Resources](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/game-tools#wiki_.25B7_steam_deck)**
@@ -340,6 +352,7 @@
 
 # ► Linux 工具
 
+<span id="adblock-privacy"></span>
 ## ▷ 广告拦截 / 隐私
 
 * ↪️ **[Linux 2FA](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25B7_password_privacy_.2F_2fa)**
@@ -366,6 +379,7 @@
 
 ***
 
+<span id="linux-internet"></span>
 ## ▷ Linux 互联网
 
 * ↪️ **[Linux Torrent Clients](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/torrent#wiki_.25BA_torrent_clients)**
@@ -404,6 +418,7 @@
 
 ***
 
+<span id="server-selfhosting"></span>
 ## ▷ 服务器 / 自托管
 
 * 🌐 **[Awesome Selfhosted](https://awesome-selfhosted.net/)** / [2](https://gist.github.com/kvnxiao/27c14760cbec35b4e312e34c856b51a8) 或 [Awesome Selfhosted UI](https://awesomeselfhosted.netlify.app/) - 自托管软件索引 / [GitHub](https://github.com/awesome-selfhosted/awesome-selfhosted)
@@ -439,6 +454,7 @@
 
 ***
 
+<span id="file-tools"></span>
 ## ▷ 文件工具
 
 * 🌐 **[Linux File Backup](https://github.com/restic/others)** - 文件备份应用列表
@@ -522,6 +538,7 @@
 
 ***
 
+<span id="customization"></span>
 # ► 自定义
 
 * 🌐 **[Awesome Ricing](https://github.com/fosslife/awesome-ricing)**、**[⁠Awesome Linux Ricing](https://github.com/avtzis/awesome-linux-ricing)** 或 [Pling](https://www.pling.com/s/All-Linux/browse/) - Linux 自定义资源
@@ -543,6 +560,7 @@
 
 ***
 
+<span id="window-managers"></span>
 ## ▷ 窗口管理器
 
 * 🌐 **[⁠Awesome Wayland](https://github.com/rcalixte/awesome-wayland)** - Wayland 资源
@@ -675,6 +693,7 @@
 
 ***
 
+<span id="mac-video"></span>
 ## ▷ Mac 视频
 
 * ↪️ **[Streaming Apps](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video#wiki_.25BA_streaming_apps)** / **[Torrent Streaming](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video#wiki_.25BA_streaming_apps)**
@@ -691,6 +710,7 @@
 
 ***
 
+<span id="mac-audio"></span>
 ## ▷ Mac 音频
 
 * ⭐ **[SpotX-Bash](https://github.com/SpotX-Official/SpotX-Bash)** 或 [BlockTheSpot](https://github.com/Nuzair46/BlockTheSpot-Installer) - Spotify 广告拦截器
@@ -715,6 +735,7 @@
 
 ***
 
+<span id="mac-image"></span>
 ## ▷ Mac 图像
 
 * ↪️ **[Mac Image Editors](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/image-tools#wiki_.25B7_editing_software)**
@@ -728,6 +749,7 @@
 
 ***
 
+<span id="mac-gaming"></span>
 ## ▷ Mac 游戏
 
 * ⭐ **[Torrminatorr](https://forum.torrminatorr.com/)** - Mac 游戏 / 需要注册
@@ -751,6 +773,7 @@
 
 # ► Mac 工具
 
+<span id="mac-adblock-privacy"></span>
 ## ▷ Mac 广告拦截 / 隐私
 
 * 🌐 **[Awesome OSX Security](https://github.com/ashishb/osx-and-ios-security-awesome)** - Mac 安全资源
@@ -782,6 +805,7 @@
 
 ***
 
+<span id="mac-internet"></span>
 ## ▷ Mac 互联网
 
 * ↪️ **[Mac Torrent Clients](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/torrent#wiki_.25BA_torrent_clients)**
@@ -793,6 +817,7 @@
 
 ***
 
+<span id="system-tools"></span>
 ## ▷ 系统工具
 
 * 🌐 **[AppleDB](https://appledb.dev/)** - Apple 设备/软件信息数据库
@@ -873,6 +898,7 @@
 
 ***
 
+<span id="unix-like"></span>
 # ► 类 Unix
 
 * 🌐 **[Awesome-ttygames](https://github.com/ligurio/awesome-ttygames)** - Unix ASCII 游戏

@@ -46,6 +46,7 @@
 
 ***
 
+<span id="discord-tools"></span>
 # ► Discord 工具
 
 * **警告** - 聊天存档工具、批量删除工具、模组和第三方客户端可能违反 Discord 的服务条款。滥用这些工具可能导致账号被封禁，请自行承担风险。
@@ -84,6 +85,7 @@
 
 ***
 
+<span id="discord-clients"></span>
 ## ▷ Discord 客户端
 
 * 🌐 **[Discord3rdParties](https://github.com/Discord-Client-Encyclopedia-Management/Discord3rdparties)** - Discord 客户端索引
@@ -176,6 +178,7 @@
 
 ***
 
+<span id="reddit-tools"></span>
 # ► Reddit 工具
 
 * ⭐ **[Reddit Stream](https://reddit-stream.com/)** - 实时帖子查看器
@@ -229,6 +232,7 @@
 
 ***
 
+<span id="reddit-search"></span>
 ## ▷ Reddit 搜索
 
 * [Reveddit](https://www.reveddit.com/)、[⁠Reddit Restore](https://greasyfork.org/scripts/585120)（用户脚本）、[redditOSINT](https://www.rosint.dev/) / [GitHub](https://github.com/zuxu4n/RedditOsint)、[Ghostddit](https://ghostddit.pages.dev/) 或 [Reddit Uncensored](https://github.com/Fubs/reddit-uncensored) - 查看已删除/隐藏的 Reddit 帖子和评论
@@ -257,6 +261,7 @@
 
 ***
 
+<span id="telegram-tools"></span>
 # ► Telegram 工具
 
 * 🌐 **[TDirectory](https://tdirectory.me/)**、[Telemetr](https://telemetr.io/en)、[TGStat](https://tgstat.com/)、[Awesome Telegram](https://github.com/ebertti/awesome-telegram) 或 [TelegramChannels](https://telegramchannels.me/) - Telegram 频道索引
@@ -272,6 +277,7 @@
 
 ***
 
+<span id="telegram-clients"></span>
 ## ▷ Telegram 客户端
 
 * ⭐ **[AyuGram](https://docs.ayugram.one/downloads/)** - 桌面客户端 / [Chat](https://t.me/ayugramchat) / [Telegram](https://t.me/ayugram) / [GitHub](https://github.com/AyuGram/AyuGramDesktop)
@@ -320,6 +326,7 @@
 
 ***
 
+<span id="youtube-tools"></span>
 # ► YouTube 工具
 
 * ↪️ **[YouTube Ad + Sponsorblock](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy/#wiki_.25BA_adblocking)**
@@ -347,6 +354,7 @@
 
 ***
 
+<span id="youtube-customization"></span>
 ## ▷ YouTube 自定义
 
 * ⭐ **[Return YouTube Dislike](https://returnyoutubedislike.com/)** - 查看 YouTube 点踩数 / [Web App](https://haeri.github.io/youtube-dislike-viewer/) / [Discord](https://discord.com/invite/mYnESY4Md5)
@@ -391,6 +399,7 @@
 
 ***
 
+<span id="video-tools"></span>
 ## ▷ 视频工具
 
 * ↪️ **[Video Adblockers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25BA_adblocking)**
@@ -410,6 +419,7 @@
 
 ***
 
+<span id="playlist-tools"></span>
 ## ▷ 播放列表工具
 
 * ⭐ **[playlists.at](https://playlists.at/)** - 播放列表创建器 / [Chrome Extension](https://chromewebstore.google.com/detail/drag-drop-playlist-creato/aklnkkbopjjemjlkffhamaepagbmblbg)
@@ -425,6 +435,7 @@
 
 ***
 
+<span id="youtube-downloaders"></span>
 ## ▷ YouTube 下载器
 
 * 🌐 **[YT-DL GUI Index](https://www.reddit.com/r/youtubedl/wiki/info-guis)** - YouTube 下载器 GUI 列表
@@ -445,6 +456,7 @@
 
 ***
 
+<span id="youtube-search"></span>
 ## ▷ YouTube 搜索
 
 * 🌐 **[YT Channel Spreadsheet](https://docs.google.com/spreadsheets/d/1xZm5BcQTYJx8sfSuqHExHtIOPtSfod8beHKtYzp8DxE/)** 或 **[YouTube_Channels](https://github.com/PrejudiceNeutrino/YouTube_Channels)** - YouTube 频道索引
@@ -465,6 +477,7 @@
 
 ***
 
+<span id="youtube-archiving"></span>
 ## ▷ YouTube 归档
 
 * ⭐ **[YouTube Video Finder](https://findyoutubevideo.thetechrobo.ca/)** - 多站点存档搜索 / 尝试刷新或重新搜索 / [GitHub](https://github.com/TheTechRobo/youtubevideofinder/)
@@ -480,6 +493,7 @@
 
 ***
 
+<span id="bilibili-tools"></span>
 # ► Bilibili 工具
 
 * [PiliPlus](https://github.com/bggRGjQaUbCoE/PiliPlus) - 桌面应用
@@ -541,6 +555,7 @@
 
 ***
 
+<span id="twitch-adblockers"></span>
 ## ▷ Twitch 广告拦截器
 
 * 🌐 **[TwitchAdSolutions](https://github.com/ryanbr/TwitchAdSolutions)** - 拦截 Twitch 广告的解决方案/脚本
@@ -553,6 +568,7 @@
 
 ***
 
+<span id="twitch-downloaders"></span>
 ## ▷ Twitch 下载工具
 
 * [ClipsGameLab](https://clipsgamelab.github.io/#/download) 或 [clipsey](https://clipsey.com/) - 视频下载工具
@@ -580,6 +596,7 @@
 
 ***
 
+<span id="twitter-x-archiving"></span>
 ## ▷ Twitter/X 存档
 
 * [Thread Safe](https://github.com/dkaslovsky/thread-safe) - Twitter 备份工具
@@ -593,6 +610,7 @@
 
 ***
 
+<span id="twitter-x-customization"></span>
 ## ▷ Twitter/X 自定义
 
 * ⭐ **[Control Panel for Twitter](https://soitis.dev/control-panel-for-twitter)** - Twitter 增强扩展
@@ -657,6 +675,7 @@
 
 ***
 
+<span id="tiktok-tools"></span>
 # ► TikTok 工具
 
 * [Urlebird](https://urlebird.com/) - TikTok 前端/查看器
@@ -685,6 +704,7 @@
 
 ***
 
+<span id="tumblr-tools"></span>
 # ► Tumblr 工具
 
 * [Tumlook](https://www.tumlook.com/), [Tumgik](https://www.tumgik.com/) 或 [PriviBlur](https://github.com/syeopite/priviblur) - Tumblr 前端
@@ -700,6 +720,7 @@
 
 ***
 
+<span id="fediverse-tools"></span>
 # ► Fediverse 工具
 
 * 🌐 **[Fediverse.Party](https://fediverse.party/)** - Fediverse 软件索引
@@ -722,6 +743,7 @@
 
 ***
 
+<span id="mastodon-tools"></span>
 ## ▷ Mastodon 工具
 
 * 🌐 **[Awesome Mastodon](https://hueyy.github.io/awesome-mastodon/)**、[2](https://github.com/hyperupcall/awesome-mastodon) - Mastodon 资源
@@ -744,6 +766,7 @@
 
 ***
 
+<span id="lemmy-tools"></span>
 ## ▷ Lemmy 工具
 
 * ⭐ **[Lemmy Explorer](https://lemmyverse.net/)** 或 [Awesome Lemmy Instances](https://github.com/Fedihosting-Foundation-Forks/awesome-lemmy-instances) - Lemmy 实例
@@ -754,6 +777,7 @@
 
 ***
 
+<span id="pixelfed-tools"></span>
 ## ▷ Pixelfed 工具
 
 * 🌐 **[Pixelfed Apps](https://pixelfed.org/mobile-apps)** - Pixelfed 客户端列表
@@ -764,6 +788,7 @@
 
 ***
 
+<span id="peertube-tools"></span>
 ## ▷ Peertube 工具
 
 * 🌐 **[Peertube Apps](https://docs.joinpeertube.org/use/third-party-application)** - Peertube 客户端列表
@@ -792,6 +817,7 @@
 
 ***
 
+<span id="_4chan-archives"></span>
 ## ▷ 4chan 存档站
 
 * **注意** - 请留意其中部分站点包含 SFW 和 NSFW 内容。

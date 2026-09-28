@@ -39,6 +39,7 @@
 
 ***
 
+<span id="system-tweaks"></span>
 ## ▷ 系统调整
 
 * ⭐ **[Windhawk](https://windhawk.net/)** / [Discord](https://discord.com/invite/windhawk-923944342991818753) / [GitHub](https://github.com/ramensoftware/windhawk)、[MajorGeeks Windows Tweaks](https://www.majorgeeks.com/files/details/majorgeeks_registry_tweaks.html) 或 [Winaero](https://winaero.com/) / [2](https://winaerotweaker.com/) - 系统调整工具 / **[警告](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/general-tweak-warning.md)**
@@ -69,6 +70,7 @@
 
 ***
 
+<span id="package-managers"></span>
 ## ▷ 包管理器
 
 * ⭐ **[WinGet](https://learn.microsoft.com/en-us/windows/package-manager/winget)** - 命令行包管理器 / [Browse](https://winstall.app/) / [Manifest Creator](https://github.com/microsoft/winget-create) / [Auto Update](https://github.com/Romanitho/Winget-AutoUpdate) / [GitHub](https://github.com/microsoft/winget-cli)
@@ -88,6 +90,7 @@
 
 ***
 
+<span id="task-automation"></span>
 ## ▷ 任务自动化
 
 * ⭐ **[AutoHotkey](https://www.autohotkey.com/)** / [Resources](https://github.com/ahkscript/awesome-AutoHotkey) / [Discord](https://discord.com/invite/Aat7KHmG7v) / [GitHub](https://github.com/AutoHotkey/AutoHotkey)
@@ -124,6 +127,7 @@
 
 ***
 
+<span id="remote-desktop"></span>
 ## ▷ 远程桌面
 
 * ⭐ **[Parsec](https://parsec.app/)** / Windows、macOS、Linux、Android、Web / [X](https://x.com/parsecteam) / [Discord](https://discord.com/invite/cQjEGFy) / [备注](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/parsec.md)
@@ -158,6 +162,8 @@
 
 <!-- pingti-local-remote-desktop-tools:end -->
 
+<span id="clipboard-managers"></span>
+
 ## ▷ 剪贴板管理器
 
 * ⭐ **[Ditto](https://ditto-cp.sourceforge.io/)** / Windows / [GitHub](https://sabrogden.github.io/Ditto/)
@@ -182,6 +188,7 @@
 
 ***
 
+<span id="virtual-machines"></span>
 ## ▷ 虚拟机
 
 * 🌐 **[Awesome Web Desktops](https://github.com/syxanash/awesome-web-desktops)** 或 [Simone's Computer](https://simone.computer/#/webdesktops) - 浏览器操作系统 / 虚拟机
@@ -223,6 +230,7 @@
 
 ***
 
+<span id="hardware-tools"></span>
 # ► 硬件工具
 
 * ↪️ **[PC Building / Shopping](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/misc#wiki_.25B7_electronics)**
@@ -239,6 +247,7 @@
 
 ***
 
+<span id="hardware-monitors"></span>
 ## ▷ 硬件监控
 
 * ⭐ **[HWiNFO](https://www.hwinfo.com/)** - 系统信息与监控 / Windows
@@ -317,6 +326,7 @@
 
 ***
 
+<span id="mouse-keyboard"></span>
 ## ▷ 鼠标 / 键盘
 
 * 🌐 **[r/MechanicalKeyboards Wiki](https://www.reddit.com/r/MechanicalKeyboards/wiki/index)** - 机械键盘资源
@@ -348,6 +358,7 @@
 
 ***
 
+<span id="system-audio"></span>
 ## ▷ 系统音频
 
 * ⭐ **[Equalizer APO](https://sourceforge.net/projects/equalizerapo/)**、[2](https://equalizerapo.com/) / [GUI](https://sourceforge.net/projects/peace-equalizer-apo-extension/) / [7.1 Surround](https://hesuvi.net/) / [Dolby Access](https://apps.microsoft.com/detail/9n0866fs04w8) / [说明](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/dolby-access-atmos-note.md) 或 [FXSound](https://www.fxsound.com/) - 音频均衡器
@@ -381,6 +392,7 @@
 
 ***
 
+<span id="usb-bootloaders"></span>
 ## ▷ USB / 引导加载程序
 
 * ⭐ **[Rufus](https://rufus.ie/)** - 创建可启动 USB 驱动器 / [GitHub](https://github.com/pbatard/rufus)
@@ -392,6 +404,7 @@
 
 ***
 
+<span id="windows-activation"></span>
 ## ▷ Windows 激活
 
 * ⭐ **[MAS](https://rentry.co/FMHYB64#mas)** - Windows 和 Office 激活 / [Discord](https://discord.gg/gjJEfq7ux8)
@@ -399,6 +412,7 @@
 
 ***
 
+<span id="windows-updates"></span>
 ## ▷ Windows 更新
 
 * ⭐ **[Windows 10 生命周期结束后](https://massgrave.dev/windows10_eol)** - 在 Win10 生命周期结束后接收 Windows 更新
@@ -473,6 +487,7 @@
 
 ***
 
+<span id="wallpapers"></span>
 ## ▷ 壁纸
 
 * 🌐 **[WallSync](https://roigoatzzz.netlify.app/)**、[2](https://wallsync.pages.dev/) - 壁纸网站索引 / [GitHub](https://github.com/leroiduflow/Wallsync)

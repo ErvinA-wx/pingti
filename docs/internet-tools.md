@@ -38,6 +38,7 @@
 
 ***
 
+<span id="password-managers"></span>
 ## ▷ 密码管理器
 
 * ↪️ **[Password Privacy / 2FA](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25B7_password_privacy_.2F_2fa)**
@@ -58,6 +59,7 @@
 
 ***
 
+<span id="paywall-bypass"></span>
 ## ▷ 绕过付费墙
 
 * ⭐ **[Bypass Paywalls Clean](https://gitflic.ru/project/magnolia1234/bpc_uploads)** - 浏览器扩展 / [X](https://x.com/Magnolia1234B)
@@ -72,6 +74,7 @@
 
 ***
 
+<span id="link-in-bio"></span>
 ## ▷ 个人简介链接
 
 * ⭐ **[Linktree](https://linktr.ee/)** - 无限 / 自定义 URL
@@ -85,6 +88,7 @@
 
 ***
 
+<span id="captcha-tools"></span>
 ## ▷ 验证码工具
 
 * ⭐ **[Buster](https://github.com/dessant/buster)** - 自动验证码识别 / [Improve Success Rate](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/buster-note.md)
@@ -95,6 +99,7 @@
 
 ***
 
+<span id="chat-tools"></span>
 ## ▷ 聊天工具
 
 * ↪️ **[Discord Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/social-media#wiki_.25BA_discord_tools)**
@@ -138,6 +143,7 @@
 
 ***
 
+<span id="qr-code-tools"></span>
 ## ▷ 二维码工具
 
 * ⭐ **[Mini QR](https://mini-qr-code-generator.vercel.app/)** - 生成器 / 可自定义 / [GitHub](https://github.com/lyqht/mini-qr)
@@ -154,6 +160,7 @@
 
 ***
 
+<span id="rss-tools"></span>
 # ► RSS 工具
 
 * 🌐 **[All about RSS](https://rss.tips/)** / [Telegram](https://t.me/s/aboutrss) / [GitHub](https://github.com/AboutRSS/ALL-about-RSS), [RSSTango](https://rentry.org/rrstango) 或 [RSS](https://gist.github.com/thefranke/63853a6f8c499dc97bc17838f6cedcc2) - RSS 订阅源 / 工具索引
@@ -165,6 +172,7 @@
 
 ***
 
+<span id="rss-readers"></span>
 ## ▷ RSS 阅读器
 
 * ↪️ **[Android RSS Readers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_android_rss_readers)**
@@ -199,6 +207,7 @@
 
 ***
 
+<span id="search-tools"></span>
 # ► 搜索工具
 
 * ↪️ **[Reddit Search Tools](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/social-media#wiki_.25B7_reddit_search)**
@@ -240,6 +249,7 @@
 
 ***
 
+<span id="search-engines"></span>
 ## ▷ 搜索引擎
 
 * 🌐 **[Fagan Finder](https://www.faganfinder.com/)**、[Search Engine Index](https://wikipedia.org/wiki/List_of_search_engines)、[DirectSearch.Net](http://www.directsearch.net/)、[Search Engine Colossus](https://www.searchenginecolossus.com/)、[Advanced Search Tools](https://start.me/p/nRADzL/advanced-search-tools) 或 [Search-Engine](https://start.me/p/wM7y15/search-engine) - 搜索引擎索引
@@ -272,6 +282,7 @@
 
 ***
 
+<span id="custom-search-engines"></span>
 ## ▷ 自定义搜索引擎
 
 * 🌐 **[CSE Utopia](https://start.me/p/EL84Km/cse-utopia)**、[Awesome CSEs](https://github.com/davzoku/awesome-custom-search-engines) 或 [Boolean Strings](https://booleanstrings.com/all-the-40-forty-custom-search-engines/) - 自定义搜索引擎索引
@@ -306,6 +317,7 @@
 
 ***
 
+<span id="google-search-tools"></span>
 ## ▷ Google 搜索工具
 
 * 🌐 **[SearchTweaks](https://searchtweaks.com/)** - Google 搜索工具
@@ -323,6 +335,7 @@
 
 ***
 
+<span id="url-tools"></span>
 # ► URL 工具
 
 * ↪️ **[Encode / Decode URLs](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/text-tools#wiki_.25B7_encode_.2F_decode)**
@@ -340,6 +353,7 @@
 
 ***
 
+<span id="redirect-bypass"></span>
 ## ▷ 重定向绕过
 
 * ⭐ **[Bypass All Shortlinks Debloated](https://codeberg.org/gongchandang49/bypass-all-shortlinks-debloated)** - 绕过链接缩短器
@@ -369,6 +383,7 @@
 
 ***
 
+<span id="url-shorteners"></span>
 ## ▷ URL 缩短器
 
 * ⭐ **[spoo.me](https://spoo.me/)** - `spoo.me/ZbvUhz` / [Discord](https://spoo.me/discord) / [GitHub](https://github.com/spoo-me/url-shortener)
@@ -404,6 +419,7 @@
 
 ***
 
+<span id="down-site-checkers"></span>
 ## ▷ 网站宕机检查器
 
 * ⭐ **[Down for Everyone or Just Me](https://downforeveryoneorjustme.com/)**
@@ -420,6 +436,7 @@
 
 ***
 
+<span id="email-tools"></span>
 # ► 邮件工具
 
 * 🌐 **[Email Providers](https://wikipedia.org/wiki/Comparison_of_webmail_providers)** - 提供商对比
@@ -435,6 +452,7 @@
 
 ***
 
+<span id="email-clients"></span>
 ## ▷ 电子邮件客户端
 
 * ⭐ **[Betterbird](https://www.betterbird.eu/)** - Thunderbird 分支 / Windows、macOS、Linux / [说明](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/thunderbird.md)
@@ -451,6 +469,7 @@
 
 ***
 
+<span id="temp-mail"></span>
 ## ▷ 临时邮箱
 
 * **注意** - 如果需要更私密、更方便的选项，请查看 [Email Aliasing](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools#wiki_.25B7_email_aliasing) 部分。关于标签的详细信息，请参考[此资源](https://rentry.org/9i2uu6dx)。
@@ -512,6 +531,7 @@
 
 ***
 
+<span id="email-aliasing"></span>
 ## ▷ 邮箱别名
 
 * **注意** - 有些网站提供**通配**别名，例如 @username.anonaddy.com，理论上无限，因为 @ 前的任何内容都会重定向到转发地址，但别名包含唯一子域名，可能关联到身份。为增强隐私，建议使用**共享**别名，如 x481n904@anonaddy.me，通常随机生成，域名由所有用户共享，更难关联到个人身份。
@@ -544,6 +564,7 @@
 
 ***
 
+<span id="bookmark-managers"></span>
 ## ▷ 书签管理器
 
 * ⭐ **[Sidebery](https://github.com/mbnuqw/sidebery)** - Firefox 扩展
@@ -620,6 +641,7 @@
 
 ***
 
+<span id="browser-tools"></span>
 # ► 浏览器工具
 
 * 🌐 **[Browser Comparisons](https://privacytests.org/)** 或 [Eylenburg Comparisons](https://eylenburg.github.io/browser_comparison.htm) - 比较主流浏览器
@@ -637,6 +659,7 @@
 
 ***
 
+<span id="firefox-tools"></span>
 ## ▷ Firefox 工具
 
 * **注意** - Firefox 包含免费内置 VPN。
@@ -659,6 +682,7 @@
 
 ***
 
+<span id="chromium-tools"></span>
 ## ▷ Chromium 工具
 
 * ↪️ **[Chromium Extensions](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools#wiki_.25B7_chrome_extensions)**
@@ -671,6 +695,7 @@
 
 ***
 
+<span id="browser-extensions"></span>
 ## ▷ 浏览器扩展
 
 * 🌐 **[WebExtension.org](https://webextension.org/)** 或 [MyBrowserAddon](https://mybrowseraddon.com/) - 开源扩展索引
@@ -753,6 +778,7 @@
 
 ***
 
+<span id="firefox-extensions"></span>
 ## ▷ Firefox 扩展
 
 * 🌐 **[Firefox Addons](https://addons.mozilla.org/firefox/extensions/)** - Firefox 扩展商店
@@ -781,6 +807,7 @@
 
 ***
 
+<span id="chrome-extensions"></span>
 ## ▷ Chrome 扩展
 
 * 🌐 **[Chrome Web Store](https://chromewebstore.google.com/)**、[Chrome-Extension](https://github.com/harshita214/Chrome-Extension) 或 [Crx4Chrome](https://www.crx4chrome.com/) - Chrome 扩展商店
@@ -814,6 +841,7 @@
 
 ***
 
+<span id="safari-extensions"></span>
 ## ▷ Safari 扩展
 
 * ⭐ **[Userscripts](https://apps.apple.com/us/app/userscripts/id1463298887)** - Safari 用户脚本管理器 / [GitHub](https://github.com/quoid/userscripts/)
@@ -823,6 +851,7 @@
 
 ***
 
+<span id="userscripts"></span>
 ## ▷ 用户脚本
 
 * 🌐 **[Greasy Fork](https://greasyfork.org/)** / [GitHub](https://github.com/greasyfork-org/greasyfork/), [OpenUserJS](https://openuserjs.org/), [ScriptCat](https://scriptcat.org/en) 或 [Userscripts](https://userscripts-mirror.org/) - 用户脚本商店
@@ -846,6 +875,7 @@
 
 ***
 
+<span id="archiving"></span>
 # ► 归档
 
 ## ▷ 归档服务
@@ -908,6 +938,7 @@
 
 ***
 
+<span id="open-source-intelligence"></span>
 # ► 开源情报
 
 <!-- pingti-local-web-data-tools:start -->

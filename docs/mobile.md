@@ -4,8 +4,10 @@
 ***
 ***
 
+<span id="android-apks"></span>
 # ► Android APK
 
+<span id="modded-apks"></span>
 ## ▷ 修改版APK
 
 * **注意** - 请记住，某些修改版 APK 网站会列出名称虚假的应用，这些通常不值得使用。
@@ -60,6 +62,7 @@
 
 ***
 
+<span id="foss-apks"></span>
 ## ▷ FOSS APK
 
 * 🌐 **[Android FOSS](https://github.com/offa/android-foss)**, [Cool FOSS](https://albertomosconi.github.io/foss-apps/) 或 [AAA](https://github.com/Psyhackological/AAA) - FOSS 应用索引
@@ -77,6 +80,7 @@
 
 ***
 
+<span id="untouched-apks"></span>
 ## ▷ 未修改的 APK
 
 * **注意** - 如果需要合并“拆分”或“捆绑”APK 格式（如 APKM 或 APKX），可以使用 [AntiSplit-M](https://github.com/AbdurazaaqMohammed/AntiSplit-M)。这会将它们转换为用于安装和修补的常规 APK 格式。
@@ -99,6 +103,7 @@
 
 ***
 
+<span id="app-launchers"></span>
 ## ▷ 应用启动器
 
 * 🌐 **[Launcher Comparison Table](https://grabster.notion.site/6671f3b62d8043c4aaaae22a241e3f05?v=91d9b664887643298f85fe18044d3560)**
@@ -121,6 +126,7 @@
 
 ***
 
+<span id="apk-tools"></span>
 ## ▷ APK 工具
 
 * ⭐ **[App Manager](https://muntashirakon.github.io/AppManager/)** / [GitHub](https://github.com/MuntashirAkon/AppManager), [Inure](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_modded_apks)（搜索）, [⁠Universal Installer](https://github.com/pass-with-high-score/universal-installer) 或 [Package Manager](https://smartpack.github.io/PackageManager/) / [GitHub](https://github.com/SmartPack/PackageManager) - 包管理器
@@ -142,6 +148,7 @@
 
 ***
 
+<span id="morphe-revanced-tools"></span>
 ## ▷ Morphe / ReVanced 工具
 
 * 🌐 **[Morphe Patch Index](https://morphe-patches.software/)** / [2](https://redd.it/1ta0bek) 或 [NullStore](https://nullcpy.github.io/) / [GitHub](https://github.com/nullcpy/rvb) - Morphe 补丁索引
@@ -156,6 +163,7 @@
 
 ***
 
+<span id="social-media-apps"></span>
 ## ▷ 社交媒体应用
 
 * 🌐 **[/reddit clients/](https://dan.valeena.dev/guides/reddit-clients)** - Reddit 客户端对比 / 请务必遵循[指南](https://rentry.co/FMHYB64#rguide)
@@ -194,6 +202,7 @@
 
 ***
 
+<span id="telegram-clients"></span>
 ## ▷ Telegram 客户端
 
 * ⭐ **[AyuGram](https://docs.ayugram.one/downloads/)** - 桌面客户端 / 便携版 / [Chat](https://t.me/ayugramchat) / [Telegram](https://t.me/ayugram) / [GitHub](https://github.com/AyuGram/AyuGramDesktop)
@@ -205,6 +214,7 @@
 
 ***
 
+<span id="android-device"></span>
 # ► Android 设备
 
 * 🌐 **[Manufacturer Specific](https://rentry.org/ekrw4)** - 厂商专用移动工具
@@ -233,6 +243,8 @@
 
 <!-- pingti-local-android-device-control-tools:end -->
 
+<span id="optimization"></span>
+
 ## ▷ 优化
 
 * ⭐ **[Canta](https://samolego.github.io/Canta/)** - Android 去臃肿工具 / 需要 Shizuku
@@ -246,6 +258,7 @@
 
 ***
 
+<span id="customization"></span>
 ## ▷ 个性化
 
 * ⭐ **[r/AndroidThemes](https://www.reddit.com/r/androidthemes/)** - Android 主题子版块
@@ -269,6 +282,7 @@
 
 ***
 
+<span id="battery-tools"></span>
 ## ▷ 电池工具
 
 * ⭐ **[SaverTuner](https://codeberg.org/s1m/savertuner)** - 电池监控/管理 / Root / 通过 Root 或 Shizuku 启用
@@ -283,6 +297,7 @@
 
 ***
 
+<span id="keyboard-tools"></span>
 ## ▷ 键盘工具
 
 * ⭐ **[FUTO Keyboard](https://keyboard.futo.org/)** - 注重隐私的键盘 / [Discord](https://discord.gg/ENYRubhTRw) / [GitHub](https://github.com/futo-org/android-keyboard)
@@ -303,6 +318,7 @@
 
 ***
 
+<span id="screen-tools"></span>
 ## ▷ 屏幕工具
 
 * [Quick Cursor](https://play.google.com/store/apps/details?id=com.quickcursor) - 大屏手机光标
@@ -314,6 +330,7 @@
 
 ***
 
+<span id="number-sms"></span>
 ## ▷ 号码 / 短信
 
 * **注意** - 替代短信应用不支持 RCS。
@@ -334,6 +351,7 @@
 
 ***
 
+<span id="root-flash"></span>
 ## ▷ Root / 刷机
 
 * 🌐 **[Awesome Android Root](https://awesome-android-root.pages.dev/)** - Root 应用索引 / 指南 / [GitHub](https://github.com/awesome-android-root/awesome-android-root)
@@ -351,6 +369,7 @@
 
 ***
 
+<span id="root-managers"></span>
 ## ▷ Root 管理器
 
 * ⭐ **[KernelSU](https://kernelsu.org/)** / [GitHub](https://github.com/tiann/KernelSU)
@@ -367,6 +386,7 @@
 
 ***
 
+<span id="operating-systems"></span>
 ## ▷ 操作系统
 
 * 🌐 **[Android Privacy ROM Comparisons](https://eylenburg.github.io/android_comparison.htm)** or [Android ROM List](https://github.com/musabcel/android_rom_list)
@@ -378,6 +398,7 @@
 
 ***
 
+<span id="android-camera"></span>
 # ► Android 相机
 
 * ⭐ **[Google Lens](https://lens.google/)** - 多种相机工具
@@ -395,6 +416,7 @@
 
 ***
 
+<span id="image-tools"></span>
 ## ▷ 图像工具
 
 * ⭐ **[Image Toolbox](https://github.com/T8RIN/ImageToolbox)** - 图像编辑器
@@ -419,6 +441,7 @@
 
 ***
 
+<span id="image-galleries"></span>
 ## ▷ 图片库
 
 * ⭐ **[Fossify Gallery](https://github.com/FossifyOrg/Gallery)** 或 [Goodwy Gallery](https://github.com/Goodwy/Gallery) - 照片/视频库
@@ -434,8 +457,10 @@
 
 ***
 
+<span id="android-tools"></span>
 # ► Android 工具
 
+<span id="android-utilities"></span>
 ## ▷ Android 实用工具
 
 * ↪️ **[Android Calculators](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/edu#wiki_.25B7_calculators)**
@@ -485,6 +510,7 @@
 
 ***
 
+<span id="android-adblocking"></span>
 ## ▷ Android 广告拦截
 
 * ↪️ **[DNS Adblocking](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy/#wiki_.25B7_dns_adblocking)**
@@ -498,6 +524,7 @@
 
 ***
 
+<span id="android-privacy"></span>
 ## ▷ Android 隐私
 
 * 🌐 **[Awesome Android Security](https://github.com/ashishb/android-security-awesome)** - 安全资源
@@ -530,6 +557,7 @@
 
 ***
 
+<span id="android-internet"></span>
 ## ▷ Android 互联网
 
 * ↪️ **[Android Password Managers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/internet-tools)**
@@ -556,6 +584,7 @@
 
 ***
 
+<span id="android-browsers"></span>
 ## ▷ Android 浏览器
 
 * **注意** - 本节涵盖普通浏览器和隐私浏览器。
@@ -575,6 +604,7 @@
 
 ***
 
+<span id="android-rss-readers"></span>
 ## ▷ Android RSS 阅读器
 
 * ⭐ **[Feeder](https://github.com/spacecowboy/Feeder)** - RSS / Atom / RDF / JSON 订阅
@@ -589,6 +619,7 @@
 
 ***
 
+<span id="android-file-tools"></span>
 ## ▷ Android 文件工具
 
 * ↪️ **[Mobile / Desktop Transfer](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/file-tools#wiki_.25BA_file_transfer)**
@@ -624,6 +655,7 @@
 
 ***
 
+<span id="android-text-tools"></span>
 ## ▷ Android 文本工具
 
 * ↪️ **[Android Note-Taking](https://old.reddit.com/r/FREEMEDIAHECKYEAH/wiki/text-tools#wiki_.25B7_note-taking)**
@@ -657,6 +689,7 @@
 
 ***
 
+<span id="to-do-apps"></span>
 ## ▷ 待办事项应用
 
 * ⭐ **[Tasks](https://tasks.org/)** - 支持同步的可定制待办事项应用 / 使用 F-Droid 版本 / [GitHub](https://github.com/tasks/tasks)
@@ -667,6 +700,7 @@
 
 ***
 
+<span id="notifications-widgets"></span>
 ## ▷ 通知 / 小部件
 
 * ⭐ **[ntfy](https://ntfy.sh/)** / [Discord](https://discord.gg/cT7ECsZj9w) / [GitHub](https://github.com/binwiederhier/ntfy)、[AppRise](https://github.com/caronc/apprise) 或 [PingMe](https://pingme.lmno.pk/) - 自定义推送通知
@@ -694,6 +728,7 @@
 
 ***
 
+<span id="productivity-app-blockers"></span>
 ## ▷ 生产力 / 应用拦截器
 
 * ↪️ **[Text Editors](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android/#wiki_.25B7_android_text_tools) / [To-Do Apps](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android/#wiki_.25B7_to-do_apps)**
@@ -716,6 +751,7 @@
 
 ***
 
+<span id="maps-location"></span>
 ## ▷ 地图 / 位置
 
 * ↪️ **[Navigation / Transport Apps](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/misc/#wiki_.25B7_navigation_.2F_transport)**
@@ -756,6 +792,7 @@
 
 ***
 
+<span id="emulators-on-android"></span>
 ## ▷ Android 上的模拟器
 
 * 🌐 **[Emulators on Android](https://emulation.gametechwiki.com/index.php/Emulators_on_Android)** / [Frontends](https://emulation.gametechwiki.com/index.php/Emulators_on_Android#Launcher_Frontends)
@@ -803,6 +840,7 @@
 
 ***
 
+<span id="android-torrenting"></span>
 # ► Android BT 下载
 
 * **注意** - 使用 BT 下载前请先获取 [VPN](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25BA_vpn)，如果客户端支持，请[将其绑定到客户端](https://wispydocs.pages.dev/torrenting/)。
@@ -824,6 +862,7 @@
 
 ***
 
+<span id="android-reading"></span>
 # ► Android 阅读
 
 * ↪️ **[Multi-Platform Readers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/reading/#wiki_.25B7_ebook_readers)**
@@ -857,6 +896,7 @@
 
 ***
 
+<span id="android-manga"></span>
 ## ▷ Android 漫画
 
 * ⭐ **[Mihon](https://mihon.app/)** - 漫画阅读器 / [扩展](https://keiyoushi.github.io/extensions/), [2](https://discord.gg/3FbCpdKbdY), [3](https://wotaku.wiki/guides/ext/mihon), [4](https://github.com/Nyora-Manga/nyora-mihon) / [Endorsed Forks](https://mihon.app/forks/), [2](https://github.com/nekomangaorg/Neko), [3](https://komikku-app.github.io/), [4](https://yuzono.github.io/) / [Avoid Fakes](https://mihon.app/news/2025-11-05-potential-threat) / [Discord](https://discord.gg/mihon) / [GitHub](https://github.com/mihonapp/mihon)
@@ -869,6 +909,7 @@
 
 ***
 
+<span id="android-audio"></span>
 # ► Android 音频
 
 * ↪️ **[Song Identification Apps](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/audio#wiki_.25B7_song_identification)**
@@ -910,6 +951,7 @@
 
 ***
 
+<span id="android-audio-players"></span>
 ## ▷ Android 音频播放器
 
 * ⭐ **[Poweramp](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_modded_apks)**（搜索）
@@ -936,6 +978,7 @@
 
 ***
 
+<span id="youtube-music"></span>
 ## ▷ YouTube 音乐
 
 * **注意** - YouTube 音乐提供慷慨的免费套餐，允许上传 100,000 首歌曲到云端，不占用存储配额。
@@ -955,6 +998,7 @@
 
 ***
 
+<span id="android-podcasts-radio"></span>
 ## ▷ Android 播客 / 电台
 
 * ⭐ **[RadioDroid](https://github.com/segler-alex/RadioDroid)** - 电台应用
@@ -975,6 +1019,7 @@
 
 ***
 
+<span id="android-relaxation"></span>
 ## ▷ Android 放松
 
 * ⭐ **[Calm](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_modded_apks)**（搜索）- 放松/睡眠应用
@@ -993,6 +1038,7 @@
 
 ***
 
+<span id="android-streaming"></span>
 # ► Android 在线观看
 
 * ↪️ **[Android TV / Firestick](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video#wiki_.25B7_android_tv_.2F_firestick)**
@@ -1032,6 +1078,7 @@
 
 ***
 
+<span id="android-video-players"></span>
 ## ▷ Android 视频播放器
 
 * ⭐ **[⁠mpvEx](https://github.com/marlboro-advance/mpvEx)**、[⁠mpvRex](https://github.com/sfsakhawat999/mpvRex) 或 [mpvRx](https://github.com/Riteshp2001/mpvRx) - 免费开源视频播放器
@@ -1065,6 +1112,7 @@
 
 ***
 
+<span id="android-live-tv"></span>
 ## ▷ Android 直播电视
 
 * [Perfect IPTV Player](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/android#wiki_.25B7_modded_apks)（搜索）- IPTV 播放器
@@ -1081,6 +1129,7 @@
 
 ***
 
+<span id="android-youtube-apps"></span>
 ## ▷ Android YouTube 应用
 
 * ⭐ **[Morphe](https://morphe.software/)** - 无广告 YouTube 修补器 / [Resources](https://xdaforums.com/t/app-guides-unofficial-morphe-megathread.4774994/) / [简易安装/更新](https://wispydocs.pages.dev/morphe-piko-obtainium/) / [X](https://x.com/MorpheApp) / [Subreddit](https://reddit.com/r/MorpheApp) / [Patch Index](https://morphe-patches.software/), [2](https://redd.it/1ta0bek) / [GitHub](https://github.com/MorpheApp/morphe-manager)
@@ -1171,6 +1220,7 @@
 
 ***
 
+<span id="ios-jailbreaking"></span>
 ## ▷ iOS 越狱
 
 * 🌐 **[IPA Apps](https://ipa-apps.me/)**、**[Jailbreaks.app](https://jailbreaks.app/)** 或 **[Jailbreak Chart](https://docs.google.com/spreadsheets/d/15-GeIjfsSDThS_Ic-r4E-tTlIx1yuxQDugkFUtTrxbs/edit?gid=293261150#gid=293261150)** - 越狱工具索引
@@ -1231,6 +1281,7 @@
 
 ***
 
+<span id="ios-sideloading"></span>
 ## ▷ iOS 侧载
 
 * ⭐ **[TrollStore](https://github.com/opa334/TrollStore)** - 非 App Store 应用 / 半越狱 / 14.0 - 16.6.1、16.7 RC、17.0 / [External Repos](https://github.com/TheResonanceTeam/TrollApps/) / [Decrypt](https://github.com/donato-fiore/TrollDecrypt) / [指南](https://ios.cfw.guide/installing-trollstore/) / [Web App](https://theresonanceteam.github.io/trollapps-web/)
@@ -1248,6 +1299,7 @@
 
 ***
 
+<span id="ios-adblocking"></span>
 ## ▷ iOS 广告拦截
 
 * ↪️ **[DNS Adblocking](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy/#wiki_.25B7_dns_adblocking)**
@@ -1263,6 +1315,7 @@
 
 ***
 
+<span id="ios-privacy"></span>
 ## ▷ iOS 隐私
 
 * ↪️ **[Encrypted Messengers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/adblock-vpn-privacy#wiki_.25B7_encrypted_messengers)**
@@ -1319,6 +1372,7 @@
 
 ***
 
+<span id="social-media-apps-1"></span>
 ## ▷ 社交媒体应用
 
 * 🌐 **[/reddit clients/](https://dan.valeena.dev/guides/reddit-clients)** - Reddit 客户端对比 / 请务必遵循[指南](https://rentry.co/FMHYB64#rguide)
@@ -1346,6 +1400,7 @@
 
 ***
 
+<span id="ios-audio"></span>
 # ► iOS 音频
 
 * ⭐ **[SpotC++](https://spotc.yodaluca.dev/)** - Spotify / 无广告 / 侧载 / [GitHub](https://github.com/SpotCompiled/SpotC-Plus-Plus)
@@ -1372,6 +1427,7 @@
 
 ***
 
+<span id="ios-podcasts-radio"></span>
 ## ▷ iOS 播客 / 电台
 
 * ⭐ **[SpotC++](https://spotc.yodaluca.dev/)** - Spotify / 无广告 / 侧载 / [GitHub](https://github.com/SpotCompiled/SpotC-Plus-Plus)
@@ -1388,6 +1444,7 @@
 
 ***
 
+<span id="ios-relaxation"></span>
 ## ▷ iOS 放松
 
 * ⭐ **[Medito](https://meditofoundation.org/medito-app)** - 冥想 / 助眠音效
@@ -1398,6 +1455,7 @@
 
 ***
 
+<span id="ios-streaming"></span>
 # ► iOS 在线观看
 
 * ↪️ **[Free w/ Ads Streaming](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/video#wiki_.25B7_free_w.2F_ads)**
@@ -1434,6 +1492,7 @@
 
 ***
 
+<span id="ios-youtube-apps"></span>
 ## ▷ iOS YouTube 应用
 
 * ⭐ **[Yattee](https://github.com/yattee/yattee)** - YouTube 播放器
@@ -1445,6 +1504,7 @@
 
 ***
 
+<span id="ios-reading"></span>
 # ► iOS 阅读
 
 * ↪️ **[Multi-Platform Readers](https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/reading/#wiki_.25B7_ebook_readers)** - 电子书阅读器索引

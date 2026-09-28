@@ -251,6 +251,12 @@ export function transform(text: string): string {
     .replace(/^\* \*\*Warning\*\* - (.+)$/gm, ':::warning\n$1\n:::')
     .replace(/^\*\s([^*])/gm, '- $1')
 
+  // Keep internalized wiki links on their page when the old section no longer exists.
+  _text = _text.replace(
+    /(\/(?:internet-tools|misc|non-english|text-tools)\/?)(?:#)(?:domain-dns|gaming-equipment|great-firewall|text-rephrasing)(?=[)\s]|$)/g,
+    '$1'
+  )
+
   return _text
 }
 
