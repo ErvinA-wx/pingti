@@ -32,7 +32,10 @@ jobs:
           git fetch upstream main
           git push origin upstream/main:refs/heads/upstream-mirror --force
 
-          if git merge-base --is-ancestor upstream/main origin/main; then
+          upstream_sha="$(git rev-parse upstream/main)"
+          recorded_upstream_sha="$(node -e 'const s=require("./translation/upstream-state.json");process.stdout.write(s.sha || "")')"
+          if [ "$upstream_sha" = "$recorded_upstream_sha" ] || \
+             git merge-base --is-ancestor upstream/main origin/main; then
             echo "生产分支已经包含最新上游提交。"
             echo "needs_translation=false" >> "$GITHUB_OUTPUT"
             exit 0
@@ -128,6 +131,8 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           RESULT: ${{ steps.translate.outputs.exit_code }}
         run: |
+          upstream_sha="$(git rev-parse upstream/main)"
+          UPSTREAM_SHA="$upstream_sha" node -e 'const fs=require("node:fs"); const p="translation/upstream-state.json"; fs.writeFileSync(p, `${JSON.stringify({ sha: process.env.UPSTREAM_SHA }, null, 2)}\n`)'
           git add docs translation README.md .github pnpm-lock.yaml
           git commit --no-verify -m "同步 FMHY 上游并更新中文内容" || true
           git push --set-upstream origin upstream-localized --force-with-lease
@@ -159,16 +164,17 @@ jobs:
           existing_pr="$(gh pr list --repo "$GITHUB_REPOSITORY" --base main --head upstream-localized --state open --json number --jq '.[0].number // empty')"
           upstream_sha="$(git rev-parse upstream/main)"
           if [ -z "$existing_pr" ]; then
-            gh pr create \
-              --repo "$GITHUB_REPOSITORY" \
-              --draft \
-              --base main \
-              --head upstream-localized \
-              --title "同步并汉化 FMHY 上游更新" \
-              --body "FMHY 上游已更新到 \`$upstream_sha\`。新增和变化的 Markdown 内容已通过 DeepSeek Flash、术语库和翻译记忆转换为简体中文；合并前请检查构建和 Cloudflare Preview。" || {
-                echo "仓库不允许 Actions 创建 PR；结果已保存在 upstream-localized 分支。" >> "$GITHUB_STEP_SUMMARY"
-                exit 1
-              }
+            if ! created_pr="$(gh api --method POST "repos/$GITHUB_REPOSITORY/pulls" \
+              -f title="同步并汉化 FMHY 上游更新" \
+              -f head=upstream-localized \
+              -f base=main \
+              -F draft=true \
+              -f body="FMHY 上游已更新到 $upstream_sha。新增和变化的 Markdown 内容已通过 DeepSeek Flash、术语库和翻译记忆转换为简体中文；合并前请检查构建和 Cloudflare Preview。" \
+              --jq '.html_url')"; then
+              echo "仓库不允许 Actions 创建 PR；结果已保存在 upstream-localized 分支。" >> "$GITHUB_STEP_SUMMARY"
+              exit 1
+            fi
+            echo "已创建本地化 PR：$created_pr" >> "$GITHUB_STEP_SUMMARY"
           else
             gh pr comment "$existing_pr" --repo "$GITHUB_REPOSITORY" --body "已同步并汉化 FMHY 上游 \`$upstream_sha\`。"
           fi
