@@ -174,6 +174,7 @@
 * [AIFreeVideo](https://aifreevideo.com/) - 无限制 / MiniMax Video-01 / 需要注册
 * [ModelScope Video](https://modelscope.ai/civision/videoGeneration) - Wan 2.2 14B / 每日 3 次 / [注意](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/modelscope.md)
 * [Dreamina](https://dreamina.capcut.com/ai-tool/home?type=video&workspace=0) / 每日 120 积分
+* [ZombieTrend AI](https://zombietrend.org/) - 僵尸末日爱情主题 AI 短视频 / 两张照片生成四幕竖版成片（含声音）/ 场景预览免费无需注册 / 成片 8/12/15 秒付费
 * [PixVerse](https://pixverse.ai/) - 每日 3 次 / [Discord](https://discord.com/invite/MXHErdJHMg)
 * [Genmo](https://www.genmo.ai/) - 每月 30 次 / [GitHub](https://github.com/genmoai/mochi)
 * [FramePack](https://github.com/colinurbs/FramePack-Studio) - 桌面应用 / 本地模型 / 需要 NVIDIA GPU
