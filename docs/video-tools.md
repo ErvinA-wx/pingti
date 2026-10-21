@@ -444,7 +444,7 @@
 <!-- pingti-local-product-demo-video-tools:start -->
 ## ▷ 平替精选：产品演示录屏与后期工具
 
-> [选型指南：6 款产品演示视频工具，录屏、自动缩放、浏览器剪辑与本地增强怎么选？](/posts/product-demo-video-tools-2026)
+> [选型指南：5 款产品演示视频工具，录屏、自动缩放、浏览器剪辑与本地增强怎么选？](/posts/product-demo-video-tools-2026)
 
 * [OpenScreen](https://github.com/getopenscreen/openscreen) - 跨平台本地录屏与产品演示编辑器，提供自动缩放、字幕、标注、时间线和 MP4/GIF 导出
 * [Flowtake](https://github.com/JNX03/Flowtake) - 本地录屏与时间线编辑器，支持跟随光标自动缩放、点击效果、遮罩和 MP4/WebM 导出
