@@ -441,6 +441,18 @@
 
 ***
 
+<!-- pingti-local-product-demo-video-tools:start -->
+## ▷ 平替精选：产品演示录屏与后期工具
+
+> [选型指南：6 款产品演示视频工具，录屏、自动缩放、浏览器剪辑与本地增强怎么选？](/posts/product-demo-video-tools-2026)
+
+* [OpenScreen](https://github.com/getopenscreen/openscreen) - 跨平台本地录屏与产品演示编辑器，提供自动缩放、字幕、标注、时间线和 MP4/GIF 导出
+* [Flowtake](https://github.com/JNX03/Flowtake) - 本地录屏与时间线编辑器，支持跟随光标自动缩放、点击效果、遮罩和 MP4/WebM 导出
+* [Reframe](https://reframe-lilac.vercel.app/) - 在浏览器本地使用 FFmpeg.wasm 完成裁剪、改比例、旋转、变速和导出的视频编辑器
+* [Screenity](https://screenity.io/) - Chrome 录屏与标注扩展，支持区域、标签页、桌面和摄像头录制，以及缩放、敏感信息模糊与多格式导出
+* [NextGenUp](https://github.com/riponcm/nextgenUp) - 在本机运行多种模型完成图像或视频放大、降噪、去模糊、去背景和音频处理的桌面工具
+<!-- pingti-local-product-demo-video-tools:end -->
+
 <!-- pingti-local-specialized-video-workflows:start -->
 ## ▷ 平替精选：专项 AI 视频工作流 Skill
 

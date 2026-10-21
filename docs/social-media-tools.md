@@ -21,6 +21,7 @@
 * [wechat-skill](https://github.com/843645440/wechat-skill) - 覆盖热点发现、写作、配图、排版和公众号草稿管理的 Agent Skill 工具包
 * [Lime](https://github.com/limecloud/lime) - 面向中文创作者的桌面 AI 内容工作台，支持写作、研究、知识库和多模型工作流
 * [awesome-ai-persona-skills](https://github.com/momozi1996/awesome-ai-persona-skills) - 面向多 Agent 使用场景的中文角色与人格 Skill 合集
+* [SoPilot](https://sopilot.net/) - 面向 X 等平台的在线营销工作台，用于发现热门创作者、内容和话题，并生成文案、视觉素材与短篇动态文字视频
 <!-- pingti-local-creator-tools:end -->
 
 * 🌐 **[Farside](https://farside.link/)** / [2](https://cf.farside.link/)、[Disroot](https://disroot.org/en/#services)、[⁠Radical Servers](https://help.riseup.net/en/security/resources/radical-servers)、[canine.tools](https://canine.tools/services/)、[4d2](https://4d2.org/)、[Vern](https://vern.cc/eng/services)、[⁠NerdVPN](https://nerdvpn.de/)、[⁠Privacy Redirect](https://privacyredirect.com/)、[⁠Nadeko](https://nadeko.net/) 或 [alternative-frontends](https://github.com/ParniDEO/alternative-front-ends-unofficial) - 前端索引

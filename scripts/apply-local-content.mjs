@@ -130,6 +130,16 @@ const sections = [
       '[选型指南：10 个 Agent 视频制作工具，渲染引擎、生产系统与专项 Skill 怎么选？](/posts/agent-video-production-tools-2026)'
   },
   {
+    targetFile: 'docs/video-tools.md',
+    entriesFile: 'local-content/projects.json',
+    collection: 'product-demo-video-tools',
+    id: 'product-demo-video-tools',
+    anchor: '<!-- pingti-local-specialized-video-workflows:start -->',
+    heading: '平替精选：产品演示录屏与后期工具',
+    article:
+      '[选型指南：6 款产品演示视频工具，录屏、自动缩放、浏览器剪辑与本地增强怎么选？](/posts/product-demo-video-tools-2026)'
+  },
+  {
     targetFile: 'docs/storage.md',
     entriesFile: 'local-content/projects.json',
     collection: 'icon-tools',

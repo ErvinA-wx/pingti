@@ -1109,5 +1109,82 @@
     "addedAt": "2026-09-27",
     "status": "active",
     "description": "持续更新的 Agent 视频工具导航，按框架、宣传片、讲解、剪辑、短视频、数字人、故事、动效等场景分类；2026 年 9 月核验时收录 180 个仓库"
+  },
+  {
+    "id": "openscreen",
+    "name": "OpenScreen",
+    "url": "https://github.com/getopenscreen/openscreen",
+    "aliases": ["https://getopenscreen.com/"],
+    "type": "GitHub",
+    "category": "视频工具",
+    "categoryHref": "/video-tools",
+    "collection": "product-demo-video-tools",
+    "addedAt": "2026-10-21",
+    "status": "active",
+    "description": "跨平台本地录屏与产品演示编辑器，提供自动缩放、字幕、标注、时间线和 MP4/GIF 导出"
+  },
+  {
+    "id": "sopilot",
+    "name": "SoPilot",
+    "url": "https://sopilot.net/",
+    "type": "网站",
+    "category": "社交媒体工具",
+    "categoryHref": "/social-media-tools",
+    "collection": "creator-tools",
+    "addedAt": "2026-10-21",
+    "status": "active",
+    "description": "面向 X 等平台的在线营销工作台，用于发现热门创作者、内容和话题，并生成文案、视觉素材与短篇动态文字视频"
+  },
+  {
+    "id": "flowtake",
+    "name": "Flowtake",
+    "url": "https://github.com/JNX03/Flowtake",
+    "aliases": ["https://jnx03.github.io/Flowtake/"],
+    "type": "GitHub",
+    "category": "视频工具",
+    "categoryHref": "/video-tools",
+    "collection": "product-demo-video-tools",
+    "addedAt": "2026-10-21",
+    "status": "active",
+    "description": "本地录屏与时间线编辑器，支持跟随光标自动缩放、点击效果、遮罩和 MP4/WebM 导出"
+  },
+  {
+    "id": "reframe",
+    "name": "Reframe",
+    "url": "https://reframe-lilac.vercel.app/",
+    "aliases": ["https://github.com/reframe-oss/reframe"],
+    "type": "网站",
+    "category": "视频工具",
+    "categoryHref": "/video-tools",
+    "collection": "product-demo-video-tools",
+    "addedAt": "2026-10-21",
+    "status": "active",
+    "description": "在浏览器本地使用 FFmpeg.wasm 完成裁剪、改比例、旋转、变速和导出的视频编辑器"
+  },
+  {
+    "id": "screenity",
+    "name": "Screenity",
+    "url": "https://screenity.io/",
+    "aliases": ["https://github.com/alyssaxuu/screenity"],
+    "type": "扩展",
+    "category": "视频工具",
+    "categoryHref": "/video-tools",
+    "collection": "product-demo-video-tools",
+    "addedAt": "2026-10-21",
+    "status": "active",
+    "description": "Chrome 录屏与标注扩展，支持区域、标签页、桌面和摄像头录制，以及缩放、敏感信息模糊与多格式导出"
+  },
+  {
+    "id": "nextgenup",
+    "name": "NextGenUp",
+    "url": "https://github.com/riponcm/nextgenUp",
+    "aliases": ["https://matily.org/nextgenup/"],
+    "type": "GitHub",
+    "category": "视频工具",
+    "categoryHref": "/video-tools",
+    "collection": "product-demo-video-tools",
+    "addedAt": "2026-10-21",
+    "status": "active",
+    "description": "在本机运行多种模型完成图像或视频放大、降噪、去模糊、去背景和音频处理的桌面工具"
   }
 ]
