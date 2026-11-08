@@ -26,6 +26,12 @@
 
 API 的 D1 绑定、邮件发送绑定和迁移配置位于 `wrangler.toml` 与 `api/migrations/`。Turnstile 密钥只保存为 GitHub Actions 和 Cloudflare Worker 密钥，不写入仓库。
 
+提交表单支持简体中文和 English（`?lang=en`），人工与获授权的 AI 代理使用相同字段和审核规则。新项目必选“平替”或“独创”；替代关系、独创自报、宣传及素材授权、共同支持情况仅保存在现有 D1 提交记录中，不自动写入公开项目数据库或生成页面。素材授权同时保存文案版本、原文和时间。
+
+`GET https://api.pingti.org/submissions` 提供同源校验定义导出的 JSON Schema、选项、条件规则及示例。前端完整展示全部业务字段，只有必填规则随提交类型改变。生产提交仍需有效 Turnstile 令牌；浏览器自动化可能需要人工完成验证。`POST` 校验失败返回具体字段；维护邮件标题展示项目名、平替对象或“独创待核”及宣传素材状态。
+
+业务回归检查：`node --test scripts/submissions.test.mjs`。
+
 ## 本地开发
 
 需要 Node.js 24 和仓库声明的 pnpm 版本。
