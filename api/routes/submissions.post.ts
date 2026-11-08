@@ -1,5 +1,12 @@
+import type { Submission } from '../../docs/.vitepress/types/Submission'
 import { EmailMessage } from 'cloudflare:email'
-import { SubmissionSchema } from '../../docs/.vitepress/types/Submission'
+import {
+  materialConsentText,
+  materialConsentVersion,
+  submissionLabels,
+  submissionOptions,
+  SubmissionSchema
+} from '../../docs/.vitepress/types/Submission'
 
 const ALLOWED_ORIGINS = new Set([
   'https://pingti.org',
@@ -46,17 +53,28 @@ function safeHeader(value: string): string {
   return value.replace(/[\r\n]/g, ' ').trim()
 }
 
-function describeSubmission(submission: any): string {
+function describeSubmission(submission: Submission): string {
   const hiddenKeys = new Set([
     'turnstileToken',
     'website',
     'startedAt',
     'idempotencyKey',
-    'declaration'
+    'declaration',
+    'kind'
   ])
   return Object.entries(submission)
     .filter(([key]) => !hiddenKeys.has(key))
-    .map(([key, value]) => `${key}: ${String(value ?? '')}`)
+    .map(([key, value]) => {
+      const label = submissionLabels[key]?.[0] || key
+      const option = submissionOptions[key]?.find(([id]) => id === value)?.[1]
+      const text =
+        typeof value === 'boolean'
+          ? value
+            ? '是'
+            : '否'
+          : option || String(value || '未填写')
+      return `${label}：${text}`
+    })
     .join('\n')
 }
 
@@ -82,7 +100,23 @@ export default defineEventHandler(async (event) => {
     throw createError({ statusCode: 403, statusMessage: 'Origin not allowed' })
   }
 
-  const submission = await readValidatedBody(event, SubmissionSchema.parseAsync)
+  const body = await readBody(event)
+  const parsed = SubmissionSchema.safeParse(body)
+  if (!parsed.success) {
+    setResponseStatus(event, 400)
+    return {
+      status: 'invalid',
+      errors: parsed.error.issues.map((issue) => ({
+        field: issue.path.join('.'),
+        label:
+          submissionLabels[String(issue.path[0])]?.[
+            body?.language === 'en' ? 1 : 0
+          ] || String(issue.path[0]),
+        message: issue.message
+      }))
+    }
+  }
+  const submission = parsed.data
 
   // A visually and semantically hidden honeypot. Bots receive a generic success
   // response, while no data is stored or emailed.
@@ -122,11 +156,32 @@ export default defineEventHandler(async (event) => {
     clientIP
   )
   if (!human) {
-    throw createError({ statusCode: 400, statusMessage: 'Human check failed' })
+    setResponseStatus(event, 400)
+    return {
+      status: 'invalid',
+      errors: [
+        {
+          field: 'turnstileToken',
+          message: 'Human verification expired. Please refresh verification.'
+        }
+      ]
+    }
   }
 
   const reference = makeReference(submission.kind)
   const createdAt = new Date().toISOString()
+  const { turnstileToken: _token, website: _honeypot, ...record } = submission
+  const payload = {
+    ...record,
+    ...(submission.kind === 'site' && submission.materialConsent
+      ? {
+          materialConsentVersion,
+          materialConsentText:
+            materialConsentText[submission.language === 'en' ? 1 : 0],
+          materialConsentAt: createdAt
+        }
+      : {})
+  }
   try {
     await env.SUBMISSIONS_DB.prepare(
       `INSERT INTO submissions
@@ -138,7 +193,7 @@ export default defineEventHandler(async (event) => {
         reference,
         submission.idempotencyKey,
         submission.kind,
-        JSON.stringify(submission),
+        JSON.stringify(payload),
         submission.contactEmail || null,
         (getHeader(event, 'user-agent') || '').slice(0, 500),
         createdAt
@@ -157,7 +212,37 @@ export default defineEventHandler(async (event) => {
   }
 
   const kindName = submission.kind === 'site' ? '网站信息' : '用户需求'
-  const subject = `[${reference}] 新的${kindName}提交`
+  const short = (value: string, max = 40) =>
+    safeHeader(value).replace(/\s+/g, ' ').slice(0, max)
+  const typeName =
+    submission.kind === 'site'
+      ? submission.submissionType === 'new'
+        ? submission.positioning === 'original'
+          ? '独创待核'
+          : '平替提报'
+        : submissionOptions.submissionType.find(
+            ([id]) => id === submission.submissionType
+          )?.[1] || '项目更新'
+      : '用户需求'
+  const title = submission.kind === 'site' ? submission.name : submission.title
+  const topic =
+    submission.kind === 'site'
+      ? submission.positioning === 'alternative' &&
+        submission.alternativeTargets
+        ? `${short(submission.alternativeTargets, 28)} 平替`
+        : short(submission.summary || submission.reason, 28)
+      : ''
+  const promotion =
+    submission.kind === 'site' && submission.promotionConsent
+      ? submission.materialConsent &&
+        (submission.promotionalText || submission.videoUrl)
+        ? '可宣传·有授权素材'
+        : '可宣传'
+      : ''
+  const subject =
+    [`【${typeName}】${short(title)}`, topic, promotion]
+      .filter(Boolean)
+      .join('｜') + ` [${reference.slice(-6)}]`
   const replyTo = submission.contactEmail
     ? `Reply-To: ${safeHeader(submission.contactEmail)}\r\n`
     : ''
@@ -171,6 +256,25 @@ export default defineEventHandler(async (event) => {
     `提交编号：${reference}`,
     `提交时间：${createdAt}`,
     `类型：${kindName}`,
+    `填写语言：${submission.language === 'en' ? 'English' : '简体中文'}`,
+    ...(submission.kind === 'site'
+      ? [
+          `项目：${safeHeader(submission.name)}`,
+          `官网：${submission.url}`,
+          `定位：${submission.positioning === 'original' ? '独创（站长自报，重点复核）' : submission.positioning === 'alternative' ? '平替项目' : '已有项目反馈'}`,
+          `平替对象：${submission.alternativeTargets || '未填写'}`,
+          `社媒宣传许可：${submission.promotionConsent ? '同意' : '未授权'}`,
+          `素材使用及合理修订：${submission.materialConsent ? '同意' : '未授权，素材仅供内部审核'}`,
+          `素材情况：${submission.promotionalText || submission.videoUrl ? '有资料' : '未提供'}`,
+          ...(submission.materialConsent
+            ? [
+                `授权版本：${materialConsentVersion}`,
+                `授权时间：${createdAt}`,
+                `授权文案：${materialConsentText[submission.language === 'en' ? 1 : 0]}`
+              ]
+            : [])
+        ]
+      : []),
     '',
     describeSubmission(submission)
   ].join('\r\n')

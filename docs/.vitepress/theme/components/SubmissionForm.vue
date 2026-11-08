@@ -1,28 +1,51 @@
 <script setup lang="ts">
-import { nextTick, onBeforeUnmount, onMounted, reactive, ref } from 'vue'
+import {
+  computed,
+  nextTick,
+  onBeforeUnmount,
+  onMounted,
+  reactive,
+  ref
+} from 'vue'
+import {
+  materialConsentText,
+  submissionLabels,
+  submissionOptions,
+  SubmissionSchema
+} from '../../types/Submission'
 
 const props = defineProps<{ kind: 'site' | 'request' }>()
-const kind = props.kind
-
-const API_URL = 'https://api.pingti.org/submissions'
-const PRODUCTION_SITE_KEY = '0x4AAAAAAD4x5rqgwGKvCqKa'
-const TEST_SITE_KEY = '1x00000000000000000000AA'
-
+const language = ref<'zh' | 'en'>('zh')
+const tr = (zh: string, en: string) => (language.value === 'en' ? en : zh)
+const title = computed(() =>
+  props.kind === 'site'
+    ? tr('网站信息提交', 'Submit a project')
+    : tr('用户需求提交', 'Submit a request')
+)
 const form = reactive({
   kind: props.kind,
+  language: 'zh',
   submissionType: 'new',
   name: '',
   url: '',
   category: '',
+  positioning: '',
+  alternativeTargets: '',
   languages: '',
-  pricing: 'free',
-  registration: 'no',
+  pricing: '',
+  registration: '',
   summary: '',
   details: '',
   reason: '',
   limitations: '',
   references: '',
   relationship: 'user',
+  promotionConsent: false,
+  promotionalText: '',
+  videoUrl: '',
+  materialConsent: false,
+  supportStatus: '',
+  supportLinks: '',
   requestType: 'find-tool',
   title: '',
   problem: '',
@@ -43,13 +66,196 @@ const form = reactive({
   startedAt: 0,
   idempotencyKey: ''
 })
-
+type Field = {
+  key: keyof typeof form
+  type?: string
+  required?: boolean
+  max?: number
+  min?: number
+  hint?: string
+}
+const groups = computed<{ title: string; fields: Field[] }[]>(() => {
+  const isNew = form.submissionType === 'new'
+  const siteGroups: { title: string; fields: Field[] }[] = [
+    {
+      title: tr('项目信息', 'Project information'),
+      fields: [
+        { key: 'submissionType', required: true },
+        { key: 'name', required: true, max: 120 },
+        { key: 'url', type: 'url', required: true, max: 2048 },
+        {
+          key: 'relationship',
+          required: true,
+          hint: tr(
+            '普通用户可以推荐项目；宣传及素材授权仅由站长、开发者或获授权人员确认。',
+            'Anyone may recommend a project. Only its owner, developer, or an authorized representative may grant promotional or material permissions.'
+          )
+        },
+        { key: 'category', required: isNew, max: 120 },
+        { key: 'languages', max: 300 },
+        { key: 'pricing', required: isNew },
+        { key: 'registration', required: isNew }
+      ]
+    },
+    {
+      title: tr('平替价值／独创点', 'Alternative value / original idea'),
+      fields: [
+        {
+          key: 'positioning',
+          type: 'radio',
+          required: isNew,
+          hint: tr(
+            '新项目必须选择。独创为提报者自报，进入重点复核，不代表本站已认证。已有项目反馈可以留空。',
+            'Required for new projects. Originality is self-declared and highlighted for review, not certified by pingti.org. Existing-project feedback may leave this blank.'
+          )
+        },
+        {
+          key: 'alternativeTargets',
+          required: isNew && form.positioning === 'alternative',
+          max: 300,
+          hint: tr(
+            '选择平替时填写具体产品名称，例如 Notion、Canva；多个名称用逗号分隔。独创项目可留空。',
+            'For an alternative project, name specific products, such as Notion or Canva. Separate multiple names with commas. An original project may leave this blank.'
+          )
+        },
+        {
+          key: 'summary',
+          required: isNew,
+          min: isNew ? 10 : undefined,
+          max: 240
+        },
+        {
+          key: 'reason',
+          type: 'textarea',
+          required: true,
+          min: 10,
+          max: 2000,
+          hint: tr(
+            '说明替代哪些功能、独创点和使用场景，或需要更新／纠正的问题。至少 10 个字符。',
+            'Describe replaced features, the original idea and use case, or the requested correction. At least 10 characters.'
+          )
+        },
+        { key: 'details', type: 'textarea', max: 3000 },
+        { key: 'limitations', type: 'textarea', max: 3000 },
+        { key: 'references', type: 'textarea', max: 3000 }
+      ]
+    },
+    {
+      title: tr(
+        '社媒宣传与素材（自愿）',
+        'Social promotion and materials (optional)'
+      ),
+      fields: [
+        {
+          key: 'promotionConsent',
+          type: 'checkbox',
+          hint: tr(
+            '不同意也可正常提报；同意不保证收录或发布宣传。所有字段始终可见。',
+            'Permission is optional and does not guarantee listing or promotion. All fields remain visible.'
+          )
+        },
+        { key: 'promotionalText', type: 'textarea', max: 3000 },
+        {
+          key: 'videoUrl',
+          type: 'url',
+          max: 2048,
+          hint: tr(
+            '提供无需登录即可下载的 HTTP(S) 视频链接。文字和视频任选一种，也可以均不提供。',
+            'Provide an HTTP(S) video link downloadable without signing in. Text or video is sufficient; both may be left blank.'
+          )
+        },
+        {
+          key: 'materialConsent',
+          type: 'checkbox',
+          hint: tr(...materialConsentText)
+        }
+      ]
+    },
+    {
+      title: tr('共同支持（选填）', 'Community support (optional)'),
+      fields: [
+        {
+          key: 'supportStatus',
+          hint: tr(
+            'pingti.org 是新建立的免费工具与平替资源导航。欢迎通过网站或社交媒体分享，一起建设和支持。是否支持不影响收录审核。',
+            'pingti.org is a new, free directory of tools and alternatives. Sharing it on a website or social media supports the community. Sharing is not a condition of listing.'
+          )
+        },
+        { key: 'supportLinks', type: 'textarea', max: 3000 }
+      ]
+    }
+  ]
+  const requestGroups: { title: string; fields: Field[] }[] = [
+    {
+      title: tr('需求概述', 'Request overview'),
+      fields: [
+        { key: 'requestType', required: true },
+        { key: 'title', required: true, min: 4, max: 140 },
+        {
+          key: 'problem',
+          type: 'textarea',
+          required: true,
+          min: 20,
+          max: 3000
+        },
+        {
+          key: 'desiredOutcome',
+          type: 'textarea',
+          required: true,
+          min: 10,
+          max: 2000
+        },
+        { key: 'scenario', required: true }
+      ]
+    },
+    {
+      title: tr('条件与背景', 'Requirements and context'),
+      fields: [
+        { key: 'currentMethod', type: 'textarea', max: 3000 },
+        { key: 'currentIssues', type: 'textarea', max: 3000 },
+        { key: 'platform', max: 300 },
+        { key: 'regionLanguage', max: 300 },
+        { key: 'pricePreference', required: true },
+        { key: 'openSource', required: true },
+        { key: 'impact', required: true },
+        { key: 'references', type: 'textarea', max: 3000 }
+      ]
+    }
+  ]
+  return [
+    ...(props.kind === 'site' ? siteGroups : requestGroups),
+    {
+      title: tr('联系方式', 'Contact information'),
+      fields: [
+        {
+          key: 'contactEmail',
+          type: 'email',
+          required: props.kind === 'site',
+          max: 254,
+          hint: tr(
+            '仅用于审核及补充确认，不公开显示。网站提报必填；用户需求选填。',
+            'Used only for review and follow-up, never displayed publicly. Required for projects; optional for requests.'
+          )
+        },
+        {
+          key: 'allowContact',
+          type: 'checkbox',
+          required: props.kind === 'site'
+        }
+      ]
+    }
+  ]
+})
+const fieldLabel = (key: string) =>
+  submissionLabels[key]?.[language.value === 'en' ? 1 : 0] || key
 const formElement = ref<HTMLFormElement>()
 const turnstileElement = ref<HTMLElement>()
 const errorSummary = ref<HTMLElement>()
 const submitting = ref(false)
 const errorMessage = ref('')
+const fieldErrors = ref<{ field: string; message: string }[]>([])
 const successReference = ref('')
+const verificationError = ref(false)
 let widgetId: string | undefined
 
 declare global {
@@ -61,45 +267,40 @@ declare global {
     }
   }
 }
-
 function loadTurnstile(): Promise<void> {
   if (window.turnstile) return Promise.resolve()
   return new Promise((resolve, reject) => {
-    const existing = document.querySelector<HTMLScriptElement>(
-      'script[data-pingti-turnstile]'
-    )
-    if (existing) {
-      existing.addEventListener('load', () => resolve(), { once: true })
-      existing.addEventListener('error', () => reject(), { once: true })
-      return
-    }
+    // Remove a previously failed script so retry really loads it again.
+    document.querySelector('script[data-pingti-turnstile]')?.remove()
     const script = document.createElement('script')
     script.src =
       'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit'
     script.async = true
-    script.defer = true
     script.dataset.pingtiTurnstile = 'true'
     script.onload = () => resolve()
     script.onerror = () => reject(new Error('Turnstile failed to load'))
     document.head.appendChild(script)
   })
 }
-
 async function renderTurnstile() {
-  errorMessage.value = ''
+  verificationError.value = false
   try {
     await loadTurnstile()
     await nextTick()
-    if (!turnstileElement.value || !window.turnstile || widgetId) return
+    if (!turnstileElement.value || !window.turnstile) return
+    if (widgetId) window.turnstile.remove(widgetId)
+    widgetId = undefined
+    form.turnstileToken = ''
     const isLocal = ['localhost', '127.0.0.1'].includes(
       window.location.hostname
     )
-    const sitekey = isLocal ? TEST_SITE_KEY : PRODUCTION_SITE_KEY
     widgetId = window.turnstile.render(turnstileElement.value, {
-      sitekey,
+      sitekey: isLocal
+        ? '1x00000000000000000000AA'
+        : '0x4AAAAAAD4x5rqgwGKvCqKa',
       theme: 'auto',
       size: 'flexible',
-      language: 'zh-cn',
+      language: language.value === 'en' ? 'en' : 'zh-cn',
       callback: (token: string) => {
         form.turnstileToken = token
       },
@@ -108,105 +309,239 @@ async function renderTurnstile() {
       },
       'error-callback': () => {
         form.turnstileToken = ''
-        errorMessage.value = '真人验证加载失败，请重新加载验证。'
+        verificationError.value = true
       }
     })
   } catch {
-    errorMessage.value = '真人验证加载失败，请检查网络后重新加载。'
+    verificationError.value = true
   }
 }
-
-function newAttempt() {
-  form.startedAt = Date.now()
-  form.idempotencyKey = crypto.randomUUID()
-  form.turnstileToken = ''
-}
-
-function resetTurnstile() {
-  form.turnstileToken = ''
-  window.turnstile?.reset(widgetId)
-}
-
-async function submit() {
+async function setLanguage(value: 'zh' | 'en') {
+  language.value = value
+  form.language = value
   errorMessage.value = ''
-  if (!formElement.value?.reportValidity()) {
-    errorMessage.value = '请检查标有错误或尚未填写的必填项目。'
-  } else if (!form.turnstileToken) {
-    errorMessage.value = '请先完成人机验证。'
+  fieldErrors.value = []
+  const url = new URL(window.location.href)
+  url.searchParams.set('lang', value)
+  window.history.replaceState(window.history.state, '', url)
+  document.title = `${title.value} • Pingti`
+  await renderTurnstile()
+}
+function issueText(field: string, message: string) {
+  const name = fieldLabel(field)
+  if (language.value === 'en') return `${name}: ${message}`
+  if (field === 'turnstileToken')
+    return '真人验证尚未完成或已经过期，请重新验证。'
+  if (field === 'relationship')
+    return '宣传或素材授权需由站长、开发者或获授权人员确认，请检查与项目的关系。'
+  if (field === 'promotionConsent')
+    return '授权使用素材前，请先明确允许社媒宣传。'
+  if (field === 'promotionalText' && form.materialConsent)
+    return '已授权使用素材，请提供宣传文案或可下载的视频链接。'
+  if (field === 'videoUrl' || field === 'url')
+    return `${name}：请填写有效的 HTTP(S) 地址。`
+  const config = groups.value
+    .flatMap((group) => group.fields)
+    .find((item) => item.key === field)
+  if (config?.min)
+    return `${name}：请至少填写 ${config.min} 个字符，最多 ${config.max} 个字符。`
+  if (config?.max)
+    return `${name}：请检查是否填写，长度不超过 ${config.max} 个字符。`
+  return `${name}：请填写或选择有效内容。`
+}
+async function submit() {
+  if (submitting.value) return
+  errorMessage.value = ''
+  fieldErrors.value = []
+  const parsed = SubmissionSchema.safeParse(form)
+  if (!parsed.success) {
+    fieldErrors.value = parsed.error.issues.map((issue) => ({
+      field: String(issue.path[0]),
+      message: issueText(String(issue.path[0]), issue.message)
+    }))
   }
-
-  if (errorMessage.value) {
+  if (!formElement.value?.checkValidity() && !fieldErrors.value.length) {
+    formElement.value?.reportValidity()
+    return
+  }
+  if (fieldErrors.value.length) {
+    errorMessage.value = tr(
+      '请修正以下项目，已填写内容会保留。',
+      'Please correct the following fields. Entered information is preserved.'
+    )
     await nextTick()
     errorSummary.value?.focus()
     return
   }
-
   submitting.value = true
   try {
-    const response = await fetch(API_URL, {
+    const response = await fetch('https://api.pingti.org/submissions', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(form)
+      body: JSON.stringify(form),
+      signal: AbortSignal.timeout(30000)
     })
     const result = (await response.json().catch(() => ({}))) as {
       reference?: string
+      errors?: { field: string; message: string }[]
     }
     if (!response.ok || !result.reference) {
-      if (response.status === 429) {
-        throw new Error('提交次数过多，请稍后再试。')
-      }
-      if (response.status === 400) {
-        throw new Error('验证已失效或填写内容不完整，请重新验证后再试。')
-      }
-      throw new Error('提交服务暂时不可用，已填写内容仍会保留。')
+      fieldErrors.value = (result.errors || []).map((issue) => ({
+        field: issue.field,
+        message: issueText(issue.field, issue.message)
+      }))
+      if (response.status === 429)
+        throw new Error(
+          tr(
+            '提交次数过多，请稍后再试。',
+            'Too many submissions. Please try again later.'
+          )
+        )
+      throw new Error(
+        fieldErrors.value.length
+          ? tr(
+              '请修正以下项目后重试。',
+              'Please correct the following fields and retry.'
+            )
+          : tr(
+              '提交暂未成功，请重试；已填写内容仍保留在本页。',
+              'Submission could not be confirmed. Please retry; entered information remains on this page.'
+            )
+      )
     }
     successReference.value = result.reference
   } catch (error) {
     errorMessage.value =
-      error instanceof Error ? error.message : '提交失败，请稍后再试。'
-    resetTurnstile()
+      error instanceof Error
+        ? error.message
+        : tr('提交失败，请重试。', 'Submission failed. Please retry.')
+    form.turnstileToken = ''
+    window.turnstile?.reset(widgetId)
     await nextTick()
     errorSummary.value?.focus()
   } finally {
     submitting.value = false
   }
 }
-
 function submitAnother() {
   window.location.reload()
 }
-
 onMounted(() => {
-  newAttempt()
+  form.startedAt = Date.now()
+  form.idempotencyKey = crypto.randomUUID()
+  if (new URLSearchParams(window.location.search).get('lang') === 'en') {
+    language.value = 'en'
+    form.language = 'en'
+  }
+  document.title = `${title.value} • Pingti`
   renderTurnstile()
 })
-
 onBeforeUnmount(() => {
   if (widgetId) window.turnstile?.remove(widgetId)
 })
 </script>
 
 <template>
-  <div class="submission-shell">
+  <div class="submission-shell" :lang="language === 'en' ? 'en' : 'zh-CN'">
+    <div class="form-languages" aria-label="Form language / 表单语言">
+      <button
+        type="button"
+        :aria-pressed="language === 'zh'"
+        @click="setLanguage('zh')"
+      >
+        简体中文
+      </button>
+      <button
+        type="button"
+        :aria-pressed="language === 'en'"
+        @click="setLanguage('en')"
+      >
+        English
+      </button>
+    </div>
+    <h1>{{ title }}</h1>
+    <p>
+      {{
+        tr(
+          '欢迎人工或 AI 代理代填。信息先进入审核队列，不会自动发布。带 * 的字段为必填，其余可留空。',
+          'People and AI agents are welcome to submit. Information enters a review queue and is not published automatically. Fields marked * are required; other fields may be left blank.'
+        )
+      }}
+    </p>
+    <nav
+      class="submission-nav"
+      :aria-label="tr('提交入口', 'Submission pages')"
+    >
+      <a :href="`/submit/site?lang=${language}`">
+        {{ tr('提交网站信息', 'Submit a project') }}
+      </a>
+      <a :href="`/submit/request?lang=${language}`">
+        {{ tr('提交用户需求', 'Submit a request') }}
+      </a>
+      <a href="/submit/">{{ tr('提交说明', 'Submission guide') }}</a>
+    </nav>
     <div v-if="successReference" class="submission-success" aria-live="polite">
-      <div class="success-icon" aria-hidden="true">✓</div>
-      <h2>提交成功</h2>
+      <h2>{{ tr('提交成功', 'Submission received') }}</h2>
       <p>
-        提交编号：
+        {{ tr('提交编号', 'Reference') }}：
         <strong>{{ successReference }}</strong>
       </p>
       <p>
-        内容已经安全保存并进入审核队列。如需补充信息，请在邮件中注明该编号。
+        {{
+          tr(
+            '内容已安全保存并进入审核队列。如需补充信息，请在邮件中注明该编号。',
+            'Information has been saved for review. Quote this reference when emailing additional information.'
+          )
+        }}
       </p>
       <div class="success-actions">
         <button type="button" class="button primary" @click="submitAnother">
-          再提交一条
+          {{ tr('再提交一条', 'Submit another') }}
         </button>
-        <a class="button secondary" href="/">返回首页</a>
+        <a class="button secondary" href="/">
+          {{ tr('返回首页', 'Back to home') }}
+        </a>
       </div>
     </div>
-
     <form v-else ref="formElement" novalidate @submit.prevent="submit">
+      <aside class="submission-instructions" aria-labelledby="ai-instructions">
+        <h2 id="ai-instructions">
+          {{
+            tr(
+              '填写说明（人工与 AI 通用）',
+              'Instructions for people and AI agents'
+            )
+          }}
+        </h2>
+        <p>
+          {{
+            tr(
+              '全部业务字段直接展示，无需点击展开。新项目必选平替或独创；选择平替须填写具体对象，独创可留空。不会因 AI 代填而降低审核评价。',
+              'All business fields are visible without expanding sections. New projects must choose Alternative or Original. Alternatives require specific target names; original projects may leave targets blank. AI-assisted submissions receive the same review standards.'
+            )
+          }}
+        </p>
+        <p>
+          {{
+            tr(
+              '不清楚的信息请选择“不清楚”或留空，不要编造。只有委托方明确许可时才能勾选宣传和素材授权。未授权素材仅供内部审核。真人验证可能需要人工协助。',
+              'Choose Unknown or leave optional information blank rather than inventing facts. Grant promotional and material permissions only when explicitly authorized by the principal. Unlicensed materials are for internal review only. Verification may require human assistance.'
+            )
+          }}
+        </p>
+        <a
+          href="https://api.pingti.org/submissions"
+          target="_blank"
+          rel="noopener"
+        >
+          {{
+            tr(
+              '查看机器可读字段规范与示例（JSON）',
+              'Machine-readable field specification and examples (JSON)'
+            )
+          }}
+        </a>
+      </aside>
       <div
         v-if="errorMessage"
         ref="errorSummary"
@@ -214,389 +549,147 @@ onBeforeUnmount(() => {
         role="alert"
         tabindex="-1"
       >
-        <strong>暂时无法提交</strong>
-        <span>{{ errorMessage }}</span>
+        <strong>{{ errorMessage }}</strong>
+        <ul v-if="fieldErrors.length">
+          <li v-for="(error, index) in fieldErrors" :key="index">
+            <a
+              :href="`#${error.field === 'turnstileToken' ? 'verification' : error.field}`"
+            >
+              {{ error.message }}
+            </a>
+          </li>
+        </ul>
       </div>
-
-      <fieldset v-if="kind === 'site'" class="form-card">
-        <legend>1. 提交类型与网站信息</legend>
-        <div class="field">
-          <label for="submission-type">
-            提交类型
-            <span>*</span>
+      <fieldset v-for="group in groups" :key="group.title" class="form-card">
+        <legend>{{ group.title }}</legend>
+        <div v-for="field in group.fields" :key="field.key" class="field">
+          <label
+            v-if="field.type === 'checkbox'"
+            class="check-row"
+            :for="field.key"
+          >
+            <input
+              :id="field.key"
+              v-model="form[field.key]"
+              :name="field.key"
+              type="checkbox"
+              :required="field.required"
+              :aria-describedby="`${field.key}-hint`"
+            />
+            <span>
+              {{ fieldLabel(field.key) }}
+              <b v-if="field.required">*</b>
+            </span>
           </label>
-          <select id="submission-type" v-model="form.submissionType" required>
-            <option value="new">推荐新网站</option>
-            <option value="update">更新已有信息</option>
-            <option value="broken">报告链接失效</option>
-            <option value="security">报告安全问题</option>
-            <option value="remove">申请移除</option>
-          </select>
-        </div>
-        <div class="field-grid">
-          <div class="field">
-            <label for="site-name">
-              网站名称
-              <span>*</span>
+          <template v-else-if="field.type === 'radio'">
+            <span :id="`${field.key}-label`" class="field-label">
+              {{ fieldLabel(field.key) }}
+              <b v-if="field.required">*</b>
+            </span>
+            <div
+              :id="field.key"
+              class="position-options"
+              role="radiogroup"
+              :aria-labelledby="`${field.key}-label`"
+              :aria-describedby="`${field.key}-hint`"
+            >
+              <label
+                v-for="option in submissionOptions[field.key]"
+                :key="option[0]"
+                class="check-row position-option"
+              >
+                <input
+                  v-model="form[field.key]"
+                  :name="field.key"
+                  type="radio"
+                  :value="option[0]"
+                  :required="field.required"
+                />
+                <span>{{ option[language === 'en' ? 2 : 1] }}</span>
+              </label>
+            </div>
+          </template>
+          <template v-else>
+            <label :for="field.key">
+              {{ fieldLabel(field.key) }}
+              <span v-if="field.required">*</span>
             </label>
-            <input
-              id="site-name"
-              v-model.trim="form.name"
-              required
-              maxlength="120"
-            />
-          </div>
-          <div class="field">
-            <label for="site-category">
-              推荐分类
-              <span>*</span>
-            </label>
-            <input
-              id="site-category"
-              v-model.trim="form.category"
-              required
-              maxlength="120"
-              placeholder="例如：人工智能 / 图像工具"
-            />
-          </div>
-        </div>
-        <div class="field">
-          <label for="site-url">
-            网站地址
-            <span>*</span>
-          </label>
-          <input
-            id="site-url"
-            v-model.trim="form.url"
-            type="url"
-            required
-            maxlength="2048"
-            placeholder="https://example.com"
-          />
-        </div>
-        <div class="field-grid three">
-          <div class="field">
-            <label for="site-languages">语言或地区</label>
-            <input
-              id="site-languages"
-              v-model.trim="form.languages"
-              maxlength="300"
-              placeholder="简体中文 / 全球"
-            />
-          </div>
-          <div class="field">
-            <label for="site-pricing">
-              收费情况
-              <span>*</span>
-            </label>
-            <select id="site-pricing" v-model="form.pricing" required>
-              <option value="free">免费</option>
-              <option value="freemium">部分免费</option>
-              <option value="paid">付费</option>
-              <option value="unknown">不清楚</option>
+            <select
+              v-if="submissionOptions[field.key]"
+              :id="field.key"
+              v-model="form[field.key]"
+              :name="field.key"
+              :required="field.required"
+              :aria-describedby="`${field.key}-hint`"
+            >
+              <option value="">{{ tr('请选择', 'Please select') }}</option>
+              <option
+                v-for="option in submissionOptions[field.key]"
+                :key="option[0]"
+                :value="option[0]"
+              >
+                {{ option[language === 'en' ? 2 : 1] }}
+              </option>
             </select>
-          </div>
-          <div class="field">
-            <label for="site-registration">
-              需要注册
-              <span>*</span>
-            </label>
-            <select id="site-registration" v-model="form.registration" required>
-              <option value="no">否</option>
-              <option value="yes">是</option>
-              <option value="unknown">不清楚</option>
-            </select>
-          </div>
+            <textarea
+              v-else-if="field.type === 'textarea'"
+              :id="field.key"
+              v-model.trim="form[field.key]"
+              :name="field.key"
+              :required="field.required"
+              :minlength="field.min"
+              :maxlength="field.max"
+              rows="4"
+              :aria-describedby="`${field.key}-hint`"
+            ></textarea>
+            <input
+              v-else
+              :id="field.key"
+              v-model.trim="form[field.key]"
+              :name="field.key"
+              :type="field.type || 'text'"
+              :required="field.required"
+              :minlength="field.min"
+              :maxlength="field.max"
+              :autocomplete="field.key === 'contactEmail' ? 'email' : undefined"
+              :aria-describedby="`${field.key}-hint`"
+            />
+          </template>
+          <small :id="`${field.key}-hint`">
+            {{
+              field.hint ||
+              (field.max
+                ? tr(
+                    `最多 ${field.max} 个字符。`,
+                    `Up to ${field.max} characters.`
+                  )
+                : '')
+            }}
+          </small>
         </div>
       </fieldset>
-
-      <fieldset v-if="kind === 'site'" class="form-card">
-        <legend>2. 介绍与审核依据</legend>
-        <div class="field">
-          <label for="site-summary">
-            一句话介绍
-            <span>*</span>
-          </label>
+      <fieldset id="verification" class="form-card verification-card">
+        <legend>{{ tr('验证与提交', 'Verification and submission') }}</legend>
+        <label class="check-row required-check" for="declaration">
           <input
-            id="site-summary"
-            v-model.trim="form.summary"
-            required
-            minlength="10"
-            maxlength="240"
-          />
-          <small>请具体说明网站能解决什么问题，10–240 字。</small>
-        </div>
-        <div class="field">
-          <label for="site-details">
-            详细介绍
-            <span>*</span>
-          </label>
-          <textarea
-            id="site-details"
-            v-model.trim="form.details"
-            required
-            minlength="20"
-            maxlength="3000"
-            rows="6"
-          ></textarea>
-        </div>
-        <div class="field">
-          <label for="site-reason">
-            提交理由或需要修改的内容
-            <span>*</span>
-          </label>
-          <textarea
-            id="site-reason"
-            v-model.trim="form.reason"
-            required
-            minlength="10"
-            maxlength="2000"
-            rows="4"
-          ></textarea>
-        </div>
-        <div class="field">
-          <label for="site-limitations">已知限制或风险</label>
-          <textarea
-            id="site-limitations"
-            v-model.trim="form.limitations"
-            maxlength="3000"
-            rows="3"
-            placeholder="例如：仅限部分地区、有广告、需注意隐私设置"
-          ></textarea>
-        </div>
-        <div class="field">
-          <label for="site-references">参考链接或截图链接</label>
-          <textarea
-            id="site-references"
-            v-model.trim="form.references"
-            maxlength="3000"
-            rows="3"
-            placeholder="每行一个链接"
-          ></textarea>
-        </div>
-      </fieldset>
-
-      <fieldset v-if="kind === 'request'" class="form-card">
-        <legend>1. 需求概述</legend>
-        <div class="field">
-          <label for="request-type">
-            需求类型
-            <span>*</span>
-          </label>
-          <select id="request-type" v-model="form.requestType" required>
-            <option value="find-tool">寻找网站或工具</option>
-            <option value="new-category">请求新增分类</option>
-            <option value="feature">网站功能建议</option>
-            <option value="correction">内容纠错</option>
-            <option value="accessibility">无障碍需求</option>
-            <option value="other">其他</option>
-          </select>
-        </div>
-        <div class="field">
-          <label for="request-title">
-            需求标题
-            <span>*</span>
-          </label>
-          <input
-            id="request-title"
-            v-model.trim="form.title"
-            required
-            minlength="4"
-            maxlength="140"
-          />
-        </div>
-        <div class="field">
-          <label for="request-problem">
-            想解决的问题
-            <span>*</span>
-          </label>
-          <textarea
-            id="request-problem"
-            v-model.trim="form.problem"
-            required
-            minlength="20"
-            maxlength="3000"
-            rows="6"
-          ></textarea>
-        </div>
-        <div class="field">
-          <label for="request-outcome">
-            期望结果
-            <span>*</span>
-          </label>
-          <textarea
-            id="request-outcome"
-            v-model.trim="form.desiredOutcome"
-            required
-            minlength="10"
-            maxlength="2000"
-            rows="4"
-          ></textarea>
-        </div>
-        <div class="field">
-          <label for="request-scenario">
-            使用场景
-            <span>*</span>
-          </label>
-          <select id="request-scenario" v-model="form.scenario" required>
-            <option value="personal">个人</option>
-            <option value="study">学习</option>
-            <option value="work">工作</option>
-            <option value="development">开发</option>
-            <option value="other">其他</option>
-          </select>
-        </div>
-      </fieldset>
-
-      <fieldset v-if="kind === 'request'" class="form-card">
-        <legend>2. 条件与背景</legend>
-        <div class="field">
-          <label for="current-method">当前使用的方法或工具</label>
-          <textarea
-            id="current-method"
-            v-model.trim="form.currentMethod"
-            maxlength="3000"
-            rows="3"
-          ></textarea>
-        </div>
-        <div class="field">
-          <label for="current-issues">现有方案为什么不合适</label>
-          <textarea
-            id="current-issues"
-            v-model.trim="form.currentIssues"
-            maxlength="3000"
-            rows="3"
-          ></textarea>
-        </div>
-        <div class="field-grid">
-          <div class="field">
-            <label for="request-platform">平台或设备</label>
-            <input
-              id="request-platform"
-              v-model.trim="form.platform"
-              maxlength="300"
-              placeholder="Windows / Android / 浏览器"
-            />
-          </div>
-          <div class="field">
-            <label for="request-region">地区或语言</label>
-            <input
-              id="request-region"
-              v-model.trim="form.regionLanguage"
-              maxlength="300"
-              placeholder="中国大陆 / 简体中文"
-            />
-          </div>
-        </div>
-        <div class="field-grid three">
-          <div class="field">
-            <label for="request-price">
-              价格偏好
-              <span>*</span>
-            </label>
-            <select id="request-price" v-model="form.pricePreference" required>
-              <option value="free">必须免费</option>
-              <option value="freemium">可接受部分付费</option>
-              <option value="any">均可</option>
-            </select>
-          </div>
-          <div class="field">
-            <label for="request-open-source">
-              开源要求
-              <span>*</span>
-            </label>
-            <select id="request-open-source" v-model="form.openSource" required>
-              <option value="not-required">不要求</option>
-              <option value="preferred">优先开源</option>
-              <option value="required">必须开源</option>
-            </select>
-          </div>
-          <div class="field">
-            <label for="request-impact">
-              影响程度
-              <span>*</span>
-            </label>
-            <select id="request-impact" v-model="form.impact" required>
-              <option value="minor">一般不便</option>
-              <option value="major">明显影响</option>
-              <option value="blocked">目前无法完成</option>
-            </select>
-          </div>
-        </div>
-        <div class="field">
-          <label for="request-references">参考产品或页面链接</label>
-          <textarea
-            id="request-references"
-            v-model.trim="form.references"
-            maxlength="3000"
-            rows="3"
-            placeholder="每行一个链接"
-          ></textarea>
-        </div>
-      </fieldset>
-
-      <fieldset class="form-card">
-        <legend>3. 联系方式</legend>
-        <div v-if="kind === 'site'" class="field">
-          <label for="site-relationship">
-            与网站的关系
-            <span>*</span>
-          </label>
-          <select id="site-relationship" v-model="form.relationship" required>
-            <option value="user">普通用户</option>
-            <option value="owner">站长或开发者</option>
-            <option value="promoter">推广人员</option>
-            <option value="other">其他</option>
-          </select>
-          <small>利益关系不会导致自动拒绝，但请如实说明。</small>
-        </div>
-        <div class="field">
-          <label for="contact-email">
-            {{ kind === 'site' ? '联系邮箱' : '联系邮箱（选填）' }}
-            <span v-if="kind === 'site'">*</span>
-          </label>
-          <input
-            id="contact-email"
-            v-model.trim="form.contactEmail"
-            type="email"
-            maxlength="254"
-            autocomplete="email"
-            placeholder="name@example.com"
-            :required="kind === 'site'"
-            :aria-required="kind === 'site'"
-          />
-          <small>仅在需要补充确认时使用，不会公开显示。</small>
-        </div>
-        <label class="check-row">
-          <input
-            v-model="form.allowContact"
+            id="declaration"
+            v-model="form.declaration"
+            name="declaration"
             type="checkbox"
-            :required="kind === 'site'"
-            :aria-required="kind === 'site'"
+            required
           />
           <span>
             {{
-              kind === 'request'
-                ? '愿意接受后续联系或协助测试（选填）'
-                : '允许工作人员联系确认信息'
+              tr(
+                '我确认信息真实，且没有提交密码或个人敏感信息。',
+                'I confirm that the information is accurate and contains no passwords or sensitive personal data.'
+              )
             }}
-            <b v-if="kind === 'site'">*</b>
-          </span>
-        </label>
-      </fieldset>
-
-      <fieldset class="form-card verification-card">
-        <legend>4. 验证与提交</legend>
-        <label class="check-row required-check">
-          <input v-model="form.declaration" type="checkbox" required />
-          <span>
-            我确认信息真实，且没有提交密码或个人敏感信息。
             <b>*</b>
           </span>
         </label>
-
         <div class="hp-field" aria-hidden="true">
-          <label for="company-website">请勿填写此项</label>
+          <label for="company-website">Leave empty</label>
           <input
             id="company-website"
             v-model="form.website"
@@ -604,26 +697,30 @@ onBeforeUnmount(() => {
             autocomplete="off"
           />
         </div>
-
         <div class="turnstile-wrap">
-          <div ref="turnstileElement" aria-label="真人验证"></div>
-          <button
-            v-if="errorMessage.includes('验证加载失败')"
-            type="button"
-            class="text-button"
-            @click="renderTurnstile"
-          >
-            重新加载验证
+          <div
+            ref="turnstileElement"
+            :aria-label="tr('真人验证', 'Human verification')"
+          ></div>
+          <p v-if="verificationError" role="alert">
+            {{
+              tr(
+                '验证加载失败，请检查网络并重新加载。',
+                'Verification could not load. Check the connection and reload verification.'
+              )
+            }}
+          </p>
+          <button type="button" class="text-button" @click="renderTurnstile">
+            {{ tr('重新加载验证', 'Reload verification') }}
           </button>
         </div>
-
         <button class="submit-button" type="submit" :disabled="submitting">
           {{
             submitting
-              ? '正在提交…'
-              : kind === 'site'
-                ? '提交网站信息'
-                : '提交用户需求'
+              ? tr('正在提交…', 'Submitting…')
+              : props.kind === 'site'
+                ? tr('提交网站信息', 'Submit a project')
+                : tr('提交用户需求', 'Submit a request')
           }}
         </button>
       </fieldset>
@@ -632,6 +729,58 @@ onBeforeUnmount(() => {
 </template>
 
 <style scoped>
+.form-languages,
+.submission-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0 0 20px;
+}
+.form-languages button {
+  padding: 8px 14px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 6px;
+  color: var(--vp-c-text-1);
+  background: var(--vp-c-bg);
+  cursor: pointer;
+}
+.form-languages button[aria-pressed='true'] {
+  font-weight: 700;
+  background: var(--vp-c-bg-alt);
+  border-color: var(--vp-c-text-2);
+}
+.submission-instructions {
+  margin: 24px 0;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.submission-instructions h2 {
+  margin-top: 24px;
+  font-size: 18px;
+}
+.position-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.position-option {
+  margin: 0 !important;
+  padding: 10px 12px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+}
+.field-label {
+  color: var(--vp-c-text-1);
+  font-weight: 600;
+}
+.field-label b,
+.check-row b {
+  color: var(--vp-c-danger-1);
+}
+.field,
+.submission-success {
+  overflow-wrap: anywhere;
+}
 .submission-shell {
   max-width: 720px;
   margin: 28px 0 56px;
@@ -686,6 +835,7 @@ textarea {
   background: var(--vp-c-bg);
   color: var(--vp-c-text-1);
   font: inherit;
+  font-size: 16px;
 }
 input,
 select {
