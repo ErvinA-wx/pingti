@@ -514,21 +514,8 @@ onBeforeUnmount(() => {
     <p v-if="props.kind === 'site'" class="submission-intro">
       {{
         tr(
-          '欢迎人工或 AI 代理提交（',
-          'People and AI agents are welcome to submit ('
-        )
-      }}
-      <a
-        href="https://api.pingti.org/submissions"
-        target="_blank"
-        rel="noopener"
-      >
-        {{ tr('查看机器可读规范 JSON', 'machine-readable JSON specification') }}
-      </a>
-      {{
-        tr(
-          '）。信息经审核后发布，带 * 为必填项。',
-          '). Information is published after review. * marks required fields.'
+          '信息经审核后发布，带 * 为必填项。',
+          'Information is published after review. * marks required fields.'
         )
       }}
     </p>
