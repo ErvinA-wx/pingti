@@ -43,7 +43,7 @@ const form = reactive({
   promotionalText: '',
   videoUrl: '',
   materialConsent: false,
-  supportStatus: '',
+  supportStatus: props.kind === 'site' ? 'willing' : '',
   supportLinks: '',
   requestType: 'find-tool',
   title: '',
@@ -143,7 +143,15 @@ const groups = computed<{ title: string; fields: Field[] }[]>(() => {
           key: 'promotionConsent',
           type: 'checkbox'
         },
-        { key: 'promotionalText', type: 'textarea', max: 3000 },
+        {
+          key: 'promotionalText',
+          type: 'textarea',
+          max: 3000,
+          placeholder: tr(
+            '留空则默认使用上方的项目介绍进行宣传',
+            'Leave blank to use the project description above for promotion'
+          )
+        },
         {
           key: 'videoUrl',
           type: 'url',
@@ -159,7 +167,15 @@ const groups = computed<{ title: string; fields: Field[] }[]>(() => {
       title: tr('相互支持', 'Mutual support'),
       fields: [
         { key: 'supportStatus' },
-        { key: 'supportLinks', type: 'textarea', max: 3000 }
+        {
+          key: 'supportLinks',
+          type: 'textarea',
+          max: 3000,
+          placeholder: tr(
+            '如已添加友链或发布推荐，请贴入对应 URL',
+            'Paste the URL of the page or post linking to or recommending pingti.org'
+          )
+        }
       ]
     }
   ]
@@ -239,6 +255,18 @@ const groups = computed<{ title: string; fields: Field[] }[]>(() => {
   ]
 })
 const fieldLabel = (key: string) => {
+  if (props.kind === 'site' && key === 'supportStatus') {
+    return tr(
+      '反向链接或社媒推荐（添加友链或推荐可优先审核）',
+      'Backlink or social recommendation (links or recommendations may receive priority review)'
+    )
+  }
+  if (props.kind === 'site' && key === 'supportLinks') {
+    return tr(
+      '友链所在页面或推荐帖链接',
+      'Backlink page or recommendation post URL'
+    )
+  }
   if (props.kind === 'site' && key === 'promotionConsent') {
     return tr(
       '允许 pingti.org 在社交媒体宣传本项目，并授权使用及合理剪辑、润色或翻译所提供的素材（保持原意）。',
@@ -249,6 +277,23 @@ const fieldLabel = (key: string) => {
   return props.kind === 'site'
     ? label.replace(/（(?:选填|自愿)）|\s*\((?:optional|voluntary)\)/g, '')
     : label
+}
+const optionLabel = (key: string, option: string[]) => {
+  if (props.kind === 'site' && key === 'supportStatus') {
+    const labels: Record<string, string> = {
+      willing: tr(
+        '愿意在特定网站添加 pingti.org 友链 / 推荐',
+        'Willing to add a pingti.org link / recommendation on a specific website'
+      ),
+      shared: tr(
+        '已在网站或社媒推荐（请在下方贴入链接）',
+        'Already recommended on a website or social media (paste the link below)'
+      ),
+      none: tr('暂不方便', 'Not convenient at the moment')
+    }
+    return labels[option[0]] || option[language.value === 'en' ? 2 : 1]
+  }
+  return option[language.value === 'en' ? 2 : 1]
 }
 const formElement = ref<HTMLFormElement>()
 const turnstileElement = ref<HTMLElement>()
@@ -691,7 +736,7 @@ onBeforeUnmount(() => {
                   :key="option[0]"
                   :value="option[0]"
                 >
-                  {{ option[language === 'en' ? 2 : 1] }}
+                  {{ optionLabel(field.key, option) }}
                 </option>
               </select>
               <textarea
