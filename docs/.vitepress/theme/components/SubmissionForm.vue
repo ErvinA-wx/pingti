@@ -8,7 +8,6 @@ import {
   ref
 } from 'vue'
 import {
-  materialConsentText,
   submissionLabels,
   submissionOptions,
   SubmissionSchema
@@ -66,6 +65,14 @@ const form = reactive({
   startedAt: 0,
   idempotencyKey: ''
 })
+// One visible control preserves both existing API consent fields.
+const promotionalPermission = computed({
+  get: () => form.promotionConsent && form.materialConsent,
+  set: (allowed: boolean) => {
+    form.promotionConsent = allowed
+    form.materialConsent = allowed
+  }
+})
 type Field = {
   key: keyof typeof form
   type?: string
@@ -73,6 +80,8 @@ type Field = {
   max?: number
   min?: number
   hint?: string
+  placeholder?: string
+  half?: boolean
 }
 const groups = computed<{ title: string; fields: Field[] }[]>(() => {
   const isNew = form.submissionType === 'new'
@@ -80,21 +89,14 @@ const groups = computed<{ title: string; fields: Field[] }[]>(() => {
     {
       title: tr('项目信息', 'Project information'),
       fields: [
-        { key: 'submissionType', required: true },
+        { key: 'submissionType', required: true, half: true },
+        { key: 'relationship', required: true, half: true },
         { key: 'name', required: true, max: 120 },
         { key: 'url', type: 'url', required: true, max: 2048 },
-        {
-          key: 'relationship',
-          required: true,
-          hint: tr(
-            '普通用户可以推荐项目；宣传及素材授权仅由站长、开发者或获授权人员确认。',
-            'Anyone may recommend a project. Only its owner, developer, or an authorized representative may grant promotional or material permissions.'
-          )
-        },
-        { key: 'category', required: isNew, max: 120 },
-        { key: 'languages', max: 300 },
-        { key: 'pricing', required: isNew },
-        { key: 'registration', required: isNew }
+        { key: 'category', required: isNew, max: 120, half: true },
+        { key: 'languages', max: 300, half: true },
+        { key: 'pricing', required: isNew, half: true },
+        { key: 'registration', required: isNew, half: true }
       ]
     },
     {
@@ -103,19 +105,15 @@ const groups = computed<{ title: string; fields: Field[] }[]>(() => {
         {
           key: 'positioning',
           type: 'radio',
-          required: isNew,
-          hint: tr(
-            '新项目必须选择。独创为提报者自报，进入重点复核，不代表本站已认证。已有项目反馈可以留空。',
-            'Required for new projects. Originality is self-declared and highlighted for review, not certified by pingti.org. Existing-project feedback may leave this blank.'
-          )
+          required: isNew
         },
         {
           key: 'alternativeTargets',
           required: isNew && form.positioning === 'alternative',
           max: 300,
-          hint: tr(
-            '选择平替时填写具体产品名称，例如 Notion、Canva；多个名称用逗号分隔。独创项目可留空。',
-            'For an alternative project, name specific products, such as Notion or Canva. Separate multiple names with commas. An original project may leave this blank.'
+          placeholder: tr(
+            '例如 Notion, Canva（多个用逗号分隔，独创项目留空）',
+            'e.g. Notion, Canva (comma-separated; leave blank for original projects)'
           )
         },
         {
@@ -130,57 +128,37 @@ const groups = computed<{ title: string; fields: Field[] }[]>(() => {
           required: true,
           min: 10,
           max: 2000,
-          hint: tr(
-            '说明替代哪些功能、独创点和使用场景，或需要更新／纠正的问题。至少 10 个字符。',
-            'Describe replaced features, the original idea and use case, or the requested correction. At least 10 characters.'
+          placeholder: tr(
+            '说明替代哪些功能、独创点和使用场景，或需更新/纠正的问题',
+            'Describe replaced features, the original idea and use case, or the requested correction'
           )
         },
-        { key: 'details', type: 'textarea', max: 3000 },
-        { key: 'limitations', type: 'textarea', max: 3000 },
-        { key: 'references', type: 'textarea', max: 3000 }
+        { key: 'details', type: 'textarea', max: 3000 }
       ]
     },
     {
-      title: tr(
-        '社媒宣传与素材（自愿）',
-        'Social promotion and materials (optional)'
-      ),
+      title: tr('社媒宣传与素材', 'Social promotion and materials'),
       fields: [
         {
           key: 'promotionConsent',
-          type: 'checkbox',
-          hint: tr(
-            '不同意也可正常提报；同意不保证收录或发布宣传。所有字段始终可见。',
-            'Permission is optional and does not guarantee listing or promotion. All fields remain visible.'
-          )
+          type: 'checkbox'
         },
         { key: 'promotionalText', type: 'textarea', max: 3000 },
         {
           key: 'videoUrl',
           type: 'url',
           max: 2048,
-          hint: tr(
-            '提供无需登录即可下载的 HTTP(S) 视频链接。文字和视频任选一种，也可以均不提供。',
-            'Provide an HTTP(S) video link downloadable without signing in. Text or video is sufficient; both may be left blank.'
+          placeholder: tr(
+            '提供无需登录即可下载的 HTTP(S) 视频链接',
+            'HTTP(S) video link downloadable without signing in'
           )
-        },
-        {
-          key: 'materialConsent',
-          type: 'checkbox',
-          hint: tr(...materialConsentText)
         }
       ]
     },
     {
-      title: tr('共同支持（选填）', 'Community support (optional)'),
+      title: tr('相互支持', 'Mutual support'),
       fields: [
-        {
-          key: 'supportStatus',
-          hint: tr(
-            'pingti.org 是新建立的免费工具与平替资源导航。欢迎通过网站或社交媒体分享，一起建设和支持。是否支持不影响收录审核。',
-            'pingti.org is a new, free directory of tools and alternatives. Sharing it on a website or social media supports the community. Sharing is not a condition of listing.'
-          )
-        },
+        { key: 'supportStatus' },
         { key: 'supportLinks', type: 'textarea', max: 3000 }
       ]
     }
@@ -232,22 +210,46 @@ const groups = computed<{ title: string; fields: Field[] }[]>(() => {
           type: 'email',
           required: props.kind === 'site',
           max: 254,
-          hint: tr(
-            '仅用于审核及补充确认，不公开显示。网站提报必填；用户需求选填。',
-            'Used only for review and follow-up, never displayed publicly. Required for projects; optional for requests.'
-          )
+          placeholder:
+            props.kind === 'site'
+              ? tr(
+                  '仅用于审核沟通，不公开显示',
+                  'For review communication only; not displayed publicly'
+                )
+              : undefined,
+          hint:
+            props.kind === 'site'
+              ? undefined
+              : tr(
+                  '仅用于审核及补充确认，不公开显示。网站提报必填；用户需求选填。',
+                  'Used only for review and follow-up, never displayed publicly. Required for projects; optional for requests.'
+                )
         },
-        {
-          key: 'allowContact',
-          type: 'checkbox',
-          required: props.kind === 'site'
-        }
+        ...(props.kind === 'site'
+          ? []
+          : [
+              {
+                key: 'allowContact',
+                type: 'checkbox',
+                required: props.kind === 'site'
+              } as Field
+            ])
       ]
     }
   ]
 })
-const fieldLabel = (key: string) =>
-  submissionLabels[key]?.[language.value === 'en' ? 1 : 0] || key
+const fieldLabel = (key: string) => {
+  if (props.kind === 'site' && key === 'promotionConsent') {
+    return tr(
+      '允许 pingti.org 在社交媒体宣传本项目，并授权使用及合理剪辑、润色或翻译所提供的素材（保持原意）。',
+      'Allow pingti.org to promote this project on social media and use, reasonably edit, polish, or translate the supplied materials while preserving their original meaning.'
+    )
+  }
+  const label = submissionLabels[key]?.[language.value === 'en' ? 1 : 0] || key
+  return props.kind === 'site'
+    ? label.replace(/（(?:选填|自愿)）|\s*\((?:optional|voluntary)\)/g, '')
+    : label
+}
 const formElement = ref<HTMLFormElement>()
 const turnstileElement = ref<HTMLElement>()
 const errorSummary = ref<HTMLElement>()
@@ -442,7 +444,11 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div class="submission-shell" :lang="language === 'en' ? 'en' : 'zh-CN'">
+  <div
+    class="submission-shell"
+    :class="{ 'submission-site': props.kind === 'site' }"
+    :lang="language === 'en' ? 'en' : 'zh-CN'"
+  >
     <div class="form-languages" aria-label="Form language / 表单语言">
       <button
         type="button"
@@ -460,7 +466,28 @@ onBeforeUnmount(() => {
       </button>
     </div>
     <h1>{{ title }}</h1>
-    <p>
+    <p v-if="props.kind === 'site'" class="submission-intro">
+      {{
+        tr(
+          '欢迎人工或 AI 代理提交（',
+          'People and AI agents are welcome to submit ('
+        )
+      }}
+      <a
+        href="https://api.pingti.org/submissions"
+        target="_blank"
+        rel="noopener"
+      >
+        {{ tr('查看机器可读规范 JSON', 'machine-readable JSON specification') }}
+      </a>
+      {{
+        tr(
+          '）。信息经审核后发布，带 * 为必填项。',
+          '). Information is published after review. * marks required fields.'
+        )
+      }}
+    </p>
+    <p v-else>
       {{
         tr(
           '欢迎人工或 AI 代理代填。信息先进入审核队列，不会自动发布。带 * 的字段为必填，其余可留空。',
@@ -504,7 +531,17 @@ onBeforeUnmount(() => {
       </div>
     </div>
     <form v-else ref="formElement" novalidate @submit.prevent="submit">
-      <aside class="submission-instructions" aria-labelledby="ai-instructions">
+      <input
+        v-if="props.kind === 'site'"
+        name="materialConsent"
+        type="hidden"
+        :value="form.materialConsent ? 'true' : 'false'"
+      />
+      <aside
+        v-if="props.kind !== 'site'"
+        class="submission-instructions"
+        aria-labelledby="ai-instructions"
+      >
         <h2 id="ai-instructions">
           {{
             tr(
@@ -562,132 +599,186 @@ onBeforeUnmount(() => {
       </div>
       <fieldset v-for="group in groups" :key="group.title" class="form-card">
         <legend>{{ group.title }}</legend>
-        <div v-for="field in group.fields" :key="field.key" class="field">
-          <label
-            v-if="field.type === 'checkbox'"
-            class="check-row"
-            :for="field.key"
+        <div class="form-fields">
+          <div
+            v-for="field in group.fields"
+            :key="field.key"
+            class="field"
+            :class="{ 'field-half': field.half }"
           >
-            <input
-              :id="field.key"
-              v-model="form[field.key]"
-              :name="field.key"
-              type="checkbox"
-              :required="field.required"
-              :aria-describedby="`${field.key}-hint`"
-            />
-            <span>
-              {{ fieldLabel(field.key) }}
-              <b v-if="field.required">*</b>
-            </span>
-          </label>
-          <template v-else-if="field.type === 'radio'">
-            <span :id="`${field.key}-label`" class="field-label">
-              {{ fieldLabel(field.key) }}
-              <b v-if="field.required">*</b>
-            </span>
-            <div
-              :id="field.key"
-              class="position-options"
-              role="radiogroup"
-              :aria-labelledby="`${field.key}-label`"
-              :aria-describedby="`${field.key}-hint`"
+            <label
+              v-if="field.type === 'checkbox'"
+              class="check-row"
+              :for="field.key"
             >
-              <label
-                v-for="option in submissionOptions[field.key]"
-                :key="option[0]"
-                class="check-row position-option"
-              >
-                <input
-                  v-model="form[field.key]"
-                  :name="field.key"
-                  type="radio"
-                  :value="option[0]"
-                  :required="field.required"
-                />
-                <span>{{ option[language === 'en' ? 2 : 1] }}</span>
-              </label>
-            </div>
-          </template>
-          <template v-else>
-            <label :for="field.key">
-              {{ fieldLabel(field.key) }}
-              <span v-if="field.required">*</span>
+              <input
+                v-if="props.kind === 'site' && field.key === 'promotionConsent'"
+                id="promotionConsent"
+                v-model="promotionalPermission"
+                name="promotionConsent"
+                type="checkbox"
+              />
+              <input
+                v-else
+                :id="field.key"
+                v-model="form[field.key]"
+                :name="field.key"
+                type="checkbox"
+                :required="field.required"
+                :aria-describedby="
+                  props.kind === 'site' ? undefined : `${field.key}-hint`
+                "
+              />
+              <span>
+                {{ fieldLabel(field.key) }}
+                <b v-if="field.required">*</b>
+              </span>
             </label>
-            <select
-              v-if="submissionOptions[field.key]"
-              :id="field.key"
-              v-model="form[field.key]"
-              :name="field.key"
-              :required="field.required"
-              :aria-describedby="`${field.key}-hint`"
-            >
-              <option value="">{{ tr('请选择', 'Please select') }}</option>
-              <option
-                v-for="option in submissionOptions[field.key]"
-                :key="option[0]"
-                :value="option[0]"
+            <template v-else-if="field.type === 'radio'">
+              <span :id="`${field.key}-label`" class="field-label">
+                {{ fieldLabel(field.key) }}
+                <b v-if="field.required">*</b>
+              </span>
+              <div
+                :id="field.key"
+                class="position-options"
+                role="radiogroup"
+                :aria-labelledby="`${field.key}-label`"
+                :aria-describedby="
+                  props.kind === 'site' ? undefined : `${field.key}-hint`
+                "
               >
-                {{ option[language === 'en' ? 2 : 1] }}
-              </option>
-            </select>
-            <textarea
-              v-else-if="field.type === 'textarea'"
-              :id="field.key"
-              v-model.trim="form[field.key]"
-              :name="field.key"
-              :required="field.required"
-              :minlength="field.min"
-              :maxlength="field.max"
-              rows="4"
-              :aria-describedby="`${field.key}-hint`"
-            ></textarea>
-            <input
-              v-else
-              :id="field.key"
-              v-model.trim="form[field.key]"
-              :name="field.key"
-              :type="field.type || 'text'"
-              :required="field.required"
-              :minlength="field.min"
-              :maxlength="field.max"
-              :autocomplete="field.key === 'contactEmail' ? 'email' : undefined"
-              :aria-describedby="`${field.key}-hint`"
-            />
-          </template>
-          <small :id="`${field.key}-hint`">
-            {{
-              field.hint ||
-              (field.max
-                ? tr(
-                    `最多 ${field.max} 个字符。`,
-                    `Up to ${field.max} characters.`
-                  )
-                : '')
-            }}
-          </small>
+                <label
+                  v-for="option in submissionOptions[field.key]"
+                  :key="option[0]"
+                  class="check-row position-option"
+                >
+                  <input
+                    v-model="form[field.key]"
+                    :name="field.key"
+                    type="radio"
+                    :value="option[0]"
+                    :required="field.required"
+                  />
+                  <span>
+                    {{
+                      option[0] === 'original'
+                        ? tr('独创项目', 'Original project')
+                        : option[language === 'en' ? 2 : 1]
+                    }}
+                  </span>
+                </label>
+              </div>
+            </template>
+            <template v-else>
+              <label :for="field.key">
+                {{ fieldLabel(field.key) }}
+                <span v-if="field.required">*</span>
+              </label>
+              <select
+                v-if="submissionOptions[field.key]"
+                :id="field.key"
+                v-model="form[field.key]"
+                :name="field.key"
+                :required="field.required"
+                :aria-describedby="
+                  props.kind === 'site' ? undefined : `${field.key}-hint`
+                "
+              >
+                <option value="">{{ tr('请选择', 'Please select') }}</option>
+                <option
+                  v-for="option in submissionOptions[field.key]"
+                  :key="option[0]"
+                  :value="option[0]"
+                >
+                  {{ option[language === 'en' ? 2 : 1] }}
+                </option>
+              </select>
+              <textarea
+                v-else-if="field.type === 'textarea'"
+                :id="field.key"
+                v-model.trim="form[field.key]"
+                :name="field.key"
+                :required="field.required"
+                :minlength="field.min"
+                :maxlength="field.max"
+                :rows="props.kind === 'site' ? 3 : 4"
+                :placeholder="field.placeholder"
+                :aria-describedby="
+                  props.kind === 'site' ? undefined : `${field.key}-hint`
+                "
+              ></textarea>
+              <input
+                v-else
+                :id="field.key"
+                v-model.trim="form[field.key]"
+                :name="field.key"
+                :type="field.type || 'text'"
+                :required="field.required"
+                :minlength="field.min"
+                :maxlength="field.max"
+                :placeholder="field.placeholder"
+                :autocomplete="
+                  field.key === 'contactEmail' ? 'email' : undefined
+                "
+                :aria-describedby="
+                  props.kind === 'site' ? undefined : `${field.key}-hint`
+                "
+              />
+            </template>
+            <small v-if="props.kind !== 'site'" :id="`${field.key}-hint`">
+              {{
+                field.hint ||
+                (field.max
+                  ? tr(
+                      `最多 ${field.max} 个字符。`,
+                      `Up to ${field.max} characters.`
+                    )
+                  : '')
+              }}
+            </small>
+          </div>
         </div>
       </fieldset>
       <fieldset id="verification" class="form-card verification-card">
         <legend>{{ tr('验证与提交', 'Verification and submission') }}</legend>
-        <label class="check-row required-check" for="declaration">
-          <input
-            id="declaration"
-            v-model="form.declaration"
-            name="declaration"
-            type="checkbox"
-            required
-          />
-          <span>
-            {{
-              tr(
-                '我确认信息真实，且没有提交密码或个人敏感信息。',
-                'I confirm that the information is accurate and contains no passwords or sensitive personal data.'
-              )
-            }}
-            <b>*</b>
-          </span>
-        </label>
+        <div class="submission-confirmations">
+          <label
+            v-if="props.kind === 'site'"
+            class="check-row"
+            for="allowContact"
+          >
+            <input
+              id="allowContact"
+              v-model="form.allowContact"
+              name="allowContact"
+              type="checkbox"
+              required
+            />
+            <span>
+              {{ fieldLabel('allowContact') }}
+              <b>*</b>
+            </span>
+          </label>
+          <label class="check-row required-check" for="declaration">
+            <input
+              id="declaration"
+              v-model="form.declaration"
+              name="declaration"
+              type="checkbox"
+              required
+            />
+            <span>
+              {{
+                tr(
+                  '我确认信息真实，且没有提交密码或个人敏感信息。',
+                  'I confirm that the information is accurate and contains no passwords or sensitive personal data.'
+                )
+              }}
+              <b>*</b>
+            </span>
+          </label>
+        </div>
         <div class="hp-field" aria-hidden="true">
           <label for="company-website">Leave empty</label>
           <input
@@ -967,6 +1058,91 @@ small {
   gap: 12px;
   margin-top: 22px;
 }
+.submission-site {
+  margin: 16px 0 32px;
+}
+.submission-site h1 {
+  margin: 12px 0 6px;
+}
+.submission-site .form-languages {
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.submission-site .form-languages button {
+  padding: 6px 12px;
+}
+.submission-site .submission-intro {
+  margin: 6px 0 10px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.submission-site .submission-nav {
+  gap: 12px;
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+.submission-site .form-card {
+  margin-bottom: 12px;
+  padding: 12px 16px 16px;
+}
+.submission-site .form-card legend {
+  padding: 0 6px;
+  font-size: 16px;
+}
+.submission-site .form-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px 16px;
+}
+.submission-site .field {
+  grid-column: 1 / -1;
+  gap: 4px;
+  margin: 0;
+  min-width: 0;
+}
+.submission-site .field-half {
+  grid-column: auto;
+}
+.submission-site input,
+.submission-site select {
+  min-height: 40px;
+  padding-inline: 10px;
+}
+.submission-site textarea {
+  padding: 8px 10px;
+}
+.submission-site input::placeholder,
+.submission-site textarea::placeholder {
+  color: var(--vp-c-text-2);
+  opacity: 1;
+}
+.submission-site .check-row {
+  gap: 8px;
+  margin: 0;
+}
+.submission-site .check-row input {
+  min-height: 18px;
+  padding: 0;
+}
+.submission-site .position-options {
+  gap: 8px;
+}
+.submission-site .position-option {
+  padding: 8px 12px;
+}
+.submission-site .submission-confirmations {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 20px;
+}
+.submission-site .turnstile-wrap {
+  min-height: 0;
+  margin: 8px 0;
+}
+.submission-site .text-button {
+  margin: 0;
+  padding: 4px 0;
+}
 @media (max-width: 700px) {
   .form-card {
     padding: 18px 14px;
@@ -981,6 +1157,19 @@ small {
   }
   .success-actions {
     flex-direction: column;
+  }
+  .submission-site .form-card {
+    padding: 10px 12px 12px;
+  }
+  .submission-site .field-half {
+    grid-column: 1 / -1;
+  }
+  .submission-site input,
+  .submission-site select {
+    min-height: 44px;
+  }
+  .submission-site .check-row input {
+    min-height: 18px;
   }
 }
 </style>
